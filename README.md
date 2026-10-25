@@ -1,6 +1,6 @@
 # Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.0
 
-### 📖 [Setup guide / Guide d'installation](SETUP_GUIDE.md) · 🤖 [AI disclosure / Déclaration IA](AI_DISCLOSURE.md) · ⬇️ [Download / Télécharger](../../releases) · 💬 [Discord](https://discord.gg/yqKUMMkWhr)
+### 📖 [Setup guide / Guide d'installation](SETUP_GUIDE.md) · ⬇️ [Download / Télécharger](../../releases) · 💬 [Discord](https://discord.gg/yqKUMMkWhr)
 
 *(Version française plus bas)*
 
@@ -69,7 +69,7 @@ them goes wrong, please tell us on the Discord:
   item icons and floor maps of the PopTracker pack.
 - **AI disclosure**: the code is written with an AI assistant (Claude, Anthropic) and reviewed by me before each
   release; the menu logo, loading icon, launcher logo and the concert music are AI-generated. Details in
-  [AI_DISCLOSURE.md](AI_DISCLOSURE.md).
+  🤖 [AI disclosure / Déclaration IA](AI_DISCLOSURE.md)
 - Five Nights at Freddy's is a trademark of Scott Cawthon; Security Breach is developed by Steel Wool Studios.
   This fan project is not affiliated with them.
 
@@ -143,6 +143,6 @@ une vraie partie. Si l'un d'eux pose problème, dites-le sur le Discord :
   dans la release, les icônes et les plans d'étage du pack PopTracker.
 - **Déclaration IA** : le code est écrit avec un assistant IA (Claude, Anthropic) et vérifié par moi avant
   chaque publication ; le logo du menu, l'icône de chargement, le logo du launcher et la musique du concert sont
-  générés par IA. Détails dans [AI_DISCLOSURE.md](AI_DISCLOSURE.md).
+  🤖 [AI disclosure / Déclaration IA](AI_DISCLOSURE.md)
 - Five Nights at Freddy's est une marque de Scott Cawthon ; Security Breach est développé par Steel Wool
   Studios. Ce projet de fan n'est pas affilié à eux.
