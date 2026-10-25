@@ -1,0 +1,465 @@
+{
+ "_note": "BROUILLON a valider en jeu : ce qu'il faut pour atteindre chaque zone (badges = niveau de securite).",
+ "zones": [
+  {
+   "nom": "hall",
+   "dossier": "MainLobby",
+   "fr": "Hall principal",
+   "en": "Main Lobby",
+   "exige": {},
+   "histoire": []
+  },
+  {
+   "nom": "atrium",
+   "dossier": "World",
+   "fr": "Atrium",
+   "en": "Atrium",
+   "exige": {},
+   "histoire": []
+  },
+  {
+   "nom": "garderie",
+   "dossier": "Daycare",
+   "fr": "Garderie",
+   "en": "Daycare",
+   "exige": {
+    "objets": [
+     "objet:DaycarePass"
+    ]
+   },
+   "histoire": [
+    "NoReEntry"
+   ]
+  },
+  {
+   "nom": "cuisine",
+   "dossier": "Kitchen",
+   "fr": "Cuisine",
+   "en": "Kitchen",
+   "exige": {
+    "badges": 1
+   },
+   "histoire": [
+    "EscapeDaycare"
+   ]
+  },
+  {
+   "nom": "technique",
+   "dossier": "Utility",
+   "fr": "Secteur technique",
+   "en": "Utility Tunnels",
+   "exige": {
+    "badges": 2,
+    "objets": [
+     "objet:Flashlight"
+    ]
+   },
+   "histoire": [
+    "EscapeDaycare"
+   ]
+  },
+  {
+   "nom": "coulisses",
+   "dossier": "Backstage",
+   "fr": "Coulisses",
+   "en": "Backstage",
+   "exige": {
+    "badges": 2,
+    "objets": [
+     "objet:ScrewDriver"
+    ]
+   },
+   "histoire": [
+    "LostAndFound"
+   ]
+  },
+  {
+   "nom": "scene",
+   "dossier": "StageArea",
+   "fr": "Scene",
+   "en": "Stage Area",
+   "exige": {
+    "badges": 2,
+    "objets": [
+     "objet:BackstagePass"
+    ]
+   },
+   "histoire": [
+    "Backstage"
+   ]
+  },
+  {
+   "nom": "atrium_ouest",
+   "dossier": "West_Atrium",
+   "fr": "Atrium ouest",
+   "en": "West Atrium",
+   "exige": {
+    "badges": 3
+   },
+   "histoire": [
+    "Showtime"
+   ]
+  },
+  {
+   "nom": "fazerblast",
+   "dossier": "FazerBlast",
+   "fr": "Fazer Blast",
+   "en": "Fazer Blast",
+   "exige": {
+    "badges": 3,
+    "billets": 1
+   },
+   "histoire": [
+    "EscapeDaycare"
+   ]
+  },
+  {
+   "nom": "atrium_est",
+   "dossier": "East_Atrium",
+   "fr": "Atrium est",
+   "en": "East Atrium",
+   "exige": {
+    "badges": 4
+   },
+   "histoire": [
+    "FindFreddy",
+    "LoadingDock"
+   ]
+  },
+  {
+   "nom": "arcade_est",
+   "dossier": "East_Arcade",
+   "fr": "Arcade est",
+   "en": "East Arcade",
+   "exige": {
+    "badges": 1
+   },
+   "histoire": [
+    "EscapeDaycare"
+   ],
+   "note": "25/10 joueur : El Chip -> arcade est -> bureau des prix (2e badge) accessible apres la carte, niveau 1 (avant : 4, trop strict)"
+  },
+  {
+   "nom": "arcade_ouest",
+   "dossier": "WestArcade",
+   "fr": "Arcade ouest",
+   "en": "West Arcade",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:DancePass"
+    ]
+   },
+   "histoire": [
+    "PartyPass"
+   ]
+  },
+  {
+   "nom": "golf",
+   "dossier": "GatorGolf",
+   "fr": "Monty Golf",
+   "en": "Monty Golf",
+   "exige": {
+    "badges": 5,
+    "objets": [
+     "objet:PartyPassChicaRoom"
+    ]
+   },
+   "histoire": [
+    "PartsAndService"
+   ]
+  },
+  {
+   "nom": "raceway",
+   "dossier": "RoxyRacer",
+   "fr": "Roxy Raceway",
+   "en": "Roxy Raceway",
+   "exige": {
+    "badges": 5
+   },
+   "histoire": [
+    "PartsAndService"
+   ]
+  },
+  {
+   "nom": "egouts",
+   "dossier": "Sewer_Chica",
+   "fr": "Egouts",
+   "en": "Sewers",
+   "exige": {
+    "badges": 6,
+    "objets": [
+     "objet:Flashlight"
+    ]
+   },
+   "histoire": [
+    "PartsAndService"
+   ]
+  }
+ ],
+ "missions": [
+  {
+   "mission": "FreeFreddy",
+   "zone": "atrium"
+  },
+  {
+   "mission": "GetOut",
+   "zone": "hall"
+  },
+  {
+   "mission": "NoReEntry",
+   "zone": "hall",
+   "exige": {
+    "objets": [
+     "objet:CompPass"
+    ]
+   }
+  },
+  {
+   "mission": "SlideIntoFun",
+   "zone": "garderie"
+  },
+  {
+   "mission": "LetThereBeLight",
+   "zone": "garderie"
+  },
+  {
+   "mission": "EscapeDaycare",
+   "zone": "garderie",
+   "exige": {
+    "objets": [
+     "objet:Flashlight"
+    ]
+   }
+  },
+  {
+   "mission": "TakeMap",
+   "zone": "atrium"
+  },
+  {
+   "mission": "KitchenOffice",
+   "zone": "cuisine"
+  },
+  {
+   "mission": "LoadingDock",
+   "zone": "technique"
+  },
+  {
+   "mission": "PrizeCounter",
+   "zone": "arcade_est"
+  },
+  {
+   "mission": "FindFreddy",
+   "zone": "technique"
+  },
+  {
+   "mission": "LostAndFound",
+   "zone": "atrium_est"
+  },
+  {
+   "mission": "RehearsalSpace",
+   "zone": "coulisses"
+  },
+  {
+   "mission": "Backstage",
+   "zone": "coulisses",
+   "exige": {
+    "objets": [
+     "objet:BackstagePass"
+    ]
+   }
+  },
+  {
+   "mission": "Showtime",
+   "zone": "scene",
+   "exige": {
+    "objets": [
+     "objet:PerformanceDisk"
+    ]
+   }
+  },
+  {
+   "mission": "PartsAndService",
+   "zone": "atrium_ouest"
+  },
+  {
+   "mission": "PartyPass",
+   "zone": "atrium"
+  },
+  {
+   "mission": "MoonlightSerenade",
+   "zone": "scene"
+  },
+  {
+   "mission": "RoxysWeakness",
+   "zone": "raceway",
+   "histoire": [
+    "PartsAndService",
+    "ChicaBeak",
+    "MontyClaws"
+   ]
+  },
+  {
+   "mission": "DJMusicMan",
+   "zone": "arcade_ouest",
+   "histoire": [
+    "PartyPass"
+   ]
+  },
+  {
+   "mission": "StopRoxy",
+   "zone": "raceway",
+   "histoire": [
+    "PartsAndService",
+    "ChicaBeak",
+    "MontyClaws"
+   ]
+  },
+  {
+   "mission": "UpgradeFreddy",
+   "zone": "atrium_ouest",
+   "exige": {
+    "objets": [
+     "objet:RoxyEyes"
+    ]
+   },
+   "histoire": [
+    "PartsAndService"
+   ]
+  },
+  {
+   "mission": "ChicaBeak",
+   "zone": "egouts",
+   "histoire": [
+    "PartsAndService",
+    "MontyMysteryMix"
+   ]
+  },
+  {
+   "mission": "MontyClaws",
+   "zone": "golf",
+   "histoire": [
+    "PartsAndService"
+   ],
+   "exige": {
+    "objets": [
+     "objet:MazerciseTicket",
+     "objet:MazerciseControlKey"
+    ]
+   }
+  },
+  {
+   "mission": "FazerBlast",
+   "zone": "fazerblast",
+   "histoire": [
+    "LostAndFound"
+   ]
+  },
+  {
+   "mission": "DumpsterDiving",
+   "zone": "technique",
+   "histoire": [
+    "Showtime"
+   ]
+  },
+  {
+   "mission": "MontyMysteryMix",
+   "zone": "cuisine",
+   "histoire": [
+    "Showtime"
+   ],
+   "exige": {
+    "objets": [
+     "objet:MontyMysteryMix"
+    ]
+   }
+  },
+  {
+   "mission": "PowerOn",
+   "zone": "technique",
+   "histoire": [
+    "EscapeDaycare"
+   ]
+  },
+  {
+   "mission": "OfficeToOffice",
+   "zone": "technique",
+   "histoire": [
+    "EscapeDaycare"
+   ]
+  },
+  {
+   "mission": "MontyGolf",
+   "zone": "golf"
+  },
+  {
+   "mission": "ThrillSeeker",
+   "zone": "raceway"
+  },
+  {
+   "mission": "Warehouse",
+   "zone": "technique"
+  },
+  {
+   "mission": "RechargeTime",
+   "zone": "garderie",
+   "histoire": [
+    "FindFreddy"
+   ]
+  },
+  {
+   "mission": "PlanA",
+   "zone": "hall",
+   "histoire": [
+    "ThrillSeeker",
+    "MontyGolf",
+    "Warehouse"
+   ],
+   "exige": {
+    "badges": 7
+   },
+   "exclu": true
+  },
+  {
+   "mission": "GetOut!",
+   "zone": "hall",
+   "histoire": [
+    "ThrillSeeker",
+    "MontyGolf",
+    "Warehouse"
+   ],
+   "exige": {
+    "badges": 7
+   },
+   "exclu": true
+  }
+ ],
+ "fin": {
+  "exige": {
+   "badges": 7
+  },
+  "fins": {
+   "LoadingDockEnding": {
+    "badges": 7
+   },
+   "FazerblastEnding": {
+    "badges": 7
+   },
+   "VIPEnding": {
+    "badges": 7
+   },
+   "BurntrapEnding": {
+    "badges": 7
+   },
+   "GregoryInAlleyEnding": {
+    "badges": 7
+   }
+  },
+  "histoire": [
+   "ThrillSeeker",
+   "MontyGolf",
+   "Warehouse"
+  ]
+ },
+ "_note_histoire": "histoire = missions (MissionDataTable) qui ouvrent la zone dans le jeu de base ; construire_apworld.py ajoute a la zone tout ce qu'exigent ces missions, et a chaque mission tout ce qu'exigent ses DependentMissions. Choix prudents (en cas de doute, la mission la plus tardive) : jamais de softlock, au pire des objets places un peu plus tard. A verifier en jeu."
+}

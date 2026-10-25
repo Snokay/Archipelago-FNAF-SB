@@ -1,0 +1,334 @@
+{
+ "_note": "Regles par emplacement, en plus de la zone (construire_apworld.py les fusionne). exige = badges/objets/billets ; histoire = missions (MissionDataTable) qui doivent etre faisables ; exclu = ratable (check sans objet important). Sources : guide des collectibles gamepretty.com (portes de niveau, griffes, boite vocale, ratables) + retours de partie test du 23-24/10 (salle VIP niveau 2, hall N.2/N.4). Prudent en cas de doute.",
+ "MAP_MainLobby_Gameplay:PresentCollectible4_8": {
+  "exige": {
+   "badges": 2
+  },
+  "note": "Fizzy Faz Chica : salle derriere la porte de securite niveau 2 du hall"
+ },
+ "MAP_MainLobby_Gameplay:MOD_MazerGymBagC_102": {
+  "exige": {
+   "badges": 2
+  },
+  "note": "False Alarm : meme salle, porte niveau 2"
+ },
+ "MAP_MainLobby_Gameplay:PresentCollectible7_17": {
+  "exige": {
+   "badges": 4
+  },
+  "note": "Cupcake Pinata : porte de securite niveau 4 (objets trouves)"
+ },
+ "MAP_StageAreaGameplay:MessageCollectible6": {
+  "exige": {
+   "badges": 4
+  },
+  "note": "Better Employees : porte niveau 4 a gauche du panneau de glaces"
+ },
+ "MAP_PrizeCounter_Gameplay:PresentCollectible2_5": {
+  "exige": {
+   "badges": 2
+  },
+  "note": "Monty Mask : salle VIP du comptoir des prix (issue de secours niveau 2) | 25/10 : dome du comptoir des prix (3e etage), zone arcade est",
+  "zone": "arcade_est"
+ },
+ "MAP_PrizeCounter_Gameplay:PresentCollectible_2": {
+  "exige": {
+   "badges": 2
+  },
+  "note": "Frozen Freddy Treat : salle VIP du comptoir des prix, niveau 2 | 25/10 : dome du comptoir des prix (3e etage), zone arcade est",
+  "zone": "arcade_est"
+ },
+ "MAP_UtiliDoorsGameplay:PresentCollectible8_2": {
+  "exige": {
+   "objets": [
+    "objet:MontyClaws"
+   ]
+  },
+  "note": "Golden Roxy : grille fermee, griffes de Monty | guide gamepretty/selphie 25/10 : Golden Roxy, grille (griffes)"
+ },
+ "MAP_UtiliDoorsGameplay:PresentCollectible6_11": {
+  "exige": {
+   "objets": [
+    "objet:MontyClaws"
+   ]
+  },
+  "note": "Sun Figure : grille a casser | guide gamepretty/selphie 25/10 : Sun Figure, grille violette a casser"
+ },
+ "MAP_UtiliDoorsGameplay:MessageCollectible6_2": {
+  "exige": {
+   "objets": [
+    "objet:MontyClaws"
+   ]
+  },
+  "note": "Missing : porte a casser | guide gamepretty/selphie 25/10 : Missing, porte a casser"
+ },
+ "MAP_UtiliDoorsGameplay:PresentCollectible4_5": {
+  "exige": {
+   "objets": [
+    "objet:MontyClaws"
+   ]
+  },
+  "note": "Glam Freddy Plush : apres la poursuite de Monty, griffes | guide gamepretty/selphie 25/10 : Glam Freddy Plush, grille (griffes)"
+ },
+ "MAP_UtiliDoorsGameplay:PresentCollectible7_2": {
+  "exige": {
+   "objets": [
+    "objet:ChicaBeak"
+   ]
+  },
+  "note": "Comedy Mask : boite vocale de Chica"
+ },
+ "MAP_UtiliDoorsGameplay:MessageCollectible2_2": {
+  "exige": {
+   "objets": [
+    "objet:MontyClaws",
+    "objet:ChicaBeak"
+   ]
+  },
+  "note": "Torn Paper : griffes et boite vocale"
+ },
+ "MAP_FazerBlast_Gameplay:MessageCollectible_2": {
+  "exige": {
+   "objets": [
+    "objet:Fazergun"
+   ]
+  },
+  "note": "No Questions Asked : bouche d'aeration, Fazerblaster | guide gamepretty/selphie 25/10 : No Questions Asked, apres le Fazerblaster"
+ },
+ "MAP_Kitchen_Gameplay:PresentCollectible3_5": {
+  "histoire": [
+   "ChicaBeak"
+  ],
+  "note": "Old Poster : apres le combat contre Chica"
+ },
+ "MAP_Backstage_Gameplay:PresentCollectible7_2": {
+  "histoire": [
+   "PartsAndService"
+  ],
+  "note": "Four Block Shirt : apres la reparation de Freddy"
+ },
+ "WestArcade_Gameplay:PRE_BadgeHolder_WestArcade_2": {
+  "histoire": [
+   "DJMusicMan"
+  ],
+  "note": "badge de l'arcade ouest : apres le boss DJ Music Man (tete reparee)"
+ },
+ "Map_RoxyBossBattle:RoxyEyes_GEN_VARIABLE_InvisibleCollectible_C_CAT_0": {
+  "histoire": [
+   "StopRoxy"
+  ],
+  "note": "Yeux de Roxy : apres son combat"
+ },
+ "MAP_Daycare_Gameplay:PresentCollectible4_8": {
+  "histoire": [
+   "PartsAndService"
+  ],
+  "note": "Freddy Mask : au retour dans la garderie | prudent : a 1370 u d'une porte niveau 5 (PRE_PartyDoor_Long11_2), a verifier",
+  "exige": {
+   "badges": 5
+  }
+ },
+ "MAP_Backstage_Gameplay:ChicaGreenroomCollectible_4": {
+  "histoire": [
+   "PartsAndService"
+  ],
+  "note": "billet de la loge de Chica : la boite verifie une mission et l'heure"
+ },
+ "MAP_Backstage_Gameplay:PresentCollectible8_5": {
+  "histoire": [
+   "PartsAndService",
+   "PartyPass"
+  ],
+  "note": "Chica Mask : arriere-salle de la loge de Chica | guide gamepretty/selphie 25/10 : Chica Mask, loge de Chica (mission Party Pass)"
+ },
+ "MAP_Backstage_Gameplay:MessageCollectible3_2": {
+  "histoire": [
+   "PartsAndService"
+  ],
+  "note": "Chica Report : loge de Chica"
+ },
+ "MAP_Daycare_Gameplay:PresentCollectible3_5": {
+  "exclu": true,
+  "note": "amelioration de lampe de la garderie : RATABLE (plus atteignable a la fin de la garderie)"
+ },
+ "MAP_Daycare_Gameplay:MessageCollectible2": {
+  "exige": {
+   "badges": 2
+  },
+  "note": "ArcadeGlitches6 : salle entre deux portes niveau 2 (BP_DoorMaster111/209, portes.json), vu par le joueur 25/10"
+ },
+ "Airlock_3:PresentCollectible_2": {
+  "exige": {
+   "badges": 3
+  },
+  "note": "prudent : a 1350 u d'une porte niveau 3 fermee au depart (PRE_PartyDoor_Long9_12), a verifier"
+ },
+ "MAP_StageAreaGameplay:MessageCollectible10_2": {
+  "exige": {
+   "badges": 5
+  },
+  "note": "prudent : a 720 u d'une porte niveau 5 (PRE_PartyDoor_Long14), a verifier"
+ },
+ "WestArcade_Gameplay:PresentCollectible_2": {
+  "exige": {
+   "badges": 5
+  },
+  "note": "prudent : a 320 u d'une porte niveau 5 (BP_DoorMaster183_2), a verifier"
+ },
+ "MAP_UtiliDoorsGameplay:PresentCollectible5_8": {
+  "exige": {
+   "objets": [
+    "objet:MontyClaws"
+   ]
+  },
+  "note": "guide gamepretty/selphie 25/10 : Moon Figure, deux grilles a casser"
+ },
+ "MAP_UtiliDoorsGameplay:PresentCollectible_2": {
+  "exige": {
+   "objets": [
+    "objet:MontyClaws"
+   ]
+  },
+  "note": "guide gamepretty/selphie 25/10 : Foxy Plush, apres la salle de la Sun Figure"
+ },
+ "MAP_RoxyRacer_Gameplay:PresentCollectible3_2": {
+  "histoire": [
+   "StopRoxy"
+  ],
+  "note": "guide gamepretty/selphie 25/10 : Monty Balloon, apres le combat contre Roxy"
+ },
+ "MAP_RoxyRacer_Gameplay:MessageCollectible4_9": {
+  "histoire": [
+   "StopRoxy"
+  ],
+  "note": "guide gamepretty/selphie 25/10 : Power Drain, apres le combat contre Roxy"
+ },
+ "MAP_FazerBlast_Gameplay:SecurityBadge_LaserTag": {
+  "exige": {
+   "badges": 5
+  },
+  "note": "guide gamepretty/selphie 25/10 : Space Roxy Keychain, porte de securite (prudent niv 5, porte du lobby niv 5)"
+ },
+ "MAP_FazerBlast_Gameplay:PresentCollectible_2": {
+  "exige": {
+   "badges": 5
+  },
+  "note": "guide gamepretty/selphie 25/10 : Space Chica Keychain, toilettes du lobby (porte BP_DoorB_WC_man2 niv 5, prudent)"
+ },
+ "MAP_Daycare_Gameplay:MessageCollectible3_3": {
+  "exige": {
+   "badges": 5
+  },
+  "histoire": [
+   "PartsAndService",
+   "ThrillSeeker"
+  ],
+  "note": "guide gamepretty/selphie 25/10 : BBW Maint Log (ArcadeGlitches1), theatre de la garderie : liste Thrill Seeker (vu inaccessible par le joueur avant)"
+ },
+ "MAP_Daycare_Gameplay:PresentCollectible5_11": {
+  "exige": {
+   "badges": 5
+  },
+  "histoire": [
+   "PartsAndService",
+   "ThrillSeeker"
+  ],
+  "note": "guide gamepretty/selphie 25/10 : Frozen Chica Treat, theatre de la garderie : liste Thrill Seeker (vu inaccessible par le joueur avant)"
+ },
+ "MAP_Daycare_Gameplay:PresentCollectible2_2": {
+  "exige": {
+   "badges": 5,
+   "objets": [
+    "objet:FlashBeacon"
+   ]
+  },
+  "histoire": [
+   "MontyGolf",
+   "PartyPass",
+   "ThrillSeeker"
+  ],
+  "note": "guide gamepretty/selphie 25/10 : Golden Moon : zone secrete du theatre = Faz Camera + 4 photos de silhouettes (golf, coulisses, sous-sol 1, ouest)"
+ },
+ "MAP_Daycare_Hideout:MessageCollectible4_2": {
+  "exige": {
+   "badges": 5,
+   "objets": [
+    "objet:FlashBeacon"
+   ]
+  },
+  "histoire": [
+   "MontyGolf",
+   "PartyPass",
+   "ThrillSeeker"
+  ],
+  "note": "guide gamepretty/selphie 25/10 : Arcade Conspiracy (ArcadeGlitches8) : zone secrete du theatre = Faz Camera + 4 photos de silhouettes (golf, coulisses, sous-sol 1, ouest)"
+ },
+ "MAP_EastArcade_Gameplay2:PresentCollectible3_3": {
+  "exige": {
+   "badges": 4
+  },
+  "note": "guide selphie : toilettes de l'arcade est, volets niveau 4"
+ },
+ "MAP_Mazercise:CollectibleTape": {
+  "exige": {
+   "objets": [
+    "objet:MazerciseTicket"
+   ]
+  },
+  "note": "CD du Mazercise : entree avec le billet Mazercise (melange) - joueur 25/10"
+ },
+ "MAP_SewerChica_Gameplay:PresentCollectible_2": {
+  "note": "egouts (Vieille affiche) : PAS ratable, on peut y retourner apres Chica (joueur 25/10)"
+ },
+ "MAP_Utility_Fazerblast_Airlock:PresentCollectible3_2": {
+  "note": "sas de Fazer Blast (Vieille affiche) : PAS ratable, on peut retourner a Fazer Blast (borne de la fin secrete de Vanny, joueur 25/10)"
+ },
+ "MAP_BowlingAlley:CollectibleTape": {
+  "exige": {
+   "objets": [
+    "objet:BowlingTicket"
+   ]
+  },
+  "note": "bowling : entree avec le billet du bowling (joueur 25/10)"
+ },
+ "MAP_BowlingAlley_Gameplay:MessageCollectible2_5": {
+  "exige": {
+   "objets": [
+    "objet:BowlingTicket"
+   ]
+  },
+  "note": "bowling : entree avec le billet du bowling (joueur 25/10)"
+ },
+ "MAP_BowlingAlley_Gameplay:MessageCollectible3_8": {
+  "exige": {
+   "objets": [
+    "objet:BowlingTicket"
+   ]
+  },
+  "note": "bowling : entree avec le billet du bowling (joueur 25/10)"
+ },
+ "MAP_BowlingAlley_Gameplay:MontyMysteryMix_2": {
+  "exige": {
+   "objets": [
+    "objet:BowlingTicket"
+   ]
+  },
+  "note": "bowling : entree avec le billet du bowling (joueur 25/10)"
+ },
+ "MAP_BowlingAlley_Gameplay:PresentCollectible5_2": {
+  "exige": {
+   "objets": [
+    "objet:BowlingTicket"
+   ]
+  },
+  "note": "bowling : entree avec le billet du bowling (joueur 25/10)"
+ },
+ "MAP_BowlingAlley_Gameplay:PresentCollectible6_9": {
+  "exige": {
+   "objets": [
+    "objet:BowlingTicket"
+   ]
+  },
+  "note": "bowling : entree avec le billet du bowling (joueur 25/10)"
+ }
+}

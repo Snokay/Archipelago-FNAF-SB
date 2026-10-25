@@ -1,0 +1,945 @@
+{
+ "_note": "BROUILLON a valider en jeu : ce qu'il faut pour atteindre chaque zone (badges = niveau de securite).",
+ "zones": [
+  {
+   "nom": "depart",
+   "dossier": null,
+   "fr": "Depart (Rockstar Row)",
+   "en": "Start (Rockstar Row)",
+   "exige": {}
+  },
+  {
+   "nom": "hall",
+   "dossier": "MainLobby",
+   "fr": "Hall principal",
+   "en": "Main Lobby",
+   "exige": {
+    "objets": [
+     "objet:PhotoPass"
+    ]
+   },
+   "histoire": []
+  },
+  {
+   "nom": "atrium",
+   "dossier": "World",
+   "fr": "Atrium",
+   "en": "Atrium",
+   "exige": {
+    "objets": [
+     "objet:PhotoPass"
+    ]
+   },
+   "histoire": []
+  },
+  {
+   "nom": "garderie",
+   "dossier": "Daycare",
+   "fr": "Garderie",
+   "en": "Daycare",
+   "exige": {
+    "objets": [
+     "objet:DaycarePass",
+     "objet:PhotoPass",
+     "objet:CompPass"
+    ]
+   },
+   "histoire": [
+    "NoReEntry"
+   ]
+  },
+  {
+   "nom": "cuisine",
+   "dossier": "Kitchen",
+   "fr": "Cuisine",
+   "en": "Kitchen",
+   "exige": {
+    "badges": 1,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:Flashlight"
+    ]
+   },
+   "histoire": [
+    "EscapeDaycare"
+   ]
+  },
+  {
+   "nom": "technique",
+   "dossier": "Utility",
+   "fr": "Secteur technique",
+   "en": "Utility Tunnels",
+   "exige": {
+    "badges": 2,
+    "objets": [
+     "objet:Flashlight",
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass"
+    ]
+   },
+   "histoire": [
+    "EscapeDaycare"
+   ]
+  },
+  {
+   "nom": "coulisses",
+   "dossier": "Backstage",
+   "fr": "Coulisses",
+   "en": "Backstage",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:ScrewDriver",
+     "objet:PhotoPass",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass"
+    ]
+   },
+   "histoire": [
+    "LostAndFound"
+   ]
+  },
+  {
+   "nom": "scene",
+   "dossier": "StageArea",
+   "fr": "Scene",
+   "en": "Stage Area",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:BackstagePass",
+     "objet:PhotoPass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass"
+    ]
+   },
+   "histoire": [
+    "Backstage"
+   ]
+  },
+  {
+   "nom": "atrium_ouest",
+   "dossier": "West_Atrium",
+   "fr": "Atrium ouest",
+   "en": "West Atrium",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk"
+    ]
+   },
+   "histoire": [
+    "Showtime"
+   ]
+  },
+  {
+   "nom": "fazerblast",
+   "dossier": "FazerBlast",
+   "fr": "Fazer Blast",
+   "en": "Fazer Blast",
+   "exige": {
+    "badges": 3,
+    "billets": 1,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:Flashlight"
+    ]
+   },
+   "histoire": [
+    "EscapeDaycare"
+   ]
+  },
+  {
+   "nom": "atrium_est",
+   "dossier": "East_Atrium",
+   "fr": "Atrium est",
+   "en": "East Atrium",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass"
+    ]
+   },
+   "histoire": [
+    "FindFreddy",
+    "LoadingDock"
+   ]
+  },
+  {
+   "nom": "arcade_est",
+   "dossier": "East_Arcade",
+   "fr": "Arcade est",
+   "en": "East Arcade",
+   "exige": {
+    "badges": 1,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:Flashlight"
+    ]
+   },
+   "histoire": [
+    "EscapeDaycare"
+   ],
+   "note": "25/10 joueur : El Chip -> arcade est -> bureau des prix (2e badge) accessible apres la carte, niveau 1 (avant : 4, trop strict)"
+  },
+  {
+   "nom": "arcade_ouest",
+   "dossier": "WestArcade",
+   "fr": "Arcade ouest",
+   "en": "West Arcade",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:DancePass",
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk"
+    ]
+   },
+   "histoire": [
+    "PartyPass"
+   ]
+  },
+  {
+   "nom": "golf",
+   "dossier": "GatorGolf",
+   "fr": "Monty Golf",
+   "en": "Monty Golf",
+   "exige": {
+    "badges": 5,
+    "objets": [
+     "objet:PartyPassChicaRoom",
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk"
+    ]
+   },
+   "histoire": [
+    "PartsAndService"
+   ]
+  },
+  {
+   "nom": "raceway",
+   "dossier": "RoxyRacer",
+   "fr": "Roxy Raceway",
+   "en": "Roxy Raceway",
+   "exige": {
+    "badges": 5,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk"
+    ]
+   },
+   "histoire": [
+    "PartsAndService"
+   ]
+  },
+  {
+   "nom": "egouts",
+   "dossier": "Sewer_Chica",
+   "fr": "Egouts",
+   "en": "Sewers",
+   "exige": {
+    "badges": 6,
+    "objets": [
+     "objet:Flashlight",
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk"
+    ]
+   },
+   "histoire": [
+    "PartsAndService"
+   ]
+  }
+ ],
+ "missions": [
+  {
+   "mission": "FreeFreddy",
+   "zone": "atrium",
+   "exige": {
+    "objets": [
+     "objet:PhotoPass"
+    ]
+   }
+  },
+  {
+   "mission": "GetOut",
+   "zone": "hall",
+   "exige": {
+    "objets": [
+     "objet:PhotoPass"
+    ]
+   }
+  },
+  {
+   "mission": "NoReEntry",
+   "zone": "hall",
+   "exige": {
+    "objets": [
+     "objet:PhotoPass",
+     "objet:CompPass"
+    ]
+   }
+  },
+  {
+   "mission": "SlideIntoFun",
+   "zone": "garderie",
+   "exige": {
+    "objets": [
+     "objet:DaycarePass",
+     "objet:PhotoPass",
+     "objet:CompPass"
+    ]
+   }
+  },
+  {
+   "mission": "LetThereBeLight",
+   "zone": "garderie",
+   "exige": {
+    "objets": [
+     "objet:DaycarePass",
+     "objet:PhotoPass",
+     "objet:CompPass"
+    ]
+   }
+  },
+  {
+   "mission": "EscapeDaycare",
+   "zone": "garderie",
+   "exige": {
+    "objets": [
+     "objet:DaycarePass",
+     "objet:PhotoPass",
+     "objet:CompPass",
+     "objet:Flashlight"
+    ]
+   }
+  },
+  {
+   "mission": "TakeMap",
+   "zone": "atrium",
+   "exige": {
+    "objets": [
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:Flashlight"
+    ]
+   }
+  },
+  {
+   "mission": "KitchenOffice",
+   "zone": "cuisine",
+   "exige": {
+    "badges": 1,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:Flashlight"
+    ]
+   }
+  },
+  {
+   "mission": "LoadingDock",
+   "zone": "technique",
+   "exige": {
+    "badges": 2,
+    "objets": [
+     "objet:Flashlight",
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass"
+    ]
+   }
+  },
+  {
+   "mission": "PrizeCounter",
+   "zone": "arcade_est",
+   "exige": {
+    "badges": 1,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:Flashlight"
+    ]
+   }
+  },
+  {
+   "mission": "FindFreddy",
+   "zone": "technique",
+   "exige": {
+    "badges": 2,
+    "objets": [
+     "objet:Flashlight",
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass"
+    ]
+   }
+  },
+  {
+   "mission": "LostAndFound",
+   "zone": "atrium_est",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass"
+    ]
+   }
+  },
+  {
+   "mission": "RehearsalSpace",
+   "zone": "coulisses",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:ScrewDriver",
+     "objet:PhotoPass",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass"
+    ]
+   }
+  },
+  {
+   "mission": "Backstage",
+   "zone": "coulisses",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:ScrewDriver",
+     "objet:PhotoPass",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:BackstagePass"
+    ]
+   }
+  },
+  {
+   "mission": "Showtime",
+   "zone": "scene",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:BackstagePass",
+     "objet:PhotoPass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk"
+    ]
+   }
+  },
+  {
+   "mission": "PartsAndService",
+   "zone": "atrium_ouest",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk"
+    ]
+   }
+  },
+  {
+   "mission": "PartyPass",
+   "zone": "atrium",
+   "exige": {
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk"
+    ],
+    "badges": 4
+   }
+  },
+  {
+   "mission": "MoonlightSerenade",
+   "zone": "scene",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:BackstagePass",
+     "objet:PhotoPass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk"
+    ]
+   }
+  },
+  {
+   "mission": "RoxysWeakness",
+   "zone": "raceway",
+   "histoire": [
+    "PartsAndService",
+    "ChicaBeak",
+    "MontyClaws"
+   ],
+   "exige": {
+    "badges": 6,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk",
+     "objet:MontyMysteryMix",
+     "objet:PartyPassChicaRoom",
+     "objet:MazerciseTicket",
+     "objet:MazerciseControlKey"
+    ]
+   }
+  },
+  {
+   "mission": "DJMusicMan",
+   "zone": "arcade_ouest",
+   "histoire": [
+    "PartyPass"
+   ],
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:DancePass",
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk"
+    ]
+   }
+  },
+  {
+   "mission": "StopRoxy",
+   "zone": "raceway",
+   "histoire": [
+    "PartsAndService",
+    "ChicaBeak",
+    "MontyClaws"
+   ],
+   "exige": {
+    "badges": 6,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk",
+     "objet:MontyMysteryMix",
+     "objet:PartyPassChicaRoom",
+     "objet:MazerciseTicket",
+     "objet:MazerciseControlKey"
+    ]
+   }
+  },
+  {
+   "mission": "UpgradeFreddy",
+   "zone": "atrium_ouest",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk",
+     "objet:RoxyEyes"
+    ]
+   },
+   "histoire": [
+    "PartsAndService"
+   ]
+  },
+  {
+   "mission": "ChicaBeak",
+   "zone": "egouts",
+   "histoire": [
+    "PartsAndService",
+    "MontyMysteryMix"
+   ],
+   "exige": {
+    "badges": 6,
+    "objets": [
+     "objet:Flashlight",
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk",
+     "objet:MontyMysteryMix"
+    ]
+   }
+  },
+  {
+   "mission": "MontyClaws",
+   "zone": "golf",
+   "histoire": [
+    "PartsAndService"
+   ],
+   "exige": {
+    "badges": 5,
+    "objets": [
+     "objet:PartyPassChicaRoom",
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk",
+     "objet:MazerciseTicket",
+     "objet:MazerciseControlKey"
+    ]
+   }
+  },
+  {
+   "mission": "FazerBlast",
+   "zone": "fazerblast",
+   "histoire": [
+    "LostAndFound"
+   ],
+   "exige": {
+    "badges": 4,
+    "billets": 1,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:Flashlight"
+    ]
+   }
+  },
+  {
+   "mission": "DumpsterDiving",
+   "zone": "technique",
+   "histoire": [
+    "Showtime"
+   ],
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:Flashlight",
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:PerformanceDisk"
+    ]
+   }
+  },
+  {
+   "mission": "MontyMysteryMix",
+   "zone": "cuisine",
+   "histoire": [
+    "Showtime"
+   ],
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:Flashlight",
+     "objet:MontyMysteryMix",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:PerformanceDisk"
+    ]
+   }
+  },
+  {
+   "mission": "PowerOn",
+   "zone": "technique",
+   "histoire": [
+    "EscapeDaycare"
+   ],
+   "exige": {
+    "badges": 2,
+    "objets": [
+     "objet:Flashlight",
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass"
+    ]
+   }
+  },
+  {
+   "mission": "OfficeToOffice",
+   "zone": "technique",
+   "histoire": [
+    "EscapeDaycare"
+   ],
+   "exige": {
+    "badges": 2,
+    "objets": [
+     "objet:Flashlight",
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass"
+    ]
+   }
+  },
+  {
+   "mission": "MontyGolf",
+   "zone": "golf",
+   "exige": {
+    "badges": 5,
+    "objets": [
+     "objet:PartyPassChicaRoom",
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk"
+    ]
+   }
+  },
+  {
+   "mission": "ThrillSeeker",
+   "zone": "raceway",
+   "exige": {
+    "badges": 5,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk"
+    ]
+   }
+  },
+  {
+   "mission": "Warehouse",
+   "zone": "technique",
+   "exige": {
+    "badges": 4,
+    "objets": [
+     "objet:Flashlight",
+     "objet:PhotoPass",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:PerformanceDisk"
+    ]
+   }
+  },
+  {
+   "mission": "RechargeTime",
+   "zone": "garderie",
+   "histoire": [
+    "FindFreddy"
+   ],
+   "exige": {
+    "objets": [
+     "objet:DaycarePass",
+     "objet:PhotoPass",
+     "objet:CompPass",
+     "objet:Flashlight"
+    ],
+    "badges": 2
+   }
+  },
+  {
+   "mission": "PlanA",
+   "zone": "hall",
+   "histoire": [
+    "ThrillSeeker",
+    "MontyGolf",
+    "Warehouse"
+   ],
+   "exige": {
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk",
+     "objet:PartyPassChicaRoom"
+    ],
+    "badges": 7
+   },
+   "exclu": true
+  },
+  {
+   "mission": "GetOut!",
+   "zone": "hall",
+   "histoire": [
+    "ThrillSeeker",
+    "MontyGolf",
+    "Warehouse"
+   ],
+   "exige": {
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk",
+     "objet:PartyPassChicaRoom"
+    ],
+    "badges": 7
+   },
+   "exclu": true
+  }
+ ],
+ "fin": {
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:PartyPassChicaRoom"
+   ]
+  },
+  "fins": {
+   "LoadingDockEnding": {
+    "badges": 7,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk",
+     "objet:PartyPassChicaRoom"
+    ]
+   },
+   "FazerblastEnding": {
+    "badges": 7,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk",
+     "objet:PartyPassChicaRoom"
+    ]
+   },
+   "VIPEnding": {
+    "badges": 7,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk",
+     "objet:PartyPassChicaRoom"
+    ]
+   },
+   "BurntrapEnding": {
+    "badges": 7,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk",
+     "objet:PartyPassChicaRoom"
+    ]
+   },
+   "GregoryInAlleyEnding": {
+    "badges": 7,
+    "objets": [
+     "objet:PhotoPass",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:Flashlight",
+     "objet:DaycarePass",
+     "objet:CompPass",
+     "objet:PerformanceDisk",
+     "objet:PartyPassChicaRoom"
+    ]
+   }
+  },
+  "histoire": [
+   "ThrillSeeker",
+   "MontyGolf",
+   "Warehouse"
+  ]
+ },
+ "_note_histoire": "histoire = missions (MissionDataTable) qui ouvrent la zone dans le jeu de base ; construire_apworld.py ajoute a la zone tout ce qu'exigent ces missions, et a chaque mission tout ce qu'exigent ses DependentMissions. Choix prudents (en cas de doute, la mission la plus tardive) : jamais de softlock, au pire des objets places un peu plus tard. A verifier en jeu."
+}

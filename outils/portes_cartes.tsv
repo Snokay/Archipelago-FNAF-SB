@@ -1,0 +1,7 @@
+zone	carte	acteur	classe	objet	niveau	billet
+Daycare	MAP_Daycare_Gameplay	DaycarePlaypenButton	BasicButton_C		1	
+FazerBlast	MAP_FazerBlast_Gameplay	CollectibleSpawnTrigger_4	CollectibleSpawnTrigger_C	Fazergun		
+StageArea	MAP_StageAreaGameplay	StaffBotPartyPass_Bowling	StaffBotPartyPass_C	BowlingTicket		False
+StageArea	MAP_StageAreaGameplay	StaffBotPartyPass_Mazercize	StaffBotPartyPass_C	MazerciseTicket		False
+StageArea	MAP_StageAreaGameplay	StaffBotPartyPass_WestArcade	StaffBotPartyPass_C	DancePass		False
+Utility	MAP_Utility_Southeast_Corner_Gameplay	EndoAwakenTrigger_2	EndoAwakenTrigger_C	MazerciseControlKey		

@@ -1,0 +1,1369 @@
+{
+ "objets": {
+  "StrangeCube": {
+   "en": "Strange Cube",
+   "fr": "Strange Cube",
+   "categorie": "None"
+  },
+  "CubeOfTesting": {
+   "en": "Cube of Testing",
+   "fr": "Cube of Testing",
+   "categorie": "None"
+  },
+  "CamerasOffice_GatorGolf": {
+   "en": "Gator Golf Cameras",
+   "fr": "Caméras du Gator Golf",
+   "categorie": "None"
+  },
+  "CamerasOffice_Intro": {
+   "en": "Pizzaplex  Cameras",
+   "fr": "Caméras du hall d’entrée",
+   "categorie": "None"
+  },
+  "CamerasOffice_Daycare": {
+   "en": "Daycare Cameras",
+   "fr": "Caméras de la garderie",
+   "categorie": "None"
+  },
+  "CamerasOffice_Kitchen": {
+   "en": "Kitchen Cameras",
+   "fr": "Caméras de la cuisine",
+   "categorie": "None"
+  },
+  "CamerasOffice_PrizeCounter": {
+   "en": "Prize Counter Cameras",
+   "fr": "Caméras du bureau des prix",
+   "categorie": "None"
+  },
+  "CamerasOffice_WestArcade": {
+   "en": "Office 6 Cameras",
+   "fr": "Caméras du bureau 6",
+   "categorie": "None"
+  },
+  "CamerasOffice_7": {
+   "en": "Office 7 Cameras",
+   "fr": "Caméras du bureau 7",
+   "categorie": "None"
+  },
+  "CamerasOffice_8": {
+   "en": "Office 8 Cameras",
+   "fr": "Caméras du bureau 8",
+   "categorie": "None"
+  },
+  "CamerasOffice_Backstage": {
+   "en": "Backstage Cameras",
+   "fr": "Caméras des coulisses",
+   "categorie": "None"
+  },
+  "FlashBeacon": {
+   "en": "Faz Camera",
+   "fr": "Faz Camera",
+   "categorie": "Equipment"
+  },
+  "Map": {
+   "en": "Faz Map",
+   "fr": "FazMap",
+   "categorie": "Equipment"
+  },
+  "SecurityBadgeDaycare": {
+   "en": "Security Badge",
+   "fr": "Badge de sécurité",
+   "categorie": "SecurityBadge"
+  },
+  "SecurityBadgeKitchen": {
+   "en": "Security Badge",
+   "fr": "Badge de sécurité",
+   "categorie": "SecurityBadge"
+  },
+  "SecurityBadgeBackstage": {
+   "en": "Security Badge",
+   "fr": "Badge de sécurité",
+   "categorie": "SecurityBadge"
+  },
+  "SecurityBadgeFazerBlast": {
+   "en": "Security Badge",
+   "fr": "Badge de sécurité",
+   "categorie": "SecurityBadge"
+  },
+  "SecurityBadgePrizeCounter": {
+   "en": "Security Badge",
+   "fr": "Badge de sécurité",
+   "categorie": "SecurityBadge"
+  },
+  "SecurityBadgeWarehouse": {
+   "en": "Security Badge",
+   "fr": "Badge de sécurité",
+   "categorie": "SecurityBadge"
+  },
+  "SecurityBadgeMontyGolf": {
+   "en": "Security Badge",
+   "fr": "Badge de sécurité",
+   "categorie": "SecurityBadge"
+  },
+  "SecurityBadge_3": {
+   "en": "Security Badge",
+   "fr": "Badge de sécurité",
+   "categorie": "Equipment"
+  },
+  "ChicaBeak": {
+   "en": "Chica's Voice Box",
+   "fr": "Bec de Chica",
+   "categorie": "Equipment"
+  },
+  "RoxyEyes": {
+   "en": "Roxy's Eyes",
+   "fr": "Yeux de Roxy",
+   "categorie": "Equipment"
+  },
+  "MontyClaws": {
+   "en": "Monty Claws",
+   "fr": "Griffes de Monty",
+   "categorie": "Equipment"
+  },
+  "Flashlight": {
+   "en": "Flashlight",
+   "fr": "Lampe torche",
+   "categorie": "Equipment"
+  },
+  "PhotoPass": {
+   "en": "Photo Pass",
+   "fr": "Bon pour une photo",
+   "categorie": "Equipment"
+  },
+  "MontyMysteryMix": {
+   "en": "Monty Mystery Mix",
+   "fr": "Mystery Mix de Monty",
+   "categorie": "Food"
+  },
+  "DamagedHead": {
+   "en": "Damaged Head",
+   "fr": "Tête abîmée",
+   "categorie": "Equipment"
+  },
+  "FixedHead": {
+   "en": "Repaired Head",
+   "fr": "Tête réparée",
+   "categorie": "Equipment"
+  },
+  "Thingamabob": {
+   "en": "Thingamabob",
+   "fr": "Machintruc",
+   "categorie": "None"
+  },
+  "CrashCoin": {
+   "en": "Crash Coin",
+   "fr": "Crash Coin",
+   "categorie": "None"
+  },
+  "Wallet": {
+   "en": "Wallet",
+   "fr": "Portefeuille",
+   "categorie": "None"
+  },
+  "BakingBag": {
+   "en": "Baking Bag",
+   "fr": "Sac de préparation",
+   "categorie": "Food"
+  },
+  "FazFrost": {
+   "en": "Faz Frost",
+   "fr": "Faz Frost",
+   "categorie": "None"
+  },
+  "MrHippoMagnet": {
+   "en": "Mr Hippo Magnet",
+   "fr": "Aimant de Mr. Hippo",
+   "categorie": "Equipment"
+  },
+  "CompPass": {
+   "en": "Complimentary Entry Pass",
+   "fr": "Billet d’entrée offert par la maison",
+   "categorie": "Equipment"
+  },
+  "DaycarePass": {
+   "en": "Daycare Pass",
+   "fr": "Laissez-passer de la garderie",
+   "categorie": "Equipment"
+  },
+  "BackstagePass": {
+   "en": "Backstage Pass",
+   "fr": "Laissez-passer des coulisses",
+   "categorie": "Equipment"
+  },
+  "PerformanceDisk": {
+   "en": "Performance Disk",
+   "fr": "Disque du spectacle",
+   "categorie": "Equipment"
+  },
+  "ScrewDriver": {
+   "en": "Screwdriver",
+   "fr": "Tournevis",
+   "categorie": "Equipment"
+  },
+  "Fazergun": {
+   "en": "Fazerblaster",
+   "fr": "Fazerblaster",
+   "categorie": "Equipment"
+  },
+  "FazerWinner": {
+   "en": "Fazer Tag Champion Badge",
+   "fr": "Badge de champion de Fazer Tag",
+   "categorie": "Trophy"
+  },
+  "PartyPassKitchen": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée",
+   "categorie": "PartyBadge"
+  },
+  "PartyPassChicaRoom": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée",
+   "categorie": "PartyBadge"
+  },
+  "PartyPass_1": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée",
+   "categorie": "PartyBadge"
+  },
+  "PartyPass_2": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée",
+   "categorie": "PartyBadge"
+  },
+  "PartyPass_3": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée",
+   "categorie": "PartyBadge"
+  },
+  "PartyPass_4": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée",
+   "categorie": "PartyBadge"
+  },
+  "PartyPass_5": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée",
+   "categorie": "PartyBadge"
+  },
+  "PartyPass_6": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée",
+   "categorie": "PartyBadge"
+  },
+  "PartyPass_7": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée",
+   "categorie": "PartyBadge"
+  },
+  "PartyPass_8": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée",
+   "categorie": "PartyBadge"
+  },
+  "PartyPass_9": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée",
+   "categorie": "PartyBadge"
+  },
+  "FlashlightUpgrade_0": {
+   "en": "Flashlight Battery Upgrade",
+   "fr": "Amélioration de la batterie de la lampe torche",
+   "categorie": "Equipment"
+  },
+  "FlashlightUpgrade_1": {
+   "en": "Flashlight Battery Upgrade",
+   "fr": "Amélioration de la batterie de la lampe torche",
+   "categorie": "Equipment"
+  },
+  "FlashlightUpgrade_2": {
+   "en": "Flashlight Battery Upgrade",
+   "fr": "Amélioration de la batterie de la lampe torche",
+   "categorie": "Equipment"
+  },
+  "FlashlightUpgrade_3": {
+   "en": "Flashlight Battery Upgrade",
+   "fr": "Amélioration de la batterie de la lampe torche",
+   "categorie": "Equipment"
+  },
+  "FlashlightUpgrade_4": {
+   "en": "Flashlight Battery Upgrade",
+   "fr": "Amélioration de la batterie de la lampe torche",
+   "categorie": "Equipment"
+  },
+  "FlashlightUpgrade_5": {
+   "en": "Flashlight Battery Upgrade",
+   "fr": "Amélioration de la batterie de la lampe torche",
+   "categorie": "Equipment"
+  },
+  "FlashBeaconUpgrade_0": {
+   "en": "Faz Camera Upgrade",
+   "fr": "Amélioration de la Faz Camera",
+   "categorie": "Equipment"
+  },
+  "FlashBeaconUpgrade_1": {
+   "en": "Faz Camera Upgrade",
+   "fr": "Amélioration de la Faz Camera",
+   "categorie": "Equipment"
+  },
+  "FreddyUpgrade_0": {
+   "en": "Freddy Upgrade",
+   "fr": "Amélioration de Freddy",
+   "categorie": "Equipment"
+  },
+  "FreddyUpgrade_1": {
+   "en": "Freddy Upgrade",
+   "fr": "Amélioration de Freddy",
+   "categorie": "Equipment"
+  },
+  "FreddyUpgrade_2": {
+   "en": "Freddy Upgrade",
+   "fr": "Amélioration de Freddy",
+   "categorie": "Equipment"
+  },
+  "FreddyUpgrade_3": {
+   "en": "Freddy Upgrade",
+   "fr": "Amélioration de Freddy",
+   "categorie": "Equipment"
+  },
+  "Helpy": {
+   "en": "Helpy",
+   "fr": "Helpy",
+   "categorie": "Equipment"
+  },
+  "NightmareHelpy": {
+   "en": "Nightmare Helpy",
+   "fr": "Helpy cauchemardesque",
+   "categorie": "Equipment"
+  },
+  "GregoryUpgrade_Shoes": {
+   "en": "Shoes",
+   "fr": "Chaussures",
+   "categorie": "Equipment"
+  },
+  "GregoryUpgrade_Stamina_0": {
+   "en": "Fizzy Faz - Roxy",
+   "fr": "Fizzy Faz - Roxy",
+   "categorie": "Food"
+  },
+  "GregoryUpgrade_Stamina_1": {
+   "en": "Fizzy Faz - Chica",
+   "fr": "Fizzy Faz - Chica",
+   "categorie": "Food"
+  },
+  "GregoryUpgrade_Stamina_2": {
+   "en": "Fizzy Faz - Freddy",
+   "fr": "Fizzy Faz - Freddy",
+   "categorie": "Food"
+  },
+  "GregoryUpgrade_Stamina_3": {
+   "en": "Fizzy Faz - Monty",
+   "fr": "Fizzy Faz - Monty",
+   "categorie": "Food"
+  },
+  "GregoryUpgrade_Stamina_4": {
+   "en": "Fizzy Faz Monty Mystery Mix",
+   "fr": "Fizzy Faz Mystery Mix de Monty",
+   "categorie": "Food"
+  },
+  "GregoryUpgrade_Stealth": {
+   "en": "Hoodie",
+   "fr": "Sweat à capuche",
+   "categorie": "Equipment"
+  },
+  "Jumpscare_0": {
+   "en": "Jumpscare_0",
+   "fr": "Jumpscare_0",
+   "categorie": "None"
+  },
+  "Jumpscare_1": {
+   "en": "Jumpscare_1",
+   "fr": "Jumpscare_1",
+   "categorie": "None"
+  },
+  "Jumpscare_2": {
+   "en": "Jumpscare_2",
+   "fr": "Jumpscare_2",
+   "categorie": "None"
+  },
+  "Jumpscare_3": {
+   "en": "Jumpscare_3",
+   "fr": "Jumpscare_3",
+   "categorie": "None"
+  },
+  "Jumpscare_4": {
+   "en": "Jumpscare_4",
+   "fr": "Jumpscare_4",
+   "categorie": "None"
+  },
+  "Jumpscare_5": {
+   "en": "Jumpscare_5",
+   "fr": "Jumpscare_5",
+   "categorie": "None"
+  },
+  "Jumpscare_6": {
+   "en": "Jumpscare_6",
+   "fr": "Jumpscare_6",
+   "categorie": "None"
+  },
+  "Jumpscare_7": {
+   "en": "Jumpscare_7",
+   "fr": "Jumpscare_7",
+   "categorie": "None"
+  },
+  "Jumpscare_8": {
+   "en": "Jumpscare_8",
+   "fr": "Jumpscare_8",
+   "categorie": "None"
+  },
+  "Jumpscare_9": {
+   "en": "Jumpscare_9",
+   "fr": "Jumpscare_9",
+   "categorie": "None"
+  },
+  "AdmissionPass": {
+   "en": "Admission Pass",
+   "fr": "Laissez-passer d’entrée",
+   "categorie": "Equipment"
+  },
+  "CommonCollectible_0": {
+   "en": "Sun Plush",
+   "fr": "Peluche de soleil",
+   "categorie": "Toys"
+  },
+  "CommonCollectible_1": {
+   "en": "Frozen Monty Treat",
+   "fr": "Glace à l'effigie de Monty",
+   "categorie": "Food"
+  },
+  "CommonCollectible_2": {
+   "en": "Frozen Freddy Treat",
+   "fr": "Glace à l'effigie de Freddy",
+   "categorie": "Food"
+  },
+  "CommonCollectible_3": {
+   "en": "Frozen Chica Treat",
+   "fr": "Glace à l'effigie de Chica",
+   "categorie": "Food"
+  },
+  "CommonCollectible_4": {
+   "en": "Frozen Roxy Treat",
+   "fr": "Glace à l'effigie de Roxy",
+   "categorie": "Food"
+  },
+  "CommonCollectible_5": {
+   "en": "Freddy Name Shirt",
+   "fr": "T-shirt avec le nom de Freddy",
+   "categorie": "Clothing"
+  },
+  "CommonCollectible_6": {
+   "en": "Pizzaplex Logo Shirt",
+   "fr": "T-shirt avec le logo de Pizza Plex",
+   "categorie": "Clothing"
+  },
+  "CommonCollectible_7": {
+   "en": "Chica Name Shirt",
+   "fr": "T-shirt avec le nom de Chica",
+   "categorie": "Clothing"
+  },
+  "CommonCollectible_8": {
+   "en": "Roxy Name Shirt",
+   "fr": "T-shirt avec le nom de Roxy",
+   "categorie": "Clothing"
+  },
+  "CommonCollectible_9": {
+   "en": "Freddy Piñata",
+   "fr": "Piñata de Freddy",
+   "categorie": "Trophy"
+  },
+  "CommonCollectible_10": {
+   "en": "Roxy Piñata",
+   "fr": "Piñata de Roxy",
+   "categorie": "Trophy"
+  },
+  "CommonCollectible_11": {
+   "en": "Monty Name Shirt",
+   "fr": "T-shirt avec le nom de Monty",
+   "categorie": "Clothing"
+  },
+  "CommonCollectible_12": {
+   "en": "El Chip Piñata",
+   "fr": "Piñata d’El Chip",
+   "categorie": "Trophy"
+  },
+  "CommonCollectible_13": {
+   "en": "Chica Balloon",
+   "fr": "Ballon de Chica",
+   "categorie": "Trophy"
+  },
+  "CommonCollectible_14": {
+   "en": "Freddy Balloon",
+   "fr": "Ballon de Freddy",
+   "categorie": "Trophy"
+  },
+  "CommonCollectible_15": {
+   "en": "Monty Balloon",
+   "fr": "Ballon de Monty",
+   "categorie": "Trophy"
+  },
+  "CommonCollectible_16": {
+   "en": "Roxy Balloon",
+   "fr": "Ballon de Roxy",
+   "categorie": "Trophy"
+  },
+  "CommonCollectible_17": {
+   "en": "Cupcake Piñata",
+   "fr": "Piñata de Cupcake",
+   "categorie": "Trophy"
+  },
+  "CommonCollectible_18": {
+   "en": "Chica Piñata",
+   "fr": "Piñata de Chica",
+   "categorie": "Trophy"
+  },
+  "CommonCollectible_19": {
+   "en": "Monty Piñata",
+   "fr": "Piñata de Monty",
+   "categorie": "Trophy"
+  },
+  "UncommonCollectible_0": {
+   "en": "Glam Roxy Plush",
+   "fr": "Peluche de Roxy Glam",
+   "categorie": "Toys"
+  },
+  "UncommonCollectible_1": {
+   "en": "Glam Chica Plush",
+   "fr": "Peluche de Chica Glam",
+   "categorie": "Toys"
+  },
+  "UncommonCollectible_2": {
+   "en": "Glam Freddy Plush",
+   "fr": "Peluche de Freddy Glam",
+   "categorie": "Toys"
+  },
+  "UncommonCollectible_3": {
+   "en": "Glam Monty Plush",
+   "fr": "Peluche de Monty Glam",
+   "categorie": "Toys"
+  },
+  "UncommonCollectible_4": {
+   "en": "Moon Plush",
+   "fr": "Peluche de lune",
+   "categorie": "Toys"
+  },
+  "UncommonCollectible_5": {
+   "en": "Glam Freddy Figure",
+   "fr": "Figurine de Freddy Glam",
+   "categorie": "Toys"
+  },
+  "UncommonCollectible_6": {
+   "en": "Glam Chica Figure",
+   "fr": "Figurine de Chica Glam",
+   "categorie": "Toys"
+  },
+  "UncommonCollectible_7": {
+   "en": "Glam Monty Figure",
+   "fr": "Figurine de Monty Glam",
+   "categorie": "Toys"
+  },
+  "UncommonCollectible_8": {
+   "en": "Glam Roxy Figure",
+   "fr": "Figurine de Roxy Glam",
+   "categorie": "Toys"
+  },
+  "UncommonCollectible_9": {
+   "en": "Sun Figure",
+   "fr": "Figurine de soleil",
+   "categorie": "Toys"
+  },
+  "UncommonCollectible_10": {
+   "en": "Moon Figure",
+   "fr": "Figurine de lune",
+   "categorie": "Toys"
+  },
+  "UncommonCollectible_11": {
+   "en": "Uncommon Item 12",
+   "fr": "Uncommon Item 12",
+   "categorie": "None"
+  },
+  "RareCollectible_0": {
+   "en": "Freddy Mask",
+   "fr": "Masque de Freddy",
+   "categorie": "Trophy"
+  },
+  "RareCollectible_1": {
+   "en": "Chica Mask",
+   "fr": "Masque de Chica",
+   "categorie": "Trophy"
+  },
+  "RareCollectible_2": {
+   "en": "Roxy Mask",
+   "fr": "Masque de Roxy",
+   "categorie": "Trophy"
+  },
+  "RareCollectible_3": {
+   "en": "Monty Mask",
+   "fr": "Masque de Monty",
+   "categorie": "Trophy"
+  },
+  "RareCollectible_4": {
+   "en": "Rare Item 5",
+   "fr": "Rare Item 5",
+   "categorie": "None"
+  },
+  "RareCollectible_5": {
+   "en": "Rare Item 6",
+   "fr": "Rare Item 6",
+   "categorie": "None"
+  },
+  "RareCollectible_6": {
+   "en": "Rare Item 7",
+   "fr": "Rare Item 7",
+   "categorie": "None"
+  },
+  "RareCollectible_7": {
+   "en": "Rare Item 8",
+   "fr": "Rare Item 8",
+   "categorie": "None"
+  },
+  "RareCollectible_8": {
+   "en": "Rare Item 9",
+   "fr": "Rare Item 9",
+   "categorie": "None"
+  },
+  "UltraRareCollectible_0": {
+   "en": "Ultra Rare Item 1",
+   "fr": "Ultra Rare Item 1",
+   "categorie": "None"
+  },
+  "UltraRareCollectible_1": {
+   "en": "Ultra Rare Item 2",
+   "fr": "Ultra Rare Item 2",
+   "categorie": "None"
+  },
+  "UltraRareCollectible_2": {
+   "en": "Ultra Rare Item 3",
+   "fr": "Ultra Rare Item 3",
+   "categorie": "None"
+  },
+  "UltraRareCollectible_3": {
+   "en": "Ultra Rare Item 4",
+   "fr": "Ultra Rare Item 4",
+   "categorie": "None"
+  },
+  "UltraRareCollectible_4": {
+   "en": "Ultra Rare Item 5",
+   "fr": "Ultra Rare Item 5",
+   "categorie": "None"
+  },
+  "UltraRareCollectible_5": {
+   "en": "Ultra Rare Item 6",
+   "fr": "Ultra Rare Item 6",
+   "categorie": "None"
+  },
+  "UltraRareCollectible_6": {
+   "en": "Ultra Rare Item 7",
+   "fr": "Ultra Rare Item 7",
+   "categorie": "None"
+  },
+  "UltraRareCollectible_7": {
+   "en": "Ultra Rare Item 8",
+   "fr": "Ultra Rare Item 8",
+   "categorie": "None"
+  },
+  "UltraRareCollectible_8": {
+   "en": "Ultra Rare Item 9",
+   "fr": "Ultra Rare Item 9",
+   "categorie": "None"
+  },
+  "Fazwatch": {
+   "en": "Fazwatch",
+   "fr": "FazWatch",
+   "categorie": "Equipment"
+  },
+  "BowlingTicket": {
+   "en": "Bowling Ticket",
+   "fr": "Billet d’entrée au bowling",
+   "categorie": "Equipment"
+  },
+  "MazerciseTicket": {
+   "en": "Mazercise Ticket",
+   "fr": "Billet d’entrée au labyrinthe Mazercise",
+   "categorie": "Equipment"
+  },
+  "MazerciseControlKey": {
+   "en": "Mazercise Control Key",
+   "fr": "Clé de contrôle du Mazercise",
+   "categorie": "Equipment"
+  },
+  "DancePass": {
+   "en": "Dance Pass",
+   "fr": "Billet d’entrée pour la piste de danse",
+   "categorie": "Equipment"
+  },
+  "UtilityHallwayMap": {
+   "en": "Utility Hallway Map",
+   "fr": "Carte du couloir d’entretien",
+   "categorie": "Equipment"
+  },
+  "RetroCDCollectible_0": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_1": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_2": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_3": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_4": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_5": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_6": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_7": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_8": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_9": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_10": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_11": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_12": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_13": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_14": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "RetroCDCollectible_15": {
+   "en": "Retro CD - ????",
+   "fr": "CD rétro - ????",
+   "categorie": "RetroCD"
+  },
+  "c_mask_comedy": {
+   "en": "Comedy Mask",
+   "fr": "Masque de comédie",
+   "categorie": "Trophy"
+  },
+  "c_mask_tragedy": {
+   "en": "Tragedy Mask",
+   "fr": "Masque de tragédie",
+   "categorie": "Trophy"
+  },
+  "c_shirt_freddyface": {
+   "en": "Freddy Face Shirt",
+   "fr": "T-shirt du visage de Freddy",
+   "categorie": "Clothing"
+  },
+  "c_shirt_freddyicon": {
+   "en": "Freddy Icon Shirt",
+   "fr": "T-shirt du logo de Freddy",
+   "categorie": "Clothing"
+  },
+  "c_shirt_star": {
+   "en": "Star Shirt",
+   "fr": "T-shirt de star",
+   "categorie": "Clothing"
+  },
+  "c_shirt_four": {
+   "en": "Four Block Shirt",
+   "fr": "T-shirt des quatre blocs",
+   "categorie": "Clothing"
+  },
+  "c_key_spfreddy": {
+   "en": "Space Freddy Keychain",
+   "fr": "Porte-clés Freddy de l’espace",
+   "categorie": "Trophy"
+  },
+  "c_key_spmonty": {
+   "en": "Space Monty Keychain",
+   "fr": "Porte-clés Monty de l’espace",
+   "categorie": "Trophy"
+  },
+  "c_key_spchica": {
+   "en": "Space Chica Keychain",
+   "fr": "Porte-clés Chica de l’espace",
+   "categorie": "Trophy"
+  },
+  "c_key_sproxy": {
+   "en": "Space Roxy Keychain",
+   "fr": "Porte-clés Roxy de l’espace",
+   "categorie": "Trophy"
+  },
+  "c_plush_bonnie": {
+   "en": "Bonnie Plush",
+   "fr": "Peluche de Bonnie",
+   "categorie": "Toys"
+  },
+  "c_plush_foxy": {
+   "en": "Foxy Plush",
+   "fr": "Peluche de Foxy",
+   "categorie": "Toys"
+  },
+  "c_plush_night": {
+   "en": "Nightmare Plush",
+   "fr": "Peluche cauchemardesque",
+   "categorie": "Toys"
+  },
+  "c_magnet_chica": {
+   "en": "Chica Magnet",
+   "fr": "Aimant de Chica",
+   "categorie": "Toys"
+  },
+  "c_magnet_monty": {
+   "en": "Monty Magnet",
+   "fr": "Aimant de Monty",
+   "categorie": "Toys"
+  },
+  "c_magnet_freddy": {
+   "en": "Freddy Magnet",
+   "fr": "Aimant de Freddy",
+   "categorie": "Toys"
+  },
+  "c_magnet_roxy": {
+   "en": "Roxy Magnet",
+   "fr": "Aimant de Roxy",
+   "categorie": "Toys"
+  },
+  "c_pinata_general": {
+   "en": "Piñata",
+   "fr": "Piñata",
+   "categorie": "Trophy"
+  },
+  "c_golden_freddy": {
+   "en": "Golden Freddy",
+   "fr": "Freddy en or",
+   "categorie": "Toys"
+  },
+  "c_golden_chica": {
+   "en": "Golden Chica",
+   "fr": "Chica en or",
+   "categorie": "Toys"
+  },
+  "c_golden_roxy": {
+   "en": "Golden Roxy",
+   "fr": "Roxy en or",
+   "categorie": "Toys"
+  },
+  "c_golden_monty": {
+   "en": "Golden Monty",
+   "fr": "Monty en or",
+   "categorie": "Toys"
+  },
+  "c_golden_sun": {
+   "en": "Golden Sun",
+   "fr": "Soleil en or",
+   "categorie": "Toys"
+  },
+  "c_golden_moon": {
+   "en": "Golden Moon",
+   "fr": "Lune en or",
+   "categorie": "Toys"
+  },
+  "c_gokart": {
+   "en": "Go Kart",
+   "fr": "Go Kart",
+   "categorie": "Toys"
+  },
+  "c_plush_baby": {
+   "en": "Plush Baby",
+   "fr": "Peluche de Baby",
+   "categorie": "Toys"
+  },
+  "PartyPassStay": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée",
+   "categorie": "PartyBadge"
+  },
+  "SecurityBadgeWestArcade": {
+   "en": "Security Badge",
+   "fr": "Badge de sécurité",
+   "categorie": "SecurityBadge"
+  },
+  "c_poster1": {
+   "en": "Old Poster",
+   "fr": "Vieille affiche",
+   "categorie": "Trophy"
+  },
+  "c_poster2": {
+   "en": "Old Poster",
+   "fr": "Vieille affiche",
+   "categorie": "Trophy"
+  },
+  "c_poster3": {
+   "en": "Old Poster",
+   "fr": "Vieille affiche",
+   "categorie": "Trophy"
+  },
+  "c_poster4": {
+   "en": "Old Poster",
+   "fr": "Vieille affiche",
+   "categorie": "Trophy"
+  }
+ },
+ "missions": {
+  "ChicaBeak": {
+   "en": "Chica's Beak",
+   "fr": "Bec de Chica"
+  },
+  "EscapeDaycare": {
+   "en": "Escape The Daycare",
+   "fr": "Échappez-vous de la garderie"
+  },
+  "FazerBlast": {
+   "en": "Fazer Blast",
+   "fr": "Fazer Blast"
+  },
+  "DumpsterDiving": {
+   "en": "Dumpster Diving",
+   "fr": "Faire les poubelles"
+  },
+  "FindFreddy": {
+   "en": "Find Freddy",
+   "fr": "Trouvez Freddy"
+  },
+  "FreeFreddy": {
+   "en": "Free Freddy",
+   "fr": "Libérez Freddy"
+  },
+  "GetOut": {
+   "en": "Get Out",
+   "fr": "Sortez d’ici"
+  },
+  "StopRoxy": {
+   "en": "Stop Roxy",
+   "fr": "Arrêtez Roxy"
+  },
+  "RepairRobotHead": {
+   "en": "Repair Robot Head",
+   "fr": "Réparez la tête de robot"
+  },
+  "KitchenOffice": {
+   "en": "Kitchen Office",
+   "fr": "Bureau de la cuisine"
+  },
+  "LetThereBeLight": {
+   "en": "Let There Be Light",
+   "fr": "Que la lumière soit"
+  },
+  "LoadingDock": {
+   "en": "Loading Dock",
+   "fr": "Quai de chargement"
+  },
+  "LostAndFound": {
+   "en": "Lost And Found",
+   "fr": "Objets trouvés"
+  },
+  "MontyClaws": {
+   "en": "Monty's Claws",
+   "fr": "Griffes de Monty"
+  },
+  "NoReEntry": {
+   "en": "No Re-entry",
+   "fr": "Toute sortie est définitive"
+  },
+  "PlanA": {
+   "en": "Plan A",
+   "fr": "Plan A"
+  },
+  "PrizeCounter": {
+   "en": "Prize Counter",
+   "fr": "Bureau des prix"
+  },
+  "RoxyEyes": {
+   "en": "Upgrade Freddy",
+   "fr": "Améliorez Freddy"
+  },
+  "SlideIntoFun": {
+   "en": "Slide Into Fun",
+   "fr": "J’ai glissé, chef"
+  },
+  "Survival": {
+   "en": "Collect Gifts",
+   "fr": "Récupérez des cadeaux"
+  },
+  "TakeMap": {
+   "en": "Free Map",
+   "fr": "Carte gratuite"
+  },
+  "RehearsalSpace": {
+   "en": "Rehearsal Space",
+   "fr": "Salle de répétition"
+  },
+  "Backstage": {
+   "en": "Backstage",
+   "fr": "Coulisses"
+  },
+  "Showtime": {
+   "en": "Showtime",
+   "fr": "Le clou du spectacle"
+  },
+  "PartsandService": {
+   "en": "Parts and Service",
+   "fr": "Pièces et Entretien"
+  },
+  "MontyGolf": {
+   "en": "Monty Golf",
+   "fr": "Monty Golf"
+  },
+  "RoxysWeakness": {
+   "en": "Roxy's Weakness",
+   "fr": "Le point faible de Roxy"
+  },
+  "MontyMysteryMix": {
+   "en": "Monty Mystery Mix",
+   "fr": "Mystery Mix de Monty"
+  },
+  "PowerOn": {
+   "en": "Power On",
+   "fr": "Allumage"
+  },
+  "OfficeToOffice": {
+   "en": "Office to Office",
+   "fr": "D'un bureau à l'autre"
+  },
+  "OfficeToOffice_0_Title": {
+   "en": "Investigate Fazer Blast Office",
+   "fr": "Fouillez le bureau du Fazer Blast"
+  },
+  "PowerOn_0_Title": {
+   "en": "Turn on the generator for the Trash Compactor",
+   "fr": "Allumez le générateur du compacteur de déchets"
+  },
+  "MysteryMix_0_Title": {
+   "en": "Find the Monty Mystery Mix in Bonnie Bowl",
+   "fr": "Trouvez le Mystery Mix de Monty dans le Bonnie Bowl"
+  },
+  "MysteryMix_1_Title": {
+   "en": "Use Monty Mystery Mix in Kitchen Compactor",
+   "fr": "Utilisez le Mystery Mix de Monty dans le compacteur de la cuisine"
+  },
+  "DumpsterDiving_0_Title": {
+   "en": "Find out how to decommission Chica",
+   "fr": "Trouvez comment désactiver Chica"
+  },
+  "DumpsterDiving_1_Title": {
+   "en": "Lure Chica into the Kitchen Trash Compactor",
+   "fr": "Attirez Chica dans le compacteur de déchets de cuisine"
+  },
+  "DumpsterDiving_2_Title": {
+   "en": "Get Voice Box from Chica and escape",
+   "fr": "Récupérez le larynx de Chica et fuyez"
+  },
+  "DumpsterDiving_3_Title": {
+   "en": "Upgrade Freddy in Parts and Service",
+   "fr": "Améliorez Freddy au service Pièces et Entretien"
+  },
+  "Moonlight_Serenade": {
+   "en": "Moonlight Serenade",
+   "fr": "Sérénade au clair de lune"
+  },
+  "Moonlight_Serenade_0": {
+   "en": "Get to the recharge station!",
+   "fr": "Rendez-vous à la station de recharge !"
+  },
+  "PartyPass_00_Title": {
+   "en": "Use service elevators up to Rockstar Row",
+   "fr": "Utilisez l’ascenseur de service jusqu’au Rockstar Row"
+  },
+  "PartyPass_01_Title": {
+   "en": "Find the Party Pass in Chica’s Green Room",
+   "fr": "Trouvez le billet d’entrée dans la loge de Chica"
+  },
+  "PartyPass": {
+   "en": "Party Pass",
+   "fr": "Billet d’entrée"
+  },
+  "ThrillSeeker": {
+   "en": "Thrill Seeker",
+   "fr": "Grand frisson"
+  },
+  "Warehouse": {
+   "en": "Warehouse",
+   "fr": "Entrepôt"
+  },
+  "LookatFazwatch_Title": {
+   "en": "Look at Fazwatch",
+   "fr": "Regardez la FazWatch"
+  },
+  "LookatFazwatch_Description": {
+   "en": "Observe security cameras on Fazwatch",
+   "fr": "Observez les caméras de sécurité sur la FazWatch"
+  },
+  "GetOut!": {
+   "en": "Get Out!",
+   "fr": "Sortez d’ici!"
+  },
+  "RechargeTime": {
+   "en": "Recharge Time!",
+   "fr": "Temps de recharge !"
+  },
+  "RechargeTime_00_Title": {
+   "en": "Get to the recharge station!",
+   "fr": "Rendez-vous à la station de recharge !"
+  }
+ },
+ "messages": {
+  "Loc_MessageData_FreddyIntro_Title": {
+   "en": "Hello Gregory",
+   "fr": "Bonjour, Gregory"
+  },
+  "Loc_MessageData_RoxyWeakness_Title": {
+   "en": "Driver Warning!",
+   "fr": "Avertissement pour les pilotes !"
+  },
+  "Loc_MessageData_RoxyMessage_Title": {
+   "en": "Staff Note",
+   "fr": "À l’attention du personnel"
+  },
+  "Loc_MessageData_PartyFoul_Title": {
+   "en": "Party Foul",
+   "fr": "Cadeau empoisonné"
+  },
+  "Loc_MessageData_FoodStorage_Title": {
+   "en": "Food Storage",
+   "fr": "Rangement des aliments"
+  },
+  "Loc_MessageData_Complaint2_Title": {
+   "en": "HI DAVE",
+   "fr": "SALUT DAVE"
+  },
+  "Loc_MessageData_ACInspection_Title": {
+   "en": "AC Inspection",
+   "fr": "Inspection de la ventilation"
+  },
+  "Loc_MessageData_NightTerrors_Title": {
+   "en": "Night Terrors",
+   "fr": "Terreurs nocturnes"
+  },
+  "Loc_MessageData_Stolenproperty_Title": {
+   "en": "Stolen property",
+   "fr": "Propriété volée"
+  },
+  "Loc_MessageData_FalseAlarm_Title": {
+   "en": "False Alarm",
+   "fr": "Fausse alerte"
+  },
+  "Loc_MessageData_DrinkFizzyFaz_Title": {
+   "en": "Drink Fizzy Faz!!!!",
+   "fr": "Buvez Fizzy Faz !!!!"
+  },
+  "Loc_MessageData_Chasingcars_Title": {
+   "en": "Chasing cars",
+   "fr": "Courses-poursuites"
+  },
+  "Loc_MessageData_ChicaBoss4_Title": {
+   "en": "CHICA REPORT",
+   "fr": "RAPPORT SUR CHICA"
+  },
+  "Loc_MessageData_MontyMischief_Title": {
+   "en": "Monty Mischief",
+   "fr": "Les malheurs de Monty"
+  },
+  "Loc_MessageData_HURRICANE_Title": {
+   "en": "HURRICANE",
+   "fr": "OURAGAN"
+  },
+  "Loc_MessageData_Bonniereplacement_Title": {
+   "en": "Understudy",
+   "fr": "Doublure"
+  },
+  "Loc_MessageData_Re-theme_Title": {
+   "en": "Re-theme",
+   "fr": "Rénovation"
+  },
+  "Loc_MessageData_Bonnieslastmovements_Title": {
+   "en": "Bonnie's last movements",
+   "fr": "Derniers déplacements de Bonnie"
+  },
+  "Loc_MessageData_NoflashPhotography_Title": {
+   "en": "No Flash Photography",
+   "fr": "Photos sans flash"
+  },
+  "Loc_MessageData_Hidethemix_Title": {
+   "en": "Hide the mix",
+   "fr": "Cacher le Mystery Mix"
+  },
+  "Loc_MessageData_BonnieMissing_Title": {
+   "en": "MISSING",
+   "fr": "DISPARITION"
+  },
+  "Loc_MessageData_StaffParty1_Title": {
+   "en": "QUESTION",
+   "fr": "QUESTION"
+  },
+  "Loc_MessageData_StaffParty2_Title": {
+   "en": "All Staff Meeting",
+   "fr": "Réunion du personnel"
+  },
+  "Loc_MessageData_Staff1_Title": {
+   "en": "PINK SLIP",
+   "fr": "LETTRE DE LICENCIEMENT"
+  },
+  "Loc_MessageData_MontyBoss1_Title": {
+   "en": "BEHIND THE MAZE",
+   "fr": "DERRIÈRE LE LABYRINTHE"
+  },
+  "Loc_MessageData_UpgradeMachine1_Title": {
+   "en": "Easy Money",
+   "fr": "ARGENT FACILE"
+  },
+  "Loc_MessageData_MontyBoss2_Title": {
+   "en": "THE ANSWER",
+   "fr": "LA RÉPONSE"
+  },
+  "Loc_MessageData_MontyBoss3_Title": {
+   "en": "Job Security",
+   "fr": "Sécurité de l'emploi"
+  },
+  "Loc_MessageData_ChicaBoss2_Title": {
+   "en": "SAFETY CHECK",
+   "fr": "MESURES DE SÉCURITÉ"
+  },
+  "Loc_MessageData_ChicaBoss3_Title": {
+   "en": "COMPACTOR INSTRUCTIONS",
+   "fr": "INSTRUCTIONS DU COMPACTEUR"
+  },
+  "Loc_MessageData_RoxyBoss1_Title": {
+   "en": "SORE WINNER",
+   "fr": "VICTOIRE DOULOUREUSE"
+  },
+  "Loc_MessageData_RoxyBoss3_Title": {
+   "en": "TEST DRIVERS WANTED",
+   "fr": "RECHERCHE PILOTES DE TEST"
+  },
+  "Loc_MessageData_ArcadeGlitches1_Title": {
+   "en": "BBW MAINT LOG",
+   "fr": "RAPPORT D’ENTRETIEN BBW"
+  },
+  "Loc_MessageData_ArcadeGlitches2_Title": {
+   "en": "CFF MAINT LOG",
+   "fr": "RAPPORT D’ENTRETIEN CFF"
+  },
+  "Loc_MessageData_ArcadeGlitches3_Title": {
+   "en": "AR-CADE MAINT LOG",
+   "fr": "RAPPORT D’ENTRETIEN AR-CADE"
+  },
+  "Loc_MessageData_ArcadeGlitches4_Title": {
+   "en": "PQ1 MAINT LOG",
+   "fr": "RAPPORT D’ENTRETIEN PQ1"
+  },
+  "Loc_MessageData_ArcadeGlitches5_Title": {
+   "en": "PQ2 MAINT LOG",
+   "fr": "RAPPORT D’ENTRETIEN PQ2"
+  },
+  "Loc_MessageData_ArcadeGlitches6_Title": {
+   "en": "OUT OF ORDER",
+   "fr": "HORS-SERVICE"
+  },
+  "Loc_MessageData_ArcadeGlitches7_Title": {
+   "en": "RED FLAG",
+   "fr": "DRAPEAU ROUGE"
+  },
+  "Loc_MessageData_ArcadeGlitches8_Title": {
+   "en": "ARCADE CONSPIRACY",
+   "fr": "COMPLOT D’ARCADE"
+  },
+  "Loc_MessageData_Vanessa1_Title": {
+   "en": "NO QUESTIONS ASKED",
+   "fr": "AUCUNE QUESTION"
+  },
+  "Loc_MessageData_ChicaVoiceBox_Title": {
+   "en": "CHICA UPGRADE",
+   "fr": "AMÉLIORATION DE CHICA"
+  },
+  "Loc_MessageData_RoxyEyes_Title": {
+   "en": "ROXY UPGRADE",
+   "fr": "AMÉLIORATION DE ROXY"
+  },
+  "Loc_MessageData_MontyClaws_Title": {
+   "en": "MONTY UPGRADE",
+   "fr": "AMÉLIORATION DE MONTY"
+  },
+  "Loc_MessageData_TornPaper_Title": {
+   "en": "TORN PAPER",
+   "fr": "PAPIER DÉCHIRÉ"
+  },
+  "Loc_MessageData_RayMessage1_Title": {
+   "en": "BETTER EMPLOYEES",
+   "fr": "EMPLOYÉS SUPÉRIEURS"
+  },
+  "Loc_MessageData_NightShift_Title": {
+   "en": "NIGHT SHIFT",
+   "fr": "TRAVAIL DE NUIT"
+  },
+  "Loc_MessageData_Complaint1_Title": {
+   "en": "RECYCLED PIZZA?",
+   "fr": "PIZZA RECYCLÉE ?"
+  },
+  "Loc_MessageData_Complaint3_Title": {
+   "en": "IT IS HAPPENING AGAIN",
+   "fr": "ET C’EST REPARTI"
+  },
+  "Loc_MessageData_Sinkhole1_Title": {
+   "en": "SINKHOLE",
+   "fr": "DOLINE"
+  },
+  "Loc_MessageData_Sinkhole2_Title": {
+   "en": "POWER DRAIN",
+   "fr": "PERTE DE PUISSANCE"
+  },
+  "Loc_MessageData_Sinkhole3_Title": {
+   "en": "OLD ELEVATOR",
+   "fr": "VIEIL ASCENSEUR"
+  },
+  "Loc_MessageData_Vanessa2_Title": {
+   "en": "MARKED FOR DELETION",
+   "fr": "À SUPPRIMER"
+  },
+  "Loc_MessageData_DJMM_Title": {
+   "en": "ULTIMATE PARTY HOST",
+   "fr": "HÔTE DE SOIRÉE ULTIME"
+  }
+ }
+}

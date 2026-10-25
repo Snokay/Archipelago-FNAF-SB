@@ -1,0 +1,2186 @@
+[
+ {
+  "id": "MAP_Backstage_Gameplay:ChicaGreenroomCollectible_4",
+  "type": "special",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "ChicaGreenroomCollectible_C",
+  "objet": "PartyPassChicaRoom",
+  "pos": [
+   "-4205",
+   "51730",
+   "1552"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:CollectibleTape2",
+  "type": "cd",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_0",
+  "pos": [
+   "354",
+   "49305",
+   "1543"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:MessageCollectible2",
+  "type": "message",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "MontyBoss4",
+  "pos": [
+   "-2050",
+   "52127",
+   "1552"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:MessageCollectible3_2",
+  "type": "message",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "ChicaBoss4",
+  "pos": [
+   "-4509",
+   "51612",
+   "1492"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:MessageCollectible5_2",
+  "type": "message",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "BonnieMissing1",
+  "pos": [
+   "-8664",
+   "50851",
+   "1459"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:MessageCollectible_2",
+  "type": "message",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "Freddy1",
+  "pos": [
+   "2163",
+   "49453",
+   "1508"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:PhotoPassCollectible2",
+  "type": "special",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "PhotoPassCollectible_C",
+  "objet": "PhotoPass",
+  "pos": [
+   "4885",
+   "48828",
+   "1459"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:Pre_BadgeHolder_Backstage_2",
+  "type": "badge",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "Pre_BadgeHolder_Backstage_C",
+  "objet": "SecurityBadgeBackstage",
+  "pos": [
+   "-1402",
+   "49220",
+   "2123"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:PresentCollectible2_5",
+  "type": "cadeau",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_11",
+  "pos": [
+   "5026",
+   "44141",
+   "1546"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:PresentCollectible3",
+  "type": "cadeau",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_shirt_freddyicon",
+  "pos": [
+   "6560",
+   "47150",
+   "1460"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:PresentCollectible4_2",
+  "type": "cadeau",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "UncommonCollectible_6",
+  "pos": [
+   "-5301",
+   "53123",
+   "1460"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:PresentCollectible5_5",
+  "type": "cadeau",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "FlashlightUpgrade_2",
+  "pos": [
+   "-8472",
+   "53392",
+   "1497"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:PresentCollectible6_2",
+  "type": "cadeau",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_golden_freddy",
+  "pos": [
+   "-2820",
+   "51911",
+   "1507"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:PresentCollectible7_2",
+  "type": "cadeau",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_shirt_four",
+  "pos": [
+   "-546",
+   "52284",
+   "1554"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:PresentCollectible8_5",
+  "type": "cadeau",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "RareCollectible_1",
+  "pos": [
+   "-4150",
+   "52776",
+   "1722"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:PresentCollectible9_2",
+  "type": "cadeau",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_12",
+  "pos": [
+   "1969",
+   "53880",
+   "1566"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_Gameplay:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_6",
+  "pos": [
+   "-5321",
+   "47543",
+   "1517"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_RehearsalRoom:BackstagePass_2",
+  "type": "special",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_RehearsalRoom",
+  "classe": "BackstagePass_C",
+  "objet": "BackstagePass",
+  "pos": [
+   "-8922",
+   "49896",
+   "1568"
+  ]
+ },
+ {
+  "id": "MAP_Backstage_RehearsalRoom:CollectibleTape3_2",
+  "type": "cd",
+  "zone": "Backstage/Behind_Stage",
+  "carte": "MAP_Backstage_RehearsalRoom",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_8",
+  "pos": [
+   "-7623",
+   "51271",
+   "1590"
+  ]
+ },
+ {
+  "id": "MAP_BSOfficeCam_RRow:MessageCollectible7_0",
+  "type": "message",
+  "zone": "Backstage/Behind_Stage/CameraMaps/BackstageOfficeGame_CameraMaps",
+  "carte": "MAP_BSOfficeCam_RRow",
+  "classe": "MessageCollectible_C",
+  "objet": "Freddy1",
+  "pos": [
+   "2163",
+   "49453",
+   "1508"
+  ]
+ },
+ {
+  "id": "MAP_RockstarRow_AirlockEast:CollectibleTape4_2",
+  "type": "cd",
+  "zone": "Backstage/Rockstar_Row",
+  "carte": "MAP_RockstarRow_AirlockEast",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_14",
+  "pos": [
+   "-8325",
+   "41486",
+   "1521"
+  ]
+ },
+ {
+  "id": "MAP_RockstarRow_Entrance_West:CollectibleTape",
+  "type": "cd",
+  "zone": "Backstage/Rockstar_Row",
+  "carte": "MAP_RockstarRow_Entrance_West",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_10",
+  "pos": [
+   "4215",
+   "45291",
+   "1558"
+  ]
+ },
+ {
+  "id": "MAP_Daycare_Gameplay:MessageCollectible2",
+  "type": "message",
+  "zone": "Daycare",
+  "carte": "MAP_Daycare_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "ArcadeGlitches6",
+  "pos": [
+   "-12209",
+   "31060",
+   "1469"
+  ]
+ },
+ {
+  "id": "MAP_Daycare_Gameplay:MessageCollectible3_3",
+  "type": "message",
+  "zone": "Daycare",
+  "carte": "MAP_Daycare_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "ArcadeGlitches1",
+  "pos": [
+   "-20276",
+   "30142",
+   "1341"
+  ]
+ },
+ {
+  "id": "MAP_Daycare_Gameplay:MessageCollectible_2",
+  "type": "message",
+  "zone": "Daycare",
+  "carte": "MAP_Daycare_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "Complaint1",
+  "pos": [
+   "-12829",
+   "33989",
+   "2115"
+  ]
+ },
+ {
+  "id": "MAP_Daycare_Gameplay:PRE_BadgeHolder_Daycare_2",
+  "type": "badge",
+  "zone": "Daycare",
+  "carte": "MAP_Daycare_Gameplay",
+  "classe": "PRE_BadgeHolder_Daycare_C",
+  "objet": "SecurityBadgeDaycare",
+  "pos": [
+   "-16676",
+   "33105",
+   "1530"
+  ]
+ },
+ {
+  "id": "MAP_Daycare_Gameplay:PresentCollectible2_2",
+  "type": "cadeau",
+  "zone": "Daycare",
+  "carte": "MAP_Daycare_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_golden_moon",
+  "pos": [
+   "-16900",
+   "27221",
+   "2094"
+  ]
+ },
+ {
+  "id": "MAP_Daycare_Gameplay:PresentCollectible3_5",
+  "type": "cadeau",
+  "zone": "Daycare",
+  "carte": "MAP_Daycare_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "FlashlightUpgrade_1",
+  "pos": [
+   "-17348",
+   "28287",
+   "1748"
+  ]
+ },
+ {
+  "id": "MAP_Daycare_Gameplay:PresentCollectible4_8",
+  "type": "cadeau",
+  "zone": "Daycare",
+  "carte": "MAP_Daycare_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "RareCollectible_0",
+  "pos": [
+   "-19884",
+   "34446",
+   "2092"
+  ]
+ },
+ {
+  "id": "MAP_Daycare_Gameplay:PresentCollectible5_11",
+  "type": "cadeau",
+  "zone": "Daycare",
+  "carte": "MAP_Daycare_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_3",
+  "pos": [
+   "-20918",
+   "29486",
+   "1231"
+  ]
+ },
+ {
+  "id": "MAP_Daycare_Gameplay:PresentCollectible7_2",
+  "type": "cadeau",
+  "zone": "Daycare",
+  "carte": "MAP_Daycare_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_plush_baby",
+  "pos": [
+   "-16471",
+   "36485",
+   "2161"
+  ]
+ },
+ {
+  "id": "MAP_Daycare_Gameplay:PresentCollectible8_2",
+  "type": "cadeau",
+  "zone": "Daycare",
+  "carte": "MAP_Daycare_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "UncommonCollectible_5",
+  "pos": [
+   "-12154",
+   "34962",
+   "2161"
+  ]
+ },
+ {
+  "id": "MAP_Daycare_Gameplay:PresentCollectible9_5",
+  "type": "cadeau",
+  "zone": "Daycare",
+  "carte": "MAP_Daycare_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_poster1",
+  "pos": [
+   "-20086",
+   "33181",
+   "1557"
+  ]
+ },
+ {
+  "id": "Airlock_3:MessageCollectible_2",
+  "type": "message",
+  "zone": "Daycare/Airlock_Rooms",
+  "carte": "Airlock_3",
+  "classe": "MessageCollectible_C",
+  "objet": "NightTerrors",
+  "pos": [
+   "-6683",
+   "25950",
+   "2175"
+  ]
+ },
+ {
+  "id": "Airlock_3:PresentCollectible6_14",
+  "type": "cadeau",
+  "zone": "Daycare/Airlock_Rooms",
+  "carte": "Airlock_3",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_5",
+  "pos": [
+   "-5915",
+   "25581",
+   "2128"
+  ]
+ },
+ {
+  "id": "Airlock_3:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "Daycare/Airlock_Rooms",
+  "carte": "Airlock_3",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_0",
+  "pos": [
+   "-7055",
+   "28310",
+   "2223"
+  ]
+ },
+ {
+  "id": "MAP_Daycare_Hideout:MessageCollectible4_2",
+  "type": "message",
+  "zone": "Daycare/DayTime",
+  "carte": "MAP_Daycare_Hideout",
+  "classe": "MessageCollectible_C",
+  "objet": "ArcadeGlitches8",
+  "pos": [
+   "-16801",
+   "27236",
+   "2093"
+  ]
+ },
+ {
+  "id": "MAP_EastArcade_Gameplay2:MessageCollectible_2",
+  "type": "message",
+  "zone": "East_Arcade",
+  "carte": "MAP_EastArcade_Gameplay2",
+  "classe": "MessageCollectible_C",
+  "objet": "NightShift",
+  "pos": [
+   "-6898",
+   "24374",
+   "3371"
+  ]
+ },
+ {
+  "id": "MAP_EastArcade_Gameplay2:PRE_BadgeHolder_PrizeCounter_2",
+  "type": "badge",
+  "zone": "East_Arcade",
+  "carte": "MAP_EastArcade_Gameplay2",
+  "classe": "PRE_BadgeHolder_PrizeCounter_C",
+  "objet": "SecurityBadgePrizeCounter",
+  "pos": [
+   "-5548",
+   "27298",
+   "3352"
+  ]
+ },
+ {
+  "id": "MAP_EastArcade_Gameplay2:PresentCollectible3_3",
+  "type": "cadeau",
+  "zone": "East_Arcade",
+  "carte": "MAP_EastArcade_Gameplay2",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_13",
+  "pos": [
+   "-11858",
+   "28501",
+   "3250"
+  ]
+ },
+ {
+  "id": "MAP_ElChips_Gameplay:PresentCollectible2",
+  "type": "cadeau",
+  "zone": "East_Arcade",
+  "carte": "MAP_ElChips_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "GregoryUpgrade_Stamina_3",
+  "pos": [
+   "-10059",
+   "34952",
+   "3350"
+  ]
+ },
+ {
+  "id": "MAP_Cupcake_Shop:CollectibleTape_4",
+  "type": "cd",
+  "zone": "East_Atrium",
+  "carte": "MAP_Cupcake_Shop",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_2",
+  "pos": [
+   "-11195",
+   "46125",
+   "2163"
+  ]
+ },
+ {
+  "id": "MAP_EastAtrium_Sublobbies_Gameplay:MessageCollectible12_2",
+  "type": "message",
+  "zone": "East_Atrium",
+  "carte": "MAP_EastAtrium_Sublobbies_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "ArcadeGlitches3",
+  "pos": [
+   "-9874",
+   "47495",
+   "2091"
+  ]
+ },
+ {
+  "id": "MAP_EastAtrium_Sublobbies_Gameplay:MessageCollectible2",
+  "type": "message",
+  "zone": "East_Atrium",
+  "carte": "MAP_EastAtrium_Sublobbies_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "ArcadeGlitches2",
+  "pos": [
+   "-10586",
+   "46039",
+   "2199"
+  ]
+ },
+ {
+  "id": "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible2_2",
+  "type": "cadeau",
+  "zone": "East_Atrium",
+  "carte": "MAP_EastAtrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "UncommonCollectible_7",
+  "pos": [
+   "-10944",
+   "39579",
+   "1457"
+  ]
+ },
+ {
+  "id": "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible3_9",
+  "type": "cadeau",
+  "zone": "East_Atrium",
+  "carte": "MAP_EastAtrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_golden_sun",
+  "pos": [
+   "-10875",
+   "35232",
+   "1457"
+  ]
+ },
+ {
+  "id": "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible4_2",
+  "type": "cadeau",
+  "zone": "East_Atrium",
+  "carte": "MAP_EastAtrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_magnet_monty",
+  "pos": [
+   "-10164",
+   "47088",
+   "2161"
+  ]
+ },
+ {
+  "id": "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible6_12",
+  "type": "cadeau",
+  "zone": "East_Atrium",
+  "carte": "MAP_EastAtrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "UncommonCollectible_4",
+  "pos": [
+   "-10177",
+   "31547",
+   "1453"
+  ]
+ },
+ {
+  "id": "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible7_15",
+  "type": "cadeau",
+  "zone": "East_Atrium",
+  "carte": "MAP_EastAtrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_1",
+  "pos": [
+   "-10322",
+   "41805",
+   "1457"
+  ]
+ },
+ {
+  "id": "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "East_Atrium",
+  "carte": "MAP_EastAtrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "GregoryUpgrade_Stealth",
+  "pos": [
+   "-11300",
+   "48050",
+   "2154"
+  ]
+ },
+ {
+  "id": "MAP_East_Atrium_Sublobbies:CollectibleTape2",
+  "type": "cd",
+  "zone": "East_Atrium",
+  "carte": "MAP_East_Atrium_Sublobbies",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_3",
+  "pos": [
+   "-9039",
+   "35837",
+   "1571"
+  ]
+ },
+ {
+  "id": "MAP_FazerBlast_Gameplay:BowlingTicket_2",
+  "type": "special",
+  "zone": "FazerBlast",
+  "carte": "MAP_FazerBlast_Gameplay",
+  "classe": "BowlingTicket_C",
+  "objet": "BowlingTicket",
+  "pos": [
+   "-740",
+   "7046",
+   "523"
+  ]
+ },
+ {
+  "id": "MAP_FazerBlast_Gameplay:LaserGunCollectible_Prize_4",
+  "type": "special",
+  "zone": "FazerBlast",
+  "carte": "MAP_FazerBlast_Gameplay",
+  "classe": "LaserGunCollectible_Prize_C",
+  "objet": "Fazergun",
+  "pos": [
+   "-2211",
+   "1969",
+   "597"
+  ]
+ },
+ {
+  "id": "MAP_FazerBlast_Gameplay:MessageCollectible_2",
+  "type": "message",
+  "zone": "FazerBlast",
+  "carte": "MAP_FazerBlast_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "Vanessa1",
+  "pos": [
+   "-4460",
+   "316",
+   "832"
+  ]
+ },
+ {
+  "id": "MAP_FazerBlast_Gameplay:MessageCollectible_PrizeRoom",
+  "type": "message",
+  "zone": "FazerBlast",
+  "carte": "MAP_FazerBlast_Gameplay",
+  "classe": "MessageCollectible_PrizeRoom_C",
+  "objet": "ChicaBoss1",
+  "pos": [
+   "-999",
+   "6849",
+   "510"
+  ]
+ },
+ {
+  "id": "MAP_FazerBlast_Gameplay:PresentCollectible2_6",
+  "type": "cadeau",
+  "zone": "FazerBlast",
+  "carte": "MAP_FazerBlast_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_14",
+  "pos": [
+   "-867",
+   "5644",
+   "525"
+  ]
+ },
+ {
+  "id": "MAP_FazerBlast_Gameplay:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "FazerBlast",
+  "carte": "MAP_FazerBlast_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_key_spchica",
+  "pos": [
+   "3109",
+   "6070",
+   "488"
+  ]
+ },
+ {
+  "id": "MAP_FazerBlast_Gameplay:SecurityBadge_LaserTag",
+  "type": "cadeau",
+  "zone": "FazerBlast",
+  "carte": "MAP_FazerBlast_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_key_sproxy",
+  "pos": [
+   "-592",
+   "7675",
+   "515"
+  ]
+ },
+ {
+  "id": "MAP_FazerBlast_Lobby:CollectibleTape",
+  "type": "cd",
+  "zone": "FazerBlast",
+  "carte": "MAP_FazerBlast_Lobby",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_6",
+  "pos": [
+   "2059",
+   "7757",
+   "529"
+  ]
+ },
+ {
+  "id": "MAP_FazerBlast_Lobby:PRE_BadgeHolder_2",
+  "type": "badge",
+  "zone": "FazerBlast",
+  "carte": "MAP_FazerBlast_Lobby",
+  "classe": "PRE_BadgeHolder_C",
+  "objet": "SecurityBadgeFazerBlast",
+  "pos": [
+   "-755",
+   "6910",
+   "532"
+  ]
+ },
+ {
+  "id": "MAP_GatorGolf_Gameplay:CollectibleTape",
+  "type": "cd",
+  "zone": "GatorGolf",
+  "carte": "MAP_GatorGolf_Gameplay",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_12",
+  "pos": [
+   "2157",
+   "-1732",
+   "590"
+  ]
+ },
+ {
+  "id": "MAP_GatorGolf_Gameplay:FlashBeaconCollect_2",
+  "type": "special",
+  "zone": "GatorGolf",
+  "carte": "MAP_GatorGolf_Gameplay",
+  "classe": "FlashBeaconCollect_C",
+  "objet": "FlashBeacon",
+  "pos": [
+   "-879",
+   "5395",
+   "61"
+  ]
+ },
+ {
+  "id": "MAP_GatorGolf_Gameplay:MazercizeTicket_2",
+  "type": "special",
+  "zone": "GatorGolf",
+  "carte": "MAP_GatorGolf_Gameplay",
+  "classe": "MazercizeTicket_C",
+  "objet": "MazerciseTicket",
+  "pos": [
+   "-629",
+   "4996",
+   "59"
+  ]
+ },
+ {
+  "id": "MAP_GatorGolf_Gameplay:CustomerComplaint",
+  "type": "message",
+  "zone": "GatorGolf",
+  "carte": "MAP_GatorGolf_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "FlashCam",
+  "pos": [
+   "2932",
+   "1197",
+   "87"
+  ]
+ },
+ {
+  "id": "MAP_GatorGolf_Gameplay:MontyClue",
+  "type": "message",
+  "zone": "GatorGolf",
+  "carte": "MAP_GatorGolf_Gameplay",
+  "classe": "MessageCollectible_MontyClue_C",
+  "objet": "?",
+  "pos": [
+   "-551",
+   "5291",
+   "2"
+  ]
+ },
+ {
+  "id": "MAP_GatorGolf_Gameplay:PresentCollectible10_2",
+  "type": "cadeau",
+  "zone": "GatorGolf",
+  "carte": "MAP_GatorGolf_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_gokart",
+  "pos": [
+   "1630",
+   "824",
+   "175"
+  ]
+ },
+ {
+  "id": "MAP_GatorGolf_Gameplay:PresentCollectible3",
+  "type": "cadeau",
+  "zone": "GatorGolf",
+  "carte": "MAP_GatorGolf_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_mask_tragedy",
+  "pos": [
+   "86",
+   "-2156",
+   "160"
+  ]
+ },
+ {
+  "id": "MAP_GatorGolf_Gameplay:PresentCollectible8_2",
+  "type": "cadeau",
+  "zone": "GatorGolf",
+  "carte": "MAP_GatorGolf_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "FlashlightUpgrade_0",
+  "pos": [
+   "-2805",
+   "4288",
+   "106"
+  ]
+ },
+ {
+  "id": "MAP_GatorGolf_SecurityRoom:PRE_BadgeHolder_MontyGolf",
+  "type": "badge",
+  "zone": "GatorGolf",
+  "carte": "MAP_GatorGolf_SecurityRoom",
+  "classe": "PRE_BadgeHolder_C",
+  "objet": "SecurityBadgeMontyGolf",
+  "pos": [
+   "-676",
+   "5463",
+   "84"
+  ]
+ },
+ {
+  "id": "MAP_Kitchen_Gameplay:MessageCollectible2_2",
+  "type": "message",
+  "zone": "Kitchen",
+  "carte": "MAP_Kitchen_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "ChicaBoss3",
+  "pos": [
+   "7492",
+   "-482",
+   "1"
+  ]
+ },
+ {
+  "id": "MAP_Kitchen_Gameplay:MessageCollectible3_5",
+  "type": "message",
+  "zone": "Kitchen",
+  "carte": "MAP_Kitchen_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "Vanessa2",
+  "pos": [
+   "7299",
+   "-1187",
+   "2"
+  ]
+ },
+ {
+  "id": "MAP_Kitchen_Gameplay:MessageCollectible_2",
+  "type": "message",
+  "zone": "Kitchen",
+  "carte": "MAP_Kitchen_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "StaminaBoosters",
+  "pos": [
+   "11649",
+   "451",
+   "463"
+  ]
+ },
+ {
+  "id": "MAP_Kitchen_Gameplay:MessageCollectible_PrizeRoom_2",
+  "type": "message",
+  "zone": "Kitchen",
+  "carte": "MAP_Kitchen_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "StaffParty1",
+  "pos": [
+   "3182",
+   "-4740",
+   "2"
+  ]
+ },
+ {
+  "id": "MAP_Kitchen_Gameplay:PRE_BadgeHolder_2",
+  "type": "badge",
+  "zone": "Kitchen",
+  "carte": "MAP_Kitchen_Gameplay",
+  "classe": "PRE_BadgeHolder_C",
+  "objet": "SecurityBadgeKitchen",
+  "pos": [
+   "8700",
+   "1618",
+   "496"
+  ]
+ },
+ {
+  "id": "MAP_Kitchen_Gameplay:PresentCollectible2_2",
+  "type": "cadeau",
+  "zone": "Kitchen",
+  "carte": "MAP_Kitchen_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_shirt_star",
+  "pos": [
+   "4278",
+   "-2184",
+   "51"
+  ]
+ },
+ {
+  "id": "MAP_Kitchen_Gameplay:PresentCollectible3_5",
+  "type": "cadeau",
+  "zone": "Kitchen",
+  "carte": "MAP_Kitchen_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_poster2",
+  "pos": [
+   "4477",
+   "943",
+   "9"
+  ]
+ },
+ {
+  "id": "MAP_Kitchen_Gameplay:PresentCollectible4_8",
+  "type": "cadeau",
+  "zone": "Kitchen",
+  "carte": "MAP_Kitchen_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "UncommonCollectible_0",
+  "pos": [
+   "3463",
+   "1334",
+   "2"
+  ]
+ },
+ {
+  "id": "MAP_Kitchen_Gameplay:PresentCollectible5_2",
+  "type": "cadeau",
+  "zone": "Kitchen",
+  "carte": "MAP_Kitchen_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "GregoryUpgrade_Stamina_2",
+  "pos": [
+   "14828",
+   "1253",
+   "462"
+  ]
+ },
+ {
+  "id": "MAP_Kitchen_Gameplay:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "Kitchen",
+  "carte": "MAP_Kitchen_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_magnet_freddy",
+  "pos": [
+   "11216",
+   "374",
+   "419"
+  ]
+ },
+ {
+  "id": "MAP_MainLobby_Gameplay:ComplimentaryPass_3",
+  "type": "special",
+  "zone": "MainLobby",
+  "carte": "MAP_MainLobby_Gameplay",
+  "classe": "ComplimentaryPass_C",
+  "objet": "CompPass",
+  "pos": [
+   "-6638",
+   "22116",
+   "1532"
+  ]
+ },
+ {
+  "id": "MAP_MainLobby_Gameplay:MessageCollectible2_5",
+  "type": "message",
+  "zone": "MainLobby",
+  "carte": "MAP_MainLobby_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "LilMusicMan1",
+  "pos": [
+   "273",
+   "23687",
+   "2184"
+  ]
+ },
+ {
+  "id": "MAP_MainLobby_Gameplay:MessageCollectible3_8",
+  "type": "message",
+  "zone": "MainLobby",
+  "carte": "MAP_MainLobby_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "Complaint2",
+  "pos": [
+   "1466",
+   "25303",
+   "1495"
+  ]
+ },
+ {
+  "id": "MAP_MainLobby_Gameplay:MessageCollectible_2",
+  "type": "message",
+  "zone": "MainLobby",
+  "carte": "MAP_MainLobby_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "UpgradeMachine1",
+  "pos": [
+   "-2529",
+   "24103",
+   "1510"
+  ]
+ },
+ {
+  "id": "MAP_MainLobby_Gameplay:MOD_MazerGymBagC_102",
+  "type": "message",
+  "zone": "MainLobby",
+  "carte": "MAP_MainLobby_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "911Call",
+  "pos": [
+   "-3618",
+   "22684",
+   "1542"
+  ]
+ },
+ {
+  "id": "MAP_MainLobby_Gameplay:MrHippoMagnet_2",
+  "type": "special",
+  "zone": "MainLobby",
+  "carte": "MAP_MainLobby_Gameplay",
+  "classe": "MrHippoMagnet_C",
+  "objet": "MrHippoMagnet",
+  "pos": [
+   "-4006",
+   "25433",
+   "1533"
+  ]
+ },
+ {
+  "id": "MAP_MainLobby_Gameplay:PresentCollectible2_2",
+  "type": "cadeau",
+  "zone": "MainLobby",
+  "carte": "MAP_MainLobby_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "UncommonCollectible_1",
+  "pos": [
+   "629",
+   "24719",
+   "2071"
+  ]
+ },
+ {
+  "id": "MAP_MainLobby_Gameplay:PresentCollectible3_5",
+  "type": "cadeau",
+  "zone": "MainLobby",
+  "carte": "MAP_MainLobby_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_7",
+  "pos": [
+   "-1852",
+   "26523",
+   "1468"
+  ]
+ },
+ {
+  "id": "MAP_MainLobby_Gameplay:PresentCollectible4_8",
+  "type": "cadeau",
+  "zone": "MainLobby",
+  "carte": "MAP_MainLobby_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "GregoryUpgrade_Stamina_1",
+  "pos": [
+   "-3588",
+   "22883",
+   "1542"
+  ]
+ },
+ {
+  "id": "MAP_MainLobby_Gameplay:PresentCollectible7_17",
+  "type": "cadeau",
+  "zone": "MainLobby",
+  "carte": "MAP_MainLobby_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_17",
+  "pos": [
+   "-316",
+   "22333",
+   "1532"
+  ]
+ },
+ {
+  "id": "MAP_MainLobby_Gameplay:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "MainLobby",
+  "carte": "MAP_MainLobby_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "Screwdriver",
+  "pos": [
+   "-395",
+   "22747",
+   "1451"
+  ]
+ },
+ {
+  "id": "Map_RoxyBossBattle:RoxyEyes_GEN_VARIABLE_InvisibleCollectible_C_CAT_0",
+  "type": "special",
+  "zone": "RoxyRacer",
+  "carte": "Map_RoxyBossBattle",
+  "classe": "InvisibleCollectible_C",
+  "objet": "RoxyEyes",
+  "pos": [
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer:CollectibleTape",
+  "type": "cd",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_11",
+  "pos": [
+   "12748",
+   "48011",
+   "1546"
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:CollectibleStaffbotHead_GEN_VARIABLE_CollectibleStaffbotHead_C_CAT_1",
+  "type": "special",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "CollectibleStaffbotHead_C",
+  "objet": "DamagedHead",
+  "pos": [
+   "",
+   "",
+   ""
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:DancePassCollectible_2",
+  "type": "special",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "DancePassCollectible_C",
+  "objet": "DancePass",
+  "pos": [
+   "17751",
+   "38296",
+   "1605"
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:MessageCollectible2_2",
+  "type": "message",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "BonnieMissing2",
+  "pos": [
+   "14877",
+   "44242",
+   "1536"
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:MessageCollectible3_6",
+  "type": "message",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "RoxyBoss3",
+  "pos": [
+   "11123",
+   "43479",
+   "1598"
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:MessageCollectible4_9",
+  "type": "message",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "Sinkhole2",
+  "pos": [
+   "10935",
+   "48817",
+   "1588"
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:MessageCollectible5_12",
+  "type": "message",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "ArcadeGlitches5",
+  "pos": [
+   "24548",
+   "38465",
+   "1511"
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:MessageCollectible_2",
+  "type": "message",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "Sinkhole3",
+  "pos": [
+   "24955",
+   "45961",
+   "1356"
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:MessageCollectible_RoxyRaceway_2",
+  "type": "message",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "RoxyBoss2",
+  "pos": [
+   "24019",
+   "44177",
+   "1508"
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:MessageCollectible_RoxyRaceway_RoxyWeakness_2",
+  "type": "message",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "MessageCollectible_RoxyRaceway_RoxyWeakness_C",
+  "objet": "RoxyBoss1",
+  "pos": [
+   "11463",
+   "38900",
+   "1509"
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:PresentCollectible2_5",
+  "type": "cadeau",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "GregoryUpgrade_Stamina_0",
+  "pos": [
+   "10840",
+   "43426",
+   "1900"
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:PresentCollectible3_2",
+  "type": "cadeau",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_15",
+  "pos": [
+   "10621",
+   "48763",
+   "1598"
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:PresentCollectible4_5",
+  "type": "cadeau",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "FreddyUpgrade_1",
+  "pos": [
+   "24946",
+   "37953",
+   "1511"
+  ]
+ },
+ {
+  "id": "MAP_RoxyRacer_Gameplay:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "RoxyRacer",
+  "carte": "MAP_RoxyRacer_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_key_spmonty",
+  "pos": [
+   "11285",
+   "38322",
+   "1519"
+  ]
+ },
+ {
+  "id": "MAP_SewerChica_Gameplay:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "Sewer_Chica",
+  "carte": "MAP_SewerChica_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_poster3",
+  "pos": [
+   "-6171",
+   "22023",
+   "-1911"
+  ]
+ },
+ {
+  "id": "MAP_Atrium_Ground_Floor:CollectibleTape_3",
+  "type": "cd",
+  "zone": "StageArea",
+  "carte": "MAP_Atrium_Ground_Floor",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_9",
+  "pos": [
+   "-1695",
+   "36955",
+   "1403"
+  ]
+ },
+ {
+  "id": "MAP_PrizeCounter_Gameplay:PresentCollectible2_5",
+  "type": "cadeau",
+  "zone": "StageArea",
+  "carte": "MAP_PrizeCounter_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "RareCollectible_3",
+  "pos": [
+   "-266",
+   "28850",
+   "3350"
+  ]
+ },
+ {
+  "id": "MAP_PrizeCounter_Gameplay:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "StageArea",
+  "carte": "MAP_PrizeCounter_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_2",
+  "pos": [
+   "-3355",
+   "24075",
+   "3270"
+  ]
+ },
+ {
+  "id": "MAP_StageAreaGameplay:MessageCollectible10_2",
+  "type": "message",
+  "zone": "StageArea",
+  "carte": "MAP_StageAreaGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "Complaint3",
+  "pos": [
+   "2963",
+   "42569",
+   "2077"
+  ]
+ },
+ {
+  "id": "MAP_StageAreaGameplay:MessageCollectible11_5",
+  "type": "message",
+  "zone": "StageArea",
+  "carte": "MAP_StageAreaGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "MontyBoss3",
+  "pos": [
+   "-10782",
+   "39291",
+   "3260"
+  ]
+ },
+ {
+  "id": "MAP_StageAreaGameplay:MessageCollectible6",
+  "type": "message",
+  "zone": "StageArea",
+  "carte": "MAP_StageAreaGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "RayMessage",
+  "pos": [
+   "-1794",
+   "29312",
+   "1487"
+  ]
+ },
+ {
+  "id": "MAP_StageAreaGameplay:PresentCollectible2_2",
+  "type": "cadeau",
+  "zone": "StageArea",
+  "carte": "MAP_StageAreaGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_pinata_general",
+  "pos": [
+   "-1185",
+   "30313",
+   "1484"
+  ]
+ },
+ {
+  "id": "MAP_StageAreaGameplay:PresentCollectible3_5",
+  "type": "cadeau",
+  "zone": "StageArea",
+  "carte": "MAP_StageAreaGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_8",
+  "pos": [
+   "-5525",
+   "43869",
+   "1596"
+  ]
+ },
+ {
+  "id": "MAP_StageAreaGameplay:PresentCollectible4_2",
+  "type": "cadeau",
+  "zone": "StageArea",
+  "carte": "MAP_StageAreaGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_shirt_freddyface",
+  "pos": [
+   "1773",
+   "28191",
+   "1554"
+  ]
+ },
+ {
+  "id": "MAP_StageAreaGameplay:PresentCollectible5_5",
+  "type": "cadeau",
+  "zone": "StageArea",
+  "carte": "MAP_StageAreaGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_19",
+  "pos": [
+   "-1377",
+   "33031",
+   "1457"
+  ]
+ },
+ {
+  "id": "MAP_StageAreaGameplay:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "StageArea",
+  "carte": "MAP_StageAreaGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "FreddyUpgrade_0",
+  "pos": [
+   "4651",
+   "31288",
+   "1530"
+  ]
+ },
+ {
+  "id": "MAP_Mazercise:CollectibleTape",
+  "type": "cd",
+  "zone": "StageArea/Mazercise",
+  "carte": "MAP_Mazercise",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_13",
+  "pos": [
+   "-8710",
+   "41098",
+   "3389"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:CollectibleTape2_2",
+  "type": "cd",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_5",
+  "pos": [
+   "5803",
+   "42922",
+   "-617"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:MessageCollectible10",
+  "type": "message",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "LilMusicMan2",
+  "pos": [
+   "-6018",
+   "39332",
+   "-1357"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:MessageCollectible2_2",
+  "type": "message",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "TornPaper",
+  "pos": [
+   "3389",
+   "34885",
+   "-527"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:MessageCollectible3_2",
+  "type": "message",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "StaffParty2",
+  "pos": [
+   "-819",
+   "28315",
+   "96"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:MessageCollectible4_2",
+  "type": "message",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "MontyBoss1",
+  "pos": [
+   "-22483",
+   "30129",
+   "403"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:MessageCollectible5_5",
+  "type": "message",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "Staff1",
+  "pos": [
+   "-1804",
+   "30399",
+   "92"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:MessageCollectible6_2",
+  "type": "message",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "BonnieMissing3",
+  "pos": [
+   "5906",
+   "43175",
+   "-644"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:MessageCollectible7_2",
+  "type": "message",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "RoxyEyesMsg",
+  "pos": [
+   "-1426",
+   "51316",
+   "-1169"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:MessageCollectible8",
+  "type": "message",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "ChicaVoiceBoxMsg",
+  "pos": [
+   "-2455",
+   "50796",
+   "-1169"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:MessageCollectible9",
+  "type": "message",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "MontyClawsMsg",
+  "pos": [
+   "-2005",
+   "51300",
+   "-1169"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:MessageCollectible_2",
+  "type": "message",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "KitchenStaffNote",
+  "pos": [
+   "4792",
+   "36620",
+   "3"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:PRE_BadgeHolder_Warehouse_2",
+  "type": "badge",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "PRE_BadgeHolder_Warehouse_C",
+  "objet": "SecurityBadgeWarehouse",
+  "pos": [
+   "-3635",
+   "39308",
+   "-1277"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:PresentCollectible2_2",
+  "type": "cadeau",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_18",
+  "pos": [
+   "5301",
+   "22200",
+   "1445"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:PresentCollectible4_5",
+  "type": "cadeau",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "UncommonCollectible_2",
+  "pos": [
+   "2405",
+   "29652",
+   "2"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:PresentCollectible5_8",
+  "type": "cadeau",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "UncommonCollectible_10",
+  "pos": [
+   "5902",
+   "40960",
+   "147"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:PresentCollectible6_11",
+  "type": "cadeau",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "UncommonCollectible_9",
+  "pos": [
+   "5240",
+   "40858",
+   "-1371"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:PresentCollectible7_2",
+  "type": "cadeau",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_mask_comedy",
+  "pos": [
+   "1316",
+   "44578",
+   "-1261"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:PresentCollectible8_2",
+  "type": "cadeau",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_golden_roxy",
+  "pos": [
+   "3465",
+   "44775",
+   "-5"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:PresentCollectible9_2",
+  "type": "cadeau",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_golden_chica",
+  "pos": [
+   "-4753",
+   "29738",
+   "2"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_plush_foxy",
+  "pos": [
+   "2370",
+   "39790",
+   "-1366"
+  ]
+ },
+ {
+  "id": "MAP_UtiliDoorsGameplay:WarehouseSection5Collectible",
+  "type": "cadeau",
+  "zone": "Utility",
+  "carte": "MAP_UtiliDoorsGameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_plush_night",
+  "pos": [
+   "-560",
+   "38095",
+   "-1378"
+  ]
+ },
+ {
+  "id": "MAP_Utility_Fazerblast_Airlock:PresentCollectible3_2",
+  "type": "cadeau",
+  "zone": "Utility",
+  "carte": "MAP_Utility_Fazerblast_Airlock",
+  "classe": "PresentCollectible_C",
+  "objet": "c_poster4",
+  "pos": [
+   "18082",
+   "34821",
+   "985"
+  ]
+ },
+ {
+  "id": "MAP_Utility_Southeast_Corner_Gameplay:MazerciseControlKey_5",
+  "type": "special",
+  "zone": "Utility",
+  "carte": "MAP_Utility_Southeast_Corner_Gameplay",
+  "classe": "MazerciseControlKey_C",
+  "objet": "MazerciseControlKey",
+  "pos": [
+   "-17450",
+   "31606",
+   "3"
+  ]
+ },
+ {
+  "id": "MAP_Utility_Southeast_Corner_Gameplay:MessageCollectible5_2",
+  "type": "message",
+  "zone": "Utility",
+  "carte": "MAP_Utility_Southeast_Corner_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "MontyBoss1",
+  "pos": [
+   "-22473",
+   "30224",
+   "404"
+  ]
+ },
+ {
+  "id": "MAP_Utility_UnderStageArea_Gameplay:PresentCollectible9_2",
+  "type": "cadeau",
+  "zone": "Utility",
+  "carte": "MAP_Utility_UnderStageArea_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "UncommonCollectible_8",
+  "pos": [
+   "-3334",
+   "48854",
+   "-1276"
+  ]
+ },
+ {
+  "id": "MAP_Utility_WestToSublobby:CollectibleTape",
+  "type": "cd",
+  "zone": "Utility",
+  "carte": "MAP_Utility_WestToSublobby",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_1",
+  "pos": [
+   "4483",
+   "32791",
+   "125"
+  ]
+ },
+ {
+  "id": "MAP_BowlingAlley:CollectibleTape",
+  "type": "cd",
+  "zone": "WestArcade",
+  "carte": "MAP_BowlingAlley",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_7",
+  "pos": [
+   "16943",
+   "31185",
+   "3356"
+  ]
+ },
+ {
+  "id": "MAP_BowlingAlley_Gameplay:MessageCollectible2_5",
+  "type": "message",
+  "zone": "WestArcade",
+  "carte": "MAP_BowlingAlley_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "ArcadeGlitches4",
+  "pos": [
+   "17891",
+   "37793",
+   "3112"
+  ]
+ },
+ {
+  "id": "MAP_BowlingAlley_Gameplay:MessageCollectible3_8",
+  "type": "message",
+  "zone": "WestArcade",
+  "carte": "MAP_BowlingAlley_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "ChicaBoss2",
+  "pos": [
+   "15434",
+   "29992",
+   "3255"
+  ]
+ },
+ {
+  "id": "MAP_BowlingAlley_Gameplay:MontyMysteryMix_2",
+  "type": "special",
+  "zone": "WestArcade",
+  "carte": "MAP_BowlingAlley_Gameplay",
+  "classe": "MontyMysteryMix_C",
+  "objet": "MontyMysteryMix",
+  "pos": [
+   "15061",
+   "30205",
+   "3421"
+  ]
+ },
+ {
+  "id": "MAP_BowlingAlley_Gameplay:PresentCollectible5_2",
+  "type": "cadeau",
+  "zone": "WestArcade",
+  "carte": "MAP_BowlingAlley_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_golden_monty",
+  "pos": [
+   "18370",
+   "29210",
+   "2500"
+  ]
+ },
+ {
+  "id": "MAP_BowlingAlley_Gameplay:PresentCollectible6_9",
+  "type": "cadeau",
+  "zone": "WestArcade",
+  "carte": "MAP_BowlingAlley_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_plush_bonnie",
+  "pos": [
+   "14290",
+   "35760",
+   "3110"
+  ]
+ },
+ {
+  "id": "WestArcade_Gameplay:CollectibleTape2_2",
+  "type": "cd",
+  "zone": "WestArcade",
+  "carte": "WestArcade_Gameplay",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_15",
+  "pos": [
+   "10937",
+   "24438",
+   "3472"
+  ]
+ },
+ {
+  "id": "WestArcade_Gameplay:MessageCollectible4_2",
+  "type": "message",
+  "zone": "WestArcade",
+  "carte": "WestArcade_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "ArcadeGlitches5",
+  "pos": [
+   "8363",
+   "20478",
+   "3257"
+  ]
+ },
+ {
+  "id": "WestArcade_Gameplay:MessageCollectible_2",
+  "type": "message",
+  "zone": "WestArcade",
+  "carte": "WestArcade_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "DJMM",
+  "pos": [
+   "12323",
+   "28991",
+   "3239"
+  ]
+ },
+ {
+  "id": "WestArcade_Gameplay:PRE_BadgeHolder_WestArcade_2",
+  "type": "badge",
+  "zone": "WestArcade",
+  "carte": "WestArcade_Gameplay",
+  "classe": "PRE_BadgeHolder_WestArcade_C",
+  "objet": "SecurityBadgeWestArcade",
+  "pos": [
+   "12394",
+   "29421",
+   "3314"
+  ]
+ },
+ {
+  "id": "WestArcade_Gameplay:MontyMysteryMix",
+  "type": "cadeau",
+  "zone": "WestArcade",
+  "carte": "WestArcade_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "MontyMysteryMix",
+  "pos": [
+   "15127",
+   "30877",
+   "3252"
+  ]
+ },
+ {
+  "id": "WestArcade_Gameplay:PresentCollectible4_11",
+  "type": "cadeau",
+  "zone": "WestArcade",
+  "carte": "WestArcade_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_magnet_chica",
+  "pos": [
+   "10454",
+   "30600",
+   "3290"
+  ]
+ },
+ {
+  "id": "WestArcade_Gameplay:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "WestArcade",
+  "carte": "WestArcade_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "UncommonCollectible_3",
+  "pos": [
+   "3414",
+   "23860",
+   "2140"
+  ]
+ },
+ {
+  "id": "MAP_GlamRock_Salon_EXT:CollectibleTape",
+  "type": "cd",
+  "zone": "West_Atrium",
+  "carte": "MAP_GlamRock_Salon_EXT",
+  "classe": "CollectibleTape_C",
+  "objet": "RetroCDCollectible_4",
+  "pos": [
+   "8029",
+   "44672",
+   "2194"
+  ]
+ },
+ {
+  "id": "MAP_West_Atrium_Sublobbies_Gameplay:MessageCollectible2_2",
+  "type": "message",
+  "zone": "West_Atrium",
+  "carte": "MAP_West_Atrium_Sublobbies_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "Sinkhole1",
+  "pos": [
+   "18633",
+   "37446",
+   "2133"
+  ]
+ },
+ {
+  "id": "MAP_West_Atrium_Sublobbies_Gameplay:MessageCollectible_2",
+  "type": "message",
+  "zone": "West_Atrium",
+  "carte": "MAP_West_Atrium_Sublobbies_Gameplay",
+  "classe": "MessageCollectible_C",
+  "objet": "ArcadeGlitches7",
+  "pos": [
+   "7122",
+   "47706",
+   "2127"
+  ]
+ },
+ {
+  "id": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible2_5",
+  "type": "cadeau",
+  "zone": "West_Atrium",
+  "carte": "MAP_West_Atrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "RareCollectible_2",
+  "pos": [
+   "6036",
+   "38978",
+   "2109"
+  ]
+ },
+ {
+  "id": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible3_8",
+  "type": "cadeau",
+  "zone": "West_Atrium",
+  "carte": "MAP_West_Atrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_4",
+  "pos": [
+   "5289",
+   "41756",
+   "1506"
+  ]
+ },
+ {
+  "id": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible4_2",
+  "type": "cadeau",
+  "zone": "West_Atrium",
+  "carte": "MAP_West_Atrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "GregoryUpgrade_Shoes",
+  "pos": [
+   "6380",
+   "47470",
+   "2070"
+  ]
+ },
+ {
+  "id": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible5",
+  "type": "cadeau",
+  "zone": "West_Atrium",
+  "carte": "MAP_West_Atrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_key_spfreddy",
+  "pos": [
+   "7311",
+   "32985",
+   "1860"
+  ]
+ },
+ {
+  "id": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible6",
+  "type": "cadeau",
+  "zone": "West_Atrium",
+  "carte": "MAP_West_Atrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "c_magnet_roxy",
+  "pos": [
+   "6297",
+   "46747",
+   "2252"
+  ]
+ },
+ {
+  "id": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible7_2",
+  "type": "cadeau",
+  "zone": "West_Atrium",
+  "carte": "MAP_West_Atrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_10",
+  "pos": [
+   "10646",
+   "43208",
+   "2528"
+  ]
+ },
+ {
+  "id": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible8_2",
+  "type": "cadeau",
+  "zone": "West_Atrium",
+  "carte": "MAP_West_Atrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_9",
+  "pos": [
+   "7936",
+   "36885",
+   "1463"
+  ]
+ },
+ {
+  "id": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible_2",
+  "type": "cadeau",
+  "zone": "West_Atrium",
+  "carte": "MAP_West_Atrium_Sublobbies_Gameplay",
+  "classe": "PresentCollectible_C",
+  "objet": "CommonCollectible_16",
+  "pos": [
+   "6059",
+   "37600",
+   "2079"
+  ]
+ }
+]

@@ -1,0 +1,21 @@
+{
+ "_source": "selphie1999gaming.com : guides des missions et 'all mission X collectibles guide' (25/10/2026). Mission ou le guide ramasse l'objet en vanilla.",
+ "FreeFreddy": ["Photo Pass", "Party Foul"],
+ "GetOut": ["Food Storage Info", "Chica Pinata", "Complimentary Entry Pass"],
+ "NoReEntry": ["Easy Money", "Chica Name Shirt", "AC Inspection", "Glam Chica Plush", "HI DAVE", "Mr. Hippo Magnet", "Daycare Pass", "Night Terrors", "Freddy Name Shirt", "Sun Plush"],
+ "SlideIntoFun": ["Flashlight"],
+ "EscapeDaycare": ["Recycled Pizza", "Plush Baby", "Old Poster", "Sun Plush"],
+ "LoadingDock": ["Monty Pinata", "Fizzy Faz Freddy", "Drink Fizzy Faz", "Freddy Magnet", "Compactor Instructions"],
+ "FindFreddy": ["It Is Happening Again", "Roxy Balloon", "Roxy Mask"],
+ "LostAndFound": ["Question", "Star Shirt", "Glam Roxy Plush"],
+ "RehearsalSpace": ["Frozen Roxy Treat", "El Chip Pinata", "Glam Chica Figure", "Understudy"],
+ "Backstage": ["Pizza Plex Logo Shirt"],
+ "PartsAndService": ["Glam Roxy Figure", "Chica, Monty, Roxy Upgrade"],
+ "Warehouse": ["Stolen Property", "Nightmare Plush"],
+ "PartyPass": ["Four Block Shirt", "Monty Mischief", "Golden Freddy", "Chica Report"],
+ "MontyGolf": ["Roxy Name Shirt", "Glam Monty Figure", "Moon Plush", "Go Kart", "Tragedy Mask", "No Flash Photography", "Behind the Maze"],
+ "PrizeCounter": ["Fizzy Faz Monty", "Night Shift", "Chica Balloon", "Frozen Freddy Treat", "Monty Mask", "CFF Maint Log"],
+ "ThrillSeeker": ["Job Security", "Cupcake Pinata", "Fizzy Faz Chica", "False Alarm", "Monty Magnet", "Out Of Order", "Frozen Chica Treat", "BBW Maint Log", "Freddy Mask", "The Answer", "Monty Name Shirt", "Space Freddy Keychain", "Freddy Pinata", "Freddy Upgrade", "Freddy Face Shirt", "Better Employees", "Pinata", "All Staff Meeting", "Pink Slip", "Golden Chica", "Roxy Pinata", "Roxy Magnet", "Red Flag", "Shoes"],
+ "_zone_secrete_theatre": {"objets": ["Golden Moon", "Arcade Conspiracy"], "note": "Faz Camera + 4 photos de silhouettes (golf, coulisses, sous-sol 1, ouest niveau 5)"},
+ "_golf": "le Party Bot du Monty Golf exige le Party Pass (Chica's room) pour entrer"
+}

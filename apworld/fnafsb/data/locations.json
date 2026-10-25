@@ -1,0 +1,2310 @@
+[
+ {
+  "id": 7220000,
+  "cle": "MAP_Backstage_Gameplay:ChicaGreenroomCollectible_4",
+  "genre": "special",
+  "zone": "coulisses",
+  "fr": "Coulisses - Objet (Billet d’entrée)",
+  "en": "Backstage - Item (Party Pass)",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220001,
+  "cle": "MAP_Backstage_Gameplay:CollectibleTape2",
+  "genre": "cd",
+  "zone": "coulisses",
+  "fr": "Coulisses - CD retro (CD rétro - ????) 1",
+  "en": "Backstage - Retro CD (Retro CD - ????) 1"
+ },
+ {
+  "id": 7220002,
+  "cle": "MAP_Backstage_Gameplay:MessageCollectible2",
+  "genre": "message",
+  "zone": "coulisses",
+  "fr": "Coulisses - Message (MontyBoss4)",
+  "en": "Backstage - Message (MontyBoss4)"
+ },
+ {
+  "id": 7220003,
+  "cle": "MAP_Backstage_Gameplay:MessageCollectible3_2",
+  "genre": "message",
+  "zone": "coulisses",
+  "fr": "Coulisses - Message (ChicaBoss4)",
+  "en": "Backstage - Message (ChicaBoss4)",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220004,
+  "cle": "MAP_Backstage_Gameplay:MessageCollectible5_2",
+  "genre": "message",
+  "zone": "coulisses",
+  "fr": "Coulisses - Message (BonnieMissing1)",
+  "en": "Backstage - Message (BonnieMissing1)"
+ },
+ {
+  "id": 7220005,
+  "cle": "MAP_Backstage_Gameplay:MessageCollectible_2",
+  "genre": "message",
+  "zone": "depart",
+  "fr": "Depart (Rockstar Row) - Message (Freddy1)",
+  "en": "Start (Rockstar Row) - Message (Freddy1)"
+ },
+ {
+  "id": 7220006,
+  "cle": "MAP_Backstage_Gameplay:PhotoPassCollectible2",
+  "genre": "special",
+  "zone": "depart",
+  "fr": "Depart (Rockstar Row) - Objet (Bon pour une photo)",
+  "en": "Start (Rockstar Row) - Item (Photo Pass)"
+ },
+ {
+  "id": 7220007,
+  "cle": "MAP_Backstage_Gameplay:Pre_BadgeHolder_Backstage_2",
+  "genre": "badge",
+  "zone": "coulisses",
+  "fr": "Coulisses - Porte-badge (Badge de sécurité)",
+  "en": "Backstage - Badge Holder (Security Badge)"
+ },
+ {
+  "id": 7220008,
+  "cle": "MAP_Backstage_Gameplay:PresentCollectible2_5",
+  "genre": "cadeau",
+  "zone": "depart",
+  "fr": "Depart (Rockstar Row) - Cadeau (T-shirt avec le nom de Monty)",
+  "en": "Start (Rockstar Row) - Present (Monty Name Shirt)"
+ },
+ {
+  "id": 7220009,
+  "cle": "MAP_Backstage_Gameplay:PresentCollectible3",
+  "genre": "cadeau",
+  "zone": "coulisses",
+  "fr": "Coulisses - Cadeau (T-shirt du logo de Freddy)",
+  "en": "Backstage - Present (Freddy Icon Shirt)"
+ },
+ {
+  "id": 7220010,
+  "cle": "MAP_Backstage_Gameplay:PresentCollectible4_2",
+  "genre": "cadeau",
+  "zone": "coulisses",
+  "fr": "Coulisses - Cadeau (Figurine de Chica Glam)",
+  "en": "Backstage - Present (Glam Chica Figure)"
+ },
+ {
+  "id": 7220011,
+  "cle": "MAP_Backstage_Gameplay:PresentCollectible5_5",
+  "genre": "cadeau",
+  "zone": "coulisses",
+  "fr": "Coulisses - Cadeau (Amélioration de la batterie de la lampe torche)",
+  "en": "Backstage - Present (Flashlight Battery Upgrade)"
+ },
+ {
+  "id": 7220012,
+  "cle": "MAP_Backstage_Gameplay:PresentCollectible6_2",
+  "genre": "cadeau",
+  "zone": "coulisses",
+  "fr": "Coulisses - Cadeau (Freddy en or)",
+  "en": "Backstage - Present (Golden Freddy)"
+ },
+ {
+  "id": 7220013,
+  "cle": "MAP_Backstage_Gameplay:PresentCollectible7_2",
+  "genre": "cadeau",
+  "zone": "coulisses",
+  "fr": "Coulisses - Cadeau (T-shirt des quatre blocs)",
+  "en": "Backstage - Present (Four Block Shirt)",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220014,
+  "cle": "MAP_Backstage_Gameplay:PresentCollectible8_5",
+  "genre": "cadeau",
+  "zone": "coulisses",
+  "fr": "Coulisses - Cadeau (Masque de Chica)",
+  "en": "Backstage - Present (Chica Mask)",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220015,
+  "cle": "MAP_Backstage_Gameplay:PresentCollectible9_2",
+  "genre": "cadeau",
+  "zone": "coulisses",
+  "fr": "Coulisses - Cadeau (Piñata d’El Chip)",
+  "en": "Backstage - Present (El Chip Piñata)"
+ },
+ {
+  "id": 7220016,
+  "cle": "MAP_Backstage_Gameplay:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "depart",
+  "fr": "Depart (Rockstar Row) - Cadeau (T-shirt avec le logo de Pizza Plex)",
+  "en": "Start (Rockstar Row) - Present (Pizzaplex Logo Shirt)"
+ },
+ {
+  "id": 7220017,
+  "cle": "MAP_Backstage_RehearsalRoom:BackstagePass_2",
+  "genre": "special",
+  "zone": "coulisses",
+  "fr": "Coulisses - Objet (Laissez-passer des coulisses)",
+  "en": "Backstage - Item (Backstage Pass)"
+ },
+ {
+  "id": 7220018,
+  "cle": "MAP_Backstage_RehearsalRoom:CollectibleTape3_2",
+  "genre": "cd",
+  "zone": "coulisses",
+  "fr": "Coulisses - CD retro (CD rétro - ????) 2",
+  "en": "Backstage - Retro CD (Retro CD - ????) 2"
+ },
+ {
+  "id": 7220019,
+  "cle": "MAP_BSOfficeCam_RRow:MessageCollectible7_0",
+  "genre": "message",
+  "zone": "coulisses",
+  "fr": "Coulisses - Message (Freddy1)",
+  "en": "Backstage - Message (Freddy1)"
+ },
+ {
+  "id": 7220020,
+  "cle": "MAP_RockstarRow_AirlockEast:CollectibleTape4_2",
+  "genre": "cd",
+  "zone": "coulisses",
+  "fr": "Coulisses - CD retro (CD rétro - ????) 3",
+  "en": "Backstage - Retro CD (Retro CD - ????) 3"
+ },
+ {
+  "id": 7220021,
+  "cle": "MAP_RockstarRow_Entrance_West:CollectibleTape",
+  "genre": "cd",
+  "zone": "coulisses",
+  "fr": "Coulisses - CD retro (CD rétro - ????) 4",
+  "en": "Backstage - Retro CD (Retro CD - ????) 4"
+ },
+ {
+  "id": 7220022,
+  "cle": "MAP_Daycare_Gameplay:MessageCollectible2",
+  "genre": "message",
+  "zone": "garderie",
+  "fr": "Garderie - Message (ArcadeGlitches6)",
+  "en": "Daycare - Message (ArcadeGlitches6)",
+  "exige": {
+   "badges": 2
+  }
+ },
+ {
+  "id": 7220023,
+  "cle": "MAP_Daycare_Gameplay:MessageCollectible3_3",
+  "genre": "message",
+  "zone": "garderie",
+  "fr": "Garderie - Message (ArcadeGlitches1)",
+  "en": "Daycare - Message (ArcadeGlitches1)",
+  "exige": {
+   "badges": 5,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220024,
+  "cle": "MAP_Daycare_Gameplay:MessageCollectible_2",
+  "genre": "message",
+  "zone": "garderie",
+  "fr": "Garderie - Message (Complaint1)",
+  "en": "Daycare - Message (Complaint1)"
+ },
+ {
+  "id": 7220025,
+  "cle": "MAP_Daycare_Gameplay:PRE_BadgeHolder_Daycare_2",
+  "genre": "badge",
+  "zone": "garderie",
+  "fr": "Garderie - Porte-badge (Badge de sécurité)",
+  "en": "Daycare - Badge Holder (Security Badge)"
+ },
+ {
+  "id": 7220026,
+  "cle": "MAP_Daycare_Gameplay:PresentCollectible2_2",
+  "genre": "cadeau",
+  "zone": "garderie",
+  "fr": "Garderie - Cadeau (Lune en or)",
+  "en": "Daycare - Present (Golden Moon)",
+  "exige": {
+   "badges": 5,
+   "objets": [
+    "objet:FlashBeacon",
+    "objet:PartyPassChicaRoom",
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220027,
+  "cle": "MAP_Daycare_Gameplay:PresentCollectible3_5",
+  "genre": "cadeau",
+  "zone": "garderie",
+  "fr": "Garderie - Cadeau (Amélioration de la batterie de la lampe torche)",
+  "en": "Daycare - Present (Flashlight Battery Upgrade)",
+  "exclu": true
+ },
+ {
+  "id": 7220028,
+  "cle": "MAP_Daycare_Gameplay:PresentCollectible4_8",
+  "genre": "cadeau",
+  "zone": "garderie",
+  "fr": "Garderie - Cadeau (Masque de Freddy)",
+  "en": "Daycare - Present (Freddy Mask)",
+  "exige": {
+   "badges": 5,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220029,
+  "cle": "MAP_Daycare_Gameplay:PresentCollectible5_11",
+  "genre": "cadeau",
+  "zone": "garderie",
+  "fr": "Garderie - Cadeau (Glace à l'effigie de Chica)",
+  "en": "Daycare - Present (Frozen Chica Treat)",
+  "exige": {
+   "badges": 5,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220030,
+  "cle": "MAP_Daycare_Gameplay:PresentCollectible7_2",
+  "genre": "cadeau",
+  "zone": "garderie",
+  "fr": "Garderie - Cadeau (Peluche de Baby)",
+  "en": "Daycare - Present (Plush Baby)"
+ },
+ {
+  "id": 7220031,
+  "cle": "MAP_Daycare_Gameplay:PresentCollectible8_2",
+  "genre": "cadeau",
+  "zone": "garderie",
+  "fr": "Garderie - Cadeau (Figurine de Freddy Glam)",
+  "en": "Daycare - Present (Glam Freddy Figure)"
+ },
+ {
+  "id": 7220032,
+  "cle": "MAP_Daycare_Gameplay:PresentCollectible9_5",
+  "genre": "cadeau",
+  "zone": "garderie",
+  "fr": "Garderie - Cadeau (Vieille affiche)",
+  "en": "Daycare - Present (Old Poster)"
+ },
+ {
+  "id": 7220033,
+  "cle": "Airlock_3:MessageCollectible_2",
+  "genre": "message",
+  "zone": "garderie",
+  "fr": "Garderie - Message (NightTerrors)",
+  "en": "Daycare - Message (NightTerrors)"
+ },
+ {
+  "id": 7220034,
+  "cle": "Airlock_3:PresentCollectible6_14",
+  "genre": "cadeau",
+  "zone": "garderie",
+  "fr": "Garderie - Cadeau (T-shirt avec le nom de Freddy)",
+  "en": "Daycare - Present (Freddy Name Shirt)"
+ },
+ {
+  "id": 7220035,
+  "cle": "Airlock_3:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "garderie",
+  "fr": "Garderie - Cadeau (Peluche de soleil)",
+  "en": "Daycare - Present (Sun Plush)",
+  "exige": {
+   "badges": 3
+  }
+ },
+ {
+  "id": 7220036,
+  "cle": "MAP_Daycare_Hideout:MessageCollectible4_2",
+  "genre": "message",
+  "zone": "garderie",
+  "fr": "Garderie - Message (ArcadeGlitches8)",
+  "en": "Daycare - Message (ArcadeGlitches8)",
+  "exige": {
+   "badges": 5,
+   "objets": [
+    "objet:FlashBeacon",
+    "objet:PartyPassChicaRoom",
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220037,
+  "cle": "MAP_EastArcade_Gameplay2:MessageCollectible_2",
+  "genre": "message",
+  "zone": "arcade_est",
+  "fr": "Arcade est - Message (NightShift)",
+  "en": "East Arcade - Message (NightShift)"
+ },
+ {
+  "id": 7220038,
+  "cle": "MAP_EastArcade_Gameplay2:PRE_BadgeHolder_PrizeCounter_2",
+  "genre": "badge",
+  "zone": "arcade_est",
+  "fr": "Arcade est - Porte-badge (Badge de sécurité)",
+  "en": "East Arcade - Badge Holder (Security Badge)"
+ },
+ {
+  "id": 7220039,
+  "cle": "MAP_EastArcade_Gameplay2:PresentCollectible3_3",
+  "genre": "cadeau",
+  "zone": "arcade_est",
+  "fr": "Arcade est - Cadeau (Ballon de Chica)",
+  "en": "East Arcade - Present (Chica Balloon)",
+  "exige": {
+   "badges": 4
+  }
+ },
+ {
+  "id": 7220040,
+  "cle": "MAP_ElChips_Gameplay:PresentCollectible2",
+  "genre": "cadeau",
+  "zone": "arcade_est",
+  "fr": "Arcade est - Cadeau (Fizzy Faz - Monty)",
+  "en": "East Arcade - Present (Fizzy Faz - Monty)"
+ },
+ {
+  "id": 7220041,
+  "cle": "MAP_Cupcake_Shop:CollectibleTape_4",
+  "genre": "cd",
+  "zone": "atrium_est",
+  "fr": "Atrium est - CD retro (CD rétro - ????) 1",
+  "en": "East Atrium - Retro CD (Retro CD - ????) 1"
+ },
+ {
+  "id": 7220042,
+  "cle": "MAP_EastAtrium_Sublobbies_Gameplay:MessageCollectible12_2",
+  "genre": "message",
+  "zone": "atrium_est",
+  "fr": "Atrium est - Message (ArcadeGlitches3)",
+  "en": "East Atrium - Message (ArcadeGlitches3)"
+ },
+ {
+  "id": 7220043,
+  "cle": "MAP_EastAtrium_Sublobbies_Gameplay:MessageCollectible2",
+  "genre": "message",
+  "zone": "atrium_est",
+  "fr": "Atrium est - Message (ArcadeGlitches2)",
+  "en": "East Atrium - Message (ArcadeGlitches2)"
+ },
+ {
+  "id": 7220044,
+  "cle": "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible2_2",
+  "genre": "cadeau",
+  "zone": "atrium_est",
+  "fr": "Atrium est - Cadeau (Figurine de Monty Glam)",
+  "en": "East Atrium - Present (Glam Monty Figure)"
+ },
+ {
+  "id": 7220045,
+  "cle": "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible3_9",
+  "genre": "cadeau",
+  "zone": "atrium_est",
+  "fr": "Atrium est - Cadeau (Soleil en or)",
+  "en": "East Atrium - Present (Golden Sun)"
+ },
+ {
+  "id": 7220046,
+  "cle": "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible4_2",
+  "genre": "cadeau",
+  "zone": "atrium_est",
+  "fr": "Atrium est - Cadeau (Aimant de Monty)",
+  "en": "East Atrium - Present (Monty Magnet)"
+ },
+ {
+  "id": 7220047,
+  "cle": "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible6_12",
+  "genre": "cadeau",
+  "zone": "atrium_est",
+  "fr": "Atrium est - Cadeau (Peluche de lune)",
+  "en": "East Atrium - Present (Moon Plush)"
+ },
+ {
+  "id": 7220048,
+  "cle": "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible7_15",
+  "genre": "cadeau",
+  "zone": "atrium_est",
+  "fr": "Atrium est - Cadeau (Glace à l'effigie de Monty)",
+  "en": "East Atrium - Present (Frozen Monty Treat)"
+ },
+ {
+  "id": 7220049,
+  "cle": "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "atrium_est",
+  "fr": "Atrium est - Cadeau (Sweat à capuche)",
+  "en": "East Atrium - Present (Hoodie)"
+ },
+ {
+  "id": 7220050,
+  "cle": "MAP_East_Atrium_Sublobbies:CollectibleTape2",
+  "genre": "cd",
+  "zone": "atrium_est",
+  "fr": "Atrium est - CD retro (CD rétro - ????) 2",
+  "en": "East Atrium - Retro CD (Retro CD - ????) 2"
+ },
+ {
+  "id": 7220051,
+  "cle": "MAP_FazerBlast_Gameplay:BowlingTicket_2",
+  "genre": "special",
+  "zone": "fazerblast",
+  "fr": "Fazer Blast - Objet (Billet d’entrée au bowling)",
+  "en": "Fazer Blast - Item (Bowling Ticket)"
+ },
+ {
+  "id": 7220052,
+  "cle": "MAP_FazerBlast_Gameplay:LaserGunCollectible_Prize_4",
+  "genre": "special",
+  "zone": "fazerblast",
+  "fr": "Fazer Blast - Objet (Fazerblaster)",
+  "en": "Fazer Blast - Item (Fazerblaster)"
+ },
+ {
+  "id": 7220053,
+  "cle": "MAP_FazerBlast_Gameplay:MessageCollectible_2",
+  "genre": "message",
+  "zone": "fazerblast",
+  "fr": "Fazer Blast - Message (Vanessa1)",
+  "en": "Fazer Blast - Message (Vanessa1)",
+  "exige": {
+   "objets": [
+    "objet:Fazergun"
+   ]
+  }
+ },
+ {
+  "id": 7220054,
+  "cle": "MAP_FazerBlast_Gameplay:MessageCollectible_PrizeRoom",
+  "genre": "message",
+  "zone": "fazerblast",
+  "fr": "Fazer Blast - Message (ChicaBoss1)",
+  "en": "Fazer Blast - Message (ChicaBoss1)"
+ },
+ {
+  "id": 7220055,
+  "cle": "MAP_FazerBlast_Gameplay:PresentCollectible2_6",
+  "genre": "cadeau",
+  "zone": "fazerblast",
+  "fr": "Fazer Blast - Cadeau (Ballon de Freddy)",
+  "en": "Fazer Blast - Present (Freddy Balloon)"
+ },
+ {
+  "id": 7220056,
+  "cle": "MAP_FazerBlast_Gameplay:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "fazerblast",
+  "fr": "Fazer Blast - Cadeau (Porte-clés Chica de l’espace)",
+  "en": "Fazer Blast - Present (Space Chica Keychain)",
+  "exige": {
+   "badges": 5
+  }
+ },
+ {
+  "id": 7220057,
+  "cle": "MAP_FazerBlast_Gameplay:SecurityBadge_LaserTag",
+  "genre": "cadeau",
+  "zone": "fazerblast",
+  "fr": "Fazer Blast - Cadeau (Porte-clés Roxy de l’espace)",
+  "en": "Fazer Blast - Present (Space Roxy Keychain)",
+  "exige": {
+   "badges": 5
+  }
+ },
+ {
+  "id": 7220058,
+  "cle": "MAP_FazerBlast_Lobby:CollectibleTape",
+  "genre": "cd",
+  "zone": "fazerblast",
+  "fr": "Fazer Blast - CD retro (CD rétro - ????)",
+  "en": "Fazer Blast - Retro CD (Retro CD - ????)"
+ },
+ {
+  "id": 7220059,
+  "cle": "MAP_FazerBlast_Lobby:PRE_BadgeHolder_2",
+  "genre": "badge",
+  "zone": "fazerblast",
+  "fr": "Fazer Blast - Porte-badge (Badge de sécurité)",
+  "en": "Fazer Blast - Badge Holder (Security Badge)"
+ },
+ {
+  "id": 7220060,
+  "cle": "MAP_GatorGolf_Gameplay:CollectibleTape",
+  "genre": "cd",
+  "zone": "golf",
+  "fr": "Monty Golf - CD retro (CD rétro - ????)",
+  "en": "Monty Golf - Retro CD (Retro CD - ????)"
+ },
+ {
+  "id": 7220061,
+  "cle": "MAP_GatorGolf_Gameplay:FlashBeaconCollect_2",
+  "genre": "special",
+  "zone": "golf",
+  "fr": "Monty Golf - Objet (Faz Camera)",
+  "en": "Monty Golf - Item (Faz Camera)"
+ },
+ {
+  "id": 7220062,
+  "cle": "MAP_GatorGolf_Gameplay:MazercizeTicket_2",
+  "genre": "special",
+  "zone": "golf",
+  "fr": "Monty Golf - Objet (Billet d’entrée au labyrinthe Mazercise)",
+  "en": "Monty Golf - Item (Mazercise Ticket)"
+ },
+ {
+  "id": 7220063,
+  "cle": "MAP_GatorGolf_Gameplay:CustomerComplaint",
+  "genre": "message",
+  "zone": "golf",
+  "fr": "Monty Golf - Message (FlashCam)",
+  "en": "Monty Golf - Message (FlashCam)"
+ },
+ {
+  "id": 7220064,
+  "cle": "MAP_GatorGolf_Gameplay:MontyClue",
+  "genre": "message",
+  "zone": "golf",
+  "fr": "Monty Golf - Message (?)",
+  "en": "Monty Golf - Message (?)"
+ },
+ {
+  "id": 7220065,
+  "cle": "MAP_GatorGolf_Gameplay:PresentCollectible10_2",
+  "genre": "cadeau",
+  "zone": "golf",
+  "fr": "Monty Golf - Cadeau (Go Kart)",
+  "en": "Monty Golf - Present (Go Kart)"
+ },
+ {
+  "id": 7220066,
+  "cle": "MAP_GatorGolf_Gameplay:PresentCollectible3",
+  "genre": "cadeau",
+  "zone": "golf",
+  "fr": "Monty Golf - Cadeau (Masque de tragédie)",
+  "en": "Monty Golf - Present (Tragedy Mask)"
+ },
+ {
+  "id": 7220067,
+  "cle": "MAP_GatorGolf_Gameplay:PresentCollectible8_2",
+  "genre": "cadeau",
+  "zone": "golf",
+  "fr": "Monty Golf - Cadeau (Amélioration de la batterie de la lampe torche)",
+  "en": "Monty Golf - Present (Flashlight Battery Upgrade)"
+ },
+ {
+  "id": 7220068,
+  "cle": "MAP_GatorGolf_SecurityRoom:PRE_BadgeHolder_MontyGolf",
+  "genre": "badge",
+  "zone": "golf",
+  "fr": "Monty Golf - Porte-badge (Badge de sécurité)",
+  "en": "Monty Golf - Badge Holder (Security Badge)"
+ },
+ {
+  "id": 7220069,
+  "cle": "MAP_Kitchen_Gameplay:MessageCollectible2_2",
+  "genre": "message",
+  "zone": "cuisine",
+  "fr": "Cuisine - Message (ChicaBoss3)",
+  "en": "Kitchen - Message (ChicaBoss3)"
+ },
+ {
+  "id": 7220070,
+  "cle": "MAP_Kitchen_Gameplay:MessageCollectible3_5",
+  "genre": "message",
+  "zone": "cuisine",
+  "fr": "Cuisine - Message (Vanessa2)",
+  "en": "Kitchen - Message (Vanessa2)"
+ },
+ {
+  "id": 7220071,
+  "cle": "MAP_Kitchen_Gameplay:MessageCollectible_2",
+  "genre": "message",
+  "zone": "cuisine",
+  "fr": "Cuisine - Message (StaminaBoosters)",
+  "en": "Kitchen - Message (StaminaBoosters)"
+ },
+ {
+  "id": 7220072,
+  "cle": "MAP_Kitchen_Gameplay:MessageCollectible_PrizeRoom_2",
+  "genre": "message",
+  "zone": "cuisine",
+  "fr": "Cuisine - Message (StaffParty1)",
+  "en": "Kitchen - Message (StaffParty1)"
+ },
+ {
+  "id": 7220073,
+  "cle": "MAP_Kitchen_Gameplay:PRE_BadgeHolder_2",
+  "genre": "badge",
+  "zone": "cuisine",
+  "fr": "Cuisine - Porte-badge (Badge de sécurité)",
+  "en": "Kitchen - Badge Holder (Security Badge)"
+ },
+ {
+  "id": 7220074,
+  "cle": "MAP_Kitchen_Gameplay:PresentCollectible2_2",
+  "genre": "cadeau",
+  "zone": "cuisine",
+  "fr": "Cuisine - Cadeau (T-shirt de star)",
+  "en": "Kitchen - Present (Star Shirt)"
+ },
+ {
+  "id": 7220075,
+  "cle": "MAP_Kitchen_Gameplay:PresentCollectible3_5",
+  "genre": "cadeau",
+  "zone": "cuisine",
+  "fr": "Cuisine - Cadeau (Vieille affiche)",
+  "en": "Kitchen - Present (Old Poster)",
+  "exige": {
+   "badges": 6,
+   "objets": [
+    "objet:Flashlight",
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MontyMysteryMix"
+   ]
+  }
+ },
+ {
+  "id": 7220076,
+  "cle": "MAP_Kitchen_Gameplay:PresentCollectible4_8",
+  "genre": "cadeau",
+  "zone": "cuisine",
+  "fr": "Cuisine - Cadeau (Peluche de Roxy Glam)",
+  "en": "Kitchen - Present (Glam Roxy Plush)"
+ },
+ {
+  "id": 7220077,
+  "cle": "MAP_Kitchen_Gameplay:PresentCollectible5_2",
+  "genre": "cadeau",
+  "zone": "cuisine",
+  "fr": "Cuisine - Cadeau (Fizzy Faz - Freddy)",
+  "en": "Kitchen - Present (Fizzy Faz - Freddy)"
+ },
+ {
+  "id": 7220078,
+  "cle": "MAP_Kitchen_Gameplay:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "cuisine",
+  "fr": "Cuisine - Cadeau (Aimant de Freddy)",
+  "en": "Kitchen - Present (Freddy Magnet)"
+ },
+ {
+  "id": 7220079,
+  "cle": "MAP_MainLobby_Gameplay:ComplimentaryPass_3",
+  "genre": "special",
+  "zone": "hall",
+  "fr": "Hall principal - Objet (Billet d’entrée offert par la maison)",
+  "en": "Main Lobby - Item (Complimentary Entry Pass)"
+ },
+ {
+  "id": 7220080,
+  "cle": "MAP_MainLobby_Gameplay:MessageCollectible2_5",
+  "genre": "message",
+  "zone": "hall",
+  "fr": "Hall principal - Message (LilMusicMan1)",
+  "en": "Main Lobby - Message (LilMusicMan1)"
+ },
+ {
+  "id": 7220081,
+  "cle": "MAP_MainLobby_Gameplay:MessageCollectible3_8",
+  "genre": "message",
+  "zone": "hall",
+  "fr": "Hall principal - Message (Complaint2)",
+  "en": "Main Lobby - Message (Complaint2)"
+ },
+ {
+  "id": 7220082,
+  "cle": "MAP_MainLobby_Gameplay:MessageCollectible_2",
+  "genre": "message",
+  "zone": "hall",
+  "fr": "Hall principal - Message (UpgradeMachine1)",
+  "en": "Main Lobby - Message (UpgradeMachine1)"
+ },
+ {
+  "id": 7220083,
+  "cle": "MAP_MainLobby_Gameplay:MOD_MazerGymBagC_102",
+  "genre": "message",
+  "zone": "hall",
+  "fr": "Hall principal - Message (911Call)",
+  "en": "Main Lobby - Message (911Call)",
+  "exige": {
+   "badges": 2
+  }
+ },
+ {
+  "id": 7220084,
+  "cle": "MAP_MainLobby_Gameplay:MrHippoMagnet_2",
+  "genre": "special",
+  "zone": "hall",
+  "fr": "Hall principal - Objet (Aimant de Mr. Hippo)",
+  "en": "Main Lobby - Item (Mr Hippo Magnet)"
+ },
+ {
+  "id": 7220085,
+  "cle": "MAP_MainLobby_Gameplay:PresentCollectible2_2",
+  "genre": "cadeau",
+  "zone": "hall",
+  "fr": "Hall principal - Cadeau (Peluche de Chica Glam)",
+  "en": "Main Lobby - Present (Glam Chica Plush)"
+ },
+ {
+  "id": 7220086,
+  "cle": "MAP_MainLobby_Gameplay:PresentCollectible3_5",
+  "genre": "cadeau",
+  "zone": "hall",
+  "fr": "Hall principal - Cadeau (T-shirt avec le nom de Chica)",
+  "en": "Main Lobby - Present (Chica Name Shirt)"
+ },
+ {
+  "id": 7220087,
+  "cle": "MAP_MainLobby_Gameplay:PresentCollectible4_8",
+  "genre": "cadeau",
+  "zone": "hall",
+  "fr": "Hall principal - Cadeau (Fizzy Faz - Chica)",
+  "en": "Main Lobby - Present (Fizzy Faz - Chica)",
+  "exige": {
+   "badges": 2
+  }
+ },
+ {
+  "id": 7220088,
+  "cle": "MAP_MainLobby_Gameplay:PresentCollectible7_17",
+  "genre": "cadeau",
+  "zone": "hall",
+  "fr": "Hall principal - Cadeau (Piñata de Cupcake)",
+  "en": "Main Lobby - Present (Cupcake Piñata)",
+  "exige": {
+   "badges": 4
+  }
+ },
+ {
+  "id": 7220089,
+  "cle": "MAP_MainLobby_Gameplay:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "hall",
+  "fr": "Hall principal - Cadeau (Screwdriver)",
+  "en": "Main Lobby - Present (Screwdriver)"
+ },
+ {
+  "id": 7220090,
+  "cle": "Map_RoxyBossBattle:RoxyEyes_GEN_VARIABLE_InvisibleCollectible_C_CAT_0",
+  "genre": "special",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Objet (Yeux de Roxy)",
+  "en": "Roxy Raceway - Item (Roxy's Eyes)",
+  "exige": {
+   "badges": 6,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MontyMysteryMix",
+    "objet:PartyPassChicaRoom",
+    "objet:MazerciseTicket",
+    "objet:MazerciseControlKey"
+   ]
+  },
+  "apres_roxy": true
+ },
+ {
+  "id": 7220091,
+  "cle": "MAP_RoxyRacer:CollectibleTape",
+  "genre": "cd",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - CD retro (CD rétro - ????)",
+  "en": "Roxy Raceway - Retro CD (Retro CD - ????)"
+ },
+ {
+  "id": 7220092,
+  "cle": "MAP_RoxyRacer_Gameplay:CollectibleStaffbotHead_GEN_VARIABLE_CollectibleStaffbotHead_C_CAT_1",
+  "genre": "special",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Objet (Tête abîmée)",
+  "en": "Roxy Raceway - Item (Damaged Head)"
+ },
+ {
+  "id": 7220093,
+  "cle": "MAP_RoxyRacer_Gameplay:DancePassCollectible_2",
+  "genre": "special",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Objet (Billet d’entrée pour la piste de danse)",
+  "en": "Roxy Raceway - Item (Dance Pass)"
+ },
+ {
+  "id": 7220094,
+  "cle": "MAP_RoxyRacer_Gameplay:MessageCollectible2_2",
+  "genre": "message",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Message (BonnieMissing2)",
+  "en": "Roxy Raceway - Message (BonnieMissing2)"
+ },
+ {
+  "id": 7220095,
+  "cle": "MAP_RoxyRacer_Gameplay:MessageCollectible3_6",
+  "genre": "message",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Message (RoxyBoss3)",
+  "en": "Roxy Raceway - Message (RoxyBoss3)"
+ },
+ {
+  "id": 7220096,
+  "cle": "MAP_RoxyRacer_Gameplay:MessageCollectible4_9",
+  "genre": "message",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Message (Sinkhole2)",
+  "en": "Roxy Raceway - Message (Sinkhole2)",
+  "exige": {
+   "badges": 6,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MontyMysteryMix",
+    "objet:PartyPassChicaRoom",
+    "objet:MazerciseTicket",
+    "objet:MazerciseControlKey"
+   ]
+  },
+  "apres_roxy": true
+ },
+ {
+  "id": 7220097,
+  "cle": "MAP_RoxyRacer_Gameplay:MessageCollectible5_12",
+  "genre": "message",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Message (ArcadeGlitches5)",
+  "en": "Roxy Raceway - Message (ArcadeGlitches5)"
+ },
+ {
+  "id": 7220098,
+  "cle": "MAP_RoxyRacer_Gameplay:MessageCollectible_2",
+  "genre": "message",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Message (Sinkhole3)",
+  "en": "Roxy Raceway - Message (Sinkhole3)"
+ },
+ {
+  "id": 7220099,
+  "cle": "MAP_RoxyRacer_Gameplay:MessageCollectible_RoxyRaceway_2",
+  "genre": "message",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Message (RoxyBoss2)",
+  "en": "Roxy Raceway - Message (RoxyBoss2)"
+ },
+ {
+  "id": 7220100,
+  "cle": "MAP_RoxyRacer_Gameplay:MessageCollectible_RoxyRaceway_RoxyWeakness_2",
+  "genre": "message",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Message (RoxyBoss1)",
+  "en": "Roxy Raceway - Message (RoxyBoss1)"
+ },
+ {
+  "id": 7220101,
+  "cle": "MAP_RoxyRacer_Gameplay:PresentCollectible2_5",
+  "genre": "cadeau",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Cadeau (Fizzy Faz - Roxy)",
+  "en": "Roxy Raceway - Present (Fizzy Faz - Roxy)"
+ },
+ {
+  "id": 7220102,
+  "cle": "MAP_RoxyRacer_Gameplay:PresentCollectible3_2",
+  "genre": "cadeau",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Cadeau (Ballon de Monty)",
+  "en": "Roxy Raceway - Present (Monty Balloon)",
+  "exige": {
+   "badges": 6,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MontyMysteryMix",
+    "objet:PartyPassChicaRoom",
+    "objet:MazerciseTicket",
+    "objet:MazerciseControlKey"
+   ]
+  },
+  "apres_roxy": true
+ },
+ {
+  "id": 7220103,
+  "cle": "MAP_RoxyRacer_Gameplay:PresentCollectible4_5",
+  "genre": "cadeau",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Cadeau (Amélioration de Freddy)",
+  "en": "Roxy Raceway - Present (Freddy Upgrade)"
+ },
+ {
+  "id": 7220104,
+  "cle": "MAP_RoxyRacer_Gameplay:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "raceway",
+  "fr": "Roxy Raceway - Cadeau (Porte-clés Monty de l’espace)",
+  "en": "Roxy Raceway - Present (Space Monty Keychain)"
+ },
+ {
+  "id": 7220105,
+  "cle": "MAP_SewerChica_Gameplay:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "egouts",
+  "fr": "Egouts - Cadeau (Vieille affiche)",
+  "en": "Sewers - Present (Old Poster)"
+ },
+ {
+  "id": 7220106,
+  "cle": "MAP_Atrium_Ground_Floor:CollectibleTape_3",
+  "genre": "cd",
+  "zone": "scene",
+  "fr": "Scene - CD retro (CD rétro - ????) 1",
+  "en": "Stage Area - Retro CD (Retro CD - ????) 1"
+ },
+ {
+  "id": 7220107,
+  "cle": "MAP_PrizeCounter_Gameplay:PresentCollectible2_5",
+  "genre": "cadeau",
+  "zone": "arcade_est",
+  "fr": "Arcade est - Cadeau (Masque de Monty)",
+  "en": "East Arcade - Present (Monty Mask)",
+  "exige": {
+   "badges": 2
+  }
+ },
+ {
+  "id": 7220108,
+  "cle": "MAP_PrizeCounter_Gameplay:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "arcade_est",
+  "fr": "Arcade est - Cadeau (Glace à l'effigie de Freddy)",
+  "en": "East Arcade - Present (Frozen Freddy Treat)",
+  "exige": {
+   "badges": 2
+  }
+ },
+ {
+  "id": 7220109,
+  "cle": "MAP_StageAreaGameplay:MessageCollectible10_2",
+  "genre": "message",
+  "zone": "scene",
+  "fr": "Scene - Message (Complaint3)",
+  "en": "Stage Area - Message (Complaint3)",
+  "exige": {
+   "badges": 5
+  }
+ },
+ {
+  "id": 7220110,
+  "cle": "MAP_StageAreaGameplay:MessageCollectible11_5",
+  "genre": "message",
+  "zone": "scene",
+  "fr": "Scene - Message (MontyBoss3)",
+  "en": "Stage Area - Message (MontyBoss3)"
+ },
+ {
+  "id": 7220111,
+  "cle": "MAP_StageAreaGameplay:MessageCollectible6",
+  "genre": "message",
+  "zone": "scene",
+  "fr": "Scene - Message (RayMessage)",
+  "en": "Stage Area - Message (RayMessage)",
+  "exige": {
+   "badges": 4
+  }
+ },
+ {
+  "id": 7220112,
+  "cle": "MAP_StageAreaGameplay:PresentCollectible2_2",
+  "genre": "cadeau",
+  "zone": "scene",
+  "fr": "Scene - Cadeau (Piñata)",
+  "en": "Stage Area - Present (Piñata)"
+ },
+ {
+  "id": 7220113,
+  "cle": "MAP_StageAreaGameplay:PresentCollectible3_5",
+  "genre": "cadeau",
+  "zone": "scene",
+  "fr": "Scene - Cadeau (T-shirt avec le nom de Roxy)",
+  "en": "Stage Area - Present (Roxy Name Shirt)"
+ },
+ {
+  "id": 7220114,
+  "cle": "MAP_StageAreaGameplay:PresentCollectible4_2",
+  "genre": "cadeau",
+  "zone": "scene",
+  "fr": "Scene - Cadeau (T-shirt du visage de Freddy)",
+  "en": "Stage Area - Present (Freddy Face Shirt)"
+ },
+ {
+  "id": 7220115,
+  "cle": "MAP_StageAreaGameplay:PresentCollectible5_5",
+  "genre": "cadeau",
+  "zone": "scene",
+  "fr": "Scene - Cadeau (Piñata de Monty)",
+  "en": "Stage Area - Present (Monty Piñata)"
+ },
+ {
+  "id": 7220116,
+  "cle": "MAP_StageAreaGameplay:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "scene",
+  "fr": "Scene - Cadeau (Amélioration de Freddy)",
+  "en": "Stage Area - Present (Freddy Upgrade)"
+ },
+ {
+  "id": 7220117,
+  "cle": "MAP_Mazercise:CollectibleTape",
+  "genre": "cd",
+  "zone": "scene",
+  "fr": "Scene - CD retro (CD rétro - ????) 2",
+  "en": "Stage Area - Retro CD (Retro CD - ????) 2",
+  "exige": {
+   "objets": [
+    "objet:MazerciseTicket"
+   ]
+  }
+ },
+ {
+  "id": 7220118,
+  "cle": "MAP_UtiliDoorsGameplay:CollectibleTape2_2",
+  "genre": "cd",
+  "zone": "technique",
+  "fr": "Secteur technique - CD retro (CD rétro - ????) 1",
+  "en": "Utility Tunnels - Retro CD (Retro CD - ????) 1"
+ },
+ {
+  "id": 7220119,
+  "cle": "MAP_UtiliDoorsGameplay:MessageCollectible10",
+  "genre": "message",
+  "zone": "technique",
+  "fr": "Secteur technique - Message (LilMusicMan2)",
+  "en": "Utility Tunnels - Message (LilMusicMan2)"
+ },
+ {
+  "id": 7220120,
+  "cle": "MAP_UtiliDoorsGameplay:MessageCollectible2_2",
+  "genre": "message",
+  "zone": "technique",
+  "fr": "Secteur technique - Message (TornPaper)",
+  "en": "Utility Tunnels - Message (TornPaper)",
+  "exige": {
+   "objets": [
+    "objet:MontyClaws",
+    "objet:ChicaBeak"
+   ]
+  }
+ },
+ {
+  "id": 7220121,
+  "cle": "MAP_UtiliDoorsGameplay:MessageCollectible3_2",
+  "genre": "message",
+  "zone": "technique",
+  "fr": "Secteur technique - Message (StaffParty2)",
+  "en": "Utility Tunnels - Message (StaffParty2)"
+ },
+ {
+  "id": 7220122,
+  "cle": "MAP_UtiliDoorsGameplay:MessageCollectible4_2",
+  "genre": "message",
+  "zone": "technique",
+  "fr": "Secteur technique - Message (MontyBoss1) 1",
+  "en": "Utility Tunnels - Message (MontyBoss1) 1"
+ },
+ {
+  "id": 7220123,
+  "cle": "MAP_UtiliDoorsGameplay:MessageCollectible5_5",
+  "genre": "message",
+  "zone": "technique",
+  "fr": "Secteur technique - Message (Staff1)",
+  "en": "Utility Tunnels - Message (Staff1)"
+ },
+ {
+  "id": 7220124,
+  "cle": "MAP_UtiliDoorsGameplay:MessageCollectible6_2",
+  "genre": "message",
+  "zone": "technique",
+  "fr": "Secteur technique - Message (BonnieMissing3)",
+  "en": "Utility Tunnels - Message (BonnieMissing3)",
+  "exige": {
+   "objets": [
+    "objet:MontyClaws"
+   ]
+  }
+ },
+ {
+  "id": 7220125,
+  "cle": "MAP_UtiliDoorsGameplay:MessageCollectible7_2",
+  "genre": "message",
+  "zone": "technique",
+  "fr": "Secteur technique - Message (RoxyEyesMsg)",
+  "en": "Utility Tunnels - Message (RoxyEyesMsg)"
+ },
+ {
+  "id": 7220126,
+  "cle": "MAP_UtiliDoorsGameplay:MessageCollectible8",
+  "genre": "message",
+  "zone": "technique",
+  "fr": "Secteur technique - Message (ChicaVoiceBoxMsg)",
+  "en": "Utility Tunnels - Message (ChicaVoiceBoxMsg)"
+ },
+ {
+  "id": 7220127,
+  "cle": "MAP_UtiliDoorsGameplay:MessageCollectible9",
+  "genre": "message",
+  "zone": "technique",
+  "fr": "Secteur technique - Message (MontyClawsMsg)",
+  "en": "Utility Tunnels - Message (MontyClawsMsg)"
+ },
+ {
+  "id": 7220128,
+  "cle": "MAP_UtiliDoorsGameplay:MessageCollectible_2",
+  "genre": "message",
+  "zone": "technique",
+  "fr": "Secteur technique - Message (KitchenStaffNote)",
+  "en": "Utility Tunnels - Message (KitchenStaffNote)"
+ },
+ {
+  "id": 7220129,
+  "cle": "MAP_UtiliDoorsGameplay:PRE_BadgeHolder_Warehouse_2",
+  "genre": "badge",
+  "zone": "technique",
+  "fr": "Secteur technique - Porte-badge (Badge de sécurité)",
+  "en": "Utility Tunnels - Badge Holder (Security Badge)"
+ },
+ {
+  "id": 7220130,
+  "cle": "MAP_UtiliDoorsGameplay:PresentCollectible2_2",
+  "genre": "cadeau",
+  "zone": "technique",
+  "fr": "Secteur technique - Cadeau (Piñata de Chica)",
+  "en": "Utility Tunnels - Present (Chica Piñata)"
+ },
+ {
+  "id": 7220131,
+  "cle": "MAP_UtiliDoorsGameplay:PresentCollectible4_5",
+  "genre": "cadeau",
+  "zone": "technique",
+  "fr": "Secteur technique - Cadeau (Peluche de Freddy Glam)",
+  "en": "Utility Tunnels - Present (Glam Freddy Plush)",
+  "exige": {
+   "objets": [
+    "objet:MontyClaws"
+   ]
+  }
+ },
+ {
+  "id": 7220132,
+  "cle": "MAP_UtiliDoorsGameplay:PresentCollectible5_8",
+  "genre": "cadeau",
+  "zone": "technique",
+  "fr": "Secteur technique - Cadeau (Figurine de lune)",
+  "en": "Utility Tunnels - Present (Moon Figure)",
+  "exige": {
+   "objets": [
+    "objet:MontyClaws"
+   ]
+  }
+ },
+ {
+  "id": 7220133,
+  "cle": "MAP_UtiliDoorsGameplay:PresentCollectible6_11",
+  "genre": "cadeau",
+  "zone": "technique",
+  "fr": "Secteur technique - Cadeau (Figurine de soleil)",
+  "en": "Utility Tunnels - Present (Sun Figure)",
+  "exige": {
+   "objets": [
+    "objet:MontyClaws"
+   ]
+  }
+ },
+ {
+  "id": 7220134,
+  "cle": "MAP_UtiliDoorsGameplay:PresentCollectible7_2",
+  "genre": "cadeau",
+  "zone": "technique",
+  "fr": "Secteur technique - Cadeau (Masque de comédie)",
+  "en": "Utility Tunnels - Present (Comedy Mask)",
+  "exige": {
+   "objets": [
+    "objet:ChicaBeak"
+   ]
+  }
+ },
+ {
+  "id": 7220135,
+  "cle": "MAP_UtiliDoorsGameplay:PresentCollectible8_2",
+  "genre": "cadeau",
+  "zone": "technique",
+  "fr": "Secteur technique - Cadeau (Roxy en or)",
+  "en": "Utility Tunnels - Present (Golden Roxy)",
+  "exige": {
+   "objets": [
+    "objet:MontyClaws"
+   ]
+  }
+ },
+ {
+  "id": 7220136,
+  "cle": "MAP_UtiliDoorsGameplay:PresentCollectible9_2",
+  "genre": "cadeau",
+  "zone": "technique",
+  "fr": "Secteur technique - Cadeau (Chica en or)",
+  "en": "Utility Tunnels - Present (Golden Chica)"
+ },
+ {
+  "id": 7220137,
+  "cle": "MAP_UtiliDoorsGameplay:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "technique",
+  "fr": "Secteur technique - Cadeau (Peluche de Foxy)",
+  "en": "Utility Tunnels - Present (Foxy Plush)",
+  "exige": {
+   "objets": [
+    "objet:MontyClaws"
+   ]
+  }
+ },
+ {
+  "id": 7220138,
+  "cle": "MAP_UtiliDoorsGameplay:WarehouseSection5Collectible",
+  "genre": "cadeau",
+  "zone": "technique",
+  "fr": "Secteur technique - Cadeau (Peluche cauchemardesque)",
+  "en": "Utility Tunnels - Present (Nightmare Plush)"
+ },
+ {
+  "id": 7220139,
+  "cle": "MAP_Utility_Fazerblast_Airlock:PresentCollectible3_2",
+  "genre": "cadeau",
+  "zone": "technique",
+  "fr": "Secteur technique - Cadeau (Vieille affiche)",
+  "en": "Utility Tunnels - Present (Old Poster)"
+ },
+ {
+  "id": 7220140,
+  "cle": "MAP_Utility_Southeast_Corner_Gameplay:MazerciseControlKey_5",
+  "genre": "special",
+  "zone": "technique",
+  "fr": "Secteur technique - Objet (Clé de contrôle du Mazercise)",
+  "en": "Utility Tunnels - Item (Mazercise Control Key)"
+ },
+ {
+  "id": 7220141,
+  "cle": "MAP_Utility_Southeast_Corner_Gameplay:MessageCollectible5_2",
+  "genre": "message",
+  "zone": "technique",
+  "fr": "Secteur technique - Message (MontyBoss1) 2",
+  "en": "Utility Tunnels - Message (MontyBoss1) 2"
+ },
+ {
+  "id": 7220142,
+  "cle": "MAP_Utility_UnderStageArea_Gameplay:PresentCollectible9_2",
+  "genre": "cadeau",
+  "zone": "technique",
+  "fr": "Secteur technique - Cadeau (Figurine de Roxy Glam)",
+  "en": "Utility Tunnels - Present (Glam Roxy Figure)"
+ },
+ {
+  "id": 7220143,
+  "cle": "MAP_Utility_WestToSublobby:CollectibleTape",
+  "genre": "cd",
+  "zone": "technique",
+  "fr": "Secteur technique - CD retro (CD rétro - ????) 2",
+  "en": "Utility Tunnels - Retro CD (Retro CD - ????) 2"
+ },
+ {
+  "id": 7220144,
+  "cle": "MAP_BowlingAlley:CollectibleTape",
+  "genre": "cd",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - CD retro (CD rétro - ????) 1",
+  "en": "West Arcade - Retro CD (Retro CD - ????) 1",
+  "exige": {
+   "objets": [
+    "objet:BowlingTicket"
+   ]
+  }
+ },
+ {
+  "id": 7220145,
+  "cle": "MAP_BowlingAlley_Gameplay:MessageCollectible2_5",
+  "genre": "message",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - Message (ArcadeGlitches4)",
+  "en": "West Arcade - Message (ArcadeGlitches4)",
+  "exige": {
+   "objets": [
+    "objet:BowlingTicket"
+   ]
+  }
+ },
+ {
+  "id": 7220146,
+  "cle": "MAP_BowlingAlley_Gameplay:MessageCollectible3_8",
+  "genre": "message",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - Message (ChicaBoss2)",
+  "en": "West Arcade - Message (ChicaBoss2)",
+  "exige": {
+   "objets": [
+    "objet:BowlingTicket"
+   ]
+  }
+ },
+ {
+  "id": 7220147,
+  "cle": "MAP_BowlingAlley_Gameplay:MontyMysteryMix_2",
+  "genre": "special",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - Objet (Mystery Mix de Monty)",
+  "en": "West Arcade - Item (Monty Mystery Mix)",
+  "exige": {
+   "objets": [
+    "objet:BowlingTicket"
+   ]
+  }
+ },
+ {
+  "id": 7220148,
+  "cle": "MAP_BowlingAlley_Gameplay:PresentCollectible5_2",
+  "genre": "cadeau",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - Cadeau (Monty en or)",
+  "en": "West Arcade - Present (Golden Monty)",
+  "exige": {
+   "objets": [
+    "objet:BowlingTicket"
+   ]
+  }
+ },
+ {
+  "id": 7220149,
+  "cle": "MAP_BowlingAlley_Gameplay:PresentCollectible6_9",
+  "genre": "cadeau",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - Cadeau (Peluche de Bonnie)",
+  "en": "West Arcade - Present (Bonnie Plush)",
+  "exige": {
+   "objets": [
+    "objet:BowlingTicket"
+   ]
+  }
+ },
+ {
+  "id": 7220150,
+  "cle": "WestArcade_Gameplay:CollectibleTape2_2",
+  "genre": "cd",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - CD retro (CD rétro - ????) 2",
+  "en": "West Arcade - Retro CD (Retro CD - ????) 2"
+ },
+ {
+  "id": 7220151,
+  "cle": "WestArcade_Gameplay:MessageCollectible4_2",
+  "genre": "message",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - Message (ArcadeGlitches5)",
+  "en": "West Arcade - Message (ArcadeGlitches5)"
+ },
+ {
+  "id": 7220152,
+  "cle": "WestArcade_Gameplay:MessageCollectible_2",
+  "genre": "message",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - Message (DJMM)",
+  "en": "West Arcade - Message (DJMM)"
+ },
+ {
+  "id": 7220153,
+  "cle": "WestArcade_Gameplay:PRE_BadgeHolder_WestArcade_2",
+  "genre": "badge",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - Porte-badge (Badge de sécurité)",
+  "en": "West Arcade - Badge Holder (Security Badge)",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:DancePass",
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220154,
+  "cle": "WestArcade_Gameplay:MontyMysteryMix",
+  "genre": "cadeau",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - Cadeau (Mystery Mix de Monty)",
+  "en": "West Arcade - Present (Monty Mystery Mix)"
+ },
+ {
+  "id": 7220155,
+  "cle": "WestArcade_Gameplay:PresentCollectible4_11",
+  "genre": "cadeau",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - Cadeau (Aimant de Chica)",
+  "en": "West Arcade - Present (Chica Magnet)"
+ },
+ {
+  "id": 7220156,
+  "cle": "WestArcade_Gameplay:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "arcade_ouest",
+  "fr": "Arcade ouest - Cadeau (Peluche de Monty Glam)",
+  "en": "West Arcade - Present (Glam Monty Plush)",
+  "exige": {
+   "badges": 5
+  }
+ },
+ {
+  "id": 7220157,
+  "cle": "MAP_GlamRock_Salon_EXT:CollectibleTape",
+  "genre": "cd",
+  "zone": "atrium_ouest",
+  "fr": "Atrium ouest - CD retro (CD rétro - ????)",
+  "en": "West Atrium - Retro CD (Retro CD - ????)"
+ },
+ {
+  "id": 7220158,
+  "cle": "MAP_West_Atrium_Sublobbies_Gameplay:MessageCollectible2_2",
+  "genre": "message",
+  "zone": "atrium_ouest",
+  "fr": "Atrium ouest - Message (Sinkhole1)",
+  "en": "West Atrium - Message (Sinkhole1)"
+ },
+ {
+  "id": 7220159,
+  "cle": "MAP_West_Atrium_Sublobbies_Gameplay:MessageCollectible_2",
+  "genre": "message",
+  "zone": "atrium_ouest",
+  "fr": "Atrium ouest - Message (ArcadeGlitches7)",
+  "en": "West Atrium - Message (ArcadeGlitches7)"
+ },
+ {
+  "id": 7220160,
+  "cle": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible2_5",
+  "genre": "cadeau",
+  "zone": "atrium_ouest",
+  "fr": "Atrium ouest - Cadeau (Masque de Roxy)",
+  "en": "West Atrium - Present (Roxy Mask)"
+ },
+ {
+  "id": 7220161,
+  "cle": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible3_8",
+  "genre": "cadeau",
+  "zone": "atrium_ouest",
+  "fr": "Atrium ouest - Cadeau (Glace à l'effigie de Roxy)",
+  "en": "West Atrium - Present (Frozen Roxy Treat)"
+ },
+ {
+  "id": 7220162,
+  "cle": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible4_2",
+  "genre": "cadeau",
+  "zone": "atrium_ouest",
+  "fr": "Atrium ouest - Cadeau (Chaussures)",
+  "en": "West Atrium - Present (Shoes)"
+ },
+ {
+  "id": 7220163,
+  "cle": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible5",
+  "genre": "cadeau",
+  "zone": "atrium_ouest",
+  "fr": "Atrium ouest - Cadeau (Porte-clés Freddy de l’espace)",
+  "en": "West Atrium - Present (Space Freddy Keychain)"
+ },
+ {
+  "id": 7220164,
+  "cle": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible6",
+  "genre": "cadeau",
+  "zone": "atrium_ouest",
+  "fr": "Atrium ouest - Cadeau (Aimant de Roxy)",
+  "en": "West Atrium - Present (Roxy Magnet)"
+ },
+ {
+  "id": 7220165,
+  "cle": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible7_2",
+  "genre": "cadeau",
+  "zone": "atrium_ouest",
+  "fr": "Atrium ouest - Cadeau (Piñata de Roxy)",
+  "en": "West Atrium - Present (Roxy Piñata)"
+ },
+ {
+  "id": 7220166,
+  "cle": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible8_2",
+  "genre": "cadeau",
+  "zone": "atrium_ouest",
+  "fr": "Atrium ouest - Cadeau (Piñata de Freddy)",
+  "en": "West Atrium - Present (Freddy Piñata)"
+ },
+ {
+  "id": 7220167,
+  "cle": "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible_2",
+  "genre": "cadeau",
+  "zone": "atrium_ouest",
+  "fr": "Atrium ouest - Cadeau (Ballon de Roxy)",
+  "en": "West Atrium - Present (Roxy Balloon)"
+ },
+ {
+  "id": 7220168,
+  "cle": "mission:FreeFreddy",
+  "genre": "mission",
+  "zone": "atrium",
+  "fr": "Mission - Libérez Freddy",
+  "en": "Mission - Free Freddy",
+  "exige": {
+   "objets": [
+    "objet:PhotoPass"
+   ]
+  }
+ },
+ {
+  "id": 7220169,
+  "cle": "mission:GetOut",
+  "genre": "mission",
+  "zone": "hall",
+  "fr": "Mission - Sortez d’ici",
+  "en": "Mission - Get Out",
+  "exige": {
+   "objets": [
+    "objet:PhotoPass"
+   ]
+  }
+ },
+ {
+  "id": 7220170,
+  "cle": "mission:NoReEntry",
+  "genre": "mission",
+  "zone": "hall",
+  "fr": "Mission - Toute sortie est définitive",
+  "en": "Mission - No Re-entry",
+  "exige": {
+   "objets": [
+    "objet:PhotoPass",
+    "objet:CompPass"
+   ]
+  }
+ },
+ {
+  "id": 7220171,
+  "cle": "mission:SlideIntoFun",
+  "genre": "mission",
+  "zone": "garderie",
+  "fr": "Mission - J’ai glissé, chef",
+  "en": "Mission - Slide Into Fun",
+  "exige": {
+   "objets": [
+    "objet:DaycarePass",
+    "objet:PhotoPass",
+    "objet:CompPass"
+   ]
+  }
+ },
+ {
+  "id": 7220172,
+  "cle": "mission:LetThereBeLight",
+  "genre": "mission",
+  "zone": "garderie",
+  "fr": "Mission - Que la lumière soit",
+  "en": "Mission - Let There Be Light",
+  "exige": {
+   "objets": [
+    "objet:DaycarePass",
+    "objet:PhotoPass",
+    "objet:CompPass"
+   ]
+  }
+ },
+ {
+  "id": 7220173,
+  "cle": "mission:EscapeDaycare",
+  "genre": "mission",
+  "zone": "garderie",
+  "fr": "Mission - Échappez-vous de la garderie",
+  "en": "Mission - Escape The Daycare",
+  "exige": {
+   "objets": [
+    "objet:DaycarePass",
+    "objet:PhotoPass",
+    "objet:CompPass",
+    "objet:Flashlight"
+   ]
+  }
+ },
+ {
+  "id": 7220174,
+  "cle": "mission:TakeMap",
+  "genre": "mission",
+  "zone": "atrium",
+  "fr": "Mission - Carte gratuite",
+  "en": "Mission - Free Map",
+  "exige": {
+   "objets": [
+    "objet:PhotoPass",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:Flashlight"
+   ]
+  }
+ },
+ {
+  "id": 7220175,
+  "cle": "mission:KitchenOffice",
+  "genre": "mission",
+  "zone": "cuisine",
+  "fr": "Mission - Bureau de la cuisine",
+  "en": "Mission - Kitchen Office",
+  "exige": {
+   "badges": 1,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:Flashlight"
+   ]
+  }
+ },
+ {
+  "id": 7220176,
+  "cle": "mission:LoadingDock",
+  "genre": "mission",
+  "zone": "technique",
+  "fr": "Mission - Quai de chargement",
+  "en": "Mission - Loading Dock",
+  "exige": {
+   "badges": 2,
+   "objets": [
+    "objet:Flashlight",
+    "objet:PhotoPass",
+    "objet:DaycarePass",
+    "objet:CompPass"
+   ]
+  }
+ },
+ {
+  "id": 7220177,
+  "cle": "mission:PrizeCounter",
+  "genre": "mission",
+  "zone": "arcade_est",
+  "fr": "Mission - Bureau des prix",
+  "en": "Mission - Prize Counter",
+  "exige": {
+   "badges": 1,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:Flashlight"
+   ]
+  }
+ },
+ {
+  "id": 7220178,
+  "cle": "mission:FindFreddy",
+  "genre": "mission",
+  "zone": "technique",
+  "fr": "Mission - Trouvez Freddy",
+  "en": "Mission - Find Freddy",
+  "exige": {
+   "badges": 2,
+   "objets": [
+    "objet:Flashlight",
+    "objet:PhotoPass",
+    "objet:DaycarePass",
+    "objet:CompPass"
+   ]
+  }
+ },
+ {
+  "id": 7220179,
+  "cle": "mission:LostAndFound",
+  "genre": "mission",
+  "zone": "atrium_est",
+  "fr": "Mission - Objets trouvés",
+  "en": "Mission - Lost And Found",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass"
+   ]
+  }
+ },
+ {
+  "id": 7220180,
+  "cle": "mission:RehearsalSpace",
+  "genre": "mission",
+  "zone": "coulisses",
+  "fr": "Mission - Salle de répétition",
+  "en": "Mission - Rehearsal Space",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:ScrewDriver",
+    "objet:PhotoPass",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass"
+   ]
+  }
+ },
+ {
+  "id": 7220181,
+  "cle": "mission:Backstage",
+  "genre": "mission",
+  "zone": "coulisses",
+  "fr": "Mission - Coulisses",
+  "en": "Mission - Backstage",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:ScrewDriver",
+    "objet:PhotoPass",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:BackstagePass"
+   ]
+  }
+ },
+ {
+  "id": 7220182,
+  "cle": "mission:Showtime",
+  "genre": "mission",
+  "zone": "scene",
+  "fr": "Mission - Le clou du spectacle",
+  "en": "Mission - Showtime",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:BackstagePass",
+    "objet:PhotoPass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220183,
+  "cle": "mission:PartsAndService",
+  "genre": "mission",
+  "zone": "atrium_ouest",
+  "fr": "Mission - PartsAndService",
+  "en": "Mission - PartsAndService",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220184,
+  "cle": "mission:PartyPass",
+  "genre": "mission",
+  "zone": "atrium",
+  "fr": "Mission - Billet d’entrée",
+  "en": "Mission - Party Pass",
+  "exige": {
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ],
+   "badges": 4
+  }
+ },
+ {
+  "id": 7220185,
+  "cle": "mission:MoonlightSerenade",
+  "genre": "mission",
+  "zone": "scene",
+  "fr": "Mission - MoonlightSerenade",
+  "en": "Mission - MoonlightSerenade",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:BackstagePass",
+    "objet:PhotoPass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220186,
+  "cle": "mission:RoxysWeakness",
+  "genre": "mission",
+  "zone": "raceway",
+  "fr": "Mission - Le point faible de Roxy",
+  "en": "Mission - Roxy's Weakness",
+  "exige": {
+   "badges": 6,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MontyMysteryMix",
+    "objet:PartyPassChicaRoom",
+    "objet:MazerciseTicket",
+    "objet:MazerciseControlKey"
+   ]
+  }
+ },
+ {
+  "id": 7220187,
+  "cle": "mission:DJMusicMan",
+  "genre": "mission",
+  "zone": "arcade_ouest",
+  "fr": "Mission - DJMusicMan",
+  "en": "Mission - DJMusicMan",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:DancePass",
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220188,
+  "cle": "mission:StopRoxy",
+  "genre": "mission",
+  "zone": "raceway",
+  "fr": "Mission - Arrêtez Roxy",
+  "en": "Mission - Stop Roxy",
+  "exige": {
+   "badges": 6,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MontyMysteryMix",
+    "objet:PartyPassChicaRoom",
+    "objet:MazerciseTicket",
+    "objet:MazerciseControlKey"
+   ]
+  },
+  "apres_roxy": true
+ },
+ {
+  "id": 7220189,
+  "cle": "mission:UpgradeFreddy",
+  "genre": "mission",
+  "zone": "atrium_ouest",
+  "fr": "Mission - UpgradeFreddy",
+  "en": "Mission - UpgradeFreddy",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:RoxyEyes"
+   ]
+  }
+ },
+ {
+  "id": 7220190,
+  "cle": "mission:ChicaBeak",
+  "genre": "mission",
+  "zone": "egouts",
+  "fr": "Mission - Bec de Chica",
+  "en": "Mission - Chica's Beak",
+  "exige": {
+   "badges": 6,
+   "objets": [
+    "objet:Flashlight",
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MontyMysteryMix"
+   ]
+  }
+ },
+ {
+  "id": 7220191,
+  "cle": "mission:MontyClaws",
+  "genre": "mission",
+  "zone": "golf",
+  "fr": "Mission - Griffes de Monty",
+  "en": "Mission - Monty's Claws",
+  "exige": {
+   "badges": 5,
+   "objets": [
+    "objet:PartyPassChicaRoom",
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseTicket",
+    "objet:MazerciseControlKey"
+   ]
+  }
+ },
+ {
+  "id": 7220192,
+  "cle": "mission:FazerBlast",
+  "genre": "mission",
+  "zone": "fazerblast",
+  "fr": "Mission - Fazer Blast",
+  "en": "Mission - Fazer Blast",
+  "exige": {
+   "badges": 4,
+   "billets": 1,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:Flashlight"
+   ]
+  }
+ },
+ {
+  "id": 7220193,
+  "cle": "mission:DumpsterDiving",
+  "genre": "mission",
+  "zone": "technique",
+  "fr": "Mission - Faire les poubelles",
+  "en": "Mission - Dumpster Diving",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:Flashlight",
+    "objet:PhotoPass",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220194,
+  "cle": "mission:MontyMysteryMix",
+  "genre": "mission",
+  "zone": "cuisine",
+  "fr": "Mission - Mystery Mix de Monty",
+  "en": "Mission - Monty Mystery Mix",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:Flashlight",
+    "objet:MontyMysteryMix",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220195,
+  "cle": "mission:PowerOn",
+  "genre": "mission",
+  "zone": "technique",
+  "fr": "Mission - Allumage",
+  "en": "Mission - Power On",
+  "exige": {
+   "badges": 2,
+   "objets": [
+    "objet:Flashlight",
+    "objet:PhotoPass",
+    "objet:DaycarePass",
+    "objet:CompPass"
+   ]
+  }
+ },
+ {
+  "id": 7220196,
+  "cle": "mission:OfficeToOffice",
+  "genre": "mission",
+  "zone": "technique",
+  "fr": "Mission - D'un bureau à l'autre",
+  "en": "Mission - Office to Office",
+  "exige": {
+   "badges": 2,
+   "objets": [
+    "objet:Flashlight",
+    "objet:PhotoPass",
+    "objet:DaycarePass",
+    "objet:CompPass"
+   ]
+  }
+ },
+ {
+  "id": 7220197,
+  "cle": "mission:MontyGolf",
+  "genre": "mission",
+  "zone": "golf",
+  "fr": "Mission - Monty Golf",
+  "en": "Mission - Monty Golf",
+  "exige": {
+   "badges": 5,
+   "objets": [
+    "objet:PartyPassChicaRoom",
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220198,
+  "cle": "mission:ThrillSeeker",
+  "genre": "mission",
+  "zone": "raceway",
+  "fr": "Mission - Grand frisson",
+  "en": "Mission - Thrill Seeker",
+  "exige": {
+   "badges": 5,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220199,
+  "cle": "mission:Warehouse",
+  "genre": "mission",
+  "zone": "technique",
+  "fr": "Mission - Entrepôt",
+  "en": "Mission - Warehouse",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:Flashlight",
+    "objet:PhotoPass",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:PerformanceDisk"
+   ]
+  }
+ },
+ {
+  "id": 7220200,
+  "cle": "mission:RechargeTime",
+  "genre": "mission",
+  "zone": "garderie",
+  "fr": "Mission - Temps de recharge !",
+  "en": "Mission - Recharge Time!",
+  "exige": {
+   "objets": [
+    "objet:DaycarePass",
+    "objet:PhotoPass",
+    "objet:CompPass",
+    "objet:Flashlight"
+   ],
+   "badges": 2
+  }
+ },
+ {
+  "id": 7220201,
+  "cle": "mission:PlanA",
+  "genre": "mission",
+  "zone": "hall",
+  "fr": "Mission - Plan A",
+  "en": "Mission - Plan A",
+  "exige": {
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:PartyPassChicaRoom"
+   ],
+   "badges": 7
+  },
+  "exclu": true
+ },
+ {
+  "id": 7220202,
+  "cle": "mission:GetOut!",
+  "genre": "mission",
+  "zone": "hall",
+  "fr": "Mission - Sortez d’ici!",
+  "en": "Mission - Get Out!",
+  "exige": {
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:PartyPassChicaRoom"
+   ],
+   "badges": 7
+  },
+  "exclu": true
+ }
+]

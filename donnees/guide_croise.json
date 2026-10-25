@@ -1,0 +1,286 @@
+{
+ "MAP_Backstage_Gameplay:MessageCollectible3_2": {
+  "mission": "PartyPass",
+  "nom": "CHICA REPORT"
+ },
+ "MAP_Backstage_Gameplay:PhotoPassCollectible2": {
+  "mission": "FreeFreddy",
+  "nom": "Photo Pass"
+ },
+ "MAP_Backstage_Gameplay:PresentCollectible2_5": {
+  "mission": "ThrillSeeker",
+  "nom": "Monty Name Shirt"
+ },
+ "MAP_Backstage_Gameplay:PresentCollectible4_2": {
+  "mission": "RehearsalSpace",
+  "nom": "Glam Chica Figure"
+ },
+ "MAP_Backstage_Gameplay:PresentCollectible6_2": {
+  "mission": "PartyPass",
+  "nom": "Golden Freddy"
+ },
+ "MAP_Backstage_Gameplay:PresentCollectible7_2": {
+  "mission": "PartyPass",
+  "nom": "Four Block Shirt"
+ },
+ "MAP_Backstage_Gameplay:PresentCollectible9_2": {
+  "mission": "RehearsalSpace",
+  "nom": "El Chip Piñata"
+ },
+ "MAP_Backstage_Gameplay:PresentCollectible_2": {
+  "mission": "Backstage",
+  "nom": "Pizzaplex Logo Shirt"
+ },
+ "MAP_Daycare_Gameplay:MessageCollectible2": {
+  "mission": "ThrillSeeker",
+  "nom": "OUT OF ORDER"
+ },
+ "MAP_Daycare_Gameplay:MessageCollectible3_3": {
+  "mission": "ThrillSeeker",
+  "nom": "BBW MAINT LOG"
+ },
+ "MAP_Daycare_Gameplay:MessageCollectible_2": {
+  "mission": "EscapeDaycare",
+  "nom": "RECYCLED PIZZA?"
+ },
+ "MAP_Daycare_Gameplay:PresentCollectible4_8": {
+  "mission": "ThrillSeeker",
+  "nom": "Freddy Mask"
+ },
+ "MAP_Daycare_Gameplay:PresentCollectible5_11": {
+  "mission": "ThrillSeeker",
+  "nom": "Frozen Chica Treat"
+ },
+ "MAP_Daycare_Gameplay:PresentCollectible7_2": {
+  "mission": "EscapeDaycare",
+  "nom": "Plush Baby"
+ },
+ "MAP_Daycare_Gameplay:PresentCollectible9_5": {
+  "mission": "EscapeDaycare",
+  "nom": "Old Poster"
+ },
+ "Airlock_3:MessageCollectible_2": {
+  "mission": "NoReEntry",
+  "nom": "Night Terrors"
+ },
+ "Airlock_3:PresentCollectible6_14": {
+  "mission": "NoReEntry",
+  "nom": "Freddy Name Shirt"
+ },
+ "Airlock_3:PresentCollectible_2": {
+  "mission": "NoReEntry",
+  "nom": "Sun Plush"
+ },
+ "MAP_EastArcade_Gameplay2:MessageCollectible_2": {
+  "mission": "PrizeCounter",
+  "nom": "NIGHT SHIFT"
+ },
+ "MAP_EastArcade_Gameplay2:PresentCollectible3_3": {
+  "mission": "PrizeCounter",
+  "nom": "Chica Balloon"
+ },
+ "MAP_ElChips_Gameplay:PresentCollectible2": {
+  "mission": "PrizeCounter",
+  "nom": "Fizzy Faz - Monty"
+ },
+ "MAP_EastAtrium_Sublobbies_Gameplay:MessageCollectible2": {
+  "mission": "PrizeCounter",
+  "nom": "CFF MAINT LOG"
+ },
+ "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible2_2": {
+  "mission": "MontyGolf",
+  "nom": "Glam Monty Figure"
+ },
+ "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible4_2": {
+  "mission": "ThrillSeeker",
+  "nom": "Monty Magnet"
+ },
+ "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible6_12": {
+  "mission": "MontyGolf",
+  "nom": "Moon Plush"
+ },
+ "MAP_GatorGolf_Gameplay:PresentCollectible10_2": {
+  "mission": "MontyGolf",
+  "nom": "Go Kart"
+ },
+ "MAP_GatorGolf_Gameplay:PresentCollectible3": {
+  "mission": "MontyGolf",
+  "nom": "Tragedy Mask"
+ },
+ "MAP_Kitchen_Gameplay:MessageCollectible2_2": {
+  "mission": "LoadingDock",
+  "nom": "COMPACTOR INSTRUCTIONS"
+ },
+ "MAP_Kitchen_Gameplay:MessageCollectible_PrizeRoom_2": {
+  "mission": "LostAndFound",
+  "nom": "QUESTION"
+ },
+ "MAP_Kitchen_Gameplay:PresentCollectible2_2": {
+  "mission": "LostAndFound",
+  "nom": "Star Shirt"
+ },
+ "MAP_Kitchen_Gameplay:PresentCollectible3_5": {
+  "mission": "EscapeDaycare",
+  "nom": "Old Poster"
+ },
+ "MAP_Kitchen_Gameplay:PresentCollectible4_8": {
+  "mission": "LostAndFound",
+  "nom": "Glam Roxy Plush"
+ },
+ "MAP_Kitchen_Gameplay:PresentCollectible5_2": {
+  "mission": "LoadingDock",
+  "nom": "Fizzy Faz - Freddy"
+ },
+ "MAP_Kitchen_Gameplay:PresentCollectible_2": {
+  "mission": "LoadingDock",
+  "nom": "Freddy Magnet"
+ },
+ "MAP_MainLobby_Gameplay:ComplimentaryPass_3": {
+  "mission": "GetOut",
+  "nom": "Complimentary Entry Pass"
+ },
+ "MAP_MainLobby_Gameplay:MessageCollectible3_8": {
+  "mission": "NoReEntry",
+  "nom": "HI DAVE"
+ },
+ "MAP_MainLobby_Gameplay:MessageCollectible_2": {
+  "mission": "NoReEntry",
+  "nom": "Easy Money"
+ },
+ "MAP_MainLobby_Gameplay:MrHippoMagnet_2": {
+  "mission": "NoReEntry",
+  "nom": "Mr Hippo Magnet"
+ },
+ "MAP_MainLobby_Gameplay:PresentCollectible2_2": {
+  "mission": "NoReEntry",
+  "nom": "Glam Chica Plush"
+ },
+ "MAP_MainLobby_Gameplay:PresentCollectible3_5": {
+  "mission": "NoReEntry",
+  "nom": "Chica Name Shirt"
+ },
+ "MAP_MainLobby_Gameplay:PresentCollectible4_8": {
+  "mission": "ThrillSeeker",
+  "nom": "Fizzy Faz - Chica"
+ },
+ "MAP_MainLobby_Gameplay:PresentCollectible7_17": {
+  "mission": "ThrillSeeker",
+  "nom": "Cupcake Piñata"
+ },
+ "MAP_RoxyRacer_Gameplay:PresentCollectible4_5": {
+  "mission": "ThrillSeeker",
+  "nom": "Freddy Upgrade"
+ },
+ "MAP_SewerChica_Gameplay:PresentCollectible_2": {
+  "mission": "EscapeDaycare",
+  "nom": "Old Poster"
+ },
+ "MAP_PrizeCounter_Gameplay:PresentCollectible2_5": {
+  "mission": "PrizeCounter",
+  "nom": "Monty Mask"
+ },
+ "MAP_PrizeCounter_Gameplay:PresentCollectible_2": {
+  "mission": "PrizeCounter",
+  "nom": "Frozen Freddy Treat"
+ },
+ "MAP_StageAreaGameplay:MessageCollectible10_2": {
+  "mission": "FindFreddy",
+  "nom": "IT IS HAPPENING AGAIN"
+ },
+ "MAP_StageAreaGameplay:MessageCollectible11_5": {
+  "mission": "ThrillSeeker",
+  "nom": "Job Security"
+ },
+ "MAP_StageAreaGameplay:PresentCollectible2_2": {
+  "mission": "ThrillSeeker",
+  "nom": "Piñata"
+ },
+ "MAP_StageAreaGameplay:PresentCollectible3_5": {
+  "mission": "MontyGolf",
+  "nom": "Roxy Name Shirt"
+ },
+ "MAP_StageAreaGameplay:PresentCollectible4_2": {
+  "mission": "ThrillSeeker",
+  "nom": "Freddy Face Shirt"
+ },
+ "MAP_StageAreaGameplay:PresentCollectible5_5": {
+  "mission": "LoadingDock",
+  "nom": "Monty Piñata"
+ },
+ "MAP_StageAreaGameplay:PresentCollectible_2": {
+  "mission": "ThrillSeeker",
+  "nom": "Freddy Upgrade"
+ },
+ "MAP_UtiliDoorsGameplay:MessageCollectible3_2": {
+  "mission": "ThrillSeeker",
+  "nom": "All Staff Meeting"
+ },
+ "MAP_UtiliDoorsGameplay:MessageCollectible4_2": {
+  "mission": "MontyGolf",
+  "nom": "BEHIND THE MAZE"
+ },
+ "MAP_UtiliDoorsGameplay:MessageCollectible5_5": {
+  "mission": "ThrillSeeker",
+  "nom": "PINK SLIP"
+ },
+ "MAP_UtiliDoorsGameplay:PresentCollectible2_2": {
+  "mission": "GetOut",
+  "nom": "Chica Piñata"
+ },
+ "MAP_UtiliDoorsGameplay:PresentCollectible9_2": {
+  "mission": "ThrillSeeker",
+  "nom": "Golden Chica"
+ },
+ "MAP_UtiliDoorsGameplay:WarehouseSection5Collectible": {
+  "mission": "Warehouse",
+  "nom": "Nightmare Plush"
+ },
+ "MAP_Utility_Fazerblast_Airlock:PresentCollectible3_2": {
+  "mission": "EscapeDaycare",
+  "nom": "Old Poster"
+ },
+ "MAP_Utility_Southeast_Corner_Gameplay:MessageCollectible5_2": {
+  "mission": "MontyGolf",
+  "nom": "BEHIND THE MAZE"
+ },
+ "MAP_Utility_UnderStageArea_Gameplay:PresentCollectible9_2": {
+  "mission": "PartsAndService",
+  "nom": "Glam Roxy Figure"
+ },
+ "MAP_West_Atrium_Sublobbies_Gameplay:MessageCollectible_2": {
+  "mission": "ThrillSeeker",
+  "nom": "RED FLAG"
+ },
+ "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible2_5": {
+  "mission": "FindFreddy",
+  "nom": "Roxy Mask"
+ },
+ "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible3_8": {
+  "mission": "RehearsalSpace",
+  "nom": "Frozen Roxy Treat"
+ },
+ "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible4_2": {
+  "mission": "ThrillSeeker",
+  "nom": "Shoes"
+ },
+ "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible5": {
+  "mission": "ThrillSeeker",
+  "nom": "Space Freddy Keychain"
+ },
+ "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible6": {
+  "mission": "ThrillSeeker",
+  "nom": "Roxy Magnet"
+ },
+ "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible7_2": {
+  "mission": "ThrillSeeker",
+  "nom": "Roxy Piñata"
+ },
+ "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible8_2": {
+  "mission": "ThrillSeeker",
+  "nom": "Freddy Piñata"
+ },
+ "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible_2": {
+  "mission": "FindFreddy",
+  "nom": "Roxy Balloon"
+ }
+}

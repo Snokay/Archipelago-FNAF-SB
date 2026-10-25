@@ -1,0 +1,24 @@
+# Builds et fichiers de travail
+build/
+test_gen/
+__pycache__/
+*.pyc
+*.bak*
+*.avant_*
+
+# Fichiers du jeu et donnees extraites (jamais publies)
+recherche/
+outils/extrait/
+outils/cartes/
+outils/json/
+outils/uassetgui/
+outils/*.exe
+visuel/
+outils/aesdumpster/
+outils/repak/
+outils/SECOURS_*/
+outils/saves_telechargees/
+outils/liste_pak.txt
+outils/umaps.txt
+outils/exemples_classes.json
+launcher/__pycache__/

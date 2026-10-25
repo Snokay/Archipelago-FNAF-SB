@@ -1,0 +1,2450 @@
+[
+ {
+  "porte": "BP_DoorMaster10",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": "EDoorSide::Front",
+  "pos": [
+   15484,
+   33298,
+   983
+  ],
+  "proche": [
+   "MAP_Utility_Fazerblast_Airlock:PresentCollectible3_2",
+   "Utility",
+   3012
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster104",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": "Fazergun",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   12767,
+   31331,
+   1455
+  ],
+  "proche": [
+   "WestArcade_Gameplay:PRE_BadgeHolder_WestArcade_2",
+   "WestArcade",
+   2691
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster107",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   11817,
+   30609,
+   1470
+  ],
+  "proche": [
+   "WestArcade_Gameplay:PRE_BadgeHolder_WestArcade_2",
+   "WestArcade",
+   2268
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster111",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -13506,
+   31636,
+   1454
+  ],
+  "proche": [
+   "MAP_Daycare_Gameplay:MessageCollectible2",
+   "Daycare",
+   1419
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster121",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -4484,
+   26192,
+   3269
+  ],
+  "proche": [
+   "MAP_EastArcade_Gameplay2:PRE_BadgeHolder_PrizeCounter_2",
+   "East_Arcade",
+   1537
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster122",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -4503,
+   27798,
+   3269
+  ],
+  "proche": [
+   "MAP_EastArcade_Gameplay2:PRE_BadgeHolder_PrizeCounter_2",
+   "East_Arcade",
+   1161
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster123",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -6371,
+   27353,
+   3251
+  ],
+  "proche": [
+   "MAP_EastArcade_Gameplay2:PRE_BadgeHolder_PrizeCounter_2",
+   "East_Arcade",
+   831
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster125",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   309,
+   29937,
+   1461
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:PresentCollectible2_2",
+   "StageArea",
+   1541
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster126",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   1840,
+   29942,
+   1461
+  ],
+  "proche": [
+   "MAP_UtiliDoorsGameplay:PresentCollectible4_5",
+   "Utility",
+   1591
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster127",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   3385,
+   29937,
+   1463
+  ],
+  "proche": [
+   "MAP_UtiliDoorsGameplay:PresentCollectible4_5",
+   "Utility",
+   1782
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster128",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   4917,
+   29935,
+   1461
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:PresentCollectible_2",
+   "StageArea",
+   1381
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster130",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -6094,
+   45609,
+   2201
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:PresentCollectible3_5",
+   "StageArea",
+   1928
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster136",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   20729,
+   38727,
+   1481
+  ],
+  "proche": [
+   "MAP_West_Atrium_Sublobbies_Gameplay:MessageCollectible2_2",
+   "West_Atrium",
+   2542
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster138",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   18034,
+   38654,
+   1481
+  ],
+  "proche": [
+   "MAP_RoxyRacer_Gameplay:DancePassCollectible_2",
+   "RoxyRacer",
+   473
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster141",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   14128,
+   31171,
+   985
+  ],
+  "proche": [
+   "WestArcade_Gameplay:MontyMysteryMix",
+   "WestArcade",
+   2495
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster144_18",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -3756,
+   29408,
+   1461
+  ],
+  "proche": [
+   "MAP_UtiliDoorsGameplay:PresentCollectible9_2",
+   "Utility",
+   1798
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster146_19",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -5002,
+   29576,
+   1460
+  ],
+  "proche": [
+   "MAP_UtiliDoorsGameplay:PresentCollectible9_2",
+   "Utility",
+   1488
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster147",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -5283,
+   29408,
+   1459
+  ],
+  "proche": [
+   "MAP_UtiliDoorsGameplay:PresentCollectible9_2",
+   "Utility",
+   1585
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster148",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -3474,
+   29576,
+   1460
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:MessageCollectible6",
+   "StageArea",
+   1701
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster15",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -6422,
+   53497,
+   1463
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:PresentCollectible4_2",
+   "Backstage/Behind_Stage",
+   1182
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster150",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   366,
+   29576,
+   1459
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:PresentCollectible2_2",
+   "StageArea",
+   1717
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster151",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   1901,
+   29576,
+   1461
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:PresentCollectible4_2",
+   "StageArea",
+   1394
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster152",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   1618,
+   29408,
+   1455
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:PresentCollectible4_2",
+   "StageArea",
+   1231
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster153",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   3161,
+   29410,
+   1461
+  ],
+  "proche": [
+   "MAP_UtiliDoorsGameplay:PresentCollectible4_5",
+   "Utility",
+   1661
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster156",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   4960,
+   29576,
+   1460
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:PresentCollectible_2",
+   "StageArea",
+   1741
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster163",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 1,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": "EDoorSide::Back",
+  "pos": [
+   -1431,
+   30039,
+   1459
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:PresentCollectible2_2",
+   "StageArea",
+   369
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster164",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 1,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": "EDoorSide::Back",
+  "pos": [
+   -1863,
+   30039,
+   1459
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:MessageCollectible6",
+   "StageArea",
+   731
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster17",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -9486,
+   37445,
+   1455
+  ],
+  "proche": [
+   "MAP_East_Atrium_Sublobbies:CollectibleTape2",
+   "East_Atrium",
+   1673
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster172",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -4525,
+   20381,
+   0
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MOD_MazerGymBagC_102",
+   "MainLobby",
+   2916
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster176",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   11954,
+   28568,
+   3237
+  ],
+  "proche": [
+   "WestArcade_Gameplay:MessageCollectible_2",
+   "WestArcade",
+   561
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster179",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   12569,
+   28724,
+   3237
+  ],
+  "proche": [
+   "WestArcade_Gameplay:MessageCollectible_2",
+   "WestArcade",
+   363
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster181",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -3304,
+   44368,
+   3258
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:PresentCollectible3_5",
+   "StageArea",
+   2819
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster182",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   142,
+   44368,
+   3258
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:MessageCollectible10_2",
+   "StageArea",
+   3548
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster183_2",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   3726,
+   23867,
+   2062
+  ],
+  "proche": [
+   "WestArcade_Gameplay:PresentCollectible_2",
+   "WestArcade",
+   322
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster185",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": "EDoorSide::Back",
+  "pos": [
+   149,
+   51569,
+   1462
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:PresentCollectible7_2",
+   "Backstage/Behind_Stage",
+   1001
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster187",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": "EDoorSide::Back",
+  "pos": [
+   -1801,
+   51701,
+   1459
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:MessageCollectible2",
+   "Backstage/Behind_Stage",
+   502
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster188",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": "EDoorSide::Back",
+  "pos": [
+   -3856,
+   51352,
+   1462
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:ChicaGreenroomCollectible_4",
+   "Backstage/Behind_Stage",
+   522
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster189",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -3109,
+   48475,
+   -1360
+  ],
+  "proche": [
+   "MAP_Utility_UnderStageArea_Gameplay:PresentCollectible9_2",
+   "Utility",
+   449
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster191",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -6226,
+   21262,
+   1
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:ComplimentaryPass_3",
+   "MainLobby",
+   1801
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster194",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -6468,
+   21350,
+   1
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:ComplimentaryPass_3",
+   "MainLobby",
+   1720
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster19_2",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": "BackstagePass",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -5654,
+   49749,
+   1459
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:MessageCollectible3_2",
+   "Backstage/Behind_Stage",
+   2187
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster2",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -640,
+   20596,
+   2
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:PresentCollectible7_17",
+   "MainLobby",
+   2337
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster201",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -4586,
+   21262,
+   1
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MOD_MazerGymBagC_102",
+   "MainLobby",
+   2309
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster205",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   17995,
+   29244,
+   2501
+  ],
+  "proche": [
+   "MAP_BowlingAlley_Gameplay:PresentCollectible5_2",
+   "WestArcade",
+   377
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster206",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   2321,
+   29447,
+   2
+  ],
+  "proche": [
+   "MAP_UtiliDoorsGameplay:PresentCollectible4_5",
+   "Utility",
+   222
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster207",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -9876,
+   37593,
+   3258
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:MessageCollectible11_5",
+   "StageArea",
+   1925
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster209",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -13506,
+   30406,
+   1454
+  ],
+  "proche": [
+   "MAP_Daycare_Gameplay:MessageCollectible2",
+   "Daycare",
+   1453
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster210_4",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -2546,
+   24218,
+   419
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MessageCollectible_2",
+   "MainLobby",
+   1097
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster212",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -5737,
+   21634,
+   2
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:ComplimentaryPass_3",
+   "MainLobby",
+   1840
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster213_1",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -8598,
+   52871,
+   1459
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:PresentCollectible5_5",
+   "Backstage/Behind_Stage",
+   537
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster215",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -6642,
+   53253,
+   1459
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:PresentCollectible4_2",
+   "Backstage/Behind_Stage",
+   1347
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster216",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -7427,
+   48925,
+   1459
+  ],
+  "proche": [
+   "MAP_Backstage_RehearsalRoom:BackstagePass_2",
+   "Backstage/Behind_Stage",
+   1786
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster217_2",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 1,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": "EDoorSide::Back",
+  "pos": [
+   5089,
+   36471,
+   3
+  ],
+  "proche": [
+   "MAP_UtiliDoorsGameplay:MessageCollectible_2",
+   "Utility",
+   332
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster24",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   7281,
+   49821,
+   1460
+  ],
+  "proche": [
+   "MAP_West_Atrium_Sublobbies_Gameplay:MessageCollectible_2",
+   "West_Atrium",
+   2223
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster26",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": "DaycarePass",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -3794,
+   27240,
+   2068
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MrHippoMagnet_2",
+   "MainLobby",
+   1896
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster29",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -2926,
+   21306,
+   2
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MOD_MazerGymBagC_102",
+   "MainLobby",
+   2179
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster31_3",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -1962,
+   20782,
+   3
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:PresentCollectible7_17",
+   "MainLobby",
+   2730
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster33",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 1,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": "EDoorSide::Back",
+  "pos": [
+   3123,
+   22087,
+   1451
+  ],
+  "proche": [
+   "WestArcade_Gameplay:PresentCollectible_2",
+   "WestArcade",
+   1924
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster34",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -2381,
+   21995,
+   3
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MOD_MazerGymBagC_102",
+   "MainLobby",
+   2091
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster36",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -291,
+   22886,
+   3
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:PresentCollectible_2",
+   "MainLobby",
+   1458
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster37",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -731,
+   21995,
+   3
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:PresentCollectible7_17",
+   "MainLobby",
+   1620
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster39",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 1,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": "EDoorSide::Back",
+  "pos": [
+   4008,
+   22086,
+   1445
+  ],
+  "proche": [
+   "MAP_UtiliDoorsGameplay:PresentCollectible2_2",
+   "Utility",
+   1298
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster40",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -257,
+   47990,
+   1457
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:CollectibleTape2",
+   "Backstage/Behind_Stage",
+   1453
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster41_1",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -2355,
+   47990,
+   1457
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:Pre_BadgeHolder_Backstage_2",
+   "Backstage/Behind_Stage",
+   1693
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster42_2",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -5061,
+   21634,
+   2
+  ],
+  "proche": [
+   "MAP_SewerChica_Gameplay:PresentCollectible_2",
+   "Sewer_Chica",
+   2246
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster43",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -3902,
+   22310,
+   0
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MOD_MazerGymBagC_102",
+   "MainLobby",
+   1612
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster44",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -4529,
+   24574,
+   2
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MrHippoMagnet_2",
+   "MainLobby",
+   1832
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster45",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -3058,
+   25698,
+   2
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MrHippoMagnet_2",
+   "MainLobby",
+   1820
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster46",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -8429,
+   38758,
+   3258
+  ],
+  "proche": [
+   "MAP_Mazercise:CollectibleTape",
+   "StageArea/Mazercise",
+   2360
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster50",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -755,
+   25698,
+   2
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:PresentCollectible3_5",
+   "MainLobby",
+   2008
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster51",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -581,
+   23958,
+   3
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:PresentCollectible_2",
+   "MainLobby",
+   1897
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster52",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -1782,
+   23959,
+   3
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MessageCollectible_2",
+   "MainLobby",
+   1688
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster54",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 4,
+  "objet": "BackstagePass",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   4957,
+   49153,
+   1460
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:PhotoPassCollectible2",
+   "Backstage/Behind_Stage",
+   333
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster59",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -6928,
+   24900,
+   2
+  ],
+  "proche": [
+   "Airlock_3:MessageCollectible_2",
+   "Daycare/Airlock_Rooms",
+   2426
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster60",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   9053,
+   32432,
+   1432
+  ],
+  "proche": [
+   "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible5",
+   "West_Atrium",
+   1877
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster61",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   6050,
+   37414,
+   1463
+  ],
+  "proche": [
+   "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible_2",
+   "West_Atrium",
+   644
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster63",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": "BackstagePass",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -6022,
+   50141,
+   1459
+  ],
+  "proche": [
+   "MAP_Backstage_RehearsalRoom:CollectibleTape3_2",
+   "Backstage/Behind_Stage",
+   1964
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster66_2",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   10730,
+   38676,
+   1481
+  ],
+  "proche": [
+   "MAP_RoxyRacer_Gameplay:PresentCollectible_2",
+   "RoxyRacer",
+   659
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster67",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": "BackstagePass",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -3605,
+   48906,
+   1459
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:PresentCollectible_2",
+   "Backstage/Behind_Stage",
+   2192
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster69",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   7614,
+   42007,
+   1459
+  ],
+  "proche": [
+   "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible3_8",
+   "West_Atrium",
+   2339
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster7",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   6380,
+   49834,
+   1460
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:PhotoPassCollectible2",
+   "Backstage/Behind_Stage",
+   1802
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster71",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": "BackstagePass",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   991,
+   48923,
+   1459
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:CollectibleTape2",
+   "Backstage/Behind_Stage",
+   747
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster72",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 1,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -1738,
+   45238,
+   3628
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:Pre_BadgeHolder_Backstage_2",
+   "Backstage/Behind_Stage",
+   4270
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster76",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": "EDoorSide::Front",
+  "pos": [
+   -4461,
+   26542,
+   2
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MrHippoMagnet_2",
+   "MainLobby",
+   1944
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster84_2",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -4525,
+   21519,
+   0
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MOD_MazerGymBagC_102",
+   "MainLobby",
+   2135
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster85",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -1488,
+   49517,
+   1458
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:Pre_BadgeHolder_Backstage_2",
+   "Backstage/Behind_Stage",
+   733
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster90_2",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   1490,
+   25924,
+   3
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MessageCollectible3_8",
+   "MainLobby",
+   1616
+  ]
+ },
+ {
+  "porte": "BP_DoorMaster94_2",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": "EDoorSide::Back",
+  "pos": [
+   18707,
+   37552,
+   3115
+  ],
+  "proche": [
+   "MAP_BowlingAlley_Gameplay:MessageCollectible2_5",
+   "WestArcade",
+   851
+  ]
+ },
+ {
+  "porte": "Door_FreddyGreenRoomSide",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": "PhotoPass",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   2068,
+   51042,
+   1459
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:MessageCollectible_2",
+   "Backstage/Behind_Stage",
+   1593
+  ]
+ },
+ {
+  "porte": "FoodCourtKitchenEntryDoor1",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -8136,
+   29934,
+   1461
+  ],
+  "proche": [
+   "Airlock_3:PresentCollectible_2",
+   "Daycare/Airlock_Rooms",
+   2094
+  ]
+ },
+ {
+  "porte": "FoodCourtKitchenEntryDoor2",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -6603,
+   29936,
+   1462
+  ],
+  "proche": [
+   "Airlock_3:PresentCollectible_2",
+   "Daycare/Airlock_Rooms",
+   1851
+  ]
+ },
+ {
+  "porte": "FoodCourtKitchenEntryDoor3",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -5060,
+   29936,
+   1461
+  ],
+  "proche": [
+   "MAP_UtiliDoorsGameplay:PresentCollectible9_2",
+   "Utility",
+   1504
+  ]
+ },
+ {
+  "porte": "FoodCourtKitchenEntryDoor4",
+  "classe": "BP_DoorMaster_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -3534,
+   29937,
+   1461
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:MessageCollectible6",
+   "StageArea",
+   1849
+  ]
+ },
+ {
+  "porte": "KitchenLoadingDockDoor",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -3131,
+   21989,
+   2
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MOD_MazerGymBagC_102",
+   "MainLobby",
+   1758
+  ]
+ },
+ {
+  "porte": "KitchenLoadingDockDoor2",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -3133,
+   23956,
+   2
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:MessageCollectible_2",
+   "MainLobby",
+   1631
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long11_2",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -18752,
+   33671,
+   2071
+  ],
+  "proche": [
+   "MAP_Daycare_Gameplay:PresentCollectible4_8",
+   "Daycare",
+   1372
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long12",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 2,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   5118,
+   37036,
+   2064
+  ],
+  "proche": [
+   "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible_2",
+   "West_Atrium",
+   1097
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long13",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   5113,
+   38001,
+   2064
+  ],
+  "proche": [
+   "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible_2",
+   "West_Atrium",
+   1028
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long14",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   3617,
+   42876,
+   2067
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:MessageCollectible10_2",
+   "StageArea",
+   723
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long15",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   4480,
+   42406,
+   2067
+  ],
+  "proche": [
+   "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible3_8",
+   "West_Atrium",
+   1180
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long17",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   5013,
+   40178,
+   1453
+  ],
+  "proche": [
+   "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible3_8",
+   "West_Atrium",
+   1603
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long19",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -8503,
+   40173,
+   1453
+  ],
+  "proche": [
+   "MAP_RockstarRow_AirlockEast:CollectibleTape4_2",
+   "Backstage/Rockstar_Row",
+   1327
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long2",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 4,
+  "objet": "BackstagePass",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   5352,
+   45920,
+   1458
+  ],
+  "proche": [
+   "MAP_RockstarRow_Entrance_West:CollectibleTape",
+   "Backstage/Rockstar_Row",
+   1303
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long20",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   5044,
+   34532,
+   1453
+  ],
+  "proche": [
+   "MAP_Utility_WestToSublobby:CollectibleTape",
+   "Utility",
+   2260
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long21",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 3,
+  "objet": "BackstagePass",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   4357,
+   40905,
+   1453
+  ],
+  "proche": [
+   "MAP_West_Atrium_Sublobbies_Gameplay:PresentCollectible3_8",
+   "West_Atrium",
+   1263
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long22",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 3,
+  "objet": "BackstagePass",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -6547,
+   43995,
+   1453
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:PresentCollectible3_5",
+   "StageArea",
+   1040
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long23",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -7570,
+   42624,
+   2072
+  ],
+  "proche": [
+   "MAP_RockstarRow_AirlockEast:CollectibleTape4_2",
+   "Backstage/Rockstar_Row",
+   1473
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long24",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -7917,
+   30360,
+   3256
+  ],
+  "proche": [
+   "Airlock_3:PresentCollectible_2",
+   "Daycare/Airlock_Rooms",
+   2452
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long26_0",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 11,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -11645,
+   31604,
+   1453
+  ],
+  "proche": [
+   "MAP_Daycare_Gameplay:MessageCollectible2",
+   "Daycare",
+   784
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long29",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -12025,
+   36668,
+   2066
+  ],
+  "proche": [
+   "MAP_Daycare_Gameplay:PresentCollectible8_2",
+   "Daycare",
+   1714
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long34",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -3858,
+   24765,
+   3265
+  ],
+  "proche": [
+   "MAP_PrizeCounter_Gameplay:PresentCollectible_2",
+   "StageArea",
+   854
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long36",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 3,
+  "objet": "BackstagePass",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -7850,
+   40905,
+   1453
+  ],
+  "proche": [
+   "MAP_RockstarRow_AirlockEast:CollectibleTape4_2",
+   "Backstage/Rockstar_Row",
+   754
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long37",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -8518,
+   35109,
+   1453
+  ],
+  "proche": [
+   "MAP_East_Atrium_Sublobbies:CollectibleTape2",
+   "East_Atrium",
+   903
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long38",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -2750,
+   29336,
+   3268
+  ],
+  "proche": [
+   "MAP_StageAreaGameplay:MessageCollectible6",
+   "StageArea",
+   2022
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long39",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -558,
+   29336,
+   3268
+  ],
+  "proche": [
+   "MAP_PrizeCounter_Gameplay:PresentCollectible2_5",
+   "StageArea",
+   573
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long4",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 11,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -11500,
+   34330,
+   1453
+  ],
+  "proche": [
+   "MAP_EastAtrium_Sublobbies_Gameplay:PresentCollectible3_9",
+   "East_Atrium",
+   1097
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long40",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -1661,
+   29336,
+   3268
+  ],
+  "proche": [
+   "MAP_PrizeCounter_Gameplay:PresentCollectible2_5",
+   "StageArea",
+   1480
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long41",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -8588,
+   37965,
+   2072
+  ],
+  "proche": [
+   "MAP_East_Atrium_Sublobbies:CollectibleTape2",
+   "East_Atrium",
+   2232
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long42",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -8583,
+   36983,
+   2072
+  ],
+  "proche": [
+   "MAP_East_Atrium_Sublobbies:CollectibleTape2",
+   "East_Atrium",
+   1331
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long43_2",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": null,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   10630,
+   40674,
+   1481
+  ],
+  "proche": [
+   "MAP_RoxyRacer_Gameplay:MessageCollectible_RoxyRaceway_RoxyWeakness_2",
+   "RoxyRacer",
+   1960
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long44",
+  "classe": "PRE_PartyDoor_Locked_Activatable_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   7876,
+   40716,
+   1456
+  ],
+  "proche": [
+   "MAP_UtiliDoorsGameplay:PresentCollectible5_8",
+   "Utility",
+   2381
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long46_8",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -18453,
+   28713,
+   1453
+  ],
+  "proche": [
+   "MAP_Daycare_Gameplay:PresentCollectible3_5",
+   "Daycare",
+   1220
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long51_14",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   10441,
+   47809,
+   2123
+  ],
+  "proche": [
+   "MAP_RoxyRacer_Gameplay:PresentCollectible3_2",
+   "RoxyRacer",
+   1104
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long57_2",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 10,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -18453,
+   30394,
+   1453
+  ],
+  "proche": [
+   "MAP_Daycare_Gameplay:MessageCollectible3_3",
+   "Daycare",
+   1844
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long59",
+  "classe": "PRE_PartyDoor_Locked_Activatable_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -13304,
+   43585,
+   2112
+  ],
+  "proche": [
+   "MAP_Cupcake_Shop:CollectibleTape_4",
+   "East_Atrium",
+   3302
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long65_2",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 4,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -5210,
+   21887,
+   3251
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:ComplimentaryPass_3",
+   "MainLobby",
+   2246
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long71_2",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -5820,
+   48391,
+   1455
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:PresentCollectible_2",
+   "Backstage/Behind_Stage",
+   986
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long74",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 3,
+  "objet": "BackstagePass",
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   4074,
+   44017,
+   1453
+  ],
+  "proche": [
+   "MAP_Backstage_Gameplay:PresentCollectible2_5",
+   "Backstage/Behind_Stage",
+   965
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long77",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 8,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -2098,
+   18973,
+   -2
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:PresentCollectible7_17",
+   "MainLobby",
+   4101
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long78",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 8,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -1087,
+   18973,
+   -2
+  ],
+  "proche": [
+   "MAP_MainLobby_Gameplay:PresentCollectible7_17",
+   "MainLobby",
+   3773
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long7_2",
+  "classe": "PRE_PartyDoor_Long_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -8513,
+   34132,
+   1453
+  ],
+  "proche": [
+   "MAP_East_Atrium_Sublobbies:CollectibleTape2",
+   "East_Atrium",
+   1788
+  ]
+ },
+ {
+  "porte": "PRE_PartyDoor_Long9_12",
+  "classe": "PRE_PartyDoor_Long_InteractOpen_C",
+  "niveau": 3,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -6936,
+   29648,
+   2064
+  ],
+  "proche": [
+   "Airlock_3:PresentCollectible_2",
+   "Daycare/Airlock_Rooms",
+   1353
+  ]
+ },
+ {
+  "porte": "PumpRoom_Door",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -15312,
+   39503,
+   940
+  ],
+  "proche": [
+   "MAP_Daycare_Gameplay:PresentCollectible7_2",
+   "Daycare",
+   3456
+  ]
+ },
+ {
+  "porte": "SecurityHall_Door_1",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -16669,
+   38658,
+   940
+  ],
+  "proche": [
+   "MAP_Daycare_Gameplay:PresentCollectible7_2",
+   "Daycare",
+   2500
+  ]
+ },
+ {
+  "porte": "SecurityHall_Door_2",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": null,
+  "sens": null,
+  "pos": [
+   -18222,
+   38668,
+   940
+  ],
+  "proche": [
+   "MAP_Daycare_Gameplay:PresentCollectible7_2",
+   "Daycare",
+   3053
+  ]
+ },
+ {
+  "porte": "SecurityRm_Door_4",
+  "classe": "BP_DoorMaster_C",
+  "niveau": 5,
+  "objet": null,
+  "verrou_depart": true,
+  "sens": null,
+  "pos": [
+   -14652,
+   37187,
+   940
+  ],
+  "proche": [
+   "MAP_Daycare_Gameplay:PresentCollectible7_2",
+   "Daycare",
+   2301
+  ]
+ }
+]
