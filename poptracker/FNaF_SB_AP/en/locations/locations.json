@@ -1,0 +1,4152 @@
+[
+ {
+  "name": "Backstage - Retro CD (Retro CD - ????) 1",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 450,
+    "y": 351
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Message (MontyBoss4)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 549,
+    "y": 236
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Message (ChicaBoss4)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 649,
+    "y": 257
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Message (BonnieMissing1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 820,
+    "y": 288
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Start (Rockstar Row) - Message (Freddy1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 363,
+    "y": 345
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": []
+   }
+  ]
+ },
+ {
+  "name": "Start (Rockstar Row) - Item (Photo Pass)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 265,
+    "y": 371
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": []
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Badge Holder (Security Badge)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 522,
+    "y": 355
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Start (Rockstar Row) - Present (Monty Name Shirt)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 259,
+    "y": 563
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": []
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Present (Freddy Icon Shirt)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 196,
+    "y": 440
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Present (Glam Chica Figure)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 682,
+    "y": 195
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Present (Flashlight Battery Upgrade)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 812,
+    "y": 184
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Present (Golden Freddy)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 580,
+    "y": 245
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Present (Four Block Shirt)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 487,
+    "y": 229
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Present (Chica Mask)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 635,
+    "y": 209
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Present (El Chip Piñata)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 384,
+    "y": 164
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Start (Rockstar Row) - Present (Pizzaplex Logo Shirt)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 683,
+    "y": 424
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": []
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Retro CD (Retro CD - ????) 2",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 777,
+    "y": 271
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Message (Freddy1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 389,
+    "y": 345
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Retro CD (Retro CD - ????) 3",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 804,
+    "y": 670
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Backstage - Retro CD (Retro CD - ????) 4",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 292,
+    "y": 516
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Message (ArcadeGlitches6)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1203,
+    "y": 719
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass,badge:2"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Message (ArcadeGlitches1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1509,
+    "y": 754
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass,badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Message (Complaint1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1227,
+    "y": 609
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Badge Holder (Security Badge)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1373,
+    "y": 642
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Present (Golden Moon)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1392,
+    "y": 866
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass,badge:5,flashbeacon,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Present (Flashlight Battery Upgrade)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1398,
+    "y": 824
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Present (Freddy Mask)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1494,
+    "y": 591
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass,badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Present (Frozen Chica Treat)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1533,
+    "y": 779
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass,badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Present (Plush Baby)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1365,
+    "y": 514
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Present (Glam Freddy Figure)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1201,
+    "y": 572
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Present (Old Poster)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1502,
+    "y": 639
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Message (NightTerrors)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 994,
+    "y": 913
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Present (Freddy Name Shirt)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 965,
+    "y": 927
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Present (Sun Plush)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1008,
+    "y": 823
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass,badge:3"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Daycare - Message (ArcadeGlitches8)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1366,
+    "y": 862
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass,badge:5,flashbeacon,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Arcade - Message (NightShift)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level3",
+    "x": 605,
+    "y": 1037
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Arcade - Badge Holder (Security Badge)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level3",
+    "x": 550,
+    "y": 917
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Arcade - Present (Chica Balloon)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level3",
+    "x": 808,
+    "y": 868
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight,badge:4"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Arcade - Present (Fizzy Faz - Monty)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level3",
+    "x": 735,
+    "y": 603
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Atrium - Retro CD (Retro CD - ????) 1",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 1445,
+    "y": 270
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Atrium - Message (ArcadeGlitches3)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 868,
+    "y": 423
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Atrium - Message (ArcadeGlitches2)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 898,
+    "y": 485
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Atrium - Present (Glam Monty Figure)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 913,
+    "y": 750
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Atrium - Present (Golden Sun)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 910,
+    "y": 928
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Atrium - Present (Monty Magnet)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 883,
+    "y": 445
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Atrium - Present (Moon Plush)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 882,
+    "y": 1079
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Atrium - Present (Frozen Monty Treat)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 888,
+    "y": 659
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Atrium - Present (Hoodie)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 928,
+    "y": 403
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Atrium - Retro CD (Retro CD - ????) 2",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 835,
+    "y": 903
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fazer Blast - Item (Bowling Ticket)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 413,
+    "y": 640
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:3,prog_partypass:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fazer Blast - Item (Fazerblaster)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 214,
+    "y": 711
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:3,prog_partypass:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fazer Blast - Message (Vanessa1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 152,
+    "y": 796
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:3,prog_partypass:1,photopass,daycarepass,comppass,flashlight,fazergun"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fazer Blast - Message (ChicaBoss1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 395,
+    "y": 680
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:3,prog_partypass:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fazer Blast - Present (Freddy Balloon)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 353,
+    "y": 660
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:3,prog_partypass:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fazer Blast - Present (Space Chica Keychain)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 370,
+    "y": 509
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:3,prog_partypass:1,photopass,daycarepass,comppass,flashlight,badge:5"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fazer Blast - Present (Space Roxy Keychain)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 437,
+    "y": 651
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:3,prog_partypass:1,photopass,daycarepass,comppass,flashlight,badge:5"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fazer Blast - Retro CD (Retro CD - ????)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 433,
+    "y": 549
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:3,prog_partypass:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fazer Blast - Badge Holder (Security Badge)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 392,
+    "y": 654
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:3,prog_partypass:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Monty Golf - Retro CD (Retro CD - ????)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1504,
+    "y": 205
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Monty Golf - Item (Faz Camera)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1371,
+    "y": 483
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Monty Golf - Item (Mazercise Ticket)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1399,
+    "y": 451
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Monty Golf - Message (FlashCam)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1534,
+    "y": 316
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Monty Golf - Message (?)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1421,
+    "y": 471
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Monty Golf - Present (Go Kart)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1484,
+    "y": 302
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Monty Golf - Present (Tragedy Mask)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1426,
+    "y": 189
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Monty Golf - Present (Flashlight Battery Upgrade)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1316,
+    "y": 433
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Monty Golf - Badge Holder (Security Badge)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 1396,
+    "y": 479
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Kitchen - Message (ChicaBoss3)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 812,
+    "y": 1308
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Kitchen - Message (Vanessa2)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 820,
+    "y": 1336
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Kitchen - Message (StaminaBoosters)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 638,
+    "y": 1269
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Kitchen - Message (StaffParty1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 988,
+    "y": 1482
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Kitchen - Badge Holder (Security Badge)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 762,
+    "y": 1222
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Kitchen - Present (Star Shirt)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 943,
+    "y": 1377
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Kitchen - Present (Old Poster)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 935,
+    "y": 1249
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight,badge:6,flashlight,photopass,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Kitchen - Present (Glam Roxy Plush)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 977,
+    "y": 1233
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Kitchen - Present (Fizzy Faz - Freddy)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 512,
+    "y": 1237
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Kitchen - Present (Freddy Magnet)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 663,
+    "y": 1273
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Main Lobby - Item (Complimentary Entry Pass)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 978,
+    "y": 1058
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Main Lobby - Message (LilMusicMan1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 716,
+    "y": 998
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Main Lobby - Message (Complaint2)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 671,
+    "y": 937
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Main Lobby - Message (UpgradeMachine1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 822,
+    "y": 983
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Main Lobby - Message (911Call)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 865,
+    "y": 1045
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass,badge:2"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Main Lobby - Item (Mr Hippo Magnet)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 878,
+    "y": 932
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Main Lobby - Present (Glam Chica Plush)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 703,
+    "y": 959
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Main Lobby - Present (Chica Name Shirt)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 796,
+    "y": 891
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Main Lobby - Present (Fizzy Faz - Chica)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 861,
+    "y": 1020
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass,badge:2"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Main Lobby - Present (Cupcake Piñata)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 738,
+    "y": 1050
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass,badge:4"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Item (Roxy's Eyes)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 120
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,flashlight,daycarepass,comppass,performancedisk,mazerciseticket,mazercisecontrolkey"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Retro CD (Retro CD - ????)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 533,
+    "y": 198
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Item (Damaged Head)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 164
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Item (Dance Pass)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 343,
+    "y": 568
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Message (BonnieMissing2)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 452,
+    "y": 342
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Message (RoxyBoss3)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 588,
+    "y": 370
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Message (Sinkhole2)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 595,
+    "y": 167
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,flashlight,daycarepass,comppass,performancedisk,mazerciseticket,mazercisecontrolkey"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Message (ArcadeGlitches5)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 84,
+    "y": 561
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Message (Sinkhole3)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 68,
+    "y": 276
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Message (RoxyBoss2)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 104,
+    "y": 344
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Message (RoxyBoss1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 582,
+    "y": 544
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Present (Fizzy Faz - Roxy)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 613,
+    "y": 365
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Present (Monty Balloon)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 621,
+    "y": 171
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,flashlight,daycarepass,comppass,performancedisk,mazerciseticket,mazercisecontrolkey"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Present (Freddy Upgrade)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 68,
+    "y": 582
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Roxy Raceway - Present (Space Monty Keychain)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 589,
+    "y": 569
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Sewers - Present (Old Poster)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement2",
+    "x": 1309,
+    "y": 1329
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:6,flashlight,photopass,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Stage Area - Retro CD (Retro CD - ????) 1",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 534,
+    "y": 857
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Arcade - Present (Monty Mask)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level3",
+    "x": 334,
+    "y": 853
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight,badge:2"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "East Arcade - Present (Frozen Freddy Treat)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level3",
+    "x": 460,
+    "y": 1049
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight,badge:2"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Stage Area - Message (Complaint3)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 343,
+    "y": 627
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:5"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Stage Area - Message (MontyBoss3)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level3",
+    "x": 764,
+    "y": 426
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Stage Area - Message (RayMessage)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 538,
+    "y": 1170
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:4"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Stage Area - Present (Piñata)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 513,
+    "y": 1129
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Stage Area - Present (Roxy Name Shirt)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 691,
+    "y": 574
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Stage Area - Present (Freddy Face Shirt)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 392,
+    "y": 1216
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Stage Area - Present (Monty Piñata)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 521,
+    "y": 1018
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Stage Area - Present (Freddy Upgrade)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 274,
+    "y": 1089
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Stage Area - Retro CD (Retro CD - ????) 2",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level1",
+    "x": 823,
+    "y": 689
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,mazerciseticket"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Retro CD (Retro CD - ????) 1",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 438,
+    "y": 480
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Message (LilMusicMan2)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 919,
+    "y": 620
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Message (TornPaper)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 534,
+    "y": 802
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,montyclaws,chicabeak"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Message (StaffParty2)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 706,
+    "y": 1070
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Message (MontyBoss1) 1",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 1584,
+    "y": 1007
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Message (Staff1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 746,
+    "y": 985
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Message (BonnieMissing3)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 428,
+    "y": 456
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,montyclaws"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Message (RoxyEyesMsg)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 730,
+    "y": 130
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Message (ChicaVoiceBoxMsg)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 773,
+    "y": 151
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Message (MontyClawsMsg)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 756,
+    "y": 131
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Message (KitchenStaffNote)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 477,
+    "y": 731
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Badge Holder (Security Badge)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 821,
+    "y": 621
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Present (Chica Piñata)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 541,
+    "y": 1055
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Present (Glam Freddy Plush)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 574,
+    "y": 1016
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,montyclaws"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Present (Moon Figure)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 431,
+    "y": 553
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,montyclaws"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Present (Sun Figure)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 458,
+    "y": 557
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,montyclaws"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Present (Comedy Mask)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 619,
+    "y": 405
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,chicabeak"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Present (Golden Roxy)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 531,
+    "y": 397
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,montyclaws"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Present (Golden Chica)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 867,
+    "y": 1012
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Present (Foxy Plush)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 576,
+    "y": 601
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,montyclaws"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Present (Nightmare Plush)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 695,
+    "y": 670
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Present (Old Poster)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Main",
+    "x": 57,
+    "y": 577
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Item (Mazercise Control Key)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 1386,
+    "y": 936
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Message (MontyBoss1) 2",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 1584,
+    "y": 981
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Present (Glam Roxy Figure)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 809,
+    "y": 230
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Utility Tunnels - Retro CD (Retro CD - ????) 2",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Basement1",
+    "x": 489,
+    "y": 887
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Arcade - Retro CD (Retro CD - ????) 1",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level4",
+    "x": 132,
+    "y": 401
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,bowlingticket"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Arcade - Message (ArcadeGlitches4)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level4",
+    "x": 93,
+    "y": 130
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,bowlingticket"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Arcade - Message (ChicaBoss2)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level4",
+    "x": 194,
+    "y": 450
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,bowlingticket"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Arcade - Present (Golden Monty)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level4",
+    "x": 73,
+    "y": 482
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,bowlingticket"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Arcade - Present (Bonnie Plush)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level4",
+    "x": 240,
+    "y": 213
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,bowlingticket"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Arcade - Retro CD (Retro CD - ????) 2",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level4",
+    "x": 379,
+    "y": 677
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Arcade - Message (ArcadeGlitches5)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level4",
+    "x": 484,
+    "y": 839
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Arcade - Message (DJMM)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level4",
+    "x": 323,
+    "y": 495
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Arcade - Badge Holder (Security Badge)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level4",
+    "x": 318,
+    "y": 469
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Arcade - Present (Chica Magnet)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level4",
+    "x": 399,
+    "y": 425
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Arcade - Present (Glam Monty Plush)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level4",
+    "x": 687,
+    "y": 701
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,badge:5"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Atrium - Retro CD (Retro CD - ????)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 713,
+    "y": 326
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Atrium - Message (Sinkhole1)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 309,
+    "y": 601
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Atrium - Message (ArcadeGlitches7)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 747,
+    "y": 210
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Atrium - Present (Roxy Mask)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 789,
+    "y": 542
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Atrium - Present (Frozen Roxy Treat)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 817,
+    "y": 437
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Atrium - Present (Shoes)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 776,
+    "y": 219
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Atrium - Present (Space Freddy Keychain)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 740,
+    "y": 771
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Atrium - Present (Roxy Magnet)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 779,
+    "y": 247
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Atrium - Present (Roxy Piñata)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 613,
+    "y": 391
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Atrium - Present (Freddy Piñata)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 716,
+    "y": 622
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "West Atrium - Present (Roxy Balloon)",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_Level2",
+    "x": 788,
+    "y": 595
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Free Freddy",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 208
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass,photopass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Get Out",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 252
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass,photopass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - No Re-entry",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 296
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass,photopass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Slide Into Fun",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 340
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass,daycarepass,photopass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Let There Be Light",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 384
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass,daycarepass,photopass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Escape The Daycare",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 428
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass,daycarepass,photopass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Free Map",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 472
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Kitchen Office",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 516
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight,badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Loading Dock",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 560
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Prize Counter",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 604
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight,badge:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Find Freddy",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 648
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Lost And Found",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 692
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Rehearsal Space",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 736
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Backstage",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 780
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:4,photopass,flashlight,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Showtime",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 824
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - PartsAndService",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 868
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk,badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Party Pass",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 912
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass,badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - MoonlightSerenade",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 40,
+    "y": 956
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:4,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Roxy's Weakness",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 120
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,flashlight,daycarepass,comppass,performancedisk,mazerciseticket,mazercisecontrolkey"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - DJMusicMan",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 164
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Stop Roxy",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 208
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,flashlight,daycarepass,comppass,performancedisk,mazerciseticket,mazercisecontrolkey"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - UpgradeFreddy",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 252
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:4,photopass,flashlight,daycarepass,comppass,performancedisk,badge:4,photopass,flashlight,daycarepass,comppass,performancedisk,roxyeyes"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Chica's Beak",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 296
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:6,flashlight,photopass,daycarepass,comppass,performancedisk,badge:6,flashlight,photopass,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Monty's Claws",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 340
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk,badge:5,photopass,flashlight,daycarepass,comppass,performancedisk,mazerciseticket,mazercisecontrolkey"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Fazer Blast",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 384
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:3,prog_partypass:1,photopass,daycarepass,comppass,flashlight,badge:4,prog_partypass:1,photopass,daycarepass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Dumpster Diving",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 428
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,badge:4,flashlight,photopass,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Monty Mystery Mix",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 472
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:1,photopass,daycarepass,comppass,flashlight,badge:4,photopass,daycarepass,comppass,flashlight,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Power On",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 516
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Office to Office",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 560
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,badge:2,flashlight,photopass,daycarepass,comppass"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Monty Golf",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 604
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk,badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Thrill Seeker",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 648
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:5,photopass,flashlight,daycarepass,comppass,performancedisk,badge:5,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Warehouse",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 692
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "badge:2,flashlight,photopass,daycarepass,comppass,badge:4,flashlight,photopass,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Recharge Time!",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 736
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "daycarepass,photopass,comppass,badge:2,daycarepass,photopass,comppass,flashlight"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Plan A",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 780
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass,badge:7,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mission - Get Out!",
+  "chest_unopened_img": "images/chest_closed.png",
+  "chest_opened_img": "images/chest_opened.png",
+  "map_locations": [
+   {
+    "map": "map_missions",
+    "x": 510,
+    "y": 824
+   }
+  ],
+  "sections": [
+   {
+    "name": "Check",
+    "item_count": 1,
+    "access_rules": [
+     "photopass,badge:7,photopass,flashlight,daycarepass,comppass,performancedisk"
+    ]
+   }
+  ]
+ }
+]

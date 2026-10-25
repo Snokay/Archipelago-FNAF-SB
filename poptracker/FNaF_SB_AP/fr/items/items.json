@@ -1,0 +1,208 @@
+[
+ {
+  "name": "Badge de securite progressif",
+  "img": "images/items/badge.png",
+  "codes": "badge",
+  "type": "consumable",
+  "max_quantity": 10,
+  "disabled_img": "images/items/badge_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Billet d’entrée offert par la maison",
+  "img": "images/items/comppass.png",
+  "codes": "comppass",
+  "type": "toggle",
+  "disabled_img": "images/items/comppass_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Bon pour une photo",
+  "img": "images/items/photopass.png",
+  "codes": "photopass",
+  "type": "toggle",
+  "disabled_img": "images/items/photopass_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Laissez-passer de la garderie",
+  "img": "images/items/daycarepass.png",
+  "codes": "daycarepass",
+  "type": "toggle",
+  "disabled_img": "images/items/daycarepass_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Laissez-passer d’entrée",
+  "img": "images/items/admissionpass.png",
+  "codes": "admissionpass",
+  "type": "toggle",
+  "disabled_img": "images/items/admissionpass_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Billet d’entrée pour la piste de danse",
+  "img": "images/items/dancepass.png",
+  "codes": "dancepass",
+  "type": "toggle",
+  "disabled_img": "images/items/dancepass_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Billet d’entrée au bowling",
+  "img": "images/items/bowlingticket.png",
+  "codes": "bowlingticket",
+  "type": "toggle",
+  "disabled_img": "images/items/bowlingticket_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Billet d’entrée au labyrinthe Mazercise",
+  "img": "images/items/mazerciseticket.png",
+  "codes": "mazerciseticket",
+  "type": "toggle",
+  "disabled_img": "images/items/mazerciseticket_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Bec de Chica",
+  "img": "images/items/chicabeak.png",
+  "codes": "chicabeak",
+  "type": "toggle",
+  "disabled_img": "images/items/chicabeak_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Yeux de Roxy",
+  "img": "images/items/roxyeyes.png",
+  "codes": "roxyeyes",
+  "type": "toggle",
+  "disabled_img": "images/items/roxyeyes_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Griffes de Monty",
+  "img": "images/items/montyclaws.png",
+  "codes": "montyclaws",
+  "type": "toggle",
+  "disabled_img": "images/items/montyclaws_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Lampe torche",
+  "img": "images/items/flashlight.png",
+  "codes": "flashlight",
+  "type": "toggle",
+  "disabled_img": "images/items/flashlight_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Faz Camera",
+  "img": "images/items/flashbeacon.png",
+  "codes": "flashbeacon",
+  "type": "toggle",
+  "disabled_img": "images/items/flashbeacon_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Fazerblaster",
+  "img": "images/items/fazergun.png",
+  "codes": "fazergun",
+  "type": "toggle",
+  "disabled_img": "images/items/fazergun_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Disque du spectacle",
+  "img": "images/items/performancedisk.png",
+  "codes": "performancedisk",
+  "type": "toggle",
+  "disabled_img": "images/items/performancedisk_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Aimant de Mr. Hippo",
+  "img": "images/items/mrhippomagnet.png",
+  "codes": "mrhippomagnet",
+  "type": "toggle",
+  "disabled_img": "images/items/mrhippomagnet_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Clé de contrôle du Mazercise",
+  "img": "images/items/mazercisecontrolkey.png",
+  "codes": "mazercisecontrolkey",
+  "type": "toggle",
+  "disabled_img": "images/items/mazercisecontrolkey_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Tête abîmée",
+  "img": "images/items/damagedhead.png",
+  "codes": "damagedhead",
+  "type": "toggle",
+  "disabled_img": "images/items/damagedhead_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Billet d'entree",
+  "img": "images/items/prog_partypass.png",
+  "codes": "prog_partypass",
+  "type": "consumable",
+  "max_quantity": 9,
+  "disabled_img": "images/items/prog_partypass_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Amelioration de lampe progressive",
+  "img": "images/items/prog_flashlightupgrade.png",
+  "codes": "prog_flashlightupgrade",
+  "type": "consumable",
+  "max_quantity": 6,
+  "disabled_img": "images/items/prog_flashlightupgrade_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Amelioration de Freddy progressive",
+  "img": "images/items/prog_freddyupgrade.png",
+  "codes": "prog_freddyupgrade",
+  "type": "consumable",
+  "max_quantity": 4,
+  "disabled_img": "images/items/prog_freddyupgrade_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Amelioration de Faz Camera progressive",
+  "img": "images/items/prog_flashbeaconupgrade.png",
+  "codes": "prog_flashbeaconupgrade",
+  "type": "consumable",
+  "max_quantity": 2,
+  "disabled_img": "images/items/prog_flashbeaconupgrade_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Fizzy Faz progressif",
+  "img": "images/items/prog_gregoryupgrade_stamina.png",
+  "codes": "prog_gregoryupgrade_stamina",
+  "type": "consumable",
+  "max_quantity": 5,
+  "disabled_img": "images/items/prog_gregoryupgrade_stamina_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Chaussures",
+  "img": "images/items/gregoryupgrade_shoes.png",
+  "codes": "gregoryupgrade_shoes",
+  "type": "toggle",
+  "disabled_img": "images/items/gregoryupgrade_shoes_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Sweat à capuche",
+  "img": "images/items/gregoryupgrade_stealth.png",
+  "codes": "gregoryupgrade_stealth",
+  "type": "toggle",
+  "disabled_img": "images/items/gregoryupgrade_stealth_off.png",
+  "disabled_img_mods": "@disabled"
+ }
+]

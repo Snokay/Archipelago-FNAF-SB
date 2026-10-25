@@ -1,0 +1,24 @@
+{
+ "name": "FNaF Security Breach Archipelago",
+ "game_name": "Five Nights at Freddy's Security Breach",
+ "package_uid": "fnaf_sb_archipelago_snokayy",
+ "package_version": "0.9.1.0",
+ "platform": "pc",
+ "author": "Snokayy",
+ "min_poptracker_version": "0.25.6",
+ "target_poptracker_version": "0.35.4",
+ "variants": {
+  "fr": {
+   "display_name": "Français",
+   "flags": [
+    "ap"
+   ]
+  },
+  "en": {
+   "display_name": "English",
+   "flags": [
+    "ap"
+   ]
+  }
+ }
+}

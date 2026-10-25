@@ -65,8 +65,8 @@ them goes wrong, please tell us on the Discord:
 - Code: Snokayy, MIT license (see [LICENSE](LICENSE)).
 - [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) (MIT license) is shipped with the mod, unchanged.
 - No game file is distributed, except images made from the game's textures: the wall posters (the game's
-  poster sheets with our own pictures pasted on them, in `mod/ArchipelagoSB/images`) and, in the release, the
-  item icons and floor maps of the PopTracker pack.
+  poster sheets with our own pictures pasted on them, in `mod/ArchipelagoSB/images`) and the item icons and
+  floor maps of the PopTracker pack (`poptracker/`, also attached to each release).
 - **AI disclosure**: the code is written with an AI assistant (Claude, Anthropic) and reviewed by me before each
   release; the menu logo, loading icon, launcher logo and the concert music are AI-generated. Details in
   🤖 [AI disclosure / Déclaration IA](AI_DISCLOSURE.md)
@@ -139,8 +139,8 @@ une vraie partie. Si l'un d'eux pose problème, dites-le sur le Discord :
 - Code : Snokayy, licence MIT (voir [LICENSE](LICENSE)).
 - [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) (licence MIT) est fourni avec le mod, sans modification.
 - Aucun fichier du jeu n'est distribué, sauf des images faites à partir des textures du jeu : les affiches
-  murales (les planches d'affiches du jeu avec nos images collées dessus, dans `mod/ArchipelagoSB/images`) et,
-  dans la release, les icônes et les plans d'étage du pack PopTracker.
+  murales (les planches d'affiches du jeu avec nos images collées dessus, dans `mod/ArchipelagoSB/images`) et les
+  icônes et plans d'étage du pack PopTracker (`poptracker/`, aussi joint à chaque release).
 - **Déclaration IA** : le code est écrit avec un assistant IA (Claude, Anthropic) et vérifié par moi avant
   chaque publication ; le logo du menu, l'icône de chargement, le logo du launcher et la musique du concert sont
   🤖 [AI disclosure / Déclaration IA](AI_DISCLOSURE.md)

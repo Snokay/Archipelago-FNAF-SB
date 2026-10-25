@@ -1,0 +1,50 @@
+[
+ {
+  "name": "map_Main",
+  "location_size": 22,
+  "location_border_thickness": 2,
+  "img": "images/map_Main.png"
+ },
+ {
+  "name": "map_Level1",
+  "location_size": 22,
+  "location_border_thickness": 2,
+  "img": "images/map_Level1.png"
+ },
+ {
+  "name": "map_Level2",
+  "location_size": 22,
+  "location_border_thickness": 2,
+  "img": "images/map_Level2.png"
+ },
+ {
+  "name": "map_Level3",
+  "location_size": 22,
+  "location_border_thickness": 2,
+  "img": "images/map_Level3.png"
+ },
+ {
+  "name": "map_Level4",
+  "location_size": 22,
+  "location_border_thickness": 2,
+  "img": "images/map_Level4.png"
+ },
+ {
+  "name": "map_Basement1",
+  "location_size": 22,
+  "location_border_thickness": 2,
+  "img": "images/map_Basement1.png"
+ },
+ {
+  "name": "map_Basement2",
+  "location_size": 22,
+  "location_border_thickness": 2,
+  "img": "images/map_Basement2.png"
+ },
+ {
+  "name": "map_missions",
+  "location_size": 22,
+  "location_border_thickness": 2,
+  "img": "images/map_missions.png"
+ }
+]

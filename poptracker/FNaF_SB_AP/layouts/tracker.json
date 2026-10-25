@@ -1,0 +1,717 @@
+{
+ "tracker_default": {
+  "type": "container",
+  "background": "#0b0614",
+  "content": {
+   "type": "dock",
+   "dropshadow": true,
+   "content": [
+    {
+     "type": "dock",
+     "dock": "bottom",
+     "content": [
+      {
+       "type": "array",
+       "orientation": "horizontal",
+       "content": [
+        {
+         "type": "group",
+         "header": "Clés & passes",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "badge",
+            "prog_partypass",
+            "comppass",
+            "photopass",
+            "daycarepass"
+           ],
+           [
+            "admissionpass",
+            "dancepass",
+            "bowlingticket",
+            "mazerciseticket"
+           ]
+          ]
+         }
+        },
+        {
+         "type": "group",
+         "header": "Freddy",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "chicabeak",
+            "roxyeyes"
+           ],
+           [
+            "montyclaws",
+            "prog_freddyupgrade"
+           ]
+          ]
+         }
+        },
+        {
+         "type": "group",
+         "header": "Défense",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "flashlight",
+            "prog_flashlightupgrade",
+            "flashbeacon"
+           ],
+           [
+            "prog_flashbeaconupgrade",
+            "fazergun"
+           ]
+          ]
+         }
+        },
+        {
+         "type": "group",
+         "header": "Gregory",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "prog_gregoryupgrade_stamina",
+            "gregoryupgrade_shoes",
+            "gregoryupgrade_stealth"
+           ]
+          ]
+         }
+        },
+        {
+         "type": "group",
+         "header": "Quête",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "performancedisk",
+            "mrhippomagnet",
+            "mazercisecontrolkey"
+           ],
+           [
+            "damagedhead"
+           ]
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "tabbed",
+     "tabs": [
+      {
+       "title": "Rez-de-chaussée",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Main"
+        ]
+       }
+      },
+      {
+       "title": "Niveau 1",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Level1"
+        ]
+       }
+      },
+      {
+       "title": "Niveau 2",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Level2"
+        ]
+       }
+      },
+      {
+       "title": "Niveau 3",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Level3"
+        ]
+       }
+      },
+      {
+       "title": "Niveau 4",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Level4"
+        ]
+       }
+      },
+      {
+       "title": "Sous-sol 1",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Basement1"
+        ]
+       }
+      },
+      {
+       "title": "Sous-sol 2",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Basement2"
+        ]
+       }
+      },
+      {
+       "title": "Missions",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_missions"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "tracker_horizontal": {
+  "type": "container",
+  "background": "#0b0614",
+  "content": {
+   "type": "dock",
+   "dropshadow": true,
+   "content": [
+    {
+     "type": "dock",
+     "dock": "bottom",
+     "content": [
+      {
+       "type": "array",
+       "orientation": "horizontal",
+       "content": [
+        {
+         "type": "group",
+         "header": "Clés & passes",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "badge",
+            "prog_partypass",
+            "comppass",
+            "photopass",
+            "daycarepass"
+           ],
+           [
+            "admissionpass",
+            "dancepass",
+            "bowlingticket",
+            "mazerciseticket"
+           ]
+          ]
+         }
+        },
+        {
+         "type": "group",
+         "header": "Freddy",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "chicabeak",
+            "roxyeyes"
+           ],
+           [
+            "montyclaws",
+            "prog_freddyupgrade"
+           ]
+          ]
+         }
+        },
+        {
+         "type": "group",
+         "header": "Défense",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "flashlight",
+            "prog_flashlightupgrade",
+            "flashbeacon"
+           ],
+           [
+            "prog_flashbeaconupgrade",
+            "fazergun"
+           ]
+          ]
+         }
+        },
+        {
+         "type": "group",
+         "header": "Gregory",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "prog_gregoryupgrade_stamina",
+            "gregoryupgrade_shoes",
+            "gregoryupgrade_stealth"
+           ]
+          ]
+         }
+        },
+        {
+         "type": "group",
+         "header": "Quête",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "performancedisk",
+            "mrhippomagnet",
+            "mazercisecontrolkey"
+           ],
+           [
+            "damagedhead"
+           ]
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "tabbed",
+     "tabs": [
+      {
+       "title": "Rez-de-chaussée",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Main"
+        ]
+       }
+      },
+      {
+       "title": "Niveau 1",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Level1"
+        ]
+       }
+      },
+      {
+       "title": "Niveau 2",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Level2"
+        ]
+       }
+      },
+      {
+       "title": "Niveau 3",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Level3"
+        ]
+       }
+      },
+      {
+       "title": "Niveau 4",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Level4"
+        ]
+       }
+      },
+      {
+       "title": "Sous-sol 1",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Basement1"
+        ]
+       }
+      },
+      {
+       "title": "Sous-sol 2",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Basement2"
+        ]
+       }
+      },
+      {
+       "title": "Missions",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_missions"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "tracker_vertical": {
+  "type": "container",
+  "background": "#0b0614",
+  "content": {
+   "type": "dock",
+   "dropshadow": true,
+   "content": [
+    {
+     "type": "dock",
+     "dock": "bottom",
+     "content": [
+      {
+       "type": "array",
+       "orientation": "horizontal",
+       "content": [
+        {
+         "type": "group",
+         "header": "Clés & passes",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "badge",
+            "prog_partypass",
+            "comppass",
+            "photopass",
+            "daycarepass"
+           ],
+           [
+            "admissionpass",
+            "dancepass",
+            "bowlingticket",
+            "mazerciseticket"
+           ]
+          ]
+         }
+        },
+        {
+         "type": "group",
+         "header": "Freddy",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "chicabeak",
+            "roxyeyes"
+           ],
+           [
+            "montyclaws",
+            "prog_freddyupgrade"
+           ]
+          ]
+         }
+        },
+        {
+         "type": "group",
+         "header": "Défense",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "flashlight",
+            "prog_flashlightupgrade",
+            "flashbeacon"
+           ],
+           [
+            "prog_flashbeaconupgrade",
+            "fazergun"
+           ]
+          ]
+         }
+        },
+        {
+         "type": "group",
+         "header": "Gregory",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "prog_gregoryupgrade_stamina",
+            "gregoryupgrade_shoes",
+            "gregoryupgrade_stealth"
+           ]
+          ]
+         }
+        },
+        {
+         "type": "group",
+         "header": "Quête",
+         "content": {
+          "type": "itemgrid",
+          "item_margin": "4,3",
+          "h_alignment": "left",
+          "item_size": 56,
+          "rows": [
+           [
+            "performancedisk",
+            "mrhippomagnet",
+            "mazercisecontrolkey"
+           ],
+           [
+            "damagedhead"
+           ]
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "tabbed",
+     "tabs": [
+      {
+       "title": "Rez-de-chaussée",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Main"
+        ]
+       }
+      },
+      {
+       "title": "Niveau 1",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Level1"
+        ]
+       }
+      },
+      {
+       "title": "Niveau 2",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Level2"
+        ]
+       }
+      },
+      {
+       "title": "Niveau 3",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Level3"
+        ]
+       }
+      },
+      {
+       "title": "Niveau 4",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Level4"
+        ]
+       }
+      },
+      {
+       "title": "Sous-sol 1",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Basement1"
+        ]
+       }
+      },
+      {
+       "title": "Sous-sol 2",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_Basement2"
+        ]
+       }
+      },
+      {
+       "title": "Missions",
+       "content": {
+        "type": "map",
+        "maps": [
+         "map_missions"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "tracker_broadcast": {
+  "type": "array",
+  "orientation": "horizontal",
+  "content": [
+   {
+    "type": "group",
+    "header": "Clés & passes",
+    "content": {
+     "type": "itemgrid",
+     "item_margin": "4,3",
+     "h_alignment": "left",
+     "item_size": 56,
+     "rows": [
+      [
+       "badge",
+       "prog_partypass",
+       "comppass",
+       "photopass",
+       "daycarepass"
+      ],
+      [
+       "admissionpass",
+       "dancepass",
+       "bowlingticket",
+       "mazerciseticket"
+      ]
+     ]
+    }
+   },
+   {
+    "type": "group",
+    "header": "Freddy",
+    "content": {
+     "type": "itemgrid",
+     "item_margin": "4,3",
+     "h_alignment": "left",
+     "item_size": 56,
+     "rows": [
+      [
+       "chicabeak",
+       "roxyeyes"
+      ],
+      [
+       "montyclaws",
+       "prog_freddyupgrade"
+      ]
+     ]
+    }
+   },
+   {
+    "type": "group",
+    "header": "Défense",
+    "content": {
+     "type": "itemgrid",
+     "item_margin": "4,3",
+     "h_alignment": "left",
+     "item_size": 56,
+     "rows": [
+      [
+       "flashlight",
+       "prog_flashlightupgrade",
+       "flashbeacon"
+      ],
+      [
+       "prog_flashbeaconupgrade",
+       "fazergun"
+      ]
+     ]
+    }
+   },
+   {
+    "type": "group",
+    "header": "Gregory",
+    "content": {
+     "type": "itemgrid",
+     "item_margin": "4,3",
+     "h_alignment": "left",
+     "item_size": 56,
+     "rows": [
+      [
+       "prog_gregoryupgrade_stamina",
+       "gregoryupgrade_shoes",
+       "gregoryupgrade_stealth"
+      ]
+     ]
+    }
+   },
+   {
+    "type": "group",
+    "header": "Quête",
+    "content": {
+     "type": "itemgrid",
+     "item_margin": "4,3",
+     "h_alignment": "left",
+     "item_size": 56,
+     "rows": [
+      [
+       "performancedisk",
+       "mrhippomagnet",
+       "mazercisecontrolkey"
+      ],
+      [
+       "damagedhead"
+      ]
+     ]
+    }
+   }
+  ]
+ }
+}

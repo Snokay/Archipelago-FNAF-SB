@@ -29,7 +29,8 @@ RACINE = ICI.parent
 sys.path.insert(0, str(ICI))
 import textures_ue  # noqa: E402
 DATA = RACINE / "apworld" / "fnafsb" / "data"
-OUT = RACINE / "build" / "poptracker" / "FNaF_SB_AP"
+# Le pack lui-meme est dans le depot (poptracker/), le zip de la release dans build/poptracker
+OUT = RACINE / "poptracker" / "FNaF_SB_AP"
 
 
 def constantes_apworld():
@@ -565,7 +566,8 @@ Archipelago:AddLocationHandler("location", on_location)
                              "en": {"display_name": "English", "flags": ["ap"]}}}
     (OUT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    archive = OUT.parent / f"FNaF_SB_AP_{version}.zip"
+    archive = RACINE / "build" / "poptracker" / f"FNaF_SB_AP_{version}.zip"
+    archive.parent.mkdir(parents=True, exist_ok=True)
     if archive.exists():
         archive.unlink()
     with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as z:
