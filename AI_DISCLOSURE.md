@@ -37,6 +37,7 @@ The code is written by Claude, and I check it before every release:
 
 - Design choices: what is shuffled, options, logic, goal, what goes in each version.
 - Testing, bug reports, releases and support on the Discord.
+- Some part of the code
 
 I am responsible for everything published here, AI-assisted parts included. If something is wrong or unclear,
 please open an issue or ask on the [Discord](https://discord.gg/yqKUMMkWhr).
