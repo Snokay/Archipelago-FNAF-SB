@@ -9,12 +9,10 @@ local M = {}
 M.modeAP = false      -- connecte : l'objet ramasse est retire (il viendra d'Archipelago), sauf s'il a deja ete recu
 M.surCheck = nil      -- fonction(emplacement, objet, genre), posee par le client
 -- Objets jamais retires au ramassage (cles en minuscules : le code AP "ScrewDriver" = objet "Screwdriver")
--- Billet de la loge de Chica (sans lui, Fazer Blast ne se lance pas) et Mystery Mix (scriptes ; aussi pour les seeds
--- generees avant qu'il soit hors AP)
-local JAMAIS_BASE = {fazwatch = true, map = true, partypasschicaroom = true,
-    montymysterymix = true}
-M.jamaisRetires = {fazwatch = true, map = true, partypasschicaroom = true,
-    montymysterymix = true}
+-- Le billet de la loge de Chica et le Mystery Mix en faisaient partie : leur mission avance maintenant a la
+-- reception (missions_objets.lua) ; les seeds qui les laissent a leur place les envoient dans "garder"
+local JAMAIS_BASE = {fazwatch = true, map = true}
+M.jamaisRetires = {fazwatch = true, map = true}
 -- Liste envoyee par le pont (slot_data "garder") : objets hors AP et objets de sortie restes a leur place
 function M.garder(c)
     M.jamaisRetires = {}

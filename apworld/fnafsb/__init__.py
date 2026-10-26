@@ -48,16 +48,10 @@ VANILLA = {"MAP_MainLobby_Gameplay:ComplimentaryPass_3": "objet:CompPass",
            "MAP_EastArcade_Gameplay2:PRE_BadgeHolder_PrizeCounter_2": "badge",  # autre chemin du 2e badge (El Chip)
            "mission:ChicaBeak": "objet:ChicaBeak"}  # la porte de sortie des egouts exige la boite vocale
 # Hors d'Archipelago, comme la FazWatch : ni melange ni check, le joueur le ramasse comme dans le jeu de base
-HORS_AP = {"MAP_MainLobby_Gameplay:PresentCollectible_2": "objet:ScrewDriver",
-           # son ramassage termine la mission Salle de repetition : recu d'AP sans ouvrir le cadeau, les
-           # barrieres de Showtime restaient fermees (teste par le joueur le 25/10)
-           "MAP_Backstage_RehearsalRoom:BackstagePass_2": "objet:BackstagePass",
-           # billet de la loge de Chica : sans le ramasser, la mission de Fazer Blast ne se lance pas (joueur, 25/10)
-           "MAP_Backstage_Gameplay:ChicaGreenroomCollectible_4": "objet:PartyPassChicaRoom",
-           # Mystery Mix de Monty : scripte, sans le ramasser la quete de Chica n'avance pas (joueur 25/10).
-           # Les billets Mazercise et bowling, eux, restent melanges (la logique les exige : bowling, Monty)
-           "MAP_BowlingAlley_Gameplay:MontyMysteryMix_2": "objet:MontyMysteryMix",
-           "WestArcade_Gameplay:MontyMysteryMix": "objet:MontyMysteryMix"}
+# Le pass coulisses, le billet de la loge de Chica et le Mystery Mix y etaient (leur ramassage fait avancer
+# l'histoire) : depuis le 26/10 le mod fait avancer leur mission a la reception (sb/missions_objets.lua), ils
+# sont melanges et les missions concernees les exigent (donnees/zones.json).
+HORS_AP = {"MAP_MainLobby_Gameplay:PresentCollectible_2": "objet:ScrewDriver"}
 # Donnes par le jeu sans emplacement (MapBot de l'entrepot) et exiges par une porte : jamais melanges
 # FazMap : donnee par le MapBot (mission Carte gratuite) et jamais retiree par le mod (le joueur garde sa
 # carte) ; aucune porte ne l'exige, la melanger ne faisait qu'un doublon inutile (joueur 25/10)

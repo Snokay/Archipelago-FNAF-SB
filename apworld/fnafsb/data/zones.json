@@ -153,6 +153,7 @@
     "badges": 3,
     "billets": 1,
     "objets": [
+     "objet:PartyPassChicaRoom",
      "objet:PhotoPass",
      "objet:DaycarePass",
      "objet:CompPass",
@@ -211,6 +212,7 @@
     "objets": [
      "objet:DancePass",
      "objet:PhotoPass",
+     "objet:PartyPassChicaRoom",
      "objet:BackstagePass",
      "objet:ScrewDriver",
      "objet:Flashlight",
@@ -438,9 +440,11 @@
      "objet:PhotoPass",
      "objet:Flashlight",
      "objet:DaycarePass",
-     "objet:CompPass"
+     "objet:CompPass",
+     "objet:BackstagePass"
     ]
-   }
+   },
+   "_note_reception": "l'objet fait avancer la mission a sa reception (missions_objets.lua, 26/10)"
   },
   {
    "mission": "Backstage",
@@ -495,6 +499,7 @@
    "exige": {
     "objets": [
      "objet:PhotoPass",
+     "objet:PartyPassChicaRoom",
      "objet:BackstagePass",
      "objet:ScrewDriver",
      "objet:Flashlight",
@@ -503,7 +508,8 @@
      "objet:PerformanceDisk"
     ],
     "badges": 4
-   }
+   },
+   "_note_reception": "l'objet fait avancer la mission a sa reception (missions_objets.lua, 26/10)"
   },
   {
    "mission": "MoonlightSerenade",
@@ -517,9 +523,11 @@
      "objet:Flashlight",
      "objet:DaycarePass",
      "objet:CompPass",
+     "objet:PartyPassChicaRoom",
      "objet:PerformanceDisk"
     ]
-   }
+   },
+   "_note_reception": "l'objet fait avancer la mission a sa reception (missions_objets.lua, 26/10)"
   },
   {
    "mission": "RoxysWeakness",
@@ -539,12 +547,14 @@
      "objet:DaycarePass",
      "objet:CompPass",
      "objet:PerformanceDisk",
+     "objet:DamagedHead",
      "objet:MontyMysteryMix",
      "objet:PartyPassChicaRoom",
      "objet:MazerciseTicket",
      "objet:MazerciseControlKey"
     ]
-   }
+   },
+   "_note_reception": "l'objet fait avancer la mission a sa reception (missions_objets.lua, 26/10)"
   },
   {
    "mission": "DJMusicMan",
@@ -555,6 +565,7 @@
     "objets": [
      "objet:DancePass",
      "objet:PhotoPass",
+     "objet:PartyPassChicaRoom",
      "objet:BackstagePass",
      "objet:ScrewDriver",
      "objet:Flashlight",
@@ -666,12 +677,14 @@
     "badges": 4,
     "billets": 1,
     "objets": [
+     "objet:PartyPassChicaRoom",
      "objet:PhotoPass",
      "objet:DaycarePass",
      "objet:CompPass",
      "objet:Flashlight"
     ]
-   }
+   },
+   "_note_reception": "sans le billet de la loge de Chica, Fazer Blast ne se lance pas (joueur 25/10)"
   },
   {
    "mission": "DumpsterDiving",
@@ -773,9 +786,12 @@
      "objet:Flashlight",
      "objet:DaycarePass",
      "objet:CompPass",
-     "objet:PerformanceDisk"
+     "objet:PerformanceDisk",
+     "objet:MazerciseControlKey",
+     "objet:PartyPassChicaRoom"
     ]
-   }
+   },
+   "_note_reception": "l'objet fait avancer la mission a sa reception (missions_objets.lua, 26/10)"
   },
   {
    "mission": "Warehouse",
@@ -826,6 +842,7 @@
      "objet:DaycarePass",
      "objet:CompPass",
      "objet:PerformanceDisk",
+     "objet:MazerciseControlKey",
      "objet:PartyPassChicaRoom"
     ],
     "badges": 7
@@ -849,6 +866,7 @@
      "objet:DaycarePass",
      "objet:CompPass",
      "objet:PerformanceDisk",
+     "objet:MazerciseControlKey",
      "objet:PartyPassChicaRoom"
     ],
     "badges": 7
@@ -867,6 +885,7 @@
     "objet:DaycarePass",
     "objet:CompPass",
     "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
     "objet:PartyPassChicaRoom"
    ]
   },
@@ -881,6 +900,7 @@
      "objet:DaycarePass",
      "objet:CompPass",
      "objet:PerformanceDisk",
+     "objet:MazerciseControlKey",
      "objet:PartyPassChicaRoom"
     ]
    },
@@ -894,6 +914,7 @@
      "objet:DaycarePass",
      "objet:CompPass",
      "objet:PerformanceDisk",
+     "objet:MazerciseControlKey",
      "objet:PartyPassChicaRoom"
     ]
    },
@@ -907,6 +928,7 @@
      "objet:DaycarePass",
      "objet:CompPass",
      "objet:PerformanceDisk",
+     "objet:MazerciseControlKey",
      "objet:PartyPassChicaRoom"
     ]
    },
@@ -920,6 +942,7 @@
      "objet:DaycarePass",
      "objet:CompPass",
      "objet:PerformanceDisk",
+     "objet:MazerciseControlKey",
      "objet:PartyPassChicaRoom"
     ]
    },
@@ -933,6 +956,7 @@
      "objet:DaycarePass",
      "objet:CompPass",
      "objet:PerformanceDisk",
+     "objet:MazerciseControlKey",
      "objet:PartyPassChicaRoom"
     ]
    }

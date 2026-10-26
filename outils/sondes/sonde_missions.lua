@@ -121,8 +121,17 @@ end
 
 -- = : liste les reglages et fonctions de la tete posee au sol (classe et parents jusqu'a Collectible_C)
 local function dissequerTete()
-    local a = FindFirstOf("CollectibleStaffbotHead_C")
-    if not a or not a:IsValid() then O.afficher("SONDE : pas de tete au sol ici", 4) return end
+    -- ramassable le plus proche de Gregory (tete, cadeau, billet...)
+    local g = O.gregory()
+    local a, meilleur = nil, 1e12
+    for _, classe in ipairs({"Collectible_C", "PresentCollectible_C", "CollectibleStaffbotHead_C"}) do
+        for _, c in ipairs(FindAllOf(classe) or {}) do
+            local ok, d = pcall(function() return O.dist2D(c:K2_GetActorLocation(), g:K2_GetActorLocation()) end)
+            if ok and c:IsValid() and d < meilleur then a, meilleur = c, d end
+        end
+    end
+    if not a then O.afficher("SONDE : aucun ramassable ici", 4) return end
+    O.log("SONDE TETE ===", a:GetFullName(), "objet", O.s(a.ItemName), "distance", math.floor(meilleur))
     local classe = a:GetClass()
     local n = 0
     while classe and classe:IsValid() do
@@ -144,7 +153,7 @@ local function dissequerTete()
         if nomClasse == "Collectible_C" then break end
         classe = classe:GetSuperStruct()
     end
-    O.afficher("SONDE : tete dissequee (" .. n .. " lignes au journal)", 4)
+    O.afficher("SONDE : ramassable dissequé (" .. n .. " lignes au journal)", 4)
 end
 
 -- ù : mode AP simule sans serveur, tete pas encore recue (pour tester missions_objets.lua)
@@ -155,6 +164,82 @@ local function simulerAP()
     O.afficher("SONDE : mode AP simule, tete non recue", 4)
 end
 
+-- ^ : charge les classes des objets d'histoire et journalise leurs reglages par defaut (champs propres a la
+-- classe, hors Collectible_C) et ceux de leurs composants (UpdateMission_... du billet de la loge de Chica)
+local CLASSES = {"BackstagePass", "BowlingTicket", "ChicaGreenroomCollectible", "CollectibleStaffbotHead",
+    "ComplimentaryPass", "DancePassCollectible", "FlashBeaconCollect", "InvisibleCollectible",
+    "LaserGunCollectible_Prize", "MazerciseControlKey", "MazercizeTicket", "MontyMysteryMix", "MrHippoMagnet",
+    "PhotoPassCollectible"}
+local DOSSIER = "/Game/Blueprints/Objects/Collectibles/"
+
+local function valeurs(objet, classe, prefixe)
+    pcall(function()
+        classe:ForEachProperty(function(p)
+            local nom = p:GetFName():ToString()
+            if nom ~= "UberGraphFrame" then
+                local ok, v = pcall(function() return O.s(objet[nom]) end)
+                O.log("SONDE CLASSE", prefixe, nom, "=", ok and tostring(v) or "?")
+            end
+        end)
+    end)
+end
+
+local function classesObjets()
+    for _, nom in ipairs(CLASSES) do
+        local chemin = DOSSIER .. nom
+        local essais = {}
+        for _, cible in ipairs({chemin .. "." .. nom .. "_C", chemin .. "." .. nom}) do
+            local ok, err = pcall(function() return LoadAsset(cible) end)
+            essais[#essais + 1] = cible .. " -> " .. (ok and "ok" or tostring(err))
+        end
+        local classe = StaticFindObject(chemin .. "." .. nom .. "_C")
+        local cdo = StaticFindObject(chemin .. ".Default__" .. nom .. "_C")
+        if not classe or not classe:IsValid() or not cdo or not cdo:IsValid() then
+            O.log("SONDE CLASSE", nom, ": introuvable |", table.concat(essais, " | "),
+                "| classe", tostring(classe and classe:IsValid()), "cdo", tostring(cdo and cdo:IsValid()))
+        else
+            O.log("SONDE CLASSE ===", nom)
+            valeurs(cdo, classe, nom)
+            -- composants de mission (UpdateMissionComponent : MissionName, MissionStateIndex, bShouldComplete)
+            local champs = {}
+            pcall(function()
+                classe:ForEachProperty(function(p)
+                    local champ = p:GetFName():ToString()
+                    if champ:find("ission") then champs[#champs + 1] = champ end
+                end)
+            end)
+            for _, champ in ipairs(champs) do
+                local ok, err = pcall(function()
+                    local c = StaticFindObject(chemin .. "." .. nom .. "_C:" .. champ .. "_GEN_VARIABLE")
+                    if not c or not c:IsValid() then error("modele introuvable") end
+                    O.log("SONDE CLASSE", nom, "composant", champ, "| mission =", O.s(c.MissionName),
+                        "| avancement =", tostring(c.MissionStateIndex), "| terminer =", tostring(c.bShouldComplete),
+                        "| sauver =", tostring(c.bShouldSave))
+                end)
+                if not ok then O.log("SONDE CLASSE", nom, "composant", champ, "illisible :", tostring(err)) end
+            end
+            -- composants ajoutes dans le Blueprint (SimpleConstructionScript)
+            pcall(function()
+                local scs = classe.SimpleConstructionScript
+                for _, n in ipairs(scs:GetAllNodes()) do
+                    local noeud = n:get()
+                    local modele = noeud.ComponentTemplate
+                    if modele and modele:IsValid() then
+                        local cc = modele:GetClass()
+                        local nomC = cc:GetFName():ToString()
+                        if nomC:find("ission") or modele:GetFName():ToString():find("ission") then
+                            O.log("SONDE CLASSE", nom, "composant", modele:GetFName():ToString(), "(" .. nomC .. ")")
+                            valeurs(modele, cc, nom .. "." .. modele:GetFName():ToString())
+                        end
+                    end
+                end
+            end)
+        end
+    end
+    O.afficher("SONDE : classes des objets lues (journal)", 4)
+end
+
+O.touche(Key.OEM_SIX, classesObjets)
 O.touche(Key.OEM_THREE, simulerAP)
 O.touche(Key.OEM_PLUS, dissequerTete)
 O.touche(Key.ZERO, retirerRoxy)

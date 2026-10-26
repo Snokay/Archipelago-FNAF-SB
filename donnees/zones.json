@@ -107,7 +107,10 @@
    "en": "Fazer Blast",
    "exige": {
     "badges": 3,
-    "billets": 1
+    "billets": 1,
+    "objets": [
+     "objet:PartyPassChicaRoom"
+    ]
    },
    "histoire": [
     "EscapeDaycare"
@@ -258,7 +261,13 @@
   },
   {
    "mission": "RehearsalSpace",
-   "zone": "coulisses"
+   "zone": "coulisses",
+   "exige": {
+    "objets": [
+     "objet:BackstagePass"
+    ]
+   },
+   "_note_reception": "l'objet fait avancer la mission a sa reception (missions_objets.lua, 26/10)"
   },
   {
    "mission": "Backstage",
@@ -284,11 +293,23 @@
   },
   {
    "mission": "PartyPass",
-   "zone": "atrium"
+   "zone": "atrium",
+   "exige": {
+    "objets": [
+     "objet:PartyPassChicaRoom"
+    ]
+   },
+   "_note_reception": "l'objet fait avancer la mission a sa reception (missions_objets.lua, 26/10)"
   },
   {
    "mission": "MoonlightSerenade",
-   "zone": "scene"
+   "zone": "scene",
+   "exige": {
+    "objets": [
+     "objet:PartyPassChicaRoom"
+    ]
+   },
+   "_note_reception": "l'objet fait avancer la mission a sa reception (missions_objets.lua, 26/10)"
   },
   {
    "mission": "RoxysWeakness",
@@ -297,7 +318,13 @@
     "PartsAndService",
     "ChicaBeak",
     "MontyClaws"
-   ]
+   ],
+   "exige": {
+    "objets": [
+     "objet:DamagedHead"
+    ]
+   },
+   "_note_reception": "l'objet fait avancer la mission a sa reception (missions_objets.lua, 26/10)"
   },
   {
    "mission": "DJMusicMan",
@@ -360,7 +387,13 @@
    "zone": "fazerblast",
    "histoire": [
     "LostAndFound"
-   ]
+   ],
+   "exige": {
+    "objets": [
+     "objet:PartyPassChicaRoom"
+    ]
+   },
+   "_note_reception": "sans le billet de la loge de Chica, Fazer Blast ne se lance pas (joueur 25/10)"
   },
   {
    "mission": "DumpsterDiving",
@@ -401,7 +434,13 @@
   },
   {
    "mission": "ThrillSeeker",
-   "zone": "raceway"
+   "zone": "raceway",
+   "exige": {
+    "objets": [
+     "objet:MazerciseControlKey"
+    ]
+   },
+   "_note_reception": "l'objet fait avancer la mission a sa reception (missions_objets.lua, 26/10)"
   },
   {
    "mission": "Warehouse",

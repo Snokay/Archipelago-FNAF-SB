@@ -163,7 +163,8 @@
     "objet:Flashlight",
     "objet:DaycarePass",
     "objet:CompPass",
-    "objet:PerformanceDisk"
+    "objet:PerformanceDisk",
+    "objet:PartyPassChicaRoom"
    ]
   }
  },
@@ -250,7 +251,9 @@
     "objet:Flashlight",
     "objet:DaycarePass",
     "objet:CompPass",
-    "objet:PerformanceDisk"
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
    ]
   }
  },
@@ -288,7 +291,8 @@
     "objet:Flashlight",
     "objet:DaycarePass",
     "objet:CompPass",
-    "objet:PerformanceDisk"
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey"
    ]
   }
  },
@@ -337,7 +341,9 @@
     "objet:Flashlight",
     "objet:DaycarePass",
     "objet:CompPass",
-    "objet:PerformanceDisk"
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
    ]
   }
  },
@@ -410,7 +416,8 @@
     "objet:Flashlight",
     "objet:DaycarePass",
     "objet:CompPass",
-    "objet:PerformanceDisk"
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey"
    ]
   }
  },
@@ -1529,6 +1536,7 @@
    "objets": [
     "objet:DancePass",
     "objet:PhotoPass",
+    "objet:PartyPassChicaRoom",
     "objet:BackstagePass",
     "objet:ScrewDriver",
     "objet:Flashlight",
@@ -1855,7 +1863,8 @@
     "objet:PhotoPass",
     "objet:Flashlight",
     "objet:DaycarePass",
-    "objet:CompPass"
+    "objet:CompPass",
+    "objet:BackstagePass"
    ]
   }
  },
@@ -1928,6 +1937,7 @@
   "exige": {
    "objets": [
     "objet:PhotoPass",
+    "objet:PartyPassChicaRoom",
     "objet:BackstagePass",
     "objet:ScrewDriver",
     "objet:Flashlight",
@@ -1954,6 +1964,7 @@
     "objet:Flashlight",
     "objet:DaycarePass",
     "objet:CompPass",
+    "objet:PartyPassChicaRoom",
     "objet:PerformanceDisk"
    ]
   }
@@ -1975,6 +1986,7 @@
     "objet:DaycarePass",
     "objet:CompPass",
     "objet:PerformanceDisk",
+    "objet:DamagedHead",
     "objet:MontyMysteryMix",
     "objet:PartyPassChicaRoom",
     "objet:MazerciseTicket",
@@ -1994,6 +2006,7 @@
    "objets": [
     "objet:DancePass",
     "objet:PhotoPass",
+    "objet:PartyPassChicaRoom",
     "objet:BackstagePass",
     "objet:ScrewDriver",
     "objet:Flashlight",
@@ -2105,6 +2118,7 @@
    "badges": 4,
    "billets": 1,
    "objets": [
+    "objet:PartyPassChicaRoom",
     "objet:PhotoPass",
     "objet:DaycarePass",
     "objet:CompPass",
@@ -2224,7 +2238,9 @@
     "objet:Flashlight",
     "objet:DaycarePass",
     "objet:CompPass",
-    "objet:PerformanceDisk"
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
    ]
   }
  },
@@ -2281,6 +2297,7 @@
     "objet:DaycarePass",
     "objet:CompPass",
     "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
     "objet:PartyPassChicaRoom"
    ],
    "badges": 7
@@ -2303,6 +2320,7 @@
     "objet:DaycarePass",
     "objet:CompPass",
     "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
     "objet:PartyPassChicaRoom"
    ],
    "badges": 7

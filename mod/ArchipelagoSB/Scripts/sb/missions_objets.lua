@@ -1,65 +1,113 @@
--- Objets qui font avancer l'histoire quand on les ramasse (la tete abimee termine "Le point faible de Roxy" et
--- demarre "Reparez la tete de robot"). En archi, c'est la reception de l'objet qui doit le faire, pas le
--- ramassage : sinon un objet parti dans un autre monde fait avancer l'histoire sans etre la, et un objet recu
--- sans ramassage la laisse bloquee.
+-- Objets qui font avancer l'histoire quand on les ramasse (pass coulisses, tete abimee, Mystery Mix...). En
+-- archi, c'est la reception de l'objet qui doit le faire, pas le ramassage : sinon un objet parti dans un autre
+-- monde fait avancer l'histoire sans etre la, et un objet recu sans ramassage la laisse bloquee.
 -- Ramassage : on vide les reglages de mission des ramassables poses (il ne reste que le check). Le crochet
 -- "OnPlayerHoverEnter" ne passait pas pour la tete (test 26/10) : recherche ciblee sur leur classe.
--- Reception : on fait nous-memes ce qu'aurait fait le ramassage (deja fait : rien ne change).
+-- Reception : on rejoue les actions du ramassage, dans l'ordre. Terminer ou faire avancer une mission attend
+-- qu'elle soit active (le moment ou on ramasserait l'objet dans le jeu de base).
+-- Valeurs lues dans les Blueprints des objets (sonde, 26/10).
 local O = require("sb.outils")
 local Ob = require("sb.objets")
 local R = require("sb.ramassage")
 
--- objet -> classe du ramassable et missions de son ramassage (ses reglages "End/Start Mission Name")
+-- objet -> classe du ramassable, reglages a vider (champs de l'acteur, composants UpdateMissionComponent) et
+-- actions du ramassage : {mission, "terminer" | "demarrer" | avancement}
 local LIEES = {
-    DamagedHead = {classe = "CollectibleStaffbotHead_C", fin = "RoxysWeakness", debut = "DJMusicMan"},
+    DamagedHead = {classe = "CollectibleStaffbotHead_C", champs = {"End Mission Name", "Start Mission Name"},
+        actions = {{"RoxysWeakness", "terminer"}, {"DJMusicMan", "demarrer"}}},
+    BackstagePass = {classe = "BackstagePass_C", composants = {"UpdateMissionOnCollect", "UpdateBackstageMission"},
+        actions = {{"RehearsalSpace", "terminer"}, {"Backstage", "demarrer"}}},
+    PartyPassChicaRoom = {classe = "ChicaGreenroomCollectible_C",
+        composants = {"UpdateMission_PartyPass", "UpdateMission_MoonlightSerenade"},
+        actions = {{"PartyPass", "terminer"}, {"MoonlightSerenade", "demarrer"}}},
+    MontyMysteryMix = {classe = "MontyMysteryMix_C", composants = {"UpdateMissionOnCollect"},
+        actions = {{"MontyMysteryMix", 1}}},
+    MazerciseControlKey = {classe = "MazerciseControlKey_C", composants = {"UpdateMissionOnCollect"},
+        actions = {{"ThrillSeeker", 3}}},
+    PhotoPass = {classe = "PhotoPassCollectible_C", champs = {"MissionToUpdate"}, composants = {"UpdateMissionOnCollect"},
+        actions = {{"FreeFreddy", 3}}},
 }
 
 local AUCUNE = "None"
 
-local function neutraliser(a)
-    for _, champ in ipairs({"End Mission Name", "Start Mission Name"}) do
-        local ok, v = pcall(function() return O.s(a[champ]) end)
-        if ok and v ~= "nil" and v ~= AUCUNE then
-            a[champ] = FName(AUCUNE)
-            O.log("ramassage sans effet sur l'histoire :", O.s(a.ItemName), champ, v)
-        end
+-- Seeds d'avant (objet laisse a sa place, slot_data "garder") : le jeu de base s'en occupe
+local function gere(objet) return R.modeAP and not R.garde(objet) end
+
+local function vider(a, objet, cible, champ)
+    local ok, v = pcall(function() return O.s(cible[champ]) end)
+    if ok and v ~= "nil" and v ~= AUCUNE then
+        cible[champ] = FName(AUCUNE)
+        O.log("ramassage sans effet sur l'histoire :", objet, champ, v)
     end
 end
 
-local vus = {}
+local function neutraliser(a, objet, m)
+    for _, champ in ipairs(m.champs or {}) do vider(a, objet, a, champ) end
+    for _, nom in ipairs(m.composants or {}) do
+        local c = a[nom]
+        if c and c:IsValid() then vider(a, objet, c, "MissionName") end
+    end
+end
+
 O.boucle(3000, function()
     if not R.modeAP or not O.enPartie() then return end
-    for _, m in pairs(LIEES) do
-        local trouves = FindAllOf(m.classe) or {}
-        if vus[m.classe] ~= #trouves then
-            vus[m.classe] = #trouves
-            local a = trouves[1]
-            local okF, f = pcall(function() return O.s(a["End Mission Name"]) end)
-            O.log("ramassables", m.classe, ":", #trouves, "| fin =", okF and f or "illisible", tostring(not okF and f or ""))
-        end
-        for _, a in ipairs(trouves) do
-            if a:IsValid() then
-                local ok, err = pcall(neutraliser, a)
-                if not ok then O.log("ramassable non neutralise :", m.classe, tostring(err)) end
+    for objet, m in pairs(LIEES) do
+        if gere(objet) then
+            for _, a in ipairs(FindAllOf(m.classe) or {}) do
+                if a:IsValid() then
+                    local ok, err = pcall(neutraliser, a, objet, m)
+                    if not ok then O.log("ramassable non neutralise :", m.classe, tostring(err)) end
+                end
             end
         end
     end
 end)
 
+local function avancement(ms, mission)
+    local etat, valide = {}, {}
+    ms:GetMissionState(FName(mission), etat, valide)
+    local n = etat.InfoState
+    if type(n) == "userdata" then n = n:get() end
+    return tonumber(n) or 0
+end
+
+-- vrai si l'action est faite (ou n'a plus lieu d'etre), faux si elle attend que la mission soit active
+local function jouer(ms, objet, mission, action)
+    local nom = FName(mission)
+    if ms:IsCompletedMission(nom) then return true end
+    if action == "demarrer" then
+        if not ms:IsActiveMission(nom) then
+            ms:AddActiveMission(nom)
+            O.log("recu", objet, ": mission demarree", mission)
+        end
+        return true
+    end
+    if not ms:IsActiveMission(nom) then return false end
+    if action == "terminer" then
+        ms:CompleteMission(nom)
+        O.log("recu", objet, ": mission terminee", mission)
+    elseif avancement(ms, mission) < action then
+        ms:SetMissionInfoState(nom, action)
+        O.log("recu", objet, ": mission", mission, "a l'avancement", action)
+    end
+    return true
+end
+
+local finis = {}  -- objet -> toutes ses actions jouees (cette session)
 O.boucle(3000, function()
     if not R.modeAP or not O.enPartie() then return end
     local ms = FindFirstOf("FNAFMissionSystem")
     if not ms or not ms:IsValid() then return end
     for objet, m in pairs(LIEES) do
-        if Ob.recus[objet] then
-            if m.fin and not ms:IsCompletedMission(FName(m.fin)) then
-                ms:CompleteMission(FName(m.fin))
-                O.log("recu", objet, ": mission terminee", m.fin)
+        if Ob.recus[objet] and not finis[objet] and gere(objet) then
+            local tout = true
+            for _, a in ipairs(m.actions) do
+                local ok, fait = pcall(jouer, ms, objet, a[1], a[2])
+                if not ok then O.log("action impossible :", objet, a[1], tostring(fait)) end
+                if not (ok and fait) then tout = false break end
             end
-            if m.debut and not ms:IsCompletedMission(FName(m.debut)) and not ms:IsActiveMission(FName(m.debut)) then
-                ms:AddActiveMission(FName(m.debut))
-                O.log("recu", objet, ": mission demarree", m.debut)
-            end
+            finis[objet] = tout
         end
     end
 end)
+O.surChargement[#O.surChargement + 1] = function() finis = {} end
