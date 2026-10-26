@@ -1,4 +1,4 @@
-# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.2
+# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.3
 
 ### 📖 [Setup guide / Guide d'installation](SETUP_GUIDE.md) · ⬇️ [Download / Télécharger](../../releases) · 💬 [Discord](https://discord.gg/yqKUMMkWhr)
 
@@ -33,9 +33,10 @@ passes, Freddy's upgrades and more are shuffled with the other players of a mult
   posters, a concert surprise, trap texts).
 - A **PopTracker** pack (`FNaF_SB_AP_<version>.zip`) with every floor of the Pizzaplex.
 
-Some story items always stay at their place and are never shuffled, because the game needs you to pick them up
-yourself: the FazWatch, the screwdriver, the Backstage Pass, the Party Pass in Chica's green room and the Monty
-Mystery Mix.
+Story items (Backstage Pass, Chica's green room Party Pass, Monty Mystery Mix, Damaged Head, Mazercise Control
+Key, Photo Pass) are shuffled: picking one up in the world is only a check, and the story moves on when you
+**receive** it from Archipelago, as if you had picked it up. Only the FazWatch and the screwdriver always stay at
+their place.
 
 ## Requirements
 
@@ -57,7 +58,9 @@ them goes wrong, please tell us on the Discord:
 - the quick start in multiworld games;
 - (0.9.1.1) missions that end without the game's usual signal are now caught up within a few seconds;
 - (0.9.1.1) the Photo Pass landing in the starting area of another FNaF SB player;
-- (0.9.1.2) the security level capped at 10 (the endo area badge holder could push it to 11 and crash the game).
+- (0.9.1.2) the security level capped at 10 (the endo area badge holder could push it to 11 and crash the game);
+- (0.9.1.3) the story moving on when you receive the Backstage Pass, Chica's Party Pass, the Mystery Mix, the
+  Mazercise Control Key and the Photo Pass (tested in game with the Damaged Head only).
 
 ## Known limitations (alpha)
 
@@ -111,9 +114,10 @@ tourne sur [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) et un launcher installe
   FNaF (messages réécrits, affiches, une surprise au concert, textes des pièges).
 - Un pack **PopTracker** (`FNaF_SB_AP_<version>.zip`) avec tous les étages du Pizzaplex.
 
-Quelques objets de l'histoire restent toujours à leur place et ne sont jamais mélangés, parce que le jeu a
-besoin que tu les ramasses toi-même : la FazWatch, le tournevis, le Backstage Pass, le billet d'entrée de la
-loge de Chica et le Mystery Mix de Monty.
+Les objets de l'histoire (pass coulisses, billet d'entrée de la loge de Chica, Mystery Mix de Monty, tête abîmée,
+clé de contrôle du Mazercise, pass photo) sont mélangés : les ramasser dans le monde n'est qu'un check, et
+l'histoire avance quand tu les **reçois** d'Archipelago, comme si tu les avais ramassés. Seuls la FazWatch et le
+tournevis restent toujours à leur place.
 
 ## Prérequis
 
@@ -136,7 +140,9 @@ une vraie partie. Si l'un d'eux pose problème, dites-le sur le Discord :
 - (0.9.1.1) les missions qui se terminent sans le signal habituel du jeu, maintenant rattrapées en quelques
   secondes ;
 - (0.9.1.1) le pass photo qui tombe dans la zone de départ d'un autre joueur FNaF SB ;
-- (0.9.1.2) le niveau de sécurité plafonné à 10 (le porte-badge des endos pouvait le mettre à 11 et faire planter le jeu).
+- (0.9.1.2) le niveau de sécurité plafonné à 10 (le porte-badge des endos pouvait le mettre à 11 et faire planter le jeu) ;
+- (0.9.1.3) l'histoire qui avance à la réception du pass coulisses, du billet de la loge de Chica, du Mystery Mix,
+  de la clé du Mazercise et du pass photo (testé en jeu avec la tête abîmée seulement).
 
 ## Limites connues (alpha)
 
