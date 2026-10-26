@@ -31,10 +31,14 @@
             "daycarepass"
            ],
            [
+            "backstagepass",
             "admissionpass",
             "dancepass",
             "bowlingticket",
             "mazerciseticket"
+           ],
+           [
+            "partypasschicaroom"
            ]
           ]
          }
@@ -109,9 +113,10 @@
            [
             "performancedisk",
             "mrhippomagnet",
-            "mazercisecontrolkey"
+            "montymysterymix"
            ],
            [
+            "mazercisecontrolkey",
             "damagedhead"
            ]
           ]
@@ -233,10 +238,14 @@
             "daycarepass"
            ],
            [
+            "backstagepass",
             "admissionpass",
             "dancepass",
             "bowlingticket",
             "mazerciseticket"
+           ],
+           [
+            "partypasschicaroom"
            ]
           ]
          }
@@ -311,9 +320,10 @@
            [
             "performancedisk",
             "mrhippomagnet",
-            "mazercisecontrolkey"
+            "montymysterymix"
            ],
            [
+            "mazercisecontrolkey",
             "damagedhead"
            ]
           ]
@@ -435,10 +445,14 @@
             "daycarepass"
            ],
            [
+            "backstagepass",
             "admissionpass",
             "dancepass",
             "bowlingticket",
             "mazerciseticket"
+           ],
+           [
+            "partypasschicaroom"
            ]
           ]
          }
@@ -513,9 +527,10 @@
            [
             "performancedisk",
             "mrhippomagnet",
-            "mazercisecontrolkey"
+            "montymysterymix"
            ],
            [
+            "mazercisecontrolkey",
             "damagedhead"
            ]
           ]
@@ -626,10 +641,14 @@
        "daycarepass"
       ],
       [
+       "backstagepass",
        "admissionpass",
        "dancepass",
        "bowlingticket",
        "mazerciseticket"
+      ],
+      [
+       "partypasschicaroom"
       ]
      ]
     }
@@ -704,9 +723,10 @@
       [
        "performancedisk",
        "mrhippomagnet",
-       "mazercisecontrolkey"
+       "montymysterymix"
       ],
       [
+       "mazercisecontrolkey",
        "damagedhead"
       ]
      ]

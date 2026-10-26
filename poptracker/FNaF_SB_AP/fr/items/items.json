@@ -33,6 +33,14 @@
   "disabled_img_mods": "@disabled"
  },
  {
+  "name": "Laissez-passer des coulisses",
+  "img": "images/items/backstagepass.png",
+  "codes": "backstagepass",
+  "type": "toggle",
+  "disabled_img": "images/items/backstagepass_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
   "name": "Laissez-passer d’entrée",
   "img": "images/items/admissionpass.png",
   "codes": "admissionpass",
@@ -62,6 +70,14 @@
   "codes": "mazerciseticket",
   "type": "toggle",
   "disabled_img": "images/items/mazerciseticket_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Billet d’entrée",
+  "img": "images/items/partypasschicaroom.png",
+  "codes": "partypasschicaroom",
+  "type": "toggle",
+  "disabled_img": "images/items/partypasschicaroom_off.png",
   "disabled_img_mods": "@disabled"
  },
  {
@@ -126,6 +142,14 @@
   "codes": "mrhippomagnet",
   "type": "toggle",
   "disabled_img": "images/items/mrhippomagnet_off.png",
+  "disabled_img_mods": "@disabled"
+ },
+ {
+  "name": "Mystery Mix de Monty 1",
+  "img": "images/items/montymysterymix.png",
+  "codes": "montymysterymix",
+  "type": "toggle",
+  "disabled_img": "images/items/montymysterymix_off.png",
   "disabled_img_mods": "@disabled"
  },
  {
