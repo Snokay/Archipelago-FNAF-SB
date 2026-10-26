@@ -206,16 +206,25 @@ class FNaFSBWorld(World):
         o = self.PAR_NOM[name]
         return FNaFSBItem(name, CLASSE[o["classe"]], o["id"], self.player)
 
+    @classmethod
+    def stage_create_items(cls, multiworld):
+        # Pass photo (sortie du depart) : chaque FNaF SB donne un emplacement de depart et les pass y sont melanges.
+        # Avec 2 FNaF SB ou plus, un pass peut tomber au depart d'un autre (sphere 0, toujours atteignable) ;
+        # jamais dans un autre jeu (sphere 1 pas fiable, voir DEBUT_LOCAL).
+        mondes = sorted(multiworld.get_game_worlds(JEU), key=lambda w: w.player)
+        places = [w.place_pass for w in mondes]
+        multiworld.random.shuffle(places)
+        for w, place in zip(mondes, places):
+            place.place_locked_item(w.create_item(w._nom(PASS_DEPART)))
+
     def get_filler_item_name(self) -> str:
         bonus = [o[LANG] for o in OBJETS if o["genre"] == "bonus"]
         return self.random.choice(bonus)
 
     def create_items(self):
-        # pass photo : dans un emplacement de depart, tire au hasard (hors du tirage general)
+        # pass photo : un emplacement de depart tire au hasard, rempli dans stage_create_items (hors du tirage general)
         depart = [e for e in self._actifs() if e["zone"] == "depart"]
-        choisi = self.random.choice(depart)
-        self.multiworld.get_location(choisi[LANG], self.player).place_locked_item(
-            self.create_item(self._nom(PASS_DEPART)))
+        self.place_pass = self.multiworld.get_location(self.random.choice(depart)[LANG], self.player)
         places = len(self._actifs()) - 1
         actifs = {e["cle"]: e for e in self._actifs()}
         solo = len(self.multiworld.player_ids) == 1
