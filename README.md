@@ -1,4 +1,4 @@
-# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.1
+# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.2
 
 ### 📖 [Setup guide / Guide d'installation](SETUP_GUIDE.md) · ⬇️ [Download / Télécharger](../../releases) · 💬 [Discord](https://discord.gg/yqKUMMkWhr)
 
@@ -56,7 +56,8 @@ them goes wrong, please tell us on the Discord:
 - the Mazercise and bowling tickets being shuffled;
 - the quick start in multiworld games;
 - (0.9.1.1) missions that end without the game's usual signal are now caught up within a few seconds;
-- (0.9.1.1) the Photo Pass landing in the starting area of another FNaF SB player.
+- (0.9.1.1) the Photo Pass landing in the starting area of another FNaF SB player;
+- (0.9.1.2) the security level capped at 10 (the endo area badge holder could push it to 11 and crash the game).
 
 ## Known limitations (alpha)
 
@@ -134,7 +135,8 @@ une vraie partie. Si l'un d'eux pose problème, dites-le sur le Discord :
 - le début rapide en multiworld ;
 - (0.9.1.1) les missions qui se terminent sans le signal habituel du jeu, maintenant rattrapées en quelques
   secondes ;
-- (0.9.1.1) le pass photo qui tombe dans la zone de départ d'un autre joueur FNaF SB.
+- (0.9.1.1) le pass photo qui tombe dans la zone de départ d'un autre joueur FNaF SB ;
+- (0.9.1.2) le niveau de sécurité plafonné à 10 (le porte-badge des endos pouvait le mettre à 11 et faire planter le jeu).
 
 ## Limites connues (alpha)
 

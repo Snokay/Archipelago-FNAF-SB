@@ -65,7 +65,7 @@ local function niveauApplique()
     if not n then return n end
     if M.temporaire and M.temporaire.niveau > n then n = M.temporaire.niveau end
     if n < 1 and garderieEnCours() then n = 1 end
-    return n
+    return math.min(n, M.NIVEAU_MAX or n)
 end
 
 function M.definirNiveau(n)
@@ -105,6 +105,22 @@ O.hook("/Script/fnaf9.FNAFInventorySystem:AwardItem", function(self, item)
 end)
 
 O.surChargement[#O.surChargement + 1] = function() M.temporaire = nil end
+
+-- Plafond : 10 badges dans la seed. Le +1 d'un porte-badge (celui des endos ne passe pas par AwardItem) ou un
+-- autre mod menait au niveau 11, que le jeu ne gere pas : plantage en quittant la zone (Zinoxe, 26/10)
+M.NIVEAU_MAX = 10
+local plafonnement = false
+O.hook("/Script/fnaf9.FNAFInventorySystem:SetSecurityLevel", function(self)
+    if plafonnement then return end
+    local i = self:get()
+    local n = tonumber(i.SecurityLevel)
+    if n and n > M.NIVEAU_MAX then
+        plafonnement = true
+        pcall(function() i:SetSecurityLevel(M.NIVEAU_MAX) end)
+        plafonnement = false
+        O.log("niveau de securite", n, "ramene a", M.NIVEAU_MAX)
+    end
+end)
 
 O.hook("/Script/fnaf9.FNAFMissionSystem:CompleteMission", function(self, mission)
     if O.s(mission) == "EscapeDaycare" then O.apres(1000, verifierNiveau) end

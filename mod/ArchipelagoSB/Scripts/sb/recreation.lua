@@ -30,6 +30,15 @@ O.hook("/Script/Engine.Actor:K2_DestroyActor", function(self)
     if R.estFait(id) then return end
     local objet = O.s(a.ItemName)
     if not O.possede(objet) then return end
+    -- Message deja lu ailleurs (le jeu a des doubles selon l'avancement, ex. MontyBoss1 dans la zone des
+    -- endos) : recreer ce ramassable faisait planter le jeu peu apres (Zinoxe, 26/10). Le joueur a deja le
+    -- texte : l'emplacement compte directement.
+    if O.estMessage(objet) then
+        R.marquerFait(id)
+        O.log("CHECK", id, "(" .. objet .. ", message deja lu : pas recree)")
+        if R.surCheck then pcall(R.surCheck, id, objet, "message") end
+        return
+    end
     essais[id] = (essais[id] or 0) + 1
     if essais[id] > 3 then return end
     local classe, transform = a:GetClass(), a:GetTransform()
