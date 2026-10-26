@@ -181,6 +181,9 @@ class Pont:
         elif cmd == "Connected":
             self.slot = p["slot"]
             self.session_faite = False
+            # le serveur renvoie la liste complete juste apres ; sans ca, une room remise a zero gardait les
+            # objets de la connexion d'avant
+            self.objets = []
             self.slot_data = p.get("slot_data") or {}
             self.joueurs = {j["slot"]: j["alias"] for j in p.get("players", [])}
             self.infos_slots = p.get("slot_info", {})

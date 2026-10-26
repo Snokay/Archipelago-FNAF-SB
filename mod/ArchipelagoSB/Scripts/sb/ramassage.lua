@@ -218,7 +218,8 @@ end)
 
 -- Missions : 1 check par mission terminee (pas par etape), sauf le mode Survie
 local function missionFinie(nom, rattrapage)
-    if nom == "Survival" then return end
+    -- "None" : ramassable dont missions_objets.lua a vide les reglages de mission
+    if nom == "Survival" or nom == "None" then return end
     local id = "mission:" .. nom
     if faits[id] then return end
     faits[id] = true

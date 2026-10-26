@@ -56,6 +56,9 @@ local function etat()
     end
     msg = msg .. string.format(" tete abimee=%s reparee=%s", tostring(O.possede("DamagedHead")),
         tostring(O.possede("FixedHead")))
+    local ms2 = FindFirstOf("FNAFMissionSystem")
+    msg = msg .. string.format(" | RoxysWeakness active=%s finie=%s", tostring(ms2:IsActiveMission(FName("RoxysWeakness"))),
+        tostring(ms2:IsCompletedMission(FName("RoxysWeakness"))))
     O.log("SONDE", msg)
     O.afficher(msg, 6)
     return ok and info or nil, ok and faites or {}
@@ -79,6 +82,85 @@ local function avancer()
     O.apres(500, etat)
 end
 
+-- _ : donne la tete abimee comme une reception AP (sans ramassage) ; ç : la retire
+local Ob = require("sb.objets")
+local function donnerTete()
+    O.log("SONDE tete donnee comme par AP")
+    Ob.donneParMod = true
+    pcall(function() O.inv():AwardItem(FName("DamagedHead"), true) end)
+    Ob.donneParMod = false
+    Ob.recus["DamagedHead"] = true  -- comme une vraie reception AP
+    O.apres(4000, etat)
+end
+local function retirerTete()
+    O.retirer("DamagedHead")
+    O.log("SONDE tete retiree")
+    O.apres(500, etat)
+end
+
+-- à : retire "Le point faible de Roxy" des missions actives (avant de ramasser la tete : le jeu ignore-t-il
+-- alors sa fin ?) ; ) : la termine, comme le ferait une reception AP
+local ROXY = "RoxysWeakness"
+local function etatRoxy()
+    local ms = FindFirstOf("FNAFMissionSystem")
+    local msg = string.format("%s active=%s finie=%s", ROXY, tostring(ms:IsActiveMission(FName(ROXY))),
+        tostring(ms:IsCompletedMission(FName(ROXY))))
+    O.log("SONDE", msg)
+    O.afficher(msg, 6)
+end
+local function retirerRoxy()
+    FindFirstOf("FNAFMissionSystem"):RemoveActiveMission(FName(ROXY))
+    O.log("SONDE", ROXY, "retiree des missions actives")
+    O.apres(500, etatRoxy)
+end
+local function terminerRoxy()
+    FindFirstOf("FNAFMissionSystem"):CompleteMission(FName(ROXY))
+    O.log("SONDE", ROXY, "terminee par le mod")
+    O.apres(500, function() etatRoxy() O.apres(2000, etat) end)
+end
+
+-- = : liste les reglages et fonctions de la tete posee au sol (classe et parents jusqu'a Collectible_C)
+local function dissequerTete()
+    local a = FindFirstOf("CollectibleStaffbotHead_C")
+    if not a or not a:IsValid() then O.afficher("SONDE : pas de tete au sol ici", 4) return end
+    local classe = a:GetClass()
+    local n = 0
+    while classe and classe:IsValid() do
+        local nomClasse = classe:GetFName():ToString()
+        pcall(function()
+            classe:ForEachProperty(function(p)
+                local nom = p:GetFName():ToString()
+                local ok, v = pcall(function() return O.s(a[nom]) end)
+                O.log("SONDE TETE", nomClasse, "reglage", nom, "=", ok and tostring(v) or "?")
+                n = n + 1
+            end)
+        end)
+        pcall(function()
+            classe:ForEachFunction(function(f)
+                O.log("SONDE TETE", nomClasse, "fonction", f:GetFName():ToString())
+                n = n + 1
+            end)
+        end)
+        if nomClasse == "Collectible_C" then break end
+        classe = classe:GetSuperStruct()
+    end
+    O.afficher("SONDE : tete dissequee (" .. n .. " lignes au journal)", 4)
+end
+
+-- ù : mode AP simule sans serveur, tete pas encore recue (pour tester missions_objets.lua)
+local function simulerAP()
+    require("sb.ramassage").modeAP = true
+    Ob.recus["DamagedHead"] = nil
+    O.log("SONDE mode AP simule, tete non recue")
+    O.afficher("SONDE : mode AP simule, tete non recue", 4)
+end
+
+O.touche(Key.OEM_THREE, simulerAP)
+O.touche(Key.OEM_PLUS, dissequerTete)
+O.touche(Key.ZERO, retirerRoxy)
+O.touche(Key.OEM_FOUR, terminerRoxy)
+O.touche(Key.EIGHT, donnerTete)
+O.touche(Key.NINE, retirerTete)
 O.touche(Key.FIVE, etat)
 O.touche(Key.SIX, etapeSuivante)
 O.touche(Key.SEVEN, avancer)
