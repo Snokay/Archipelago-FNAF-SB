@@ -1876,7 +1876,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:5,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,montymysterymix,partypasschicaroom,mazerciseticket,mazercisecontrolkey"
+     "badge:5,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,montymysterymix,partypasschicaroom,mazerciseticket,mazercisecontrolkey,dancepass,damagedhead"
     ]
    }
   ]
@@ -2002,7 +2002,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:5,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,montymysterymix,partypasschicaroom,mazerciseticket,mazercisecontrolkey"
+     "badge:5,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,montymysterymix,partypasschicaroom,mazerciseticket,mazercisecontrolkey,dancepass,damagedhead"
     ]
    }
   ]
@@ -2128,7 +2128,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:5,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,montymysterymix,partypasschicaroom,mazerciseticket,mazercisecontrolkey"
+     "badge:5,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,montymysterymix,partypasschicaroom,mazerciseticket,mazercisecontrolkey,dancepass,damagedhead"
     ]
    }
   ]
@@ -3934,7 +3934,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:5,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,montymysterymix,partypasschicaroom,mazerciseticket,mazercisecontrolkey"
+     "badge:5,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:6,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,montymysterymix,partypasschicaroom,mazerciseticket,mazercisecontrolkey,dancepass,damagedhead"
     ]
    }
   ]
