@@ -901,7 +901,9 @@
     "objet:MontyMysteryMix",
     "objet:PartyPassChicaRoom",
     "objet:MazerciseTicket",
-    "objet:MazerciseControlKey"
+    "objet:MazerciseControlKey",
+    "objet:DancePass",
+    "objet:DamagedHead"
    ]
   },
   "apres_roxy": true
@@ -966,7 +968,9 @@
     "objet:MontyMysteryMix",
     "objet:PartyPassChicaRoom",
     "objet:MazerciseTicket",
-    "objet:MazerciseControlKey"
+    "objet:MazerciseControlKey",
+    "objet:DancePass",
+    "objet:DamagedHead"
    ]
   },
   "apres_roxy": true
@@ -1031,7 +1035,9 @@
     "objet:MontyMysteryMix",
     "objet:PartyPassChicaRoom",
     "objet:MazerciseTicket",
-    "objet:MazerciseControlKey"
+    "objet:MazerciseControlKey",
+    "objet:DancePass",
+    "objet:DamagedHead"
    ]
   },
   "apres_roxy": true
@@ -2037,7 +2043,9 @@
     "objet:MontyMysteryMix",
     "objet:PartyPassChicaRoom",
     "objet:MazerciseTicket",
-    "objet:MazerciseControlKey"
+    "objet:MazerciseControlKey",
+    "objet:DancePass",
+    "objet:DamagedHead"
    ]
   },
   "apres_roxy": true

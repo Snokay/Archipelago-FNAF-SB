@@ -585,8 +585,10 @@
    "histoire": [
     "PartsAndService",
     "ChicaBeak",
-    "MontyClaws"
+    "MontyClaws",
+    "DJMusicMan"
    ],
+   "_note_dj": "pour arreter Roxy il faut finir DJ Music Man, impossible sans la tete (joueur 26/10)",
    "exige": {
     "badges": 6,
     "objets": [
@@ -600,7 +602,9 @@
      "objet:MontyMysteryMix",
      "objet:PartyPassChicaRoom",
      "objet:MazerciseTicket",
-     "objet:MazerciseControlKey"
+     "objet:MazerciseControlKey",
+     "objet:DancePass",
+     "objet:DamagedHead"
     ]
    }
   },

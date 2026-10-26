@@ -1,4 +1,4 @@
-# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.3
+# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.4
 
 ### 📖 [Setup guide / Guide d'installation](SETUP_GUIDE.md) · ⬇️ [Download / Télécharger](../../releases) · 💬 [Discord](https://discord.gg/yqKUMMkWhr)
 
