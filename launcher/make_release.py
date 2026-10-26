@@ -8,6 +8,7 @@ Construit la version distribuée du mod (2026-10-22, sur le modèle de RE Villag
     files/apworld/fr|en/fnafsb.apworld
     files/version.json, files/options.json
   build/release/FNaF_SB_Archipelago_<version>_launcher.zip
+  build/release/FNaF_SB_Archipelago_<version>_manuel.zip     (installation à la main, apworld_FR / apworld_EN)
 
     python make_release.py 0.9.1.0 [--jeu "<dossier Quarters>"]
 Nécessite : pip install pyinstaller websockets
@@ -114,6 +115,25 @@ def main():
             if f.is_file():
                 z.write(f, nom + "/" + f.relative_to(sortie).as_posix())
     print("version prête :", archive)
+    manuel(files, args.version)
+
+
+def manuel(files, version):
+    """Installation à la main, sans launcher (comme RE Village) : ue4ss, mod, apworld_FR / apworld_EN, LISEZMOI."""
+    nom = f"FNaF_SB_Archipelago_{version}_manuel"
+    archive = RACINE / "build" / "release" / (nom + ".zip")
+    if archive.exists():
+        archive.unlink()
+    lisezmoi = (ICI / "LISEZMOI_manuel.txt").read_text(encoding="utf-8").replace("{version}", version)
+    with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as z:
+        z.writestr(nom + "/LISEZMOI.txt", lisezmoi.replace(chr(10), chr(13) + chr(10)))
+        for dossier in ("ue4ss", "mod"):
+            for f in sorted((files / dossier).rglob("*")):
+                if f.is_file():
+                    z.write(f, nom + "/" + f.relative_to(files).as_posix())
+        for lang in ("fr", "en"):
+            z.write(files / "apworld" / lang / "fnafsb.apworld", f"{nom}/apworld_{lang.upper()}/fnafsb.apworld")
+    print("version prête (manuelle) :", archive)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,32 @@
+FNaF Security Breach Archipelago {version} - installation manuelle (sans launcher)
+(English below)
+
+Le plus simple reste le launcher (FNaF_SB_Archipelago_{version}_launcher.zip). Ce zip est pour installer a la main.
+Guide complet : https://github.com/Snokay/Archipelago-FNAF-SB/blob/main/SETUP_GUIDE.md
+<Win64> = Quarters\fnaf9\Binaries\Win64 dans le dossier du jeu.
+
+1. Ferme le jeu. Copie le contenu du dossier ue4ss dans <Win64>.
+2. Copie le dossier mod\ArchipelagoSB dans <Win64>\ue4ss\Mods\.
+3. Dans <Win64>\ue4ss\Mods\mods.txt, ajoute la ligne "ArchipelagoSB : 1" AU-DESSUS de "Keybinds : 1".
+4. Pour heberger / generer : copie fnafsb.apworld (apworld_FR pour les noms en francais, apworld_EN pour
+   l'anglais) dans le dossier custom_worlds d'Archipelago. Les YAML marchent avec les deux.
+5. Connexion : cree <Win64>\ue4ss\ArchipelagoSB\connection.json :
+   {"uri": "archipelago.gg:38281", "slot": "TonSlot", "password": ""}
+   puis lance le jeu depuis Steam.
+
+-----------------------------------------------------------------------
+
+FNaF Security Breach Archipelago {version} - manual install (without the launcher)
+
+The launcher (FNaF_SB_Archipelago_{version}_launcher.zip) does all of this for you.
+Full guide: https://github.com/Snokay/Archipelago-FNAF-SB/blob/main/SETUP_GUIDE.md
+<Win64> = Quarters\fnaf9\Binaries\Win64 in the game folder.
+
+1. Close the game. Copy the content of the ue4ss folder into <Win64>.
+2. Copy the folder mod\ArchipelagoSB into <Win64>\ue4ss\Mods\.
+3. In <Win64>\ue4ss\Mods\mods.txt, add the line "ArchipelagoSB : 1" ABOVE "Keybinds : 1".
+4. To host / generate: copy fnafsb.apworld (apworld_EN for English names, apworld_FR for French) into
+   Archipelago's custom_worlds folder. YAML files work with both.
+5. Connection: create <Win64>\ue4ss\ArchipelagoSB\connection.json:
+   {"uri": "archipelago.gg:38281", "slot": "YourSlot", "password": ""}
+   then start the game from Steam.
