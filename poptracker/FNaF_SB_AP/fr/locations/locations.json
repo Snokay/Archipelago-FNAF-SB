@@ -3136,7 +3136,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk"
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,badge:5,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,damagedhead"
     ]
    }
   ]
@@ -3730,7 +3730,7 @@
   ]
  },
  {
-  "name": "Mission - PartsAndService",
+  "name": "Mission - Pièces et Entretien",
   "chest_unopened_img": "images/chest_closed.png",
   "chest_opened_img": "images/chest_opened.png",
   "map_locations": [
@@ -3772,7 +3772,7 @@
   ]
  },
  {
-  "name": "Mission - MoonlightSerenade",
+  "name": "Mission - Sérénade au clair de lune",
   "chest_unopened_img": "images/chest_closed.png",
   "chest_opened_img": "images/chest_opened.png",
   "map_locations": [
@@ -3814,7 +3814,7 @@
   ]
  },
  {
-  "name": "Mission - DJMusicMan",
+  "name": "Mission - Réparez la tête de robot",
   "chest_unopened_img": "images/chest_closed.png",
   "chest_opened_img": "images/chest_opened.png",
   "map_locations": [
@@ -3829,7 +3829,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk"
+     "badge:4,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,badge:5,dancepass,photopass,flashlight,daycarepass,comppass,performancedisk,damagedhead"
     ]
    }
   ]
@@ -3856,7 +3856,7 @@
   ]
  },
  {
-  "name": "Mission - UpgradeFreddy",
+  "name": "Mission - Améliorez Freddy",
   "chest_unopened_img": "images/chest_closed.png",
   "chest_opened_img": "images/chest_opened.png",
   "map_locations": [

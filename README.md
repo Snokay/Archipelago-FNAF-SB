@@ -1,4 +1,4 @@
-# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.0
+# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.1
 
 ### 📖 [Setup guide / Guide d'installation](SETUP_GUIDE.md) · ⬇️ [Download / Télécharger](../../releases) · 💬 [Discord](https://discord.gg/yqKUMMkWhr)
 
@@ -25,7 +25,8 @@ passes, Freddy's upgrades and more are shuffled with the other players of a mult
   plus, if you want, a number of presents, messages and retro CDs to collect.
 - **Multiworld friendly**: the items that open the start of the Pizzaplex stay close to you (quick start), your
   progression items are balanced towards the start of the other games, missable locations never hold anything
-  important, and Roxy's eyes (which skip to 6 AM) only come after Roxy.
+  important, and Roxy's eyes (which skip to 6 AM) only come after Roxy. The Photo Pass (exit of the starting
+  area) is shuffled between the starting areas of every FNaF SB in the multiworld.
 - **DeathLink**, classic or "jumpscare" mode.
 - In game: an Archipelago welcome card (key **H**) with your goal, a goal card at the end, the game's own pickup
   window showing what you found and for whom, and a lot of FNaF community references (rewritten messages,
@@ -53,7 +54,9 @@ them goes wrong, please tell us on the Discord:
 - the Daycare badge being shuffled in solo games;
 - the Party Pass of Chica's green room and the Monty Mystery Mix staying in your inventory;
 - the Mazercise and bowling tickets being shuffled;
-- the quick start in multiworld games.
+- the quick start in multiworld games;
+- (0.9.1.1) missions that end without the game's usual signal are now caught up within a few seconds;
+- (0.9.1.1) the Photo Pass landing in the starting area of another FNaF SB player.
 
 ## Known limitations (alpha)
 
@@ -99,7 +102,8 @@ tourne sur [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) et un launcher installe
   ruelle, ou toutes), plus, si tu veux, un nombre de cadeaux, de messages et de CD rétro à ramasser.
 - **Pensé pour le multiworld** : les objets qui ouvrent le début du Pizzaplex restent près de toi (début rapide),
   tes objets de progression sont ramenés vers le début des autres jeux, les emplacements ratables ne contiennent
-  jamais rien d'important, et les yeux de Roxy (qui font passer à 6 h) n'arrivent qu'après Roxy.
+  jamais rien d'important, et les yeux de Roxy (qui font passer à 6 h) n'arrivent qu'après Roxy. Le pass photo
+  (sortie de la zone de départ) est mélangé entre les zones de départ de tous les FNaF SB du multiworld.
 - **DeathLink**, classique ou en mode « screamer ».
 - En jeu : une carte de bienvenue Archipelago (touche **H**) avec ton objectif, une carte de fin au goal, la
   fenêtre de ramassage du jeu qui affiche ce que tu as trouvé et pour qui, et plein de références de la commu
@@ -127,7 +131,10 @@ une vraie partie. Si l'un d'eux pose problème, dites-le sur le Discord :
 - le badge de la garderie mélangé en partie solo ;
 - le billet d'entrée de la loge de Chica et le Mystery Mix de Monty qui restent dans ton inventaire ;
 - les billets du Mazercise et du bowling mélangés ;
-- le début rapide en multiworld.
+- le début rapide en multiworld ;
+- (0.9.1.1) les missions qui se terminent sans le signal habituel du jeu, maintenant rattrapées en quelques
+  secondes ;
+- (0.9.1.1) le pass photo qui tombe dans la zone de départ d'un autre joueur FNaF SB.
 
 ## Limites connues (alpha)
 

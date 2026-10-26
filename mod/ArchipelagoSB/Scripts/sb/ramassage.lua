@@ -194,6 +194,8 @@ end
 O.hook("/Script/fnaf9.FNAFInventorySystem:AwardItem", function(self, item)
     if Ob.donneParMod then return end
     local objet = O.s(item)
+    -- Don vide d'un script du jeu (zone des endos, 26/10) : le traiter comme un objet faisait planter le jeu
+    if objet == "None" or objet == "nil" or objet == "" then return end
     -- Objet pret par le jeu le temps d'une sequence (pistolet de la table de Fazer Blast) : pas un check
     if M.ignorer[objet] and os.time() - M.ignorer[objet] < 30 then
         M.ignorer[objet] = nil
@@ -215,17 +217,36 @@ O.hook("/Script/fnaf9.FNAFInventorySystem:AwardItem", function(self, item)
 end)
 
 -- Missions : 1 check par mission terminee (pas par etape), sauf le mode Survie
-O.hook("/Script/fnaf9.FNAFMissionSystem:CompleteMission", function(self, mission)
-    local nom = O.s(mission)
+local function missionFinie(nom, rattrapage)
     if nom == "Survival" then return end
     local id = "mission:" .. nom
     if faits[id] then return end
     faits[id] = true
     -- La recompense de la mission arrive par un objet invisible cree par le jeu (griffes de Monty...) : son
     -- nom genere n'est pas un emplacement, la fenetre de ramassage affiche donc le contenu de la mission
-    pcall(fenetreCheck, id)
-    O.log("CHECK", id)
+    if not rattrapage then pcall(fenetreCheck, id) end
+    O.log("CHECK", id, rattrapage and "(rattrapage)" or "")
     if M.surCheck then pcall(M.surCheck, id, nom, "mission") end
+end
+O.hook("/Script/fnaf9.FNAFMissionSystem:CompleteMission", function(self, mission)
+    missionFinie(O.s(mission))
+end)
+
+-- Le jeu ne passe pas toujours par CompleteMission (Sortez d'ici, Que la lumiere soit, Echappez-vous de la
+-- garderie : checks partis 2 h plus tard chez un joueur, 26/10) : on lui demande regulierement ce qui est fini.
+-- Questions oui/non seulement (lire FFNAFMissionState en boucle faisait planter UE4SS).
+local MISSIONS = {"FreeFreddy", "GetOut", "NoReEntry", "SlideIntoFun", "LetThereBeLight", "EscapeDaycare",
+    "TakeMap", "KitchenOffice", "LoadingDock", "PrizeCounter", "FindFreddy", "LostAndFound", "RehearsalSpace",
+    "Backstage", "Showtime", "PartsAndService", "PartyPass", "MoonlightSerenade", "RoxysWeakness", "DJMusicMan",
+    "StopRoxy", "UpgradeFreddy", "ChicaBeak", "MontyClaws", "FazerBlast", "DumpsterDiving", "MontyMysteryMix",
+    "PowerOn", "OfficeToOffice", "MontyGolf", "ThrillSeeker", "Warehouse", "RechargeTime", "PlanA", "GetOut!"}
+O.boucle(5000, function()
+    if not M.modeAP or not O.enPartie() then return end
+    local ms = FindFirstOf("FNAFMissionSystem")
+    if not ms or not ms:IsValid() then return end
+    for _, nom in ipairs(MISSIONS) do
+        if not faits["mission:" .. nom] and ms:IsCompletedMission(FName(nom)) then missionFinie(nom, true) end
+    end
 end)
 
 -- Messages (notes, mails) : chaque message a un nom unique dans le jeu, c'est son identifiant
