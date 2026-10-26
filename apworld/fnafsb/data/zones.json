@@ -549,11 +549,9 @@
   {
    "mission": "DJMusicMan",
    "zone": "arcade_ouest",
-   "histoire": [
-    "PartyPass"
-   ],
+   "_note": "Réparez la tête de robot : tête abîmée réparée en arcade ouest, rendue au robot pilote du circuit (DriverBot_2)",
    "exige": {
-    "badges": 4,
+    "badges": 5,
     "objets": [
      "objet:DancePass",
      "objet:PhotoPass",
@@ -562,9 +560,13 @@
      "objet:Flashlight",
      "objet:DaycarePass",
      "objet:CompPass",
-     "objet:PerformanceDisk"
+     "objet:PerformanceDisk",
+     "objet:DamagedHead"
     ]
-   }
+   },
+   "histoire": [
+    "PartyPass"
+   ]
   },
   {
    "mission": "StopRoxy",

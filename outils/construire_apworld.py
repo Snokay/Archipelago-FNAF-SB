@@ -205,8 +205,12 @@ for e in emplacements:
     if 'StopRoxy' in avant:
         loc['apres_roxy'] = True
     locs.append(loc)
+# Missions dont le nom affiche dans le jeu (DisplayName de MissionDataTable) n'est pas leur cle
+NOM_AFFICHE = {'DJMusicMan': 'RepairRobotHead', 'PartsAndService': 'PartsandService',
+               'MoonlightSerenade': 'Moonlight_Serenade', 'UpgradeFreddy': 'RoxyEyes'}
 for m in zones['missions']:
-    n = noms['missions'].get(m['mission'], {'fr': m['mission'], 'en': m['mission']})
+    cle = NOM_AFFICHE.get(m['mission'], m['mission'])
+    n = noms['missions'].get(cle, {'fr': m['mission'], 'en': m['mission']})
     z = next(x for x in zones['zones'] if x['nom'] == m['zone'])
     loc = {'id': BASE_EMP + len(locs), 'cle': 'mission:' + m['mission'], 'genre': 'mission', 'zone': m['zone'],
            'fr': 'Mission - ' + n['fr'], 'en': 'Mission - ' + n['en'], 'exige': m.get('exige', {})}

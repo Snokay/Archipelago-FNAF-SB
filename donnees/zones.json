@@ -302,6 +302,13 @@
   {
    "mission": "DJMusicMan",
    "zone": "arcade_ouest",
+   "_note": "Réparez la tête de robot : tête abîmée réparée en arcade ouest, rendue au robot pilote du circuit (DriverBot_2)",
+   "exige": {
+    "badges": 5,
+    "objets": [
+     "objet:DamagedHead"
+    ]
+   },
    "histoire": [
     "PartyPass"
    ]

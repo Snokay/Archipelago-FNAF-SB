@@ -1525,7 +1525,7 @@
   "fr": "Arcade ouest - Porte-badge (Badge de sécurité)",
   "en": "West Arcade - Badge Holder (Security Badge)",
   "exige": {
-   "badges": 4,
+   "badges": 5,
    "objets": [
     "objet:DancePass",
     "objet:PhotoPass",
@@ -1534,7 +1534,8 @@
     "objet:Flashlight",
     "objet:DaycarePass",
     "objet:CompPass",
-    "objet:PerformanceDisk"
+    "objet:PerformanceDisk",
+    "objet:DamagedHead"
    ]
   }
  },
@@ -1902,8 +1903,8 @@
   "cle": "mission:PartsAndService",
   "genre": "mission",
   "zone": "atrium_ouest",
-  "fr": "Mission - PartsAndService",
-  "en": "Mission - PartsAndService",
+  "fr": "Mission - Pièces et Entretien",
+  "en": "Mission - Parts and Service",
   "exige": {
    "badges": 4,
    "objets": [
@@ -1942,8 +1943,8 @@
   "cle": "mission:MoonlightSerenade",
   "genre": "mission",
   "zone": "scene",
-  "fr": "Mission - MoonlightSerenade",
-  "en": "Mission - MoonlightSerenade",
+  "fr": "Mission - Sérénade au clair de lune",
+  "en": "Mission - Moonlight Serenade",
   "exige": {
    "badges": 4,
    "objets": [
@@ -1986,10 +1987,10 @@
   "cle": "mission:DJMusicMan",
   "genre": "mission",
   "zone": "arcade_ouest",
-  "fr": "Mission - DJMusicMan",
-  "en": "Mission - DJMusicMan",
+  "fr": "Mission - Réparez la tête de robot",
+  "en": "Mission - Repair Robot Head",
   "exige": {
-   "badges": 4,
+   "badges": 5,
    "objets": [
     "objet:DancePass",
     "objet:PhotoPass",
@@ -1998,7 +1999,8 @@
     "objet:Flashlight",
     "objet:DaycarePass",
     "objet:CompPass",
-    "objet:PerformanceDisk"
+    "objet:PerformanceDisk",
+    "objet:DamagedHead"
    ]
   }
  },
@@ -2032,8 +2034,8 @@
   "cle": "mission:UpgradeFreddy",
   "genre": "mission",
   "zone": "atrium_ouest",
-  "fr": "Mission - UpgradeFreddy",
-  "en": "Mission - UpgradeFreddy",
+  "fr": "Mission - Améliorez Freddy",
+  "en": "Mission - Upgrade Freddy",
   "exige": {
    "badges": 4,
    "objets": [
