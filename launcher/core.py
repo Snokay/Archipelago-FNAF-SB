@@ -575,7 +575,8 @@ def bug_report(game_dir):
             z.writestr("launcher_settings.json", json.dumps(settings, indent=1, ensure_ascii=False))
         if game_dir and win64(game_dir).exists():
             root = win64(game_dir)
-            for rel in ("ue4ss/UE4SS.log", "ue4ss/Mods/mods.txt", MANIFEST, PONT_LOG):
+            for rel in ("ue4ss/UE4SS.log", "ue4ss/Mods/mods.txt", MANIFEST, PONT_LOG, "ue4ss/ArchipelagoSB/journal.log",
+                        "ue4ss/ArchipelagoSB/journal.1.log", "ue4ss/ArchipelagoSB/traces.log"):
                 if (root / rel).exists():
                     z.write(root / rel, rel.replace("/", "_"))
             mods = root / "ue4ss" / "Mods"

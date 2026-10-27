@@ -299,6 +299,8 @@ class Pont:
     async def objet_recu(self, index, it, en_direct):
         code = self.code_objet(it) or ""
         de = self.joueurs.get(it["player"], "") if it["player"] != self.slot else ""
+        if en_direct:
+            log("objet recu :", code or it["item"], ("de " + de) if de else "")
         if code.startswith("piege:"):
             if index > self.etat["dernier_piege"]:
                 self.vers_jeu("piege", code[6:], 0, self.texte_piege(code[6:], it))
