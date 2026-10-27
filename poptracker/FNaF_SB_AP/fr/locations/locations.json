@@ -1687,7 +1687,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "photopass"
+     "photopass,comppass"
     ]
    }
   ]
@@ -1708,7 +1708,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "photopass"
+     "photopass,comppass"
     ]
    }
   ]
@@ -1729,7 +1729,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "photopass"
+     "photopass,comppass"
     ]
    }
   ]
@@ -1750,7 +1750,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "photopass,badge:2"
+     "photopass,badge:2,comppass"
     ]
    }
   ]
@@ -1771,7 +1771,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "photopass"
+     "photopass,comppass"
     ]
    }
   ]
@@ -1792,7 +1792,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "photopass"
+     "photopass,comppass"
     ]
    }
   ]
@@ -1813,7 +1813,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "photopass"
+     "photopass,comppass"
     ]
    }
   ]
@@ -1834,7 +1834,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "photopass,badge:2"
+     "photopass,badge:2,comppass"
     ]
    }
   ]
@@ -1855,7 +1855,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "photopass,badge:4"
+     "photopass,badge:4,comppass"
     ]
    }
   ]

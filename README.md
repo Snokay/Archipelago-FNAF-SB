@@ -1,4 +1,4 @@
-# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.4
+# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.5
 
 ### 📖 [Setup guide / Guide d'installation](SETUP_GUIDE.md) · ⬇️ [Download / Télécharger](../../releases) · 💬 [Discord](https://discord.gg/yqKUMMkWhr)
 
@@ -61,6 +61,9 @@ them goes wrong, please tell us on the Discord:
 - (0.9.1.2) the security level capped at 10 (the endo area badge holder could push it to 11 and crash the game);
 - (0.9.1.3) the story moving on when you receive the Backstage Pass, Chica's Party Pass, the Mystery Mix, the
   Mazercise Control Key and the Photo Pass (tested in game with the Damaged Head only).
+- (0.9.1.5) the game's flashlight kept (but put away) until you escape the Daycare;
+- (0.9.1.5) story items received early waiting for the right moment: the Backstage Pass acts in the rehearsal
+  room, the Damaged Head, Chica's Party Pass, the Mystery Mix and the Mazercise Control Key after Showtime.
 
 ## Known limitations (alpha)
 
@@ -143,6 +146,10 @@ une vraie partie. Si l'un d'eux pose problème, dites-le sur le Discord :
 - (0.9.1.2) le niveau de sécurité plafonné à 10 (le porte-badge des endos pouvait le mettre à 11 et faire planter le jeu) ;
 - (0.9.1.3) l'histoire qui avance à la réception du pass coulisses, du billet de la loge de Chica, du Mystery Mix,
   de la clé du Mazercise et du pass photo (testé en jeu avec la tête abîmée seulement).
+- (0.9.1.5) la lampe du jeu gardée (mais rangée) jusqu'à la sortie de la garderie ;
+- (0.9.1.5) les objets d'histoire reçus en avance qui attendent le bon moment : le pass coulisses agit dans la
+  salle de répétition, la tête abîmée, le billet de la loge de Chica, le Mystery Mix et la clé du Mazercise après
+  Showtime.
 
 ## Limites connues (alpha)
 
