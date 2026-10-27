@@ -1,4 +1,4 @@
-# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.6
+# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.7
 
 ### 📖 [Setup guide / Guide d'installation](SETUP_GUIDE.md) · ⬇️ [Download / Télécharger](../../releases) · 💬 [Discord](https://discord.gg/yqKUMMkWhr)
 
@@ -64,6 +64,7 @@ them goes wrong, please tell us on the Discord:
 - (0.9.1.5) the game's flashlight kept (but put away) until you escape the Daycare;
 - (0.9.1.5) story items received early waiting for the right moment: the Backstage Pass acts in the rehearsal
   room, the Damaged Head, Chica's Party Pass, the Mystery Mix and the Mazercise Control Key after Showtime.
+- (0.9.1.7) the Complimentary Entry Pass placed on its own spot or in Chica's piñata of the exit hallway.
 
 ## Known limitations (alpha)
 
@@ -150,6 +151,7 @@ une vraie partie. Si l'un d'eux pose problème, dites-le sur le Discord :
 - (0.9.1.5) les objets d'histoire reçus en avance qui attendent le bon moment : le pass coulisses agit dans la
   salle de répétition, la tête abîmée, le billet de la loge de Chica, le Mystery Mix et la clé du Mazercise après
   Showtime.
+- (0.9.1.7) le billet d'entrée placé à sa place ou dans la piñata de Chica du couloir de sortie.
 
 ## Limites connues (alpha)
 

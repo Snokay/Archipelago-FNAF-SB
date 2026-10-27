@@ -4,30 +4,41 @@ local M = {}
 
 -- Journal du mod garde sur plusieurs sessions (UE4SS.log est reecrit a chaque lancement) : joint au rapport
 -- de bug par le launcher. Au-dela de 1 Mo, l'ancien part dans journal.1.log.
-local JOURNAL = "ue4ss/ArchipelagoSB/journal.log"
-local journal
+-- Chemin complet (tire du chemin de ce script) : au chargement du mod, le dossier courant n'est pas encore
+-- Win64 et le chemin relatif ne creait rien (0.9.1.6 chez Zinoxe).
+local DOSSIER = "ue4ss/ArchipelagoSB/"
 pcall(function()
-    local f = io.open(JOURNAL, "r")
-    if f then
-        local taille = f:seek("end")
-        f:close()
-        if taille > 1024 * 1024 then
-            os.remove("ue4ss/ArchipelagoSB/journal.1.log")
-            os.rename(JOURNAL, "ue4ss/ArchipelagoSB/journal.1.log")
-        end
-    end
-    journal = io.open(JOURNAL, "a")
-    if journal then
-        journal:write("\n===== lancement du jeu " .. os.date("%Y-%m-%d %H:%M:%S") .. " =====\n")
-        journal:flush()
-    end
+    local win64 = debug.getinfo(1, "S").source:match("^@(.-)[/\\]ue4ss[/\\]Mods[/\\]")
+    if win64 then DOSSIER = win64 .. "/ue4ss/ArchipelagoSB/" end
 end)
+local JOURNAL = DOSSIER .. "journal.log"
+local journal
+local function ouvrirJournal()
+    pcall(function()
+        local f = io.open(JOURNAL, "r")
+        if f then
+            local taille = f:seek("end")
+            f:close()
+            if taille > 1024 * 1024 then
+                os.remove(DOSSIER .. "journal.1.log")
+                os.rename(JOURNAL, DOSSIER .. "journal.1.log")
+            end
+        end
+        journal = io.open(JOURNAL, "a")
+        if journal then
+            journal:write("\n===== lancement du jeu " .. os.date("%Y-%m-%d %H:%M:%S") .. " =====\n")
+            journal:flush()
+        end
+    end)
+end
+ouvrirJournal()
 
 function M.log(...)
     local t = {}
     for i = 1, select("#", ...) do t[#t + 1] = tostring((select(i, ...))) end
     local ligne = table.concat(t, " ")
     print("[AP-SB] " .. ligne .. "\n")
+    if not journal then ouvrirJournal() end
     if journal then
         pcall(function()
             journal:write(os.date("%H:%M:%S ") .. ligne .. "\n")
@@ -40,9 +51,10 @@ end
 -- tourner. Apres un plantage, la derniere ligne de traces.log dit ce qui tournait. Fichier repris a zero a
 -- chaque lancement et au-dela de 2 Mo.
 M.TRACES = true
-local TRACES = "ue4ss/ArchipelagoSB/traces.log"
+local TRACES = DOSSIER .. "traces.log"
 local traces = M.TRACES and io.open(TRACES, "w") or nil
 local function tracer(nom)
+    if not traces and M.TRACES then traces = io.open(TRACES, "w") end
     if not traces then return end
     pcall(function()
         if traces:seek("end") > 2 * 1024 * 1024 then
@@ -295,7 +307,7 @@ end)
 -- l'ancien ExecuteWithDelay + ExecuteInGameThread passait par un 2e fil, et a haute frequence (animations)
 -- UE4SS corrompait ses references Lua ("Ref was not function") puis plantait.
 function M.apres(ms, f)
-    local nom = traces and ("apres " .. nomDe(f)) or nil
+    local nom = M.TRACES and ("apres " .. nomDe(f)) or nil
     ExecuteInGameThreadWithDelay(math.max(1, math.floor(ms)), function()
         if nom then tracer(nom) end
         local ok, err = pcall(f)

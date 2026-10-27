@@ -2701,7 +2701,7 @@
   ]
  },
  {
-  "name": "Secteur technique - Cadeau (Piñata de Chica)",
+  "name": "Couloir de sortie - Cadeau (Piñata de Chica)",
   "chest_unopened_img": "images/chest_closed.png",
   "chest_opened_img": "images/chest_opened.png",
   "map_locations": [
@@ -2716,7 +2716,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:2,flashlight,photopass,daycarepass,comppass"
+     "photopass"
     ]
    }
   ]
