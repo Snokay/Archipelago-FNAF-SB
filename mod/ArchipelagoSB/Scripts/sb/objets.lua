@@ -183,7 +183,7 @@ function M.recevoirCode(code, horsLigne)
         B.recevoir(valeur)
     elseif genre == "badge" then
         M.definirNiveau((M.niveauVoulu or 0) + 1)
-        O.afficher("Recu : badge de securite (niveau " .. M.niveauVoulu .. ")")
+        O.log("recu : badge de securite (niveau " .. M.niveauVoulu .. ")")
     elseif genre == "prog" then
         local i = O.inv()
         for n = 0, 9 do
@@ -194,7 +194,7 @@ function M.recevoirCode(code, horsLigne)
                 -- rien
             elseif not M.recus[nom] and not i:HasItem(FName(nom)) then
                 donner(nom)
-                O.afficher("Recu : " .. nom)
+                O.log("recu :", nom)
                 return
             end
             M.recus[nom] = true
@@ -207,12 +207,12 @@ function M.recevoirCode(code, horsLigne)
         pcall(function() i:AwardMessage(FName(valeur), false) end)
         M.donneParMod = false
         if M.surDon then O.apres(200, function() M.surDon(valeur) end) end
-        O.afficher("Recu : message " .. valeur)
+        O.log("recu : message", valeur)
     elseif genre == "objet" then
         local i = O.inv()
         local deja = i and i:HasItem(FName(valeur))
         donner(valeur)
-        O.afficher((deja and "Deja possede : " or "Recu : ") .. valeur)
+        O.log(deja and "deja possede :" or "recu :", valeur)
     else
         O.log("code inconnu", code)
     end
