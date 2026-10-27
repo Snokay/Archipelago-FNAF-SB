@@ -155,13 +155,16 @@ class Pont:
         async with websockets.connect(self.uri, max_size=None, ping_interval=None) as ws:
             self.ws = ws
             log("connexion a", self.uri)
-            await self.envoyer({"cmd": "GetDataPackage"})
-            await self.envoyer({
-                "cmd": "Connect", "password": self.mdp, "game": JEU, "name": self.pseudo,
-                "uuid": "fnafsb-pont-%d" % random.randint(0, 1 << 30),
-                "version": {"major": 0, "minor": 6, "build": 0, "class": "Version"},
-                "items_handling": 0b111, "tags": [], "slot_data": True})
+            self.connect_envoye = False
+            # GetDataPackage puis Connect : envoyes a la reception de RoomInfo (liste des jeux de la room)
             await asyncio.gather(self.ecouter(), self.boucle_jeu())
+
+    async def envoyer_connect(self):
+        await self.envoyer({
+            "cmd": "Connect", "password": self.mdp, "game": JEU, "name": self.pseudo,
+            "uuid": "fnafsb-pont-%d" % random.randint(0, 1 << 30),
+            "version": {"major": 0, "minor": 6, "build": 0, "class": "Version"},
+            "items_handling": 0b111, "tags": [], "slot_data": True})
 
     async def ecouter(self):
         async for message in self.ws:
@@ -175,9 +178,17 @@ class Pont:
         cmd = p.get("cmd")
         if cmd == "RoomInfo":
             self.seed = p.get("seed_name", "")
+            # archipelago.gg renvoie une liste vide si on ne nomme pas les jeux : les objets s'affichaient en
+            # "objet 72100xx" chez Zinoxe (27/10). On demande ceux de la room, et on se connecte apres.
+            await self.envoyer({"cmd": "GetDataPackage", "games": p.get("games") or [JEU]})
         elif cmd == "DataPackage":
             for jeu, d in p["data"]["games"].items():
                 self.noms_objets[jeu] = {v: k for k, v in d["item_name_to_id"].items()}
+            if JEU not in self.noms_objets:
+                log("noms des objets absents du serveur pour", JEU)
+            if not getattr(self, "connect_envoye", False):
+                self.connect_envoye = True
+                await self.envoyer_connect()
         elif cmd == "ConnectionRefused":
             log("connexion refusee :", p.get("errors"))
             raise SystemExit(1)
