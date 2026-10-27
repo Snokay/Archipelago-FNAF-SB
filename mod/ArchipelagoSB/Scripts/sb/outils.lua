@@ -13,7 +13,16 @@ pcall(function()
 end)
 local JOURNAL = DOSSIER .. "journal.log"
 local journal
+local raisonDite = false
 local function ouvrirJournal()
+    if not raisonDite then
+        -- Chez un joueur le jeu ne creait pas ces fichiers (le pont les cree maintenant) : la raison au journal
+        local f, err = io.open(JOURNAL, "a")
+        if f then f:close() else
+            raisonDite = true
+            print("[AP-SB] journal impossible a ouvrir : " .. tostring(JOURNAL) .. " : " .. tostring(err) .. "\n")
+        end
+    end
     pcall(function()
         local f = io.open(JOURNAL, "r")
         if f then

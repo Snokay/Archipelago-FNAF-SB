@@ -91,11 +91,14 @@ end
 
 O.hook("/Script/fnaf9.FNAFInventorySystem:AwardItem", function(self, item)
     if M.donneParMod then return end
-    if O.s(item):find("^SecurityBadge") then
+    -- Nom lu tout de suite : le parametre du hook n'existe plus 300 ms apres (le relire faisait planter le
+    -- jeu au porte-badge des endos, traces Zinoxe 27/10)
+    local nom = O.s(item)
+    if nom:find("^SecurityBadge") then
         O.apres(300, function()
             local i, g = O.inv(), O.gregory()
             local donne = i and tonumber(i.SecurityLevel)
-            if donne then donne = math.max(donne, SORTIE[O.s(item):lower()] or 0) end
+            if donne then donne = math.max(donne, SORTIE[nom:lower()] or 0) end
             if donne and M.niveauVoulu and donne > M.niveauVoulu and g then
                 local p = g:K2_GetActorLocation()
                 M.temporaire = {pos = {X = p.X, Y = p.Y}, niveau = donne}

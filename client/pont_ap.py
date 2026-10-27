@@ -93,6 +93,9 @@ class Pont:
         self.sortie = os.path.join(self.dossier, "vers_jeu.txt")
         for f in (self.entree, self.sortie):
             open(f, "w", encoding="utf-8").close()
+        # Journal et traces du mod : chez un joueur, le jeu n'arrivait pas a les creer lui-meme (27/10)
+        for nom in ("journal.log", "traces.log"):
+            open(os.path.join(self.dossier, nom), "a", encoding="utf-8").close()
         self.position = 0
         self.ws = None
         self.slot = None
