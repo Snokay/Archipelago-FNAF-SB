@@ -271,7 +271,12 @@
   "genre": "badge",
   "zone": "garderie",
   "fr": "Garderie - Porte-badge (Badge de sécurité)",
-  "en": "Daycare - Badge Holder (Security Badge)"
+  "en": "Daycare - Badge Holder (Security Badge)",
+  "exige": {
+   "objets": [
+    "objet:Flashlight"
+   ]
+  }
  },
  {
   "id": 7220026,
@@ -798,7 +803,12 @@
   "genre": "message",
   "zone": "hall",
   "fr": "Hall principal - Message (LilMusicMan1)",
-  "en": "Main Lobby - Message (LilMusicMan1)"
+  "en": "Main Lobby - Message (LilMusicMan1)",
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  }
  },
  {
   "id": 7220081,
@@ -806,7 +816,12 @@
   "genre": "message",
   "zone": "hall",
   "fr": "Hall principal - Message (Complaint2)",
-  "en": "Main Lobby - Message (Complaint2)"
+  "en": "Main Lobby - Message (Complaint2)",
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  }
  },
  {
   "id": 7220082,
@@ -814,7 +829,12 @@
   "genre": "message",
   "zone": "hall",
   "fr": "Hall principal - Message (UpgradeMachine1)",
-  "en": "Main Lobby - Message (UpgradeMachine1)"
+  "en": "Main Lobby - Message (UpgradeMachine1)",
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  }
  },
  {
   "id": 7220083,
@@ -824,7 +844,10 @@
   "fr": "Hall principal - Message (911Call)",
   "en": "Main Lobby - Message (911Call)",
   "exige": {
-   "badges": 2
+   "badges": 2,
+   "objets": [
+    "objet:CompPass"
+   ]
   }
  },
  {
@@ -833,7 +856,12 @@
   "genre": "special",
   "zone": "hall",
   "fr": "Hall principal - Objet (Aimant de Mr. Hippo)",
-  "en": "Main Lobby - Item (Mr Hippo Magnet)"
+  "en": "Main Lobby - Item (Mr Hippo Magnet)",
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  }
  },
  {
   "id": 7220085,
@@ -841,7 +869,12 @@
   "genre": "cadeau",
   "zone": "hall",
   "fr": "Hall principal - Cadeau (Peluche de Chica Glam)",
-  "en": "Main Lobby - Present (Glam Chica Plush)"
+  "en": "Main Lobby - Present (Glam Chica Plush)",
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  }
  },
  {
   "id": 7220086,
@@ -849,7 +882,12 @@
   "genre": "cadeau",
   "zone": "hall",
   "fr": "Hall principal - Cadeau (T-shirt avec le nom de Chica)",
-  "en": "Main Lobby - Present (Chica Name Shirt)"
+  "en": "Main Lobby - Present (Chica Name Shirt)",
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  }
  },
  {
   "id": 7220087,
@@ -859,7 +897,10 @@
   "fr": "Hall principal - Cadeau (Fizzy Faz - Chica)",
   "en": "Main Lobby - Present (Fizzy Faz - Chica)",
   "exige": {
-   "badges": 2
+   "badges": 2,
+   "objets": [
+    "objet:CompPass"
+   ]
   }
  },
  {
@@ -870,7 +911,10 @@
   "fr": "Hall principal - Cadeau (Piñata de Cupcake)",
   "en": "Main Lobby - Present (Cupcake Piñata)",
   "exige": {
-   "badges": 4
+   "badges": 4,
+   "objets": [
+    "objet:CompPass"
+   ]
   }
  },
  {
@@ -879,7 +923,12 @@
   "genre": "cadeau",
   "zone": "hall",
   "fr": "Hall principal - Cadeau (Screwdriver)",
-  "en": "Main Lobby - Present (Screwdriver)"
+  "en": "Main Lobby - Present (Screwdriver)",
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  }
  },
  {
   "id": 7220090,

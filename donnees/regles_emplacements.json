@@ -2,21 +2,30 @@
  "_note": "Regles par emplacement, en plus de la zone (construire_apworld.py les fusionne). exige = badges/objets/billets ; histoire = missions (MissionDataTable) qui doivent etre faisables ; exclu = ratable (check sans objet important). Sources : guide des collectibles gamepretty.com (portes de niveau, griffes, boite vocale, ratables) + retours de partie test du 23-24/10 (salle VIP niveau 2, hall N.2/N.4). Prudent en cas de doute.",
  "MAP_MainLobby_Gameplay:PresentCollectible4_8": {
   "exige": {
-   "badges": 2
+   "badges": 2,
+   "objets": [
+    "objet:CompPass"
+   ]
   },
-  "note": "Fizzy Faz Chica : salle derriere la porte de securite niveau 2 du hall"
+  "note": "Fizzy Faz Chica : salle derriere la porte de securite niveau 2 du hall ; derriere le portique du billet d'entree (joueur 27/10)"
  },
  "MAP_MainLobby_Gameplay:MOD_MazerGymBagC_102": {
   "exige": {
-   "badges": 2
+   "badges": 2,
+   "objets": [
+    "objet:CompPass"
+   ]
   },
-  "note": "False Alarm : meme salle, porte niveau 2"
+  "note": "False Alarm : meme salle, porte niveau 2 ; derriere le portique du billet d'entree (joueur 27/10)"
  },
  "MAP_MainLobby_Gameplay:PresentCollectible7_17": {
   "exige": {
-   "badges": 4
+   "badges": 4,
+   "objets": [
+    "objet:CompPass"
+   ]
   },
-  "note": "Cupcake Pinata : porte de securite niveau 4 (objets trouves)"
+  "note": "Cupcake Pinata : porte de securite niveau 4 (objets trouves) ; derriere le portique du billet d'entree (joueur 27/10)"
  },
  "MAP_StageAreaGameplay:MessageCollectible6": {
   "exige": {
@@ -330,5 +339,69 @@
    ]
   },
   "note": "bowling : entree avec le billet du bowling (joueur 25/10)"
+ },
+ "MAP_MainLobby_Gameplay:MrHippoMagnet_2": {
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  },
+  "note": "aimant de Mr. Hippo : derriere le portique du billet d'entree (blocage multi Zinoxe/Yochix 27/10)"
+ },
+ "MAP_Daycare_Gameplay:PRE_BadgeHolder_Daycare_2": {
+  "exige": {
+   "objets": [
+    "objet:Flashlight"
+   ]
+  },
+  "note": "porte-badge du bureau de Moon : le jeu exige la lampe pour avancer jusque-la (Zinoxe 27/10)"
+ },
+ "MAP_MainLobby_Gameplay:MessageCollectible2_5": {
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  },
+  "note": "derriere le portique du billet d'entree (joueur 27/10)"
+ },
+ "MAP_MainLobby_Gameplay:MessageCollectible3_8": {
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  },
+  "note": "derriere le portique du billet d'entree (joueur 27/10)"
+ },
+ "MAP_MainLobby_Gameplay:MessageCollectible_2": {
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  },
+  "note": "derriere le portique du billet d'entree (joueur 27/10)"
+ },
+ "MAP_MainLobby_Gameplay:PresentCollectible2_2": {
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  },
+  "note": "derriere le portique du billet d'entree (joueur 27/10)"
+ },
+ "MAP_MainLobby_Gameplay:PresentCollectible3_5": {
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  },
+  "note": "derriere le portique du billet d'entree (joueur 27/10)"
+ },
+ "MAP_MainLobby_Gameplay:PresentCollectible_2": {
+  "exige": {
+   "objets": [
+    "objet:CompPass"
+   ]
+  },
+  "note": "derriere le portique du billet d'entree (joueur 27/10)"
  }
 }
