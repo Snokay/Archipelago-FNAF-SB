@@ -265,7 +265,7 @@ O.boucle(1000, function()
         O.retirer("Flashlight")
         O.lampeEnMain(g, false)
         O.log("lampe du jeu retiree (garderie finie, elle viendra d'Archipelago)")
-    elseif g and (g.HasFlashlight or not O.lampeRangee) then
+    elseif g and (g.HasFlashlight or not O.lampeRangee or (M.lampeTenue and M.lampeTenue(g))) then
         O.lampeEnMain(g, false)
     end
 end)
@@ -292,6 +292,32 @@ O.hook("/Game/Blueprints/Player/Gregory.Gregory_C:ToggleFlashlight", function(se
     if not O.lampeRangee then return end
     pcall(function() self:get():ForceHideBatteryLevelWidget() end)
 end)
+
+-- Touche 1 (sortir la lampe) : la lampe rangee revenait en main, invisible mais utilisable (joueur 27/10).
+-- On regarde l'objet tenu juste apres et a la fin de l'animation, sans relire les parametres du hook.
+local function lampeTenue(g)
+    for _, champ in ipairs({"EquippedItem", "ItemSwitchingTo"}) do
+        local ok, oui = pcall(function()
+            local it = g[champ]
+            return it and it:IsValid() and it:GetClass():GetFName():ToString():find("Flashlight") ~= nil
+        end)
+        if ok and oui then return true end
+    end
+    return false
+end
+M.lampeTenue = lampeTenue
+local function reRanger()
+    if not O.lampeRangee then return end
+    local g = O.gregory()
+    if g and lampeTenue(g) then O.lampeEnMain(g, false) end
+end
+for _, f in ipairs({":SwitchItem", ":SwitchItemWithAnim"}) do
+    O.hook("/Game/Blueprints/Player/Gregory.Gregory_C" .. f, function()
+        if not O.lampeRangee then return end
+        O.apres(50, reRanger)
+        O.apres(700, reRanger)
+    end)
+end
 
 O.hook("/Game/Model_Assets/SetsPRE/PRE_BadgeHolder.PRE_BadgeHolder_C:Collect_SecurityBadge", function(self)
     local a = self:get()
