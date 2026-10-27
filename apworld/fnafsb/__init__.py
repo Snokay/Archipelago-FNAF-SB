@@ -124,8 +124,9 @@ class FNaFSBWorld(World):
     # 25/10 : boutique de Sly de Hollow Knight vue en sphere 1 a la generation, sphere 19 en vrai).
     # Le 1er badge (sortie de la garderie) ne peut etre chez nous que sur un porte-badge : sphere 1 de
     # n'importe quel jeu.
-    # Le Bon d'entree gratuit, lui, reste a sa place (hall, juste apres le depart) : voir create_items.
+    # Le billet d'entree, lui, reste chez le joueur (sa place ou la piñata du couloir de sortie) : voir create_items.
     DEBUT_LOCAL = ["objet:DaycarePass", "objet:Flashlight"]
+    PINATA_SORTIE = "MAP_UtiliDoorsGameplay:PresentCollectible2_2"
     DEBUT = ["badge"]
 
     def generate_early(self):
@@ -231,7 +232,16 @@ class FNaFSBWorld(World):
                     retires[code] = retires.get(code, 0) + 1  # emplacement desactive : le jeu le donne lui-meme
                 continue
             nom = self._nom(code)
-            if solo or (code == "objet:CompPass" and self.options.debut_rapide):
+            # Billet d'entree : avant le portique du hall, le jeu n'a que 2 spots (sa place et la piñata de Chica du
+            # couloir de sortie) ; toujours chez le joueur, sur l'un des deux (joueur 27/10)
+            if code == "objet:CompPass":
+                spots = [c for c in (cle, self.PINATA_SORTIE) if c in actifs]
+                place = actifs[self.random.choice(spots)]
+                self.multiworld.get_location(place[LANG], self.player).place_locked_item(self.create_item(nom))
+                retires[code] = retires.get(code, 0) + 1
+                places -= 1
+                continue
+            if solo:
                 self.multiworld.get_location(actifs[cle][LANG], self.player).place_locked_item(self.create_item(nom))
                 retires[code] = retires.get(code, 0) + 1
                 places -= 1

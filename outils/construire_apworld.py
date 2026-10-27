@@ -47,6 +47,12 @@ for z in zones['zones']:
 ZONE_DEPART = {'nom': 'depart', 'dossier': None, 'fr': 'Depart (Rockstar Row)', 'en': 'Start (Rockstar Row)',
                'exige': {}}
 zones['zones'].insert(0, ZONE_DEPART)
+# Couloir technique de "Sortez d'ici" : la piñata de Chica s'y ramasse avant le hall, sans badge ni lampe (le
+# reste du secteur technique vient bien plus tard). Seul autre spot possible du billet d'entree (joueur 27/10).
+COULOIR_SORTIE = ['MAP_UtiliDoorsGameplay:PresentCollectible2_2']
+ZONE_SORTIE = {'nom': 'sortie', 'dossier': None, 'fr': 'Couloir de sortie', 'en': 'Exit hallway',
+               'exige': {'objets': ['objet:PhotoPass']}}
+zones['zones'].insert(1, ZONE_SORTIE)
 
 _zone = {z['nom']: z for z in zones['zones']}
 _mission = {m['mission']: m for m in zones['missions']}
@@ -179,7 +185,7 @@ GENRE_NOM = {'cadeau': ('Cadeau', 'Present'), 'message': ('Message', 'Message'),
              'badge': ('Porte-badge', 'Badge Holder'), 'special': ('Objet', 'Item')}
 locs = []
 for e in emplacements:
-    z = ZONE_DEPART if e['id'] in DEPART else ZONE.get(e['zone'].split('/')[0])
+    z = ZONE_DEPART if e['id'] in DEPART else ZONE_SORTIE if e['id'] in COULOIR_SORTIE else ZONE.get(e['zone'].split('/')[0])
     # regle "zone" : check range dans le mauvais dossier par le jeu (ex. dome du comptoir des prix sous StageArea)
     if REGLES.get(e['id'], {}).get('zone'):
         z = next(x for x in zones['zones'] if x['nom'] == REGLES[e['id']]['zone'])

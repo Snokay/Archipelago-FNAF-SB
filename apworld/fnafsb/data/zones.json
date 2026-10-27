@@ -9,6 +9,17 @@
    "exige": {}
   },
   {
+   "nom": "sortie",
+   "dossier": null,
+   "fr": "Couloir de sortie",
+   "en": "Exit hallway",
+   "exige": {
+    "objets": [
+     "objet:PhotoPass"
+    ]
+   }
+  },
+  {
    "nom": "hall",
    "dossier": "MainLobby",
    "fr": "Hall principal",

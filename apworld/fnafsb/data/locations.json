@@ -1334,9 +1334,9 @@
   "id": 7220130,
   "cle": "MAP_UtiliDoorsGameplay:PresentCollectible2_2",
   "genre": "cadeau",
-  "zone": "technique",
-  "fr": "Secteur technique - Cadeau (Piñata de Chica)",
-  "en": "Utility Tunnels - Present (Chica Piñata)"
+  "zone": "sortie",
+  "fr": "Couloir de sortie - Cadeau (Piñata de Chica)",
+  "en": "Exit hallway - Present (Chica Piñata)"
  },
  {
   "id": 7220131,
