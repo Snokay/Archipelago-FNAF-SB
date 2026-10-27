@@ -348,14 +348,6 @@
   },
   "note": "aimant de Mr. Hippo : derriere le portique du billet d'entree (blocage multi Zinoxe/Yochix 27/10)"
  },
- "MAP_Daycare_Gameplay:PRE_BadgeHolder_Daycare_2": {
-  "exige": {
-   "objets": [
-    "objet:Flashlight"
-   ]
-  },
-  "note": "porte-badge du bureau de Moon : le jeu exige la lampe pour avancer jusque-la (Zinoxe 27/10)"
- },
  "MAP_MainLobby_Gameplay:MessageCollectible2_5": {
   "exige": {
    "objets": [

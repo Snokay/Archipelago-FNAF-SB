@@ -16,10 +16,14 @@ local function donner(nom)
     local i = O.inv()
     if not i then return false end
     M.recus[nom] = true
-    if i:HasItem(FName(nom)) then return true end
-    M.donneParMod = true
-    pcall(function() i:AwardItem(FName(nom), false) end)  -- pas la fenetre du jeu : le mod affiche le sien
-    M.donneParMod = false
+    local deja = i:HasItem(FName(nom))
+    -- la lampe gardee rangee pendant la garderie est deja dans l'inventaire : il faut quand meme la rendre
+    if deja and not (nom == "Flashlight" and O.lampeRangee) then return true end
+    if not deja then
+        M.donneParMod = true
+        pcall(function() i:AwardItem(FName(nom), false) end)  -- pas la fenetre du jeu : le mod affiche le sien
+        M.donneParMod = false
+    end
     -- la lampe rangee par le mod (ramassee dans le monde avant d'etre recue) : on la rend utilisable
     if nom == "Flashlight" then
         -- seulement si le mod l'a rangee pendant cette session, et partie stable (sinon le jeu gere seul)

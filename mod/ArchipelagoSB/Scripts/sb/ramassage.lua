@@ -107,6 +107,13 @@ local function retirerDuMonde(objet)
         essais = essais + 1
         if Ob.recus[objet] then return end
         if O.possede(objet) then
+            -- Lampe avant la fin de la garderie : le jeu la demande pour avancer (porte-badge de Moon...), on
+            -- la laisse dans l'inventaire mais rangee. La boucle de la lampe (plus bas) la retire apres.
+            if objet == "Flashlight" and not M.estFait("mission:EscapeDaycare") then
+                O.lampeEnMain(O.gregory(), false)
+                O.log("lampe gardee rangee (garderie pas finie)")
+                return
+            end
             O.retirer(objet)
             O.log("objet du monde retire (il viendra d'Archipelago) :", objet)
             -- la lampe retiree de l'inventaire restait en main : on l'eteint et on la range
@@ -245,6 +252,21 @@ O.boucle(5000, function()
     if not ms or not ms:IsValid() then return end
     for _, nom in ipairs(MISSIONS) do
         if not faits["mission:" .. nom] and ms:IsCompletedMission(FName(nom)) then missionFinie(nom, true) end
+    end
+end)
+
+-- Lampe du jeu gardee pendant la garderie (pas encore recue d'AP) : le jeu la remet en main apres un
+-- chargement ou une sequence, on la range a chaque fois. Garderie finie : retiree comme les autres objets.
+O.boucle(1000, function()
+    if not M.modeAP or not O.stable or Ob.recus.Flashlight or M.garde("Flashlight") then return end
+    if not O.possede("Flashlight") then return end
+    local g = O.gregory()
+    if faits["mission:EscapeDaycare"] then
+        O.retirer("Flashlight")
+        O.lampeEnMain(g, false)
+        O.log("lampe du jeu retiree (garderie finie, elle viendra d'Archipelago)")
+    elseif g and (g.HasFlashlight or not O.lampeRangee) then
+        O.lampeEnMain(g, false)
     end
 end)
 

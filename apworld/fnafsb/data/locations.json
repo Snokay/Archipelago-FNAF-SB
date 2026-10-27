@@ -271,12 +271,7 @@
   "genre": "badge",
   "zone": "garderie",
   "fr": "Garderie - Porte-badge (Badge de sécurité)",
-  "en": "Daycare - Badge Holder (Security Badge)",
-  "exige": {
-   "objets": [
-    "objet:Flashlight"
-   ]
-  }
+  "en": "Daycare - Badge Holder (Security Badge)"
  },
  {
   "id": 7220026,
