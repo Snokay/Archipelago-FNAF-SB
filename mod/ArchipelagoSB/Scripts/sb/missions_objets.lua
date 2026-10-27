@@ -13,22 +13,37 @@ local R = require("sb.ramassage")
 -- objet -> classe du ramassable, reglages a vider (champs de l'acteur, composants UpdateMissionComponent) et
 -- actions du ramassage : {mission, "terminer" | "demarrer" | avancement}
 local LIEES = {
-    DamagedHead = {classe = "CollectibleStaffbotHead_C", champs = {"End Mission Name", "Start Mission Name"},
+    DamagedHead = {classe = "CollectibleStaffbotHead_C", apresShowtime = true, champs = {"End Mission Name", "Start Mission Name"},
         actions = {{"RoxysWeakness", "terminer"}, {"DJMusicMan", "demarrer"}}},
     BackstagePass = {classe = "BackstagePass_C", composants = {"UpdateMissionOnCollect", "UpdateBackstageMission"},
-        actions = {{"RehearsalSpace", "terminer"}, {"Backstage", "demarrer"}}},
-    PartyPassChicaRoom = {classe = "ChicaGreenroomCollectible_C",
+        pres = {X = -8922, Y = 49896}, actions = {{"RehearsalSpace", "terminer"}, {"Backstage", "demarrer"}}},
+    PartyPassChicaRoom = {classe = "ChicaGreenroomCollectible_C", apresShowtime = true,
         composants = {"UpdateMission_PartyPass", "UpdateMission_MoonlightSerenade"},
         actions = {{"PartyPass", "terminer"}, {"MoonlightSerenade", "demarrer"}}},
-    MontyMysteryMix = {classe = "MontyMysteryMix_C", composants = {"UpdateMissionOnCollect"},
+    MontyMysteryMix = {classe = "MontyMysteryMix_C", apresShowtime = true, composants = {"UpdateMissionOnCollect"},
         actions = {{"MontyMysteryMix", 1}}},
-    MazerciseControlKey = {classe = "MazerciseControlKey_C", composants = {"UpdateMissionOnCollect"},
+    MazerciseControlKey = {classe = "MazerciseControlKey_C", apresShowtime = true, composants = {"UpdateMissionOnCollect"},
         actions = {{"ThrillSeeker", 3}}},
     PhotoPass = {classe = "PhotoPassCollectible_C", champs = {"MissionToUpdate"}, composants = {"UpdateMissionOnCollect"},
         actions = {{"FreeFreddy", 3}}},
 }
 
 local AUCUNE = "None"
+
+-- Terminer une mission fait passer l'heure, et le jeu lance Moon : au mauvais moment (Freddy casse dans le
+-- couloir de la salle de repetition, Yochix 27/10) c'etait la mort en boucle. Les objets d'apres les coulisses
+-- attendent donc la fin de Showtime (Freddy de nouveau la), et le pass coulisses que Gregory soit dans la
+-- salle de repetition, la ou on le ramasse dans le jeu de base.
+local RAYON_PRES = 1500
+
+local function moment(ms, m)
+    if m.apresShowtime and not ms:IsCompletedMission(FName("Showtime")) then return false end
+    if m.pres then
+        local g = O.gregory()
+        if not g or O.dist2D(g:K2_GetActorLocation(), m.pres) > RAYON_PRES then return false end
+    end
+    return true
+end
 
 -- Seeds d'avant (objet laisse a sa place, slot_data "garder") : le jeu de base s'en occupe
 local function gere(objet) return R.modeAP and not R.garde(objet) end
@@ -99,7 +114,7 @@ O.boucle(3000, function()
     local ms = FindFirstOf("FNAFMissionSystem")
     if not ms or not ms:IsValid() then return end
     for objet, m in pairs(LIEES) do
-        if Ob.recus[objet] and not finis[objet] and gere(objet) then
+        if Ob.recus[objet] and not finis[objet] and gere(objet) and moment(ms, m) then
             local tout = true
             for _, a in ipairs(m.actions) do
                 local ok, fait = pcall(jouer, ms, objet, a[1], a[2])
