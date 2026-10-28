@@ -68,13 +68,134 @@ local function lampe()
     if i then i:SetPowerLevel_Fazwatch(0) end
 end
 
+-- Effets a duree (idees de Zinoxe) : reappliques en boucle, le jeu remet ses valeurs a chaque changement
+-- d'allure, apres une mort ou un chargement. Un 2e piege du meme type rallonge la duree.
+M.DUREE_LENT = 30       -- s
+M.VITESSE_LENT = 0.5    -- x la vitesse de marche, course comprise
+M.DUREE_ENTRAVE = 30    -- s sans courir ni sauter
+M.DUREE_TURBO = 20      -- s d'animatroniques acceleres
+M.VITESSE_TURBO = 2.0
+
+local finDe = {}
+local function temporaire(nom, duree, ms, tic, fin)
+    local deja = finDe[nom] ~= nil
+    finDe[nom] = math.max(finDe[nom] or 0, os.time()) + duree
+    pcall(tic)
+    if deja then return end
+    O.boucle(ms, function()
+        if os.time() >= finDe[nom] then
+            finDe[nom] = nil
+            local ok, err = pcall(fin)
+            O.log("fin du piege", nom, ok and "" or tostring(err))
+            return true
+        end
+        pcall(tic)
+        return false
+    end)
+end
+
+-- Vitesses de Gregory pour les pieges ralenti et entrave. Les vitesses de reference du Blueprint sont baissees
+-- (sinon chaque depart de course remet la pleine vitesse le temps que le plafond repasse), plafond en secours.
+-- Les deux pieges partagent ce reglage : s'ils se chevauchent, la fin de l'un garde l'effet de l'autre.
+local vitesses = nil   -- valeurs d'origine (nombres, pas l'objet : Gregory change a chaque mort)
+local function brider(g)
+    if not vitesses then
+        local v = g.DefaultWalkSpeed
+        if not v or v < 50 then v = 300 end
+        vitesses = {DefaultWalkSpeed = v, RunSpeed = g.RunSpeed, SuperRunSpeed = g.SuperRunSpeed}
+        O.log("vitesses : marche", v, "course", vitesses.RunSpeed, "super", vitesses.SuperRunSpeed)
+    end
+    local m = vitesses.DefaultWalkSpeed * (finDe.lent and M.VITESSE_LENT or 1)
+    local cible = {DefaultWalkSpeed = m, RunSpeed = m, SuperRunSpeed = m}
+    for k, v in pairs(cible) do
+        if g[k] ~= v then g[k] = v end
+    end
+    local cm = g.CharacterMovement
+    if cm.MaxWalkSpeed > m + 1 then cm.MaxWalkSpeed = m end
+end
+local function liberer()
+    local g = O.gregory()
+    if not (g and vitesses) then vitesses = nil return end
+    if finDe.lent or finDe.entrave then brider(g) return end
+    for k, v in pairs(vitesses) do g[k] = v end
+    g:SetupWalkSpeed()
+    vitesses = nil
+end
+
+-- Gregory au ralenti, qu'il marche ou qu'il coure
+local function lent()
+    temporaire("lent", M.DUREE_LENT, 100, function()
+        local g = O.gregory()
+        if g then brider(g) end
+    end, liberer)
+end
+
+-- Plus de course ni de saut
+local sautsAvant = nil
+local function entrave()
+    temporaire("entrave", M.DUREE_ENTRAVE, 100, function()
+        local g = O.gregory()
+        if not g then return end
+        if sautsAvant == nil then sautsAvant = g.JumpMaxCount O.log("entrave : sauts", sautsAvant) end
+        g.CanSprint = false
+        g.JumpMaxCount = 0
+        if g.IsSprinting then g:StopSprinting() end
+        brider(g)
+    end, function()
+        local g = O.gregory()
+        if g then
+            g.CanSprint = true
+            g.JumpMaxCount = (sautsAvant and sautsAvant > 0) and sautsAvant or 1
+        end
+        sautsAvant = nil
+        liberer()
+    end)
+end
+
+-- Acceleres (le temps passe plus vite pour eux) : tout ce qui peut tuer ou donner l'alerte, Vanny, Moon,
+-- endos et StaffBots de securite compris. Pas Sun (garderie, inoffensif) ni Vanessa (sa capture attend un
+-- game over), pas ceux figes par le bonus Choc (dilatation 0)
+local DANGERS = {"AISeeker_C", "Vanny_C", "Endo_C", "Moonman_C", "AIMoonMan_C", "AILilMusicMan_C",
+    "StaffBotSecurityPatrol_C", "StaffBotSecurityPatrol_Nightmarrion_C"}
+local function animatroniques(f)
+    local vus = {}
+    for _, c in ipairs(DANGERS) do
+        for _, a in ipairs(FindAllOf(c) or {}) do
+            if a:IsValid() and not O.supprime(a) then
+                local nom = a:GetFullName()
+                local classe = a:GetClass():GetFName():ToString()
+                if not vus[nom] and not (classe:find("Sun") or classe:find("Vanessa")) then
+                    vus[nom] = true
+                    f(a)
+                end
+            end
+        end
+    end
+end
+local function turbo()
+    temporaire("turbo", M.DUREE_TURBO, 1000, function()
+        if not O.gregory() then return end
+        animatroniques(function(a)
+            if a.CustomTimeDilation > 0 then a.CustomTimeDilation = M.VITESSE_TURBO end
+        end)
+    end, function()
+        animatroniques(function(a)
+            if a.CustomTimeDilation > 1 then a.CustomTimeDilation = 1.0 end
+        end)
+    end)
+end
+
 local effets = {
     screamer = function() Sc.lancer(false) end,
     alerte = alerte,
     bornes = bornes,
     lampe = lampe,
+    lent = lent,
+    entrave = entrave,
+    turbo = turbo,
 }
-M.noms = {screamer = "Screamer", alerte = "Alerte", bornes = "Bornes en panne", lampe = "Lampe a plat"}
+M.noms = {screamer = "Screamer", alerte = "Alerte", bornes = "Bornes en panne", lampe = "Lampe a plat",
+    lent = "Gregory au ralenti", entrave = "Ni course ni saut", turbo = "Animatroniques x2"}
 
 -- texte : message troll avec le joueur qui a trouve le piege, affiche quand il tombe
 local function declencher(type, texte)

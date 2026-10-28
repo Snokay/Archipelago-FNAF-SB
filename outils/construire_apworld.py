@@ -165,7 +165,10 @@ for i, (fr, en) in enumerate((('Recharge de la lampe', 'Flashlight Recharge'), (
 for code, fr, en in (('piege:alerte', 'Signalement au StaffBot', 'StaffBot Report'),
                      ('piege:screamer', 'Visite surprise', 'Surprise Visit'),
                      ('piege:bornes', 'Fizzy Faz renverse', 'Spilled Fizzy Faz'),
-                     ('piege:lampe', 'Piles empruntees', 'Borrowed Batteries')):
+                     ('piege:lampe', 'Piles empruntees', 'Borrowed Batteries'),
+                     ('piege:lent', 'Chewing-gum sous les chaussures', 'Gum Under Your Shoes'),
+                     ('piege:entrave', 'Lacets noues', 'Tied Shoelaces'),
+                     ('piege:turbo', 'Cafe pour les animatroniques', 'Animatronic Coffee')):
     ajoute(code, fr, en, 'piege', 'trap')
 
 # Noms uniques (Archipelago l'exige) : doublons numerotes

@@ -1678,5 +1678,32 @@
   "genre": "piege",
   "classe": "trap",
   "nombre": 1
+ },
+ {
+  "id": 7210172,
+  "code": "piege:lent",
+  "fr": "Chewing-gum sous les chaussures",
+  "en": "Gum Under Your Shoes",
+  "genre": "piege",
+  "classe": "trap",
+  "nombre": 1
+ },
+ {
+  "id": 7210173,
+  "code": "piege:entrave",
+  "fr": "Lacets noues",
+  "en": "Tied Shoelaces",
+  "genre": "piege",
+  "classe": "trap",
+  "nombre": 1
+ },
+ {
+  "id": 7210174,
+  "code": "piege:turbo",
+  "fr": "Cafe pour les animatroniques",
+  "en": "Animatronic Coffee",
+  "genre": "piege",
+  "classe": "trap",
+  "nombre": 1
  }
 ]
