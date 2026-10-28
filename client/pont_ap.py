@@ -300,7 +300,8 @@ class Pont:
     def session(self):
         sd = self.slot_data
         self.vers_jeu("session", self.langue(), sd.get("duree_bornes", 300), sd.get("mode_death_link", "classique"),
-                      1 if sd.get("death_link") else 0)
+                      1 if sd.get("death_link") else 0, sd.get("duree_ralenti", 30), sd.get("duree_entrave", 30),
+                      sd.get("duree_turbo", 60), sd.get("vitesse_turbo", 1.5), sd.get("vitesse_endurance", 1.5))
         # objets que le mod laisse au joueur au ramassage (hors AP, objets de sortie restes a leur place)
         self.vers_jeu("garder", *sd.get("garder", []))
         for cle, (nom, qui, code) in self.contenus.items():

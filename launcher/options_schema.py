@@ -24,6 +24,14 @@ CHOICE_LABELS = {
     "en": {"any": "Any", "loading_dock": "Loading Dock", "fazer_blast": "Fazer Blast", "vip": "VIP",
            "burntrap": "Burntrap", "alley": "Alley", "all": "All", "classic": "Classic", "screamer": "Screamer"},
 }
+# Durees des pieges (30s, 1min, 1min30...) et vitesses (x1_25...) : memes libelles dans les deux langues
+for _l in CHOICE_LABELS.values():
+    for _n in range(1, 11):
+        _m, _s = divmod(_n * 30, 60)
+        _cle = (f"{_m}min" if _m else "") + (f"{_s}" if _m and _s else "") + ("" if _m else f"{_s}s")
+        _l[_cle] = (f"{_m} min" if _m else "") + (f" {_s}" if _m and _s else "") + ("" if _m else f"{_s} s")
+    for _v in ("1_25", "1_5", "1_75", "2", "2_5", "3", "3_5", "4", "4_5", "5"):
+        _l["x" + _v] = "x" + _v.replace("_", ".")
 DEATHLINK_DOC = {"fr": "Quand tu meurs, les autres joueurs avec DeathLink meurent aussi, et inversement.",
                  "en": "When you die, everyone else with DeathLink dies too, and the other way round."}
 
@@ -104,7 +112,7 @@ def build_lang(lang, path=OPTIONS_PY):
         elif issubclass(cls, stub.Range):
             option.update(kind="range", min=cls.range_start, max=cls.range_end)
         else:
-            choices = sorted(((v, k[len("option_"):]) for k, v in vars(cls).items() if k.startswith("option_")))
+            choices = sorted(((getattr(cls, k), k[len("option_"):]) for k in dir(cls) if k.startswith("option_")))
             option.update(kind="choice", choices=[name for _, name in choices],
                           labels=[labels.get(name, name.replace("_", " ").capitalize()) for _, name in choices])
             option["default"] = dict(choices)[cls.default]

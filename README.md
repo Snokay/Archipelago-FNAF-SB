@@ -17,11 +17,12 @@ passes, Freddy's upgrades and more are shuffled with the other players of a mult
 - **Items**: a **progressive security badge** (each copy = one more security level), the passes (Daycare,
   Complimentary, Party Pass, Dance Pass, Mazercise and bowling tickets...), Freddy's upgrades (Monty's claws,
   Chica's voice box, Roxy's eyes), the flashlight, the Faz Camera, the Fazerblaster, Gregory's upgrades.
-- **Bonuses** stored in a wheel (key **G**): flashlight, Freddy and Faz Camera refills, unlimited stamina, and a
-  shock that stuns the animatronics around you.
+- **Bonuses** stored in a wheel (key **G**): flashlight, Freddy and Faz Camera refills, unlimited stamina (Gregory
+  also runs faster), and a shock that stuns the animatronics around you.
 - **Traps**: a StaffBot alert that sends the animatronics after you, a (harmless) jumpscare, broken save
   stations for a few minutes, an empty flashlight, a slowed-down Gregory, no running or jumping, and
-  everything that can kill you or raise the alarm running twice as fast for a short time.
+  everything that can kill you or raise the alarm (StaffBots included) running faster for a short time. The
+  length of the last three traps and the speeds (enemies, Gregory with the stamina bonus) are YAML options.
 - **Goal**: an ending of your choice (any, Loading Dock, Fazer Blast, VIP, Burntrap, Alley, or all of them),
   plus, if you want, a number of presents, messages and retro CDs to collect.
 - **Multiworld friendly**: the items that open the start of the Pizzaplex stay close to you (quick start), your
@@ -104,10 +105,12 @@ tourne sur [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) et un launcher installe
   améliorations de Freddy (griffes de Monty, boîte vocale de Chica, yeux de Roxy), la lampe torche, la Faz
   Camera, le Fazerblaster, les améliorations de Gregory.
 - **Bonus** rangés dans une roue (touche **G**) : recharges de la lampe, de Freddy et de la Faz Camera,
-  endurance illimitée, et un choc qui assomme les animatroniques autour de toi.
+  endurance illimitée (Gregory court aussi plus vite), et un choc qui assomme les animatroniques autour de toi.
 - **Pièges** : une alerte du StaffBot qui envoie les animatroniques sur toi, un screamer (sans danger), des
   bornes de sauvegarde en panne quelques minutes, une lampe à plat, Gregory au ralenti, ni course ni saut,
-  et tout ce qui peut te tuer ou donner l'alerte deux fois plus rapide pendant un court moment.
+  et tout ce qui peut te tuer ou donner l'alerte (StaffBots compris) plus rapide pendant un court moment. La
+  durée des trois derniers pièges et les vitesses (ennemis, Gregory avec le bonus d'endurance) se règlent dans
+  le YAML.
 - **Objectif** : la fin de ton choix (n'importe laquelle, quai de chargement, Fazer Blast, VIP, Burntrap,
   ruelle, ou toutes), plus, si tu veux, un nombre de cadeaux, de messages et de CD rétro à ramasser.
 - **Pensé pour le multiworld** : les objets qui ouvrent le début du Pizzaplex restent près de toi (début rapide),

@@ -140,6 +140,68 @@ class DureeBornes(Range):
     default = 5
 
 
+class DureePiege(Choice):
+    """Base des durees des pieges, par demi-minute (valeur = nombre de 30 s)."""
+    option_30s = 1
+    option_1min = 2
+    option_1min30 = 3
+    option_2min = 4
+    option_2min30 = 5
+    option_3min = 6
+    option_3min30 = 7
+    option_4min = 8
+    option_4min30 = 9
+    option_5min = 10
+
+
+class DureeRalenti(DureePiege):
+    __doc__ = text("Duree du piege qui ralentit Gregory.",
+                   "How long the trap that slows Gregory down lasts.")
+    display_name = text("Duree du ralenti", "Slowdown length")
+    default = 1
+
+
+class DureeEntrave(DureePiege):
+    __doc__ = text("Duree du piege qui empeche de courir et de sauter.",
+                   "How long the no running / no jumping trap lasts.")
+    display_name = text("Duree sans course ni saut", "No running / jumping length")
+    default = 1
+
+
+class DureeTurbo(DureePiege):
+    __doc__ = text("Duree du piege qui accelere tout ce qui peut te tuer ou donner l'alerte.",
+                   "How long the trap that speeds up everything that can kill you or raise the alarm lasts.")
+    display_name = text("Duree des ennemis acceleres", "Sped-up enemies length")
+    default = 2
+
+
+class Vitesse(Choice):
+    """Base des multiplicateurs de vitesse (valeur = pourcentage)."""
+    option_x1_25 = 125
+    option_x1_5 = 150
+    option_x1_75 = 175
+    option_x2 = 200
+    option_x2_5 = 250
+    option_x3 = 300
+    option_x3_5 = 350
+    option_x4 = 400
+    option_x4_5 = 450
+    option_x5 = 500
+    default = 150
+
+
+class VitesseTurbo(Vitesse):
+    __doc__ = text("Multiplicateur de vitesse du piege des ennemis acceleres (x1_25 a x5).",
+                   "Speed multiplier of the sped-up enemies trap (x1_25 to x5).")
+    display_name = text("Vitesse des ennemis", "Enemy speed")
+
+
+class VitesseEndurance(Vitesse):
+    __doc__ = text("Multiplicateur de vitesse de Gregory pendant le bonus d'endurance illimitee (x1_25 a x5).",
+                   "Gregory's speed multiplier during the unlimited stamina bonus (x1_25 to x5).")
+    display_name = text("Vitesse de Gregory (endurance)", "Gregory speed (stamina)")
+
+
 class ModeDeathLink(Choice):
     __doc__ = text(
         """Mort recue d'un autre joueur.
@@ -174,5 +236,10 @@ class FNaFSBOptions(PerGameCommonOptions):
     pourcent_bonus: PourcentBonus
     pourcent_pieges: PourcentPieges
     duree_bornes: DureeBornes
+    duree_ralenti: DureeRalenti
+    duree_entrave: DureeEntrave
+    duree_turbo: DureeTurbo
+    vitesse_turbo: VitesseTurbo
+    vitesse_endurance: VitesseEndurance
     death_link: DeathLink
     mode_death_link: ModeDeathLink

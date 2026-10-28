@@ -111,6 +111,11 @@ local function traiter(c)
         objets = {}
         O.LANGUE = c[2]
         P.DUREE_BORNES = tonumber(c[3]) or P.DUREE_BORNES
+        P.DUREE_LENT = tonumber(c[6]) or P.DUREE_LENT
+        P.DUREE_ENTRAVE = tonumber(c[7]) or P.DUREE_ENTRAVE
+        P.DUREE_TURBO = tonumber(c[8]) or P.DUREE_TURBO
+        P.VITESSE_TURBO = tonumber(c[9]) or P.VITESSE_TURBO
+        P.VITESSE_ENDURANCE = tonumber(c[10]) or P.VITESSE_ENDURANCE
     elseif cmd == "garder" then
         R.garder(c)
     elseif cmd == "contenu" then

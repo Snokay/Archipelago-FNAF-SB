@@ -1,6 +1,7 @@
 -- Bonus recus : stockes en reserve, utilises quand le joueur veut (roue des bonus, sb/roue.lua)
 local O = require("sb.outils")
 local S = require("sb.securite")
+local P = require("sb.pieges")
 local M = {}
 
 M.DUREE_ENDURANCE = 60   -- s d'endurance illimitee
@@ -12,6 +13,7 @@ local function endurance()
     local deja = finEndurance ~= nil
     finEndurance = math.max(finEndurance or 0, os.time()) + M.DUREE_ENDURANCE
     O.inv().bUnlimitedStamina = true
+    P.boost(M.DUREE_ENDURANCE)
     if deja then return end
     O.boucle(1000, function()
         local fini = os.time() >= finEndurance
@@ -63,7 +65,7 @@ M.liste = {
         son = A .. "PropActors/FreddyRechargeStation/Play_sfx_rechargeStation_charge_complete"},
     {id = "flashs", desc = {"Recharge tous les flashs de la Faz Camera.", "Refills every Faz Camera flash."}, icone = "FlashBeacon", neon = {0.25, 0.5, 1.0}, nom = "Recharge de la Faz Camera", f = function() O.inv():ResetFlashes() end,
         son = A .. "PropActors/Equippables/FashBeacon/Play_sfx_fazcam_recharge"},
-    {id = "endurance", desc = {"Cours sans t'essouffler pendant 60 secondes.", "Run without getting tired for 60 seconds."}, icone = {"GregoryUpgrade_Stamina_0", "GregoryUpgrade_Stamina_1", "GregoryUpgrade_Stamina_2", "GregoryUpgrade_Stamina_3", "MontyMysteryMix", "GregoryUpgrade_Shoes"}, neon = {0.3, 1.0, 0.4}, nom = "Endurance illimitee", f = endurance,
+    {id = "endurance", desc = {"Gregory a bu 20 Fizzy Faz : gonflé aux hormones, il court plus vite et sans s'essouffler pendant 60 secondes.", "Gregory drank 20 Fizzy Faz: pumped up, he runs faster and never gets tired for 60 seconds."}, icone = {"GregoryUpgrade_Stamina_0", "GregoryUpgrade_Stamina_1", "GregoryUpgrade_Stamina_2", "GregoryUpgrade_Stamina_3", "MontyMysteryMix", "GregoryUpgrade_Shoes"}, neon = {0.3, 1.0, 0.4}, nom = "Endurance illimitee", f = endurance,
         son = A .. "Hour6/Play_sfx_fazerblaster_recharge_fullyCharged"},
     {id = "choc", desc = {"Assomme les animatroniques proches pendant 10 secondes.", "Stuns nearby animatronics for 10 seconds."}, icone = "Fazergun", neon = {0.7, 0.3, 1.0}, nom = "Choc", f = choc,
         son = A .. "PropActors/Equippables/FashBeacon/Play_Gregory_FlashBeacon_Trigger"},
