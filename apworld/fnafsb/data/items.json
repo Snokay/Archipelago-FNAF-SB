@@ -83,8 +83,8 @@
  {
   "id": 7210009,
   "code": "objet:PartyPassChicaRoom",
-  "fr": "Billet d’entrée",
-  "en": "Party Pass 1",
+  "fr": "Billet de la loge de Chica",
+  "en": "Chica's Greenroom Pass",
   "genre": "progression",
   "classe": "progression",
   "nombre": 1
@@ -191,8 +191,8 @@
  {
   "id": 7210021,
   "code": "objet:MontyMysteryMix",
-  "fr": "Mystery Mix de Monty 1",
-  "en": "Monty Mystery Mix 1",
+  "fr": "Mystery Mix de Monty",
+  "en": "Monty Mystery Mix",
   "genre": "progression",
   "classe": "progression",
   "nombre": 1
@@ -219,7 +219,7 @@
   "id": 7210024,
   "code": "prog:PartyPass_",
   "fr": "Billet d'entree",
-  "en": "Party Pass 2",
+  "en": "Party Pass",
   "genre": "progression",
   "classe": "progression",
   "nombre": 9
@@ -281,9 +281,9 @@
  {
   "id": 7210031,
   "code": "objet:MontyMysteryMix",
-  "fr": "Mystery Mix de Monty 2",
-  "en": "Monty Mystery Mix 2",
-  "genre": "collectible",
+  "fr": "Mystery Mix de Monty (inutilise)",
+  "en": "Monty Mystery Mix (unused)",
+  "genre": "inutilise",
   "classe": "filler",
   "nombre": 1,
   "priorite": 6

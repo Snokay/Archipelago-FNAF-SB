@@ -45,8 +45,8 @@ PASS_DEPART = "objet:PhotoPass"
 VANILLA = {"MAP_MainLobby_Gameplay:ComplimentaryPass_3": "objet:CompPass",
            # garderie : plus de badge fixe (25/10), le mod garde le niveau 1 jusqu'a la fin de EscapeDaycare
            "MAP_Kitchen_Gameplay:PRE_BadgeHolder_2": "badge",
-           "MAP_EastArcade_Gameplay2:PRE_BadgeHolder_PrizeCounter_2": "badge",  # autre chemin du 2e badge (El Chip)
-           "mission:ChicaBeak": "objet:ChicaBeak"}  # la porte de sortie des egouts exige la boite vocale
+           "MAP_EastArcade_Gameplay2:PRE_BadgeHolder_PrizeCounter_2": "badge"}  # autre chemin du 2e badge (El Chip)
+# Boite vocale de Chica (bec) : melangee comme le reste depuis le 29/10 (joueur : jamais eu de souci avec)
 # Hors d'Archipelago, comme la FazWatch : ni melange ni check, le joueur le ramasse comme dans le jeu de base
 # Le pass coulisses, le billet de la loge de Chica et le Mystery Mix y etaient (leur ramassage fait avancer
 # l'histoire) : depuis le 26/10 le mod fait avancer leur mission a la reception (sb/missions_objets.lua), ils
@@ -151,8 +151,9 @@ class FNaFSBWorld(World):
             loc = FNaFSBLocation(self.player, e[LANG], e["id"], r)
             if e.get("exige"):
                 set_rule(loc, lambda state, ex=e["exige"]: self._peut(state, ex))
-            # ratable (plus atteignable apres un moment de l'histoire) : jamais d'objet important
-            if e.get("exclu"):
+            # ratable (plus atteignable apres un moment de l'histoire), ou CD retro (n'apparaissent qu'a la fin du
+            # jeu, joueur 29/10 : le disque du spectacle sur un CD bloquait la partie) : jamais d'objet important
+            if e.get("exclu") or e["genre"] == "cd":
                 loc.progress_type = LocationProgressType.EXCLUDED
             r.locations.append(loc)
         # objets hors AP (et objets de sortie dont l'emplacement est desactive) : evenements a leur place,
@@ -318,14 +319,18 @@ class FNaFSBWorld(World):
                 codes.add(code)
         return sorted(c.split(":", 1)[1] for c in codes)
 
+    def _faisables(self, genre):
+        return len([e for e in EMPLACEMENTS if e["genre"] == genre and not e.get("exclu")])
+
     def fill_slot_data(self) -> Dict[str, Any]:
         o = self.options
         return {
             "langue": LANG,
             "fin": self.FINS[o.fin.value],
-            "cadeaux": o.cadeaux.value,
-            "messages": o.messages.value,
-            "cd": o.cd.value,
+            # plafonnes a ce qui est faisable (un yaml a 77 cadeaux reste valide avec un ratable de plus)
+            "cadeaux": min(o.cadeaux.value, self._faisables("cadeau")),
+            "messages": min(o.messages.value, self._faisables("message")),
+            "cd": min(o.cd.value, self._faisables("cd")),
             "duree_bornes": o.duree_bornes.value * 60,
             "duree_ralenti": o.duree_ralenti.value * 30,
             "duree_entrave": o.duree_entrave.value * 30,
@@ -337,6 +342,9 @@ class FNaFSBWorld(World):
             "emplacements": {e["cle"]: e["id"] for e in self._actifs()},
             # ratables : ne comptent pas pour l'objectif de collectibles
             "hors_compte": [e["cle"] for e in EMPLACEMENTS if e.get("exclu")],
+            # genre des emplacements qui comptent pour l'objectif : le pont compte aussi ceux deja faits sur le
+            # serveur (un emplacement deja fait n'etait pas recompte au ramassage : 3 manquaient chez Zinoxe)
+            "genres": {e["cle"]: e["genre"] for e in EMPLACEMENTS if e["genre"] in ("cadeau", "message", "cd")},
             "garder": self._garder(),
             "objets": {str(ob["id"]): ob["code"] for ob in OBJETS},
         }

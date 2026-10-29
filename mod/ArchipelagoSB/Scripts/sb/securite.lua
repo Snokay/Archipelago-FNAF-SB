@@ -8,16 +8,21 @@ local MARGE = 3        -- s sures d'affilee avant de partir (une scene enchaine 
 M.DUREE_SCREAMER = 8   -- s entre deux screamers (le jeu refuse un screamer juste apres un autre)
 
 local derniereMort = nil
+local derniereMortVraie = nil  -- instant de la derniere mort (l'ecran de mort, pas son affichage prolonge)
 local verrou = nil
 M.restes = {}          -- JumpscarePawn qu'on a supprimes : encore en memoire un moment, a ignorer
 M.surMort = {}         -- fonctions appelees a chaque mort
 
 function M.verrouiller() verrou = os.time() end
 
+-- L'ecran de mort peut se construire 2 fois pour une seule mort : 2 DeathLink partaient (Zinoxe 29/10)
 O.hook("/Game/Blueprints/UI/GameOverUI.GameOverUI_C:Construct", function()
     derniereMort = os.time()
+    if derniereMortVraie and os.time() - derniereMortVraie < 5 then return end
+    derniereMortVraie = os.time()
     for _, f in ipairs(M.surMort) do pcall(f) end
 end)
+function M.derniereMort() return derniereMortVraie end
 
 function M.momentSur()
     for _, w in ipairs(FindAllOf("GameOverUI_C") or {}) do

@@ -206,6 +206,8 @@ H.surPremiereFois = function() ecrire("bienvenue") end
 -- Mort du joueur (pas celle causee par un DeathLink recu) -> DeathLink sortant
 S.surMort[#S.surMort + 1] = function()
     if M.mortRecue and os.time() - M.mortRecue < 15 then return end
+    -- (le screamer du DeathLink peut tuer plusieurs secondes apres son lancement)
+    if O.mortDeathLink and os.time() - O.mortDeathLink < 30 then return end
     ecrire("mort")
 end
 

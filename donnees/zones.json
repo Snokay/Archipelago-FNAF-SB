@@ -113,8 +113,10 @@
     ]
    },
    "histoire": [
-    "EscapeDaycare"
-   ]
+    "EscapeDaycare",
+    "Showtime"
+   ],
+   "_note_billet": "billet de la loge de Chica retenu par le mod jusqu'a la fin de Showtime (Moon en boucle sinon, 29/10)"
   },
   {
    "nom": "atrium_est",
@@ -388,7 +390,8 @@
    "mission": "FazerBlast",
    "zone": "fazerblast",
    "histoire": [
-    "LostAndFound"
+    "LostAndFound",
+    "Showtime"
    ],
    "exige": {
     "objets": [

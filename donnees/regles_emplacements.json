@@ -395,5 +395,9 @@
    ]
   },
   "note": "derriere le portique du billet d'entree (joueur 27/10)"
+ },
+ "WestArcade_Gameplay:MontyMysteryMix": {
+  "exclu": true,
+  "note": "cadeau Mystery Mix de l'arcade ouest, a cote de celui du bowling : jamais ouvrable (ni Zinoxe, ni Yochix, ni le joueur, 29/10), doublon hors carte, oubli des devs (joueur : un seul Mystery Mix dans le jeu)"
  }
 }

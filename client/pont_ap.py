@@ -281,7 +281,8 @@ class Pont:
                 self.vers_jeu("envoye", nom, qui)
         elif cmd == "Bounced" and "DeathLink" in p.get("tags", []):
             d = p.get("data", {})
-            if d.get("source") != self.pseudo and time.time() - self.mort_envoyee > 5:
+            # (une mort d'un autre joueur peut arriver en double : la 2e est ignoree)
+            if d.get("source") != self.pseudo and time.time() - self.mort_envoyee > 5                     and time.time() - self.mort_recue > 10:
                 self.mort_recue = time.time()
                 qui = d.get("source", "?")
                 texte = ("%s died: you go with them!" if self.langue() == "en" else "%s est mort : tu le suis !") % qui
@@ -400,7 +401,7 @@ class Pont:
             self.etat["bienvenue"] = True
             await self.sauver_etat()
         elif cmd == "mort":
-            if self.slot_data.get("death_link") and time.time() - self.mort_recue > 15:
+            if self.slot_data.get("death_link") and time.time() - self.mort_recue > 15                     and time.time() - self.mort_envoyee > 10:
                 self.mort_envoyee = time.time()
                 await self.envoyer({"cmd": "Bounce", "tags": ["DeathLink"],
                                     "data": {"time": time.time(), "source": self.pseudo,
@@ -411,7 +412,12 @@ class Pont:
         # ramasses de ce type, sans les ratables (amelioration de lampe de la garderie, apres Moon) ;
         # repli pour les seeds generees avant que le slot_data les donne
         hors = set(self.slot_data.get("hors_compte", ["MAP_Daycare_Gameplay:PresentCollectible3_5"]))
-        return len([c for c in self.etat["ramasses"].get(genre, []) if c not in hors])
+        faits = set(self.etat["ramasses"].get(genre, []))
+        # + emplacements deja faits sur le serveur (ignores au ramassage par le jeu : jamais recomptes)
+        genres = self.slot_data.get("genres", {})
+        emplacements = self.slot_data.get("emplacements", {})
+        faits |= {cle for cle, g in genres.items() if g == genre and emplacements.get(cle) in self.faits}
+        return len(faits - hors)
 
     def envoyer_objectif(self):
         # Pour la carte de bienvenue du jeu : fin demandee, fins faites, compteurs faits / exiges

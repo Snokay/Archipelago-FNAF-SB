@@ -161,19 +161,24 @@
    "fr": "Fazer Blast",
    "en": "Fazer Blast",
    "exige": {
-    "badges": 3,
+    "badges": 4,
     "billets": 1,
     "objets": [
      "objet:PartyPassChicaRoom",
      "objet:PhotoPass",
      "objet:DaycarePass",
      "objet:CompPass",
-     "objet:Flashlight"
+     "objet:Flashlight",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:PerformanceDisk"
     ]
    },
    "histoire": [
-    "EscapeDaycare"
-   ]
+    "EscapeDaycare",
+    "Showtime"
+   ],
+   "_note_billet": "billet de la loge de Chica retenu par le mod jusqu'a la fin de Showtime (Moon en boucle sinon, 29/10)"
   },
   {
    "nom": "atrium_est",
@@ -686,7 +691,8 @@
    "mission": "FazerBlast",
    "zone": "fazerblast",
    "histoire": [
-    "LostAndFound"
+    "LostAndFound",
+    "Showtime"
    ],
    "exige": {
     "badges": 4,
@@ -696,7 +702,10 @@
      "objet:PhotoPass",
      "objet:DaycarePass",
      "objet:CompPass",
-     "objet:Flashlight"
+     "objet:Flashlight",
+     "objet:BackstagePass",
+     "objet:ScrewDriver",
+     "objet:PerformanceDisk"
     ]
    },
    "_note_reception": "sans le billet de la loge de Chica, Fazer Blast ne se lance pas (joueur 25/10)"

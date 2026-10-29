@@ -12,10 +12,30 @@ local M = {}
 M.recus = {}          -- objets du jeu recus d'Archipelago (le ramassage dans le monde ne les retire pas)
 M.donneParMod = false -- vrai pendant nos AwardItem : ce n'est pas un ramassage du joueur
 
+-- Billet de la loge de Chica : dans l'inventaire avant la fin de Showtime, le ramassable de la loge lancait
+-- tout seul ses missions au chargement de la zone (PartyPass, MoonlightSerenade + toutes celles d'avant, dont
+-- Showtime) -> heure avancee, Moon en boucle dans le couloir du Freddy casse (Yochix 29/10, billet recu en
+-- garderie). Recu tot, il attend la fin de Showtime hors de l'inventaire.
+local APRES_SHOWTIME = {PartyPassChicaRoom = true}
+M.enAttente = {}
+local function showtimeFini()
+    local ok, fini = pcall(function()
+        return FindFirstOf("FNAFMissionSystem"):IsCompletedMission(FName("Showtime"))
+    end)
+    return ok and fini == true
+end
+
 local function donner(nom)
     local i = O.inv()
     if not i then return false end
     M.recus[nom] = true
+    if APRES_SHOWTIME[nom] and not showtimeFini() then
+        if not M.enAttente[nom] then O.log("recu :", nom, "retenu jusqu'a la fin de Showtime") end
+        M.enAttente[nom] = true
+        if i:HasItem(FName(nom)) then O.retirer(nom) end  -- sauvegarde d'avant ce correctif
+        return true
+    end
+    M.enAttente[nom] = nil
     local deja = i:HasItem(FName(nom))
     -- la lampe gardee rangee pendant la garderie est deja dans l'inventaire : il faut quand meme la rendre
     if deja and not (nom == "Flashlight" and O.lampeRangee) then return true end
@@ -38,6 +58,23 @@ local function donner(nom)
     if M.surDon then O.apres(200, function() M.surDon(nom) end) end
     return true
 end
+
+-- Objets retenus : donnes des que Showtime est fini ; avant, retires si le jeu les remet (chargement)
+O.boucle(2000, function()
+    if not next(M.enAttente) or not O.enPartie() then return end
+    local i = O.inv()
+    if not i then return end
+    local fini = showtimeFini()
+    for nom in pairs(M.enAttente) do
+        if fini then
+            donner(nom)
+            O.log("recu :", nom, "donne (Showtime fini)")
+        elseif i:HasItem(FName(nom)) then
+            O.retirer(nom)
+            O.log("retenu jusqu'a la fin de Showtime, retire :", nom)
+        end
+    end
+end)
 
 -- Niveau de securite : il ne vient que des badges recus. Ramasser un porte-badge (un check) fait +1
 -- dans le jeu : on remet le niveau voulu juste apres.

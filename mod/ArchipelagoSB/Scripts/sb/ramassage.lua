@@ -192,6 +192,17 @@ for _, chemin in ipairs({"/Game/Blueprints/Objects/Collectibles/Collectible.Coll
         pcall(check, a, O.s(a.ItemName))
     end)
 end
+-- Emplacements dont le jeu donne l'objet sans OnCollect (porte-badges des endos et de l'arcade ouest, billet
+-- de la loge de Chica, Faz Camera du Monty Golf) : partaient en "recompense:<objet>", inconnu du pont, et
+-- l'emplacement restait a faire pour toujours (Zinoxe 29/10). Comptes sur leur vrai emplacement.
+local EMPLACEMENT_DU_DON = {
+    SecurityBadgeWarehouse = "MAP_UtiliDoorsGameplay:PRE_BadgeHolder_Warehouse_2",
+    SecurityBadgeWestArcade = "WestArcade_Gameplay:PRE_BadgeHolder_WestArcade_2",
+    CamerasOffice_WestArcade = "WestArcade_Gameplay:PRE_BadgeHolder_WestArcade_2",
+    PartyPassChicaRoom = "MAP_Backstage_Gameplay:ChicaGreenroomCollectible_4",
+    FlashBeacon = "MAP_GatorGolf_Gameplay:FlashBeaconCollect_2",
+    Fazergun = "MAP_FazerBlast_Gameplay:LaserGunCollectible_Prize_4",  -- (pistolet de la table : ignorer, plus haut)
+}
 -- Recompenses donnees par un script (Fazerblaster a la fin de Fazer Blast...) : aucun ramassage, mais
 -- en mode AP l'objet ne doit pas rester si le joueur ne l'a pas recu. Chaque objet donne ainsi est un
 -- check "recompense:<objet>" et il est retire. Ce que le jeu rend apres l'avoir pris (objet deja recu
@@ -210,8 +221,16 @@ O.hook("/Script/fnaf9.FNAFInventorySystem:AwardItem", function(self, item)
     O.apres(300, function()
         -- objet d'un ramassage dans le monde donne en retard : on relance le retrait
         if objet == dernierObjet then return retirerDuMonde(objet) end
+        -- (meme si l'objet a deja ete recu : c'est le passage du joueur a l'emplacement qui compte)
+        local lieu = EMPLACEMENT_DU_DON[objet]
+        if lieu and not faits[lieu] then
+            faits[lieu] = true
+            pcall(fenetreCheck, lieu)
+            O.log("CHECK", lieu, "(" .. objet .. ", don sans ramassage)")
+            if M.surCheck then pcall(M.surCheck, lieu, objet, lieu:find("BadgeHolder") and "badge" or "special") end
+        end
         if Ob.recus[objet] or M.garde(objet) then return end
-        local id = "recompense:" .. objet
+        local id = lieu or ("recompense:" .. objet)
         if not faits[id] then
             faits[id] = true
             O.log("CHECK", id)

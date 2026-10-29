@@ -73,7 +73,7 @@
   "disabled_img_mods": "@disabled"
  },
  {
-  "name": "Billet d’entrée",
+  "name": "Billet de la loge de Chica",
   "img": "images/items/partypasschicaroom.png",
   "codes": "partypasschicaroom",
   "type": "toggle",
@@ -145,7 +145,7 @@
   "disabled_img_mods": "@disabled"
  },
  {
-  "name": "Mystery Mix de Monty 1",
+  "name": "Mystery Mix de Monty",
   "img": "images/items/montymysterymix.png",
   "codes": "montymysterymix",
   "type": "toggle",

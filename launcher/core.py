@@ -161,14 +161,50 @@ def apply_update(url, game_dir, ap_dir, log):
     target = base_dir() / f"{EXE_NAME}.exe"
     staged = base_dir() / f"{EXE_NAME}.update.exe"
     shutil.copy2(new_exe, staged)
+    # Le nouveau launcher se copie lui-meme a la place de l'ancien (finish_pending_update). Avant, ce script
+    # faisait "move" des la fin du processus : l'exe PyInstaller restait verrouille un instant, le move
+    # echouait sans bruit et le joueur gardait l'ancien launcher a cote d'un .update.exe (Yochix 29/10)
     script = work / "swap.bat"
     script.write_text(
         "@echo off\r\n"
-        ":wait\r\ntimeout /t 1 /nobreak >nul\r\n"
+        ":wait\r\nping -n 2 127.0.0.1 >nul\r\n"
         f"tasklist /FI \"PID eq {os.getpid()}\" | find \"{os.getpid()}\" >nul && goto wait\r\n"
-        f"move /Y \"{staged}\" \"{target}\" >nul\r\n"
-        f"start \"\" \"{target}\"\r\n", encoding="utf-8")
+        f"start \"\" \"{staged}\"\r\n", encoding="utf-8")
     return script
+
+
+def finish_pending_update():
+    """Au lancement. Depuis le .update.exe : se copie sur le launcher (reessaie tant que l'ancien est
+    verrouille) puis relance celui-ci. Depuis le launcher avec un .update.exe a cote : identique ou plus
+    ancien -> supprime, sinon (mise a jour jamais finie) on passe la main au .update.exe.
+    Vrai = quitter tout de suite."""
+    if not getattr(sys, "frozen", False):
+        return False
+    me = Path(sys.executable)
+    target = base_dir() / f"{EXE_NAME}.exe"
+    staged = base_dir() / f"{EXE_NAME}.update.exe"
+    try:
+        if me.name.lower() == staged.name.lower():
+            for _ in range(30):
+                try:
+                    shutil.copy2(me, target)
+                    break
+                except OSError:
+                    time.sleep(0.5)
+            else:
+                return False  # ancien toujours verrouille : on continue avec cette version
+            subprocess.Popen([str(target)], close_fds=True)
+            return True
+        if staged.exists():
+            # identique, ou plus ancien (launcher remplace a la main depuis) : reste d'une mise a jour finie
+            if staged.stat().st_mtime <= me.stat().st_mtime or staged.read_bytes() == me.read_bytes():
+                staged.unlink()
+                return False
+            subprocess.Popen([str(staged)], close_fds=True)
+            return True
+    except OSError:
+        pass
+    return False
 
 
 def run_detached(script):

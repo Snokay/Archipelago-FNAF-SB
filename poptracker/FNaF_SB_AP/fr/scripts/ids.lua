@@ -1,6 +1,6 @@
 -- généré par outils/make_poptracker.py
 LOCATION_MAPPING = {
-  [7220000] = "@Coulisses - Objet (Billet d’entrée)/Check",
+  [7220000] = "@Coulisses - Objet (Billet de la loge de Chica)/Check",
   [7220001] = "@Coulisses - CD retro (CD rétro - ????) 1/Check",
   [7220002] = "@Coulisses - Message (MontyBoss4)/Check",
   [7220003] = "@Coulisses - Message (ChicaBoss4)/Check",

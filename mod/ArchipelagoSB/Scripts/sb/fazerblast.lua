@@ -19,8 +19,17 @@ end
 -- planter le moteur dans l'ascenseur de Fazer Blast ("Could not find SuperStruct InteractIgnoresTrace",
 -- 25/10). Le hook se pose quand le jeu charge la classe lui-meme (O.hook, ou au 1er pistolet supprime) ;
 -- le pistolet recree ne se resupprime pas, le Fazerblaster du joueur est retire le temps de la creation.
+-- Pistolet du prix (apres la mission) : un emplacement. Si le joueur a deja un Fazerblaster (recu d'AP), il
+-- se supprimait et n'etait jamais recree ("mission finie") : check impossible (Zinoxe 29/10)
+local function prixAFaire(a)
+    local ok, r = pcall(function()
+        return a:GetClass():GetFName():ToString():find("_Prize") ~= nil and not R.estFait(R.emplacement(a))
+    end)
+    return ok and r == true
+end
+
 O.hook(CLASSE .. ".LaserGunCollectible_C:PlayerHasBlaster", function(self, retour)
-    if missionFinie() then return end
+    if not prixAFaire(self:get()) and missionFinie() then return end
     local i = O.inv()
     if i and i:HasItem(FName("Fazergun")) then
         pcall(function() retour:set(false) end)
@@ -31,7 +40,8 @@ end)
 -- Le pistolet se detruit pendant son propre chargement (le hook passe apres, trop tard) : on en recree
 -- un au meme endroit, en retirant le Fazerblaster du joueur juste le temps de la creation (meme image).
 local enCreation = false
-local recreations = 0
+local recreations = 0  -- par chargement (avant : toute la session, le prix n'etait plus recree apres 4)
+O.surChargement[#O.surChargement + 1] = function() recreations = 0 end
 -- Il ne se supprime pas pendant son chargement mais juste apres : on guette sa suppression
 O.hook("/Script/Engine.Actor:K2_DestroyActor", function(self)
     local a = self:get()
@@ -40,7 +50,9 @@ O.hook("/Script/Engine.Actor:K2_DestroyActor", function(self)
     local nomClasse = classe:GetFName():ToString()
     if not nomClasse:find("LaserGunCollectible") then return end
     -- Supprime parce que le joueur vient de le prendre : surtout ne pas le recreer
-    if enCreation or deCote or missionFinie() then return end
+    if enCreation or deCote then return end
+    if not prixAFaire(a) and missionFinie() then return end
+    local id = R.emplacement(a)
     -- Garde-fou : le pistolet recree peut refaire la meme verification et se resupprimer en boucle
     recreations = recreations + 1
     if recreations > 4 then O.log("Fazer Blast : trop de recreations, abandon") return end
@@ -54,6 +66,7 @@ O.hook("/Script/Engine.Actor:K2_DestroyActor", function(self)
             enCreation = true
             i:RemoveItem(FName("Fazergun"))
             local nouveau = gs:BeginDeferredActorSpawnFromClass(O.gregory(), classe, transform, 1, nil)
+            R.alias[nouveau:GetFName():ToString()] = id  -- le recree garde l'emplacement d'origine
             gs:FinishSpawningActor(nouveau, transform)
             Ob.donneParMod = true
             i:AwardItem(FName("Fazergun"), false)

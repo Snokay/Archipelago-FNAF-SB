@@ -1025,6 +1025,8 @@ def main():
         ap = Path(sys.argv[3]) if len(sys.argv) > 3 else None
         (core.install if sys.argv[1] == "--install" else core.uninstall)(game, ap, print)
         return
+    if core.finish_pending_update():
+        return
     try:
         ctypes.windll.shcore.SetProcessDpiAwareness(1)
     except (AttributeError, OSError):

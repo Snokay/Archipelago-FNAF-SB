@@ -16,8 +16,9 @@ local LIEES = {
     DamagedHead = {classe = "CollectibleStaffbotHead_C", apresShowtime = true, champs = {"End Mission Name", "Start Mission Name"},
         actions = {{"RoxysWeakness", "terminer"}, {"DJMusicMan", "demarrer"}}},
     BackstagePass = {classe = "BackstagePass_C", composants = {"UpdateMissionOnCollect", "UpdateBackstageMission"},
-        pres = {X = -8922, Y = 49896}, actions = {{"RehearsalSpace", "terminer"}, {"Backstage", "demarrer"}}},
+        lieu = "MAP_Backstage_RehearsalRoom:BackstagePass_2", actions = {{"RehearsalSpace", "terminer"}, {"Backstage", "demarrer"}}},
     PartyPassChicaRoom = {classe = "ChicaGreenroomCollectible_C", apresShowtime = true,
+        lieu = "MAP_Backstage_Gameplay:ChicaGreenroomCollectible_4",
         composants = {"UpdateMission_PartyPass", "UpdateMission_MoonlightSerenade"},
         actions = {{"PartyPass", "terminer"}, {"MoonlightSerenade", "demarrer"}}},
     MontyMysteryMix = {classe = "MontyMysteryMix_C", apresShowtime = true, composants = {"UpdateMissionOnCollect"},
@@ -32,16 +33,15 @@ local AUCUNE = "None"
 
 -- Terminer une mission fait passer l'heure, et le jeu lance Moon : au mauvais moment (Freddy casse dans le
 -- couloir de la salle de repetition, Yochix 27/10) c'etait la mort en boucle. Les objets d'apres les coulisses
--- attendent donc la fin de Showtime (Freddy de nouveau la), et le pass coulisses que Gregory soit dans la
--- salle de repetition, la ou on le ramasse dans le jeu de base.
-local RAYON_PRES = 1500
+-- attendent donc la fin de Showtime (Freddy de nouveau la).
+-- Pass coulisses et billet de la loge de Chica : leur mission s'active en chemin (couloir du Freddy casse) ;
+-- recus tot, ils la terminaient sur place -> Moon en boucle (Yochix 27/10 et 29/10, malgre un rayon de
+-- 1500 u autour du pass). Ils attendent que leur emplacement d'origine soit ouvert : Gregory est alle dans
+-- la salle (ou l'objet arrive apres, une fois la mission en attente).
 
 local function moment(ms, m)
     if m.apresShowtime and not ms:IsCompletedMission(FName("Showtime")) then return false end
-    if m.pres then
-        local g = O.gregory()
-        if not g or O.dist2D(g:K2_GetActorLocation(), m.pres) > RAYON_PRES then return false end
-    end
+    if m.lieu and not R.estFait(m.lieu) then return false end
     return true
 end
 

@@ -1,6 +1,6 @@
 -- généré par outils/make_poptracker.py
 LOCATION_MAPPING = {
-  [7220000] = "@Backstage - Item (Party Pass)/Check",
+  [7220000] = "@Backstage - Item (Chica's Greenroom Pass)/Check",
   [7220001] = "@Backstage - Retro CD (Retro CD - ????) 1/Check",
   [7220002] = "@Backstage - Message (MontyBoss4)/Check",
   [7220003] = "@Backstage - Message (ChicaBoss4)/Check",

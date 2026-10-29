@@ -4,8 +4,8 @@
   "cle": "MAP_Backstage_Gameplay:ChicaGreenroomCollectible_4",
   "genre": "special",
   "zone": "coulisses",
-  "fr": "Coulisses - Objet (Billet d’entrée)",
-  "en": "Backstage - Item (Party Pass)",
+  "fr": "Coulisses - Objet (Billet de la loge de Chica)",
+  "en": "Backstage - Item (Chica's Greenroom Pass)",
   "exige": {
    "badges": 4,
    "objets": [
@@ -25,7 +25,21 @@
   "genre": "cd",
   "zone": "coulisses",
   "fr": "Coulisses - CD retro (CD rétro - ????) 1",
-  "en": "Backstage - Retro CD (Retro CD - ????) 1"
+  "en": "Backstage - Retro CD (Retro CD - ????) 1",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220002,
@@ -198,7 +212,21 @@
   "genre": "cd",
   "zone": "coulisses",
   "fr": "Coulisses - CD retro (CD rétro - ????) 2",
-  "en": "Backstage - Retro CD (Retro CD - ????) 2"
+  "en": "Backstage - Retro CD (Retro CD - ????) 2",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220019,
@@ -214,7 +242,21 @@
   "genre": "cd",
   "zone": "coulisses",
   "fr": "Coulisses - CD retro (CD rétro - ????) 3",
-  "en": "Backstage - Retro CD (Retro CD - ????) 3"
+  "en": "Backstage - Retro CD (Retro CD - ????) 3",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220021,
@@ -222,7 +264,21 @@
   "genre": "cd",
   "zone": "coulisses",
   "fr": "Coulisses - CD retro (CD rétro - ????) 4",
-  "en": "Backstage - Retro CD (Retro CD - ????) 4"
+  "en": "Backstage - Retro CD (Retro CD - ????) 4",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220022,
@@ -462,7 +518,21 @@
   "genre": "cd",
   "zone": "atrium_est",
   "fr": "Atrium est - CD retro (CD rétro - ????) 1",
-  "en": "East Atrium - Retro CD (Retro CD - ????) 1"
+  "en": "East Atrium - Retro CD (Retro CD - ????) 1",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220042,
@@ -534,7 +604,21 @@
   "genre": "cd",
   "zone": "atrium_est",
   "fr": "Atrium est - CD retro (CD rétro - ????) 2",
-  "en": "East Atrium - Retro CD (Retro CD - ????) 2"
+  "en": "East Atrium - Retro CD (Retro CD - ????) 2",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220051,
@@ -609,7 +693,21 @@
   "genre": "cd",
   "zone": "fazerblast",
   "fr": "Fazer Blast - CD retro (CD rétro - ????)",
-  "en": "Fazer Blast - Retro CD (Retro CD - ????)"
+  "en": "Fazer Blast - Retro CD (Retro CD - ????)",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220059,
@@ -625,7 +723,21 @@
   "genre": "cd",
   "zone": "golf",
   "fr": "Monty Golf - CD retro (CD rétro - ????)",
-  "en": "Monty Golf - Retro CD (Retro CD - ????)"
+  "en": "Monty Golf - Retro CD (Retro CD - ????)",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220061,
@@ -958,7 +1070,21 @@
   "genre": "cd",
   "zone": "raceway",
   "fr": "Roxy Raceway - CD retro (CD rétro - ????)",
-  "en": "Roxy Raceway - Retro CD (Retro CD - ????)"
+  "en": "Roxy Raceway - Retro CD (Retro CD - ????)",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220092,
@@ -1116,7 +1242,21 @@
   "genre": "cd",
   "zone": "scene",
   "fr": "Scene - CD retro (CD rétro - ????) 1",
-  "en": "Stage Area - Retro CD (Retro CD - ????) 1"
+  "en": "Stage Area - Retro CD (Retro CD - ????) 1",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220107,
@@ -1219,8 +1359,18 @@
   "en": "Stage Area - Retro CD (Retro CD - ????) 2",
   "exige": {
    "objets": [
-    "objet:MazerciseTicket"
-   ]
+    "objet:MazerciseTicket",
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ],
+   "badges": 7
   }
  },
  {
@@ -1229,7 +1379,21 @@
   "genre": "cd",
   "zone": "technique",
   "fr": "Secteur technique - CD retro (CD rétro - ????) 1",
-  "en": "Utility Tunnels - Retro CD (Retro CD - ????) 1"
+  "en": "Utility Tunnels - Retro CD (Retro CD - ????) 1",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220119,
@@ -1470,7 +1634,21 @@
   "genre": "cd",
   "zone": "technique",
   "fr": "Secteur technique - CD retro (CD rétro - ????) 2",
-  "en": "Utility Tunnels - Retro CD (Retro CD - ????) 2"
+  "en": "Utility Tunnels - Retro CD (Retro CD - ????) 2",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220144,
@@ -1481,8 +1659,18 @@
   "en": "West Arcade - Retro CD (Retro CD - ????) 1",
   "exige": {
    "objets": [
-    "objet:BowlingTicket"
-   ]
+    "objet:BowlingTicket",
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ],
+   "badges": 7
   }
  },
  {
@@ -1556,7 +1744,21 @@
   "genre": "cd",
   "zone": "arcade_ouest",
   "fr": "Arcade ouest - CD retro (CD rétro - ????) 2",
-  "en": "West Arcade - Retro CD (Retro CD - ????) 2"
+  "en": "West Arcade - Retro CD (Retro CD - ????) 2",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220151,
@@ -1603,7 +1805,8 @@
   "genre": "cadeau",
   "zone": "arcade_ouest",
   "fr": "Arcade ouest - Cadeau (Mystery Mix de Monty)",
-  "en": "West Arcade - Present (Monty Mystery Mix)"
+  "en": "West Arcade - Present (Monty Mystery Mix)",
+  "exclu": true
  },
  {
   "id": 7220155,
@@ -1630,7 +1833,21 @@
   "genre": "cd",
   "zone": "atrium_ouest",
   "fr": "Atrium ouest - CD retro (CD rétro - ????)",
-  "en": "West Atrium - Retro CD (Retro CD - ????)"
+  "en": "West Atrium - Retro CD (Retro CD - ????)",
+  "exige": {
+   "badges": 7,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk",
+    "objet:MazerciseControlKey",
+    "objet:PartyPassChicaRoom"
+   ]
+  }
  },
  {
   "id": 7220158,
@@ -2174,7 +2391,10 @@
     "objet:PhotoPass",
     "objet:DaycarePass",
     "objet:CompPass",
-    "objet:Flashlight"
+    "objet:Flashlight",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:PerformanceDisk"
    ]
   }
  },

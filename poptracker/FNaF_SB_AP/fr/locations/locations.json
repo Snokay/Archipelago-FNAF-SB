@@ -1,6 +1,6 @@
 [
  {
-  "name": "Coulisses - Objet (Billet d’entrée)",
+  "name": "Coulisses - Objet (Billet de la loge de Chica)",
   "chest_unopened_img": "images/chest_closed.png",
   "chest_opened_img": "images/chest_opened.png",
   "map_locations": [
@@ -36,7 +36,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,photopass,flashlight,daycarepass,comppass"
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -385,7 +385,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,photopass,flashlight,daycarepass,comppass"
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -427,7 +427,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,photopass,flashlight,daycarepass,comppass"
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -448,7 +448,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,photopass,flashlight,daycarepass,comppass"
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -868,7 +868,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,photopass,flashlight,daycarepass,comppass"
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -1057,7 +1057,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,photopass,flashlight,daycarepass,comppass"
+     "badge:4,photopass,flashlight,daycarepass,comppass,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -1078,7 +1078,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:3,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight"
+     "badge:4,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,backstagepass,performancedisk"
     ]
    }
   ]
@@ -1099,7 +1099,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:3,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight"
+     "badge:4,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,backstagepass,performancedisk"
     ]
    }
   ]
@@ -1120,7 +1120,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:3,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,fazergun"
+     "badge:4,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,backstagepass,performancedisk,fazergun"
     ]
    }
   ]
@@ -1141,7 +1141,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:3,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight"
+     "badge:4,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,backstagepass,performancedisk"
     ]
    }
   ]
@@ -1162,7 +1162,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:3,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight"
+     "badge:4,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,backstagepass,performancedisk"
     ]
    }
   ]
@@ -1183,7 +1183,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:3,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,badge:5"
+     "badge:4,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,backstagepass,performancedisk,badge:5"
     ]
    }
   ]
@@ -1204,7 +1204,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:3,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,badge:5"
+     "badge:4,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,backstagepass,performancedisk,badge:5"
     ]
    }
   ]
@@ -1225,7 +1225,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:3,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight"
+     "badge:4,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,backstagepass,performancedisk,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -1246,7 +1246,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:3,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight"
+     "badge:4,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,backstagepass,performancedisk"
     ]
    }
   ]
@@ -1267,7 +1267,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:5,partypasschicaroom,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk"
+     "badge:5,partypasschicaroom,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -1897,7 +1897,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:5,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk"
+     "badge:5,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -2212,7 +2212,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,backstagepass,photopass,flashlight,daycarepass,comppass"
+     "badge:4,backstagepass,photopass,flashlight,daycarepass,comppass,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -2443,7 +2443,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,backstagepass,photopass,flashlight,daycarepass,comppass,mazerciseticket"
+     "badge:4,backstagepass,photopass,flashlight,daycarepass,comppass,badge:7,mazerciseticket,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -2464,7 +2464,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:2,flashlight,photopass,daycarepass,comppass"
+     "badge:2,flashlight,photopass,daycarepass,comppass,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -2989,7 +2989,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:2,flashlight,photopass,daycarepass,comppass"
+     "badge:2,flashlight,photopass,daycarepass,comppass,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -3010,7 +3010,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,dancepass,photopass,partypasschicaroom,backstagepass,flashlight,daycarepass,comppass,performancedisk,bowlingticket"
+     "badge:4,dancepass,photopass,partypasschicaroom,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:7,bowlingticket,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -3136,7 +3136,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,dancepass,photopass,partypasschicaroom,backstagepass,flashlight,daycarepass,comppass,performancedisk"
+     "badge:4,dancepass,photopass,partypasschicaroom,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -3283,7 +3283,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:4,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk"
+     "badge:4,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,badge:7,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk,mazercisecontrolkey,partypasschicaroom"
     ]
    }
   ]
@@ -4018,7 +4018,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:3,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,badge:4,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight"
+     "badge:4,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,backstagepass,performancedisk,badge:4,prog_partypass:1,partypasschicaroom,photopass,daycarepass,comppass,flashlight,backstagepass,performancedisk"
     ]
    }
   ]

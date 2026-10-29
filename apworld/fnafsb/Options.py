@@ -52,10 +52,10 @@ class Fin(Choice):
 
 
 class Cadeaux(Range):
-    __doc__ = text("Nombre de cadeaux a ouvrir pour gagner (0 = aucun, 77 = tous). L'amelioration de lampe "
-                   "de la garderie (ratable apres Moon) ne compte pas.",
-                   "Number of presents to open to win (0 = none, 77 = all). The Daycare flashlight upgrade "
-                   "(missable after Moon) does not count.")
+    __doc__ = text("Nombre de cadeaux a ouvrir pour gagner (0 = aucun, 76 ou plus = tous). L'amelioration de lampe "
+                   "de la garderie (ratable apres Moon) et le cadeau Mystery Mix cache de l'arcade ouest ne comptent pas.",
+                   "Number of presents to open to win (0 = none, 76 or more = all). The Daycare flashlight upgrade "
+                   "(missable after Moon) and the hidden Mystery Mix present of the West Arcade do not count.")
     display_name = text("Cadeaux a ouvrir", "Presents to open")
     range_start = 0
     range_end = 77

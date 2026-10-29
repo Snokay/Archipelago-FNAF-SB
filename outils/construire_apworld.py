@@ -104,7 +104,15 @@ BASE_OBJ = 7_210_000
 BASE_EMP = 7_220_000
 
 
+# Noms du jeu trop proches pour les hints (joueurs 29/10) : le billet de la loge de Chica s'appelait comme le
+# billet d'entree progressif
+RENOMS = {'PartyPassChicaRoom': ('Billet de la loge de Chica', "Chica's Greenroom Pass"),
+          'MontyMysteryMix': ('Mystery Mix de Monty', 'Monty Mystery Mix')}
+
+
 def nom_objet(code):
+    if code in RENOMS:
+        return RENOMS[code]
     n = OBJ.get(code)
     return (n['fr'], n['en']) if n else (code, code)
 
@@ -120,10 +128,11 @@ def ajoute(code, fr, en, genre, classe, nombre=1):
 
 # Progression
 ajoute('badge', 'Badge de securite progressif', 'Progressive Security Badge', 'progression', 'progression', 10)
-for c in ('CompPass', 'PhotoPass', 'DaycarePass', 'BackstagePass', 'AdmissionPass', 'DancePass', 'BowlingTicket',
+HISTOIRE = ('CompPass', 'PhotoPass', 'DaycarePass', 'BackstagePass', 'AdmissionPass', 'DancePass', 'BowlingTicket',
           'MazerciseTicket', 'PartyPassChicaRoom', 'ChicaBeak', 'RoxyEyes', 'MontyClaws', 'ScrewDriver', 'Flashlight',
           'FlashBeacon', 'Fazergun', 'Map', 'UtilityHallwayMap', 'PerformanceDisk', 'MrHippoMagnet', 'MontyMysteryMix',
-          'MazerciseControlKey', 'DamagedHead'):
+          'MazerciseControlKey', 'DamagedHead')
+for c in HISTOIRE:
     fr, en = nom_objet(c)
     ajoute('objet:' + c, fr, en, 'progression', 'progression')
 ajoute('prog:PartyPass_', "Billet d'entree", 'Party Pass', 'progression', 'progression', 9)
@@ -151,8 +160,13 @@ def priorite(code):
 for code, n in OBJ.items():
     if n['categorie'] in ('Toys', 'Trophy', 'Food', 'Clothing', 'RetroCD') and not code.startswith('GregoryUpgrade') \
             and code not in ('Wallet',):
-        objets.append({'id': BASE_OBJ + len(objets), 'code': 'objet:' + code, 'fr': n['fr'], 'en': n['en'],
-                       'genre': 'collectible', 'classe': 'filler', 'nombre': 1, 'priorite': priorite(code)})
+        # Mystery Mix : objet d'histoire ET boisson (categorie Food) ; le doublon de remplissage donnait le meme
+        # objet du jeu (le mod le prenait pour celui de l'histoire). Garde pour ne pas decaler les id, hors du pool
+        doublon = code in HISTOIRE
+        objets.append({'id': BASE_OBJ + len(objets), 'code': 'objet:' + code,
+                       'fr': n['fr'] + (' (inutilise)' if doublon else ''), 'en': n['en'] + (' (unused)' if doublon else ''),
+                       'genre': 'inutilise' if doublon else 'collectible', 'classe': 'filler', 'nombre': 1,
+                       'priorite': priorite(code)})
 # Messages (notes et mails ramasses dans le monde) : aussi des objets de remplissage
 for m in sorted({e['objet'] for e in emplacements if e['type'] == 'message' and e['objet'] not in ('', '?')}):
     objets.append({'id': BASE_OBJ + len(objets), 'code': 'message:' + m, 'fr': 'Message : ' + m, 'en': 'Message: ' + m,
@@ -213,6 +227,11 @@ for e in emplacements:
         avant |= {h} | missions_avant(h)
     if 'StopRoxy' in avant:
         loc['apres_roxy'] = True
+    # CD retro : n'apparaissent qu'a la fin du jeu (joueur 29/10) -> exigent la fin la plus facile (logique et
+    # PopTracker) ; l'apworld n'y met jamais d'objet important
+    if e['type'] == 'cd':
+        fin_facile = min(zones['fin']['fins'].values(), key=lambda f: f.get('badges', 0))
+        loc['exige'] = fusion(loc.get('exige', {}), zones['fin'].get('exige', {}), fin_facile)
     locs.append(loc)
 # Missions dont le nom affiche dans le jeu (DisplayName de MissionDataTable) n'est pas leur cle
 NOM_AFFICHE = {'DJMusicMan': 'RepairRobotHead', 'PartsAndService': 'PartsandService',

@@ -337,8 +337,15 @@ S.surMort[#S.surMort + 1] = function()
 end
 
 -- DeathLink recu : passe devant les pieges. mode "classique" (mort directe) ou "screamer"
+-- Le DeathLink attend un moment sur (ecran de mort, reapparition...) : la mort qu'il cause arrivait ~20 s
+-- apres la reception et repartait comme une vraie mort -> ping-pong de morts entre 2 joueurs (Yochix et
+-- Zinoxe 29/10). O.mortDeathLink marque l'execution ; deja mort depuis la reception : il n'a plus lieu d'etre.
 function M.deathLink(mode)
+    local recu = os.time()
     S.ajouter("DeathLink", function()
+        local d = S.derniereMort()
+        if d and d >= recu then O.log("DeathLink ignore : deja mort depuis") return end
+        O.mortDeathLink = os.time()
         if mode == "screamer" then Sc.lancer(true) else O.gregory():Kill() end
     end, true)
 end

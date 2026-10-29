@@ -1,4 +1,4 @@
-# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.12
+# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.14
 
 ### 📖 [Setup guide / Guide d'installation](SETUP_GUIDE.md) · ⬇️ [Download / Télécharger](../../releases) · 💬 [Discord](https://discord.gg/yqKUMMkWhr)
 
@@ -67,6 +67,12 @@ them goes wrong, please tell us on the Discord:
 - (0.9.1.5) story items received early waiting for the right moment: the Backstage Pass acts in the rehearsal
   room, the Damaged Head, Chica's Party Pass, the Mystery Mix and the Mazercise Control Key after Showtime.
 - (0.9.1.7) the Complimentary Entry Pass placed on its own spot or in Chica's piñata of the exit hallway.
+- (0.9.1.14) Chica's green room Party Pass kept out of your inventory until Showtime is over (Moon loop), and
+  the Backstage Pass acting once its spot in the rehearsal room is opened;
+- (0.9.1.14) the endo area and West Arcade badge holders, Chica's green room pass, the Monty Golf Faz Camera
+  and the Fazer Blast prize counting as checks even when you already received their item;
+- (0.9.1.14) DeathLink: a death caused by a DeathLink is never sent back (no more death loops between players).
+- (0.9.1.14) retro CDs (they only appear at the end of the game) never holding an important item.
 
 ## Known limitations (alpha)
 
@@ -157,6 +163,13 @@ une vraie partie. Si l'un d'eux pose problème, dites-le sur le Discord :
   salle de répétition, la tête abîmée, le billet de la loge de Chica, le Mystery Mix et la clé du Mazercise après
   Showtime.
 - (0.9.1.7) le billet d'entrée placé à sa place ou dans la piñata de Chica du couloir de sortie.
+- (0.9.1.14) le billet de la loge de Chica gardé hors de ton inventaire jusqu'à la fin de Showtime (Moon en
+  boucle), et le pass coulisses qui agit une fois son emplacement de la salle de répétition ouvert ;
+- (0.9.1.14) les porte-badges des endos et de l'arcade ouest, le billet de la loge de Chica, la Faz Camera du
+  Monty Golf et le prix de Fazer Blast qui comptent comme checks même si tu as déjà reçu leur objet ;
+- (0.9.1.14) DeathLink : une mort causée par un DeathLink n'est jamais renvoyée (plus de morts en boucle entre
+  joueurs).
+- (0.9.1.14) les CD rétro (ils n'apparaissent qu'à la fin du jeu) qui ne contiennent jamais d'objet important.
 
 ## Limites connues (alpha)
 

@@ -73,7 +73,7 @@
   "disabled_img_mods": "@disabled"
  },
  {
-  "name": "Party Pass 1",
+  "name": "Chica's Greenroom Pass",
   "img": "images/items/partypasschicaroom.png",
   "codes": "partypasschicaroom",
   "type": "toggle",
@@ -145,7 +145,7 @@
   "disabled_img_mods": "@disabled"
  },
  {
-  "name": "Monty Mystery Mix 1",
+  "name": "Monty Mystery Mix",
   "img": "images/items/montymysterymix.png",
   "codes": "montymysterymix",
   "type": "toggle",
@@ -169,7 +169,7 @@
   "disabled_img_mods": "@disabled"
  },
  {
-  "name": "Party Pass 2",
+  "name": "Party Pass",
   "img": "images/items/prog_partypass.png",
   "codes": "prog_partypass",
   "type": "consumable",
