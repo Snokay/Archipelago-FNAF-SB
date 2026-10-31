@@ -1,4 +1,4 @@
-# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.14
+# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.15
 
 ### 📖 [Setup guide / Guide d'installation](SETUP_GUIDE.md) · ⬇️ [Download / Télécharger](../../releases) · 💬 [Discord](https://discord.gg/yqKUMMkWhr)
 
@@ -78,6 +78,8 @@ them goes wrong, please tell us on the Discord:
 
 - If a scene gets stuck (an animatronic or a door that does not move), press **F10**.
 - Close the game before installing an update with the launcher.
+- (0.9.1.15) Other UE4SS mods (GeoGuessr, Overdrive...) can crash or clash with this mod: untick them in the
+  launcher's **Game mods** tab before an Archipelago game, and tick them back afterwards.
 
 ## Credits and license
 
@@ -175,6 +177,8 @@ une vraie partie. Si l'un d'eux pose problème, dites-le sur le Discord :
 
 - Si une scène reste coincée (un animatronique ou une porte qui ne bouge plus), appuie sur **F10**.
 - Ferme le jeu avant d'installer une mise à jour avec le launcher.
+- (0.9.1.15) Les autres mods UE4SS (GeoGuessr, Overdrive...) peuvent planter ou gêner ce mod : décoche-les dans
+  l'onglet **Mods du jeu** du launcher avant une partie Archipelago, et recoche-les après.
 
 ## Crédits et licence
 

@@ -238,7 +238,7 @@ class App(tk.Tk):
         self.tabs = {}
         for key, text in (("home", tr("Accueil", "Home")), ("install", tr("Installation", "Setup")),
                           ("play", tr("Jouer", "Play")), ("options", tr("Mes options (YAML)", "My options (YAML)")),
-                          ("host", tr("Héberger", "Host"))):
+                          ("host", tr("Héberger", "Host")), ("mods", tr("Mods du jeu", "Game mods"))):
             tab = tk.Label(nav, text=text, bg=BG, fg=MUTED, font=(SANS, 11), padx=14, pady=6, cursor="hand2")
             tab.pack(side="left")
             tab.bind("<Button-1>", lambda _e, k=key: self.show(k))
@@ -257,7 +257,8 @@ class App(tk.Tk):
         self.body.pack(fill="both", expand=True, padx=24, pady=14)
 
         self.pages = {"home": self.page_home, "install": self.page_install, "play": self.page_play,
-                      "options": self.page_options, "host": self.page_host}
+                      "options": self.page_options, "host": self.page_host,
+                      "mods": self.page_mods}
         self.current = None
         self.protocol("WM_DELETE_WINDOW", self.on_close)
         self.show("home" if self.mod_ready() else "install")
@@ -899,6 +900,55 @@ class App(tk.Tk):
             path.write_text(text, encoding="utf-8")
             return tr(f"Enregistré : {path}", f"Saved: {path}")
         self.yaml_result(put)
+
+    # --- Mods du jeu ---
+
+    def page_mods(self):
+        """Tous les mods UE4SS du jeu, cochés = chargés au prochain lancement (même écran que le launcher
+        Zinoxe Mod) : le joueur coupe un mod perso avant une partie Archipelago, ou l'inverse."""
+        scroll = Scrollable(self.body)
+        scroll.pack(fill="both", expand=True)
+        page = tk.Frame(scroll.inner, bg=PANEL, padx=32, pady=26)
+        page.pack(fill="both", expand=True)
+        self.page_title(page, tr("Mods du jeu", "Game mods"),
+                        tr("Coche les mods à charger au prochain lancement du jeu. Pour une partie Archipelago, "
+                           "laisse Archipelago coché et décoche les autres mods (GeoGuessr, Overdrive…).",
+                           "Tick the mods to load on the next game launch. For an Archipelago game, keep "
+                           "Archipelago ticked and untick the other mods (GeoGuessr, Overdrive…)."))
+        game = self.game_dir()
+        mods = core.game_mods(game) if game else []
+        if not mods:
+            label(page, tr("Aucun mod UE4SS trouvé : installe d'abord le mod (onglet Installation).",
+                           "No UE4SS mod found: install the mod first (Setup tab)."), 10, MUTED).pack(anchor="w")
+            return
+        rows = sorted(mods, key=lambda m: (m[0] in core.UE4SS_BASE, m[0].lower()))
+        for i, (name, on) in enumerate(rows):
+            if name in core.UE4SS_BASE and (i == 0 or rows[i - 1][0] not in core.UE4SS_BASE):
+                label(page, tr("Mods de base d'UE4SS", "UE4SS built-in mods"), 10, MUTED, bold=True
+                      ).pack(anchor="w", pady=(12, 2))
+            row = tk.Frame(page, bg=CARD, padx=12, pady=6, cursor="hand2", highlightthickness=1,
+                           highlightbackground=ACCENT if on else BORDER)
+            row.pack(fill="x", pady=2)
+            check = label(row, "☑" if on else "☐", 14, ACCENT if on else MUTED, bg=CARD)
+            check.pack(side="left")
+            title = label(row, "Archipelago" if name == "ArchipelagoSB" else name, 11, TEXT if on else MUTED,
+                          bold=on, bg=CARD)
+            title.pack(side="left", padx=10)
+            for w in (row, check, title):
+                w.bind("<Button-1>", lambda _e, n=name, v=not on: self.toggle_mod(n, v))
+
+    def toggle_mod(self, name, on):
+        if core.game_running():
+            self.set_status(tr("Le jeu est lancé : ferme-le pour changer les mods.",
+                               "The game is running: close it to change mods."))
+            return
+        try:
+            core.set_mod_enabled(self.game_dir(), name, on)
+        except OSError as e:
+            self.set_status(tr("mods.txt impossible à modifier : ", "Cannot edit mods.txt: ") + str(e))
+            return
+        self.set_status(f"{name} : " + (tr("activé", "enabled") if on else tr("désactivé", "disabled")))
+        self.show("mods")
 
     # --- Héberger ---
 

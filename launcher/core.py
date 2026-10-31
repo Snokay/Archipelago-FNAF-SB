@@ -312,6 +312,59 @@ def other_mods(game_dir):
     return found
 
 
+# Écran « Mods du jeu » : tous les mods UE4SS, cochés = chargés (même principe que le launcher Zinoxe Mod).
+# UE4SS charge ceux à 1 dans mods.txt, puis ceux qui ont un enabled.txt dans leur dossier.
+UE4SS_BASE = {"BPModLoaderMod", "BPML_GenericFunctions", "Keybinds", "ConsoleCommandsMod", "ConsoleEnablerMod",
+              "CheatManagerEnablerMod", "SplitScreenMod", "LineTraceMod", "jsbLuaProfilerMod", "ActorDumperMod"}
+ENABLED_TXT = "enabled.txt"
+ENABLED_OFF = "enabled.txt.desactive"
+
+
+def _mods_lines(game_dir):
+    path = mods_txt(game_dir)
+    if not path.exists():
+        return ["", "; Built-in keybinds, do not move up!", "Keybinds : 1"]
+    return path.read_text(encoding="utf-8", errors="replace").splitlines()
+
+
+def game_mods(game_dir):
+    """[(nom, actif)] des dossiers de ue4ss/Mods qui sont des mods (Scripts ou dlls)."""
+    root = win64(game_dir) / "ue4ss" / "Mods"
+    if not root.exists():
+        return []
+    states = {}
+    for line in _mods_lines(game_dir):
+        m = re.match(r"\s*([^;:\s][^:]*?)\s*:\s*(\d)\s*$", line)
+        if m:
+            states[m.group(1)] = m.group(2) == "1"
+    found = []
+    for folder in sorted(root.iterdir(), key=lambda p: p.name.lower()):
+        if folder.is_dir() and ((folder / "Scripts").exists() or (folder / "dlls").exists()):
+            found.append((folder.name, states.get(folder.name, False) or (folder / ENABLED_TXT).exists()))
+    return found
+
+
+def set_mod_enabled(game_dir, name, on):
+    """Coche / décoche un mod : sa ligne dans mods.txt (ajoutée avant Keybinds s'il n'en a pas), et son
+    enabled.txt mis de côté quand on le coupe (sinon UE4SS le chargerait quand même)."""
+    lines, found = [], False
+    for line in _mods_lines(game_dir):
+        if re.match(rf"\s*{re.escape(name)}\s*:\s*\d\s*$", line):
+            line, found = f"{name} : {1 if on else 0}", True
+        lines.append(line)
+    if not found:
+        at = len(lines) if name == "Keybinds" else next(
+            (i for i, l in enumerate(lines) if re.match(r"\s*(;.*keybinds|Keybinds\s*:)", l, re.I)), len(lines))
+        lines.insert(at, f"{name} : {1 if on else 0}")
+    mods_txt(game_dir).parent.mkdir(parents=True, exist_ok=True)
+    mods_txt(game_dir).write_text("\n".join(lines) + "\n", encoding="utf-8")
+    folder = win64(game_dir) / "ue4ss" / "Mods" / name
+    if not on and (folder / ENABLED_TXT).exists():
+        (folder / ENABLED_TXT).replace(folder / ENABLED_OFF)
+    elif on and (folder / ENABLED_OFF).exists():
+        (folder / ENABLED_OFF).replace(folder / ENABLED_TXT)
+
+
 def status(game_dir, ap_dir):
     """Liste de (clé, niveau, texte) : niveau = "ok", "warn" ou "bad"."""
     rows = []
@@ -343,9 +396,9 @@ def status(game_dir, ap_dir):
     others = other_mods(game_dir)
     rows.append(("others", "warn" if others else "ok",
                  tr(f"{len(others)} autre(s) mod(s) UE4SS actif(s) : {', '.join(others[:4])}"
-                    f"{' …' if len(others) > 4 else ''} — en cas de plantage, désactive-les dans ue4ss/Mods/mods.txt",
+                    f"{' …' if len(others) > 4 else ''} — en cas de plantage, décoche-les dans l'onglet « Mods du jeu »",
                     f"{len(others)} other active UE4SS mod(s): {', '.join(others[:4])}"
-                    f"{' …' if len(others) > 4 else ''} — if the game crashes, turn them off in ue4ss/Mods/mods.txt")
+                    f"{' …' if len(others) > 4 else ''} — if the game crashes, untick them in the 'Game mods' tab")
                  if others else tr("Aucun", "None")))
     if ap_dir and (ap_dir / "ArchipelagoLauncher.exe").exists():
         world = ap_dir / "custom_worlds" / APWORLD
