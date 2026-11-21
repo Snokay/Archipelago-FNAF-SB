@@ -1,4 +1,4 @@
-# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.15
+# Five Nights at Freddy's: Security Breach Archipelago — alpha 0.9.1.16
 
 ### 📖 [Setup guide / Guide d'installation](SETUP_GUIDE.md) · ⬇️ [Download / Télécharger](../../releases) · 💬 [Discord](https://discord.gg/yqKUMMkWhr)
 
@@ -73,6 +73,8 @@ them goes wrong, please tell us on the Discord:
   and the Fazer Blast prize counting as checks even when you already received their item;
 - (0.9.1.14) DeathLink: a death caused by a DeathLink is never sent back (no more death loops between players).
 - (0.9.1.14) retro CDs (they only appear at the end of the game) never holding an important item.
+- (0.9.1.16) the Parts and Service spots (Freddy upgrade messages, Glam Roxy Figure) coming after Showtime in the
+  logic: the Performance Disk can no longer end up behind the elevator it opens.
 
 ## Known limitations (alpha)
 
@@ -172,6 +174,9 @@ une vraie partie. Si l'un d'eux pose problème, dites-le sur le Discord :
 - (0.9.1.14) DeathLink : une mort causée par un DeathLink n'est jamais renvoyée (plus de morts en boucle entre
   joueurs).
 - (0.9.1.14) les CD rétro (ils n'apparaissent qu'à la fin du jeu) qui ne contiennent jamais d'objet important.
+- (0.9.1.16) les emplacements de Pièces et Entretien (messages des améliorations de Freddy, figurine de Roxy Glam)
+  placés après Showtime dans la logique : le disque du spectacle ne peut plus se retrouver derrière l'ascenseur
+  qu'il ouvre.
 
 ## Limites connues (alpha)
 

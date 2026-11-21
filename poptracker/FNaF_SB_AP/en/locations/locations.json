@@ -2611,7 +2611,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:2,flashlight,photopass,daycarepass,comppass"
+     "badge:2,flashlight,photopass,daycarepass,comppass,badge:4,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk"
     ]
    }
   ]
@@ -2632,7 +2632,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:2,flashlight,photopass,daycarepass,comppass"
+     "badge:2,flashlight,photopass,daycarepass,comppass,badge:4,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk"
     ]
    }
   ]
@@ -2653,7 +2653,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:2,flashlight,photopass,daycarepass,comppass"
+     "badge:2,flashlight,photopass,daycarepass,comppass,badge:4,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk"
     ]
    }
   ]
@@ -2968,7 +2968,7 @@
     "name": "Check",
     "item_count": 1,
     "access_rules": [
-     "badge:2,flashlight,photopass,daycarepass,comppass"
+     "badge:2,flashlight,photopass,daycarepass,comppass,badge:4,photopass,backstagepass,flashlight,daycarepass,comppass,performancedisk"
     ]
    }
   ]

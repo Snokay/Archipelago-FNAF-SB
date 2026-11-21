@@ -1460,7 +1460,19 @@
   "genre": "message",
   "zone": "technique",
   "fr": "Secteur technique - Message (RoxyEyesMsg)",
-  "en": "Utility Tunnels - Message (RoxyEyesMsg)"
+  "en": "Utility Tunnels - Message (RoxyEyesMsg)",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
  },
  {
   "id": 7220126,
@@ -1468,7 +1480,19 @@
   "genre": "message",
   "zone": "technique",
   "fr": "Secteur technique - Message (ChicaVoiceBoxMsg)",
-  "en": "Utility Tunnels - Message (ChicaVoiceBoxMsg)"
+  "en": "Utility Tunnels - Message (ChicaVoiceBoxMsg)",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
  },
  {
   "id": 7220127,
@@ -1476,7 +1500,19 @@
   "genre": "message",
   "zone": "technique",
   "fr": "Secteur technique - Message (MontyClawsMsg)",
-  "en": "Utility Tunnels - Message (MontyClawsMsg)"
+  "en": "Utility Tunnels - Message (MontyClawsMsg)",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
  },
  {
   "id": 7220128,
@@ -1626,7 +1662,19 @@
   "genre": "cadeau",
   "zone": "technique",
   "fr": "Secteur technique - Cadeau (Figurine de Roxy Glam)",
-  "en": "Utility Tunnels - Present (Glam Roxy Figure)"
+  "en": "Utility Tunnels - Present (Glam Roxy Figure)",
+  "exige": {
+   "badges": 4,
+   "objets": [
+    "objet:PhotoPass",
+    "objet:BackstagePass",
+    "objet:ScrewDriver",
+    "objet:Flashlight",
+    "objet:DaycarePass",
+    "objet:CompPass",
+    "objet:PerformanceDisk"
+   ]
+  }
  },
  {
   "id": 7220143,

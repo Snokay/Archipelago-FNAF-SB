@@ -399,5 +399,29 @@
  "WestArcade_Gameplay:MontyMysteryMix": {
   "exclu": true,
   "note": "cadeau Mystery Mix de l'arcade ouest, a cote de celui du bowling : jamais ouvrable (ni Zinoxe, ni Yochix, ni le joueur, 29/10), doublon hors carte, oubli des devs (joueur : un seul Mystery Mix dans le jeu)"
+ },
+ "MAP_UtiliDoorsGameplay:MessageCollectible7_2": {
+  "histoire": [
+   "PartsAndService"
+  ],
+  "note": "Roxy Eyes : dans Pieces et Entretien (sous la scene), ascenseur ouvert apres Showtime -> disque du spectacle (Yochix 20/11, disque bloque dans le message de la boite vocale de Chica)"
+ },
+ "MAP_UtiliDoorsGameplay:MessageCollectible8": {
+  "histoire": [
+   "PartsAndService"
+  ],
+  "note": "Chica Voice Box : dans Pieces et Entretien (sous la scene), ascenseur ouvert apres Showtime -> disque du spectacle (Yochix 20/11, disque bloque dans le message de la boite vocale de Chica)"
+ },
+ "MAP_UtiliDoorsGameplay:MessageCollectible9": {
+  "histoire": [
+   "PartsAndService"
+  ],
+  "note": "Monty Claws : dans Pieces et Entretien (sous la scene), ascenseur ouvert apres Showtime -> disque du spectacle (Yochix 20/11, disque bloque dans le message de la boite vocale de Chica)"
+ },
+ "MAP_Utility_UnderStageArea_Gameplay:PresentCollectible9_2": {
+  "histoire": [
+   "PartsAndService"
+  ],
+  "note": "Glam Roxy Figure : dans Pieces et Entretien (sous la scene), ascenseur ouvert apres Showtime -> disque du spectacle (Yochix 20/11, disque bloque dans le message de la boite vocale de Chica)"
  }
 }
